@@ -235,17 +235,28 @@
       "zones_use_no_outline": true
     },
     "ipc2581": {
+      "bom_rev": "",
       "dist": "",
       "distpn": "",
       "internal_id": "",
       "mfg": "",
-      "mpn": ""
+      "mpn": "",
+      "sch_revision": "2026-PROTO"
     },
     "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
   "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
   "cvpcb": {
     "equivalence_files": []
   },
@@ -436,11 +447,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -463,6 +477,7 @@
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -495,6 +510,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
+        "tuning_profile": "",
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
@@ -512,6 +528,7 @@
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.18,
+        "tuning_profile": "",
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
@@ -529,13 +546,14 @@
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
+        "tuning_profile": "",
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -598,6 +616,10 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
     "bom_export_filename": "Swadge-HW.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -711,6 +733,54 @@
       "sort_asc": false,
       "sort_field": "Cost @ 2.5k"
     },
+    "bus_aliases": {
+      "COMM_BUS": [
+        "USB_D+",
+        "USB_D-",
+        "I2C_SCL",
+        "I2C_SDA",
+        "TX",
+        "RX",
+        "FSPI_CLK",
+        "FSPI_Q",
+        "FSPI_D",
+        "FSPI_CS0",
+        "FSPI_CS1",
+        "FSPI_WP",
+        "FSPI_HD"
+      ],
+      "I2C": [
+        "I2C_SCL",
+        "I2C_SDA"
+      ],
+      "PERF_BUS": [
+        "TFT_RESET",
+        "TFT_ATP",
+        "TFT_RS",
+        "SPK_SHDN",
+        "I2S_SDIN",
+        "I2S_LRCK",
+        "I2S_SDOUT",
+        "I2S_BCLK",
+        "I2S_MCLK",
+        "LED",
+        "SWIO",
+        "VMON"
+      ],
+      "SAO": [
+        "SAO_B",
+        "SAO_VIB",
+        "SAO_A"
+      ],
+      "UART": [
+        "TX",
+        "RX"
+      ],
+      "USB": [
+        "USB_D+",
+        "USB_D-"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -718,6 +788,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -750,6 +821,7 @@
     },
     "page_layout_descr_file": "",
     "plot_directory": "./output",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
@@ -759,13 +831,72 @@
     "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
-    "subpart_id_separator": 0
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "Swadge-HW.kicad_sch",
+        "name": "Swadge-HW",
+        "uuid": "770c762f-3a30-4864-b7da-de353459cdd6"
+      }
+    ],
+    "used_designators": "C1-8,C10-13,C16-17,C19,C21-38,D1,D10-19,L1-4,J4-7,R1,R4,R6-8,R10-18,R20-39,U1-7,U10-15,SW9-17,P2,#PWR1-8,#PWR10-12,#PWR49,#PWR51-52,#PWR56-57,#PWR63,#PWR67-68,#PWR70,#PWR73-75,#PWR98,#PWR102-103,#PWR110-111,#PWR114-115,Q1-2",
+    "variants": []
   },
   "sheets": [
     [
       "770c762f-3a30-4864-b7da-de353459cdd6",
-      "Root"
+      "Swadge-HW"
+    ],
+    [
+      "7daa4ba5-96fd-461d-be98-18bf8494bf52",
+      "3V3"
+    ],
+    [
+      "9586bcca-c960-42fc-9963-50259dda15b0",
+      "USB"
+    ],
+    [
+      "d7da8eb8-65c1-44ec-ae93-82b297ca3e45",
+      "Accelerometer"
+    ],
+    [
+      "458cf1f1-40cc-4d0b-81d6-21bbc131062c",
+      "Coprocessor"
+    ],
+    [
+      "fcbd4cfc-9cd2-46ce-8965-013db5b57f46",
+      "BMS"
+    ],
+    [
+      "124674ec-3e27-486f-b028-a72f7ae9e19e",
+      "IO"
+    ],
+    [
+      "5af7a925-0b98-46b1-b555-6a075ee725f5",
+      "Lighting"
+    ],
+    [
+      "fa66284d-3fc0-4910-b45b-f2ac8db83140",
+      "CPU"
+    ],
+    [
+      "50e190c4-5ab4-41d8-900d-31bbecb31a92",
+      "LCD"
+    ],
+    [
+      "34139379-2635-49cf-a6ce-849443f55915",
+      "Expansion Slot"
+    ],
+    [
+      "83e4033f-0c15-4157-a463-52f03cd15801",
+      "Power Distribution"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {},
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
+  }
 }
