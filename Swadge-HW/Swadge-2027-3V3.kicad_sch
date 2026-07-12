@@ -2053,7 +2053,7 @@
 		)
 		(uuid "f771be5e-6acf-4598-a952-e2cf379c9b33")
 	)
-	(label "3.3V"
+	(label "3.3V_OUT"
 		(at 162.56 63.5 0)
 		(effects
 			(font
@@ -2135,7 +2135,7 @@
 		)
 		(uuid "d02a5cae-2324-47bd-a57b-7ea40eaec906")
 	)
-	(hierarchical_label "3.3V"
+	(hierarchical_label "3.3V_OUT"
 		(shape output)
 		(at 203.2 63.5 0)
 		(effects
@@ -2872,7 +2872,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1a1c416-678b-48a2-ada6-408676f9fd4b")
-		(property "Reference" "U10"
+		(property "Reference" "U5"
 			(at 130.81 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3009,7 +3009,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/83e4033f-0c15-4157-a463-52f03cd15801/7daa4ba5-96fd-461d-be98-18bf8494bf52"
-					(reference "U10")
+					(reference "U5")
 					(unit 1)
 				)
 			)

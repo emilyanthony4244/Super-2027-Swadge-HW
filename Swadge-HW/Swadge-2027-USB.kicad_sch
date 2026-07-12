@@ -2327,7 +2327,7 @@
 		)
 		(uuid "f831f026-ba7c-41ad-8ed9-471b4f793c3b")
 	)
-	(label "EXT.USB_D-"
+	(label "EXT_USB_D-"
 		(at 129.54 78.74 180)
 		(effects
 			(font
@@ -2347,7 +2347,7 @@
 		)
 		(uuid "2b30ab43-77e6-4b98-874f-87e3abdcd4a5")
 	)
-	(label "EXT.USB_D+"
+	(label "EXT_USB_D+"
 		(at 129.54 76.2 180)
 		(effects
 			(font
@@ -3087,7 +3087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8944aad-9b8c-4e87-a851-ccf68b2e2843")
-		(property "Reference" "P2"
+		(property "Reference" "P1"
 			(at 86.36 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3256,7 +3256,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/9586bcca-c960-42fc-9963-50259dda15b0"
-					(reference "P2")
+					(reference "P1")
 					(unit 1)
 				)
 			)

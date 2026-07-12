@@ -2618,7 +2618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48226bd7-5a68-421f-b35b-d229c8f8dfee")
-		(property "Reference" "C26"
+		(property "Reference" "C?"
 			(at 239.395 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2721,7 +2721,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/5af7a925-0b98-46b1-b555-6a075ee725f5"
-					(reference "C26")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -2885,7 +2885,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6143de45-96a4-42fd-a5fd-e912ba900fc3")
-		(property "Reference" "C21"
+		(property "Reference" "C?"
 			(at 188.595 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2988,7 +2988,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/5af7a925-0b98-46b1-b555-6a075ee725f5"
-					(reference "C21")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -3007,7 +3007,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "954cd73c-2fe4-456e-8ae6-f208437ff3d0")
-		(property "Reference" "R13"
+		(property "Reference" "R?"
 			(at 58.42 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3108,7 +3108,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/5af7a925-0b98-46b1-b555-6a075ee725f5"
-					(reference "R13")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -3418,7 +3418,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7a2f930-28a1-4c7e-b96d-739ba39c1277")
-		(property "Reference" "C7"
+		(property "Reference" "C?"
 			(at 137.795 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3521,7 +3521,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/5af7a925-0b98-46b1-b555-6a075ee725f5"
-					(reference "C7")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -3539,7 +3539,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c995d27b-7a46-4093-82f1-d947548d3773")
-		(property "Reference" "C6"
+		(property "Reference" "C?"
 			(at 86.995 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3642,7 +3642,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/5af7a925-0b98-46b1-b555-6a075ee725f5"
-					(reference "C6")
+					(reference "C?")
 					(unit 1)
 				)
 			)

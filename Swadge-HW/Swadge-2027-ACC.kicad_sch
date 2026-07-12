@@ -1776,7 +1776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c0be7b2-2f88-4c70-8053-215b4ee4c273")
-		(property "Reference" "C35"
+		(property "Reference" "C73"
 			(at 165.735 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1901,7 +1901,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/d7da8eb8-65c1-44ec-ae93-82b297ca3e45"
-					(reference "C35")
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -1920,7 +1920,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e4e3e4c-4c2f-424a-b581-e272bc4f46fc")
-		(property "Reference" "C34"
+		(property "Reference" "C71"
 			(at 142.367 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2045,7 +2045,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/d7da8eb8-65c1-44ec-ae93-82b297ca3e45"
-					(reference "C34")
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -2064,7 +2064,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60ac8fc3-779f-4367-bd7c-8a62993ccb65")
-		(property "Reference" "R32"
+		(property "Reference" "R71"
 			(at 161.29 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2187,7 +2187,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/d7da8eb8-65c1-44ec-ae93-82b297ca3e45"
-					(reference "R32")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -2205,7 +2205,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "707eeb01-7e46-4f6b-907b-417c65300c55")
-		(property "Reference" "C36"
+		(property "Reference" "C72"
 			(at 173.355 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2330,7 +2330,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/d7da8eb8-65c1-44ec-ae93-82b297ca3e45"
-					(reference "C36")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -2347,7 +2347,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd52b828-41d0-40c2-adf9-e096073f2eac")
-		(property "Reference" "U13"
+		(property "Reference" "U7"
 			(at 152.5113 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2485,7 +2485,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/d7da8eb8-65c1-44ec-ae93-82b297ca3e45"
-					(reference "U13")
+					(reference "U7")
 					(unit 1)
 				)
 			)

@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "fe376cb0-cee0-464c-8ce9-74e984317030")
+	(uuid "fe9d7b31-1ff9-4e84-8e5b-aa6905f72492")
 	(paper "A4")
 	(title_block
 		(date "2026-04-04")
@@ -1520,7 +1520,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cb23825-6645-46dc-9781-b2e79334f57f")
-		(property "Reference" "C17"
+		(property "Reference" "C61"
 			(at 116.84 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1639,7 +1639,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/54e099cb-7928-419d-b785-f2359f257eb1"
-					(reference "C17")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -1657,7 +1657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c77d0613-043d-40fa-b8f9-26aceb49dc4d")
-		(property "Reference" "U3"
+		(property "Reference" "U6"
 			(at 146.9233 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1761,7 +1761,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/54e099cb-7928-419d-b785-f2359f257eb1"
-					(reference "U3")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -1913,7 +1913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3c18fd5-ff70-4a35-b205-b36112231ff8")
-		(property "Reference" "C1"
+		(property "Reference" "C62"
 			(at 104.14 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2010,7 +2010,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/54e099cb-7928-419d-b785-f2359f257eb1"
-					(reference "C1")
+					(reference "C62")
 					(unit 1)
 				)
 			)

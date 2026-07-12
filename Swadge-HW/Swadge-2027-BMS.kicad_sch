@@ -2583,6 +2583,17 @@
 		)
 		(uuid "2d4139f1-ecdc-4f01-920a-9fdcd434bea1")
 	)
+	(hierarchical_label "REGN"
+		(shape output)
+		(at 170.18 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "620cbabb-bf72-488e-be74-e90986e946d7")
+	)
 	(hierarchical_label "BMS_INT"
 		(shape output)
 		(at 119.38 71.12 180)
@@ -2933,7 +2944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bb7d83c-7e55-416c-933d-9acd28737ca9")
-		(property "Reference" "U12"
+		(property "Reference" "U4"
 			(at 147.32 29.0025 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3097,7 +3108,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/83e4033f-0c15-4157-a463-52f03cd15801/fcbd4cfc-9cd2-46ce-8965-013db5b57f46"
-					(reference "U12")
+					(reference "U4")
 					(unit 1)
 				)
 			)
