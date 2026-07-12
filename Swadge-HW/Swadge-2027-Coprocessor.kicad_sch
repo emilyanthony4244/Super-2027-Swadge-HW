@@ -962,8 +962,20 @@
 		(uuid "330d28fc-e768-4cf5-9b87-f36bd1f56ef8")
 	)
 	(no_connect
+		(at 55.88 68.58)
+		(uuid "55f0eabf-71cb-46b6-a53a-1e53f5915740")
+	)
+	(no_connect
+		(at 55.88 71.12)
+		(uuid "622845da-d183-451d-b158-cf4899e66a4b")
+	)
+	(no_connect
 		(at 226.06 114.3)
 		(uuid "a65364cd-9c1c-466a-a3e9-ae8d3275f7d4")
+	)
+	(no_connect
+		(at 55.88 66.04)
+		(uuid "ba650e9a-636c-4507-b0cf-3f6546f1e944")
 	)
 	(no_connect
 		(at 96.52 93.98)

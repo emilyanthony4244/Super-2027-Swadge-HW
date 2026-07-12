@@ -2159,7 +2159,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27d43e10-a397-4d6b-a889-787b3fb7d681")
-		(property "Reference" "R18"
+		(property "Reference" "R52"
 			(at 176.784 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2256,7 +2256,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/83e4033f-0c15-4157-a463-52f03cd15801/7daa4ba5-96fd-461d-be98-18bf8494bf52"
-					(reference "R18")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -2275,7 +2275,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62cb3218-8e26-4b4b-b2c3-d7b36d2fe0b5")
-		(property "Reference" "R33"
+		(property "Reference" "R53"
 			(at 176.784 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2372,7 +2372,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/83e4033f-0c15-4157-a463-52f03cd15801/7daa4ba5-96fd-461d-be98-18bf8494bf52"
-					(reference "R33")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -2390,7 +2390,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d6ab096-d16b-4067-b258-1db3ae04f9bf")
-		(property "Reference" "L4"
+		(property "Reference" "L51"
 			(at 153.67 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2507,7 +2507,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/83e4033f-0c15-4157-a463-52f03cd15801/7daa4ba5-96fd-461d-be98-18bf8494bf52"
-					(reference "L4")
+					(reference "L51")
 					(unit 1)
 				)
 			)
@@ -2526,7 +2526,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77c49379-6ac6-47f3-87b5-e76e9f41e584")
-		(property "Reference" "R8"
+		(property "Reference" "R51"
 			(at 176.784 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2623,7 +2623,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/83e4033f-0c15-4157-a463-52f03cd15801/7daa4ba5-96fd-461d-be98-18bf8494bf52"
-					(reference "R8")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -2642,7 +2642,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c34f3b6-b768-491c-9d7f-62a39c883701")
-		(property "Reference" "C12"
+		(property "Reference" "C52"
 			(at 159.385 69.85 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -2739,7 +2739,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/83e4033f-0c15-4157-a463-52f03cd15801/7daa4ba5-96fd-461d-be98-18bf8494bf52"
-					(reference "C12")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -2758,7 +2758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5f72c2c-01bb-48ba-a68d-3c729041d221")
-		(property "Reference" "C13"
+		(property "Reference" "C53"
 			(at 184.785 74.93 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -2855,7 +2855,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/83e4033f-0c15-4157-a463-52f03cd15801/7daa4ba5-96fd-461d-be98-18bf8494bf52"
-					(reference "C13")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -3028,7 +3028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1be2e71-e6d4-434d-8f96-9b5b2b44dfd0")
-		(property "Reference" "C10"
+		(property "Reference" "C51"
 			(at 111.125 69.85 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -3125,7 +3125,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/83e4033f-0c15-4157-a463-52f03cd15801/7daa4ba5-96fd-461d-be98-18bf8494bf52"
-					(reference "C10")
+					(reference "C51")
 					(unit 1)
 				)
 			)

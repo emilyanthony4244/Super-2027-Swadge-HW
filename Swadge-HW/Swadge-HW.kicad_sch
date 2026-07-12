@@ -2408,7 +2408,7 @@
 	)
 	(rectangle
 		(start 320.04 -55.88)
-		(end 394.97 -26.67)
+		(end 394.97 -24.13)
 		(stroke
 			(width 0)
 			(type default)
@@ -2656,6 +2656,24 @@
 	(no_connect
 		(at 246.38 -30.48)
 		(uuid "6df2e4bc-9cee-41c7-9a86-d7476b07e22c")
+	)
+	(bus_entry
+		(at 375.92 -48.26)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b13627f-7de9-4b4d-a97a-0b9f8ac5e117")
+	)
+	(bus_entry
+		(at 375.92 -39.37)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79f34f30-36ae-47f8-bab9-eb4f91b0e57e")
 	)
 	(bus
 		(pts
@@ -2926,6 +2944,16 @@
 			(type default)
 		)
 		(uuid "33c3a34b-a333-44fb-af11-17b54f3024ea")
+	)
+	(wire
+		(pts
+			(xy 312.42 -39.37) (xy 337.82 -39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3687d61c-5a33-4562-96e2-4d4d97fd0ac3")
 	)
 	(wire
 		(pts
@@ -3239,6 +3267,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 -48.26) (xy 375.92 -48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "674aca30-c07d-405f-8256-46efee4e1fde")
+	)
+	(wire
+		(pts
 			(xy 266.7 -35.56) (xy 278.13 -35.56)
 		)
 		(stroke
@@ -3356,6 +3394,16 @@
 			(type default)
 		)
 		(uuid "7bd76ddb-60e6-438e-a61a-99573fe5d292")
+	)
+	(wire
+		(pts
+			(xy 375.92 -39.37) (xy 350.52 -39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c426e1e-6b10-4cac-aecb-654f786b02a3")
 	)
 	(bus
 		(pts
@@ -3646,6 +3694,16 @@
 			(type default)
 		)
 		(uuid "ab9bf905-2d8c-43f8-b92b-27fd27a36be6")
+	)
+	(bus
+		(pts
+			(xy 378.46 -45.72) (xy 378.46 -26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad0d1021-659c-407c-b7c4-bb7fb6779844")
 	)
 	(wire
 		(pts
@@ -4067,6 +4125,16 @@
 		)
 		(uuid "f8be5b08-1cd0-4ee2-ad40-cfb95dbcf5da")
 	)
+	(wire
+		(pts
+			(xy 312.42 -39.37) (xy 312.42 -48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb390810-e26d-4f57-9dfc-534f6a6624e6")
+	)
 	(bus
 		(pts
 			(xy 248.92 63.5) (xy 248.92 137.16)
@@ -4087,6 +4155,16 @@
 		)
 		(uuid "305147cd-5126-470e-9fcc-2a34545501fb")
 	)
+	(label "I2C_SDA"
+		(at 312.42 -39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "458d9bc0-a926-4dc9-8750-ded8d736546b")
+	)
 	(label "{COMM}"
 		(at 25.4 43.18 0)
 		(effects
@@ -4096,6 +4174,16 @@
 			(justify left bottom)
 		)
 		(uuid "4598e7a4-3bfe-4a29-a029-b4a9c562bb05")
+	)
+	(label "I2C_SCL"
+		(at 375.92 -39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "466b94bd-e12d-4192-859e-19fcee638e5f")
 	)
 	(label "{PERIPHERAL}"
 		(at 25.4 38.1 0)
@@ -4127,6 +4215,16 @@
 		)
 		(uuid "7e9ca154-5c97-42b3-847b-42a22e9195d3")
 	)
+	(label "{COMM}"
+		(at 378.46 -26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94068484-27ce-484f-8cf1-177816fb6561")
+	)
 	(label "{INTERUPTS}"
 		(at 25.4 33.02 0)
 		(effects
@@ -4136,30 +4234,6 @@
 			(justify left bottom)
 		)
 		(uuid "de5d8f72-3a51-4dba-b7cd-0ee2f09d580d")
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 350.52 -39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0679b6d1-9369-4586-8e2a-8a6b97e97b6b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 356.4407 -39.2906 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(global_label "GPIO40"
 		(shape input)
@@ -4230,30 +4304,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 337.82 -39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cea95d70-7c2c-4123-b462-e0e824936408")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 331.8388 -39.4494 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -4423,7 +4473,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1904b885-7965-46df-a6f9-e9622896941b")
-		(property "Reference" "R?"
+		(property "Reference" "R905"
 			(at 270.51 -43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4540,7 +4590,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "R?")
+					(reference "R905")
 					(unit 1)
 				)
 			)
@@ -4635,7 +4685,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1cc7f736-9d70-4456-a601-2ebfe0f3ceb0")
-		(property "Reference" "R?"
+		(property "Reference" "R903"
 			(at 243.84 -95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4752,7 +4802,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "R?")
+					(reference "R903")
 					(unit 1)
 				)
 			)
@@ -5388,7 +5438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fcf56f6-8069-4aaa-9967-872f1fcbd762")
-		(property "Reference" "C?"
+		(property "Reference" "C904"
 			(at 242.57 -85.0901 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5507,7 +5557,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "C?")
+					(reference "C904")
 					(unit 1)
 				)
 			)
@@ -5524,7 +5574,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5334c8e7-391a-4f5e-bc0b-90b917378345")
-		(property "Reference" "R?"
+		(property "Reference" "R904"
 			(at 247.65 -54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5641,7 +5691,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "R?")
+					(reference "R904")
 					(unit 1)
 				)
 			)
@@ -5969,7 +6019,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6677eb14-041a-48a7-9901-f25d9784e699")
-		(property "Reference" "U?"
+		(property "Reference" "U901"
 			(at 249.936 -40.132 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6071,7 +6121,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "U?")
+					(reference "U901")
 					(unit 1)
 				)
 			)
@@ -6166,7 +6216,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f433407-1fc6-43ca-994f-b98e3bdb6665")
-		(property "Reference" "R?"
+		(property "Reference" "R901"
 			(at 233.68 -90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6283,7 +6333,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "R?")
+					(reference "R901")
 					(unit 1)
 				)
 			)
@@ -6300,7 +6350,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73b4c8b1-6616-4be9-9834-9bdef6fcd0fd")
-		(property "Reference" "C?"
+		(property "Reference" "C901"
 			(at 226.06 -48.895 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6419,7 +6469,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "C?")
+					(reference "C901")
 					(unit 1)
 				)
 			)
@@ -7233,7 +7283,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd50a1fa-6fb2-4788-968c-9c03ba0a209e")
-		(property "Reference" "C?"
+		(property "Reference" "C902"
 			(at 234.95 -42.545 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7352,7 +7402,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "C?")
+					(reference "C902")
 					(unit 1)
 				)
 			)
@@ -7447,7 +7497,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8796b29-65dd-423e-ab9f-1981913bb6e6")
-		(property "Reference" "C?"
+		(property "Reference" "C905"
 			(at 272.415 -81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7566,7 +7616,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "C?")
+					(reference "C905")
 					(unit 1)
 				)
 			)
@@ -7583,7 +7633,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cdfa048c-86c7-43b3-be7e-d35186d17a94")
-		(property "Reference" "R?"
+		(property "Reference" "R902"
 			(at 241.3 -45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7700,7 +7750,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "R?")
+					(reference "R902")
 					(unit 1)
 				)
 			)
@@ -8176,7 +8226,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eace953a-224a-4fc3-a54e-6238fcb47c9c")
-		(property "Reference" "C?"
+		(property "Reference" "C903"
 			(at 234.315 -64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8295,7 +8345,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "C?")
+					(reference "C903")
 					(unit 1)
 				)
 			)
@@ -8440,7 +8490,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(page "7")
+					(page "11")
 				)
 			)
 		)
@@ -8525,7 +8575,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(page "11")
+					(page "8")
 				)
 			)
 		)
@@ -8611,7 +8661,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(page "5")
+					(page "3")
 				)
 			)
 		)
@@ -8706,7 +8756,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(page "10")
+					(page "9")
 				)
 			)
 		)
@@ -8887,7 +8937,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(page "8")
+					(page "12")
 				)
 			)
 		)
@@ -9002,7 +9052,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(page "12")
+					(page "4")
 				)
 			)
 		)
@@ -9078,7 +9128,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(page "3")
+					(page "10")
 				)
 			)
 		)
@@ -9173,7 +9223,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(page "4")
+					(page "7")
 				)
 			)
 		)
@@ -9279,7 +9329,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(page "9")
+					(page "2")
 				)
 			)
 		)

@@ -5393,7 +5393,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50ad0a4b-ab4c-4b32-bf5f-79192fc98e7b")
-		(property "Reference" "D10"
+		(property "Reference" "D91"
 			(at 103.632 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5518,7 +5518,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/50e190c4-5ab4-41d8-900d-31bbecb31a92"
-					(reference "D10")
+					(reference "D91")
 					(unit 1)
 				)
 			)
@@ -5822,7 +5822,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84d0cdc5-caa5-4333-83bb-292d59a68060")
-		(property "Reference" "L3"
+		(property "Reference" "L91"
 			(at 110.49 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5945,7 +5945,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/50e190c4-5ab4-41d8-900d-31bbecb31a92"
-					(reference "L3")
+					(reference "L91")
 					(unit 1)
 				)
 			)

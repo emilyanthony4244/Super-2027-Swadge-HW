@@ -3248,8 +3248,24 @@
 		(uuid "e681b3c5-b3ed-416f-b064-c4ea03e4d395")
 	)
 	(no_connect
+		(at 71.12 68.58)
+		(uuid "09999001-35b1-4be3-9da2-ea53321bb436")
+	)
+	(no_connect
+		(at 71.12 66.04)
+		(uuid "3fbbd9a9-c170-4f34-bc55-fdf3641125a4")
+	)
+	(no_connect
 		(at 71.12 129.54)
 		(uuid "4808abe1-406a-4b12-a336-897c4629ce91")
+	)
+	(no_connect
+		(at 137.16 106.68)
+		(uuid "4efc6ea6-18d2-466a-8da7-e2f39ed3c5a3")
+	)
+	(no_connect
+		(at 71.12 86.36)
+		(uuid "5150f5f6-46e3-4d9f-9b43-6e4f9b98510d")
 	)
 	(bus_entry
 		(at 30.48 119.38)
@@ -4368,16 +4384,6 @@
 			(type default)
 		)
 		(uuid "cbcd0893-24e2-4afe-8515-a6d5355e2b86")
-	)
-	(wire
-		(pts
-			(xy 71.12 86.36) (xy 58.42 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdec1829-7dab-4ad9-936b-ffaad79dd6c1")
 	)
 	(wire
 		(pts
@@ -6523,16 +6529,6 @@
 			(justify right bottom)
 		)
 		(uuid "debc0738-34c1-4346-a256-3af017ffc106")
-	)
-	(label "IO.BTN_2"
-		(at 58.42 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e442e631-d28a-4b2a-8a02-141f1fa7022f")
 	)
 	(label "I2S_SDOUT"
 		(at 17.78 101.6 180)

@@ -1733,6 +1733,26 @@
 		(color 0 0 0 0)
 		(uuid "dd5ac1ae-1ee5-4568-863b-320691deae8d")
 	)
+	(no_connect
+		(at 173.99 40.64)
+		(uuid "2886eae7-9a0d-4ddf-9430-1b36e4962010")
+	)
+	(no_connect
+		(at 167.64 27.94)
+		(uuid "89d638e3-2402-4732-b52f-557dafe66e1e")
+	)
+	(no_connect
+		(at 171.45 40.64)
+		(uuid "b2b6468c-a3c1-44c8-b4e2-33cf13f42109")
+	)
+	(no_connect
+		(at 177.8 30.48)
+		(uuid "b9caba1d-ec33-4345-8ba5-4080b07619c9")
+	)
+	(no_connect
+		(at 167.64 33.02)
+		(uuid "f3fc7bb4-1c1e-4c14-ac87-0a2669f54bb1")
+	)
 	(bus_entry
 		(at 66.04 55.88)
 		(size 2.54 2.54)
@@ -2779,7 +2799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sao:CPC-5_2.6mmx4mm_P0.53mm"
+		(property "Footprint" "Swadge_Parts:CPC-5_2.6mmx4mm_P0.53mm"
 			(at 93.98 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -2880,7 +2900,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fd5adfd-67af-4a83-981d-f8ea2dfb58a8")
-		(property "Reference" "R21"
+		(property "Reference" "R31"
 			(at 91.948 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2997,7 +3017,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/83e4033f-0c15-4157-a463-52f03cd15801"
-					(reference "R21")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -3015,7 +3035,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65de317c-37bf-4893-972c-4a62d1aa5623")
-		(property "Reference" "R40"
+		(property "Reference" "R34"
 			(at 18.288 142.748 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3132,7 +3152,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/83e4033f-0c15-4157-a463-52f03cd15801"
-					(reference "R40")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -3149,7 +3169,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "997ee5e0-16aa-444f-adfd-3335ccf4c89e")
-		(property "Reference" "L5"
+		(property "Reference" "L52"
 			(at 240.03 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3266,7 +3286,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/83e4033f-0c15-4157-a463-52f03cd15801"
-					(reference "L5")
+					(reference "L52")
 					(unit 1)
 				)
 			)
@@ -3428,7 +3448,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac4ace1d-c0d4-4524-8d3a-07f26e6bf7e2")
-		(property "Reference" "C24"
+		(property "Reference" "C54"
 			(at 226.06 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3523,7 +3543,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/83e4033f-0c15-4157-a463-52f03cd15801"
-					(reference "C24")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -3542,7 +3562,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d161b269-0d8e-4d7f-aa9d-b28288500eae")
-		(property "Reference" "C37"
+		(property "Reference" "C55"
 			(at 248.92 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3637,7 +3657,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/83e4033f-0c15-4157-a463-52f03cd15801"
-					(reference "C37")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -3655,7 +3675,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e30675ff-515d-4701-a798-a5675b9347ea")
-		(property "Reference" "R37"
+		(property "Reference" "R33"
 			(at 30.988 130.048 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3772,7 +3792,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/83e4033f-0c15-4157-a463-52f03cd15801"
-					(reference "R37")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -3894,7 +3914,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd2a8685-7afb-4030-acd8-c257fc1ffd59")
-		(property "Reference" "R22"
+		(property "Reference" "R32"
 			(at 91.44 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4011,7 +4031,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/83e4033f-0c15-4157-a463-52f03cd15801"
-					(reference "R22")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -4244,7 +4264,7 @@
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/83e4033f-0c15-4157-a463-52f03cd15801"
-					(page "2")
+					(page "5")
 				)
 			)
 		)

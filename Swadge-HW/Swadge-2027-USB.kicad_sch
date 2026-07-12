@@ -2570,7 +2570,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e5c48ab-f7aa-4226-a730-11df5b32069d")
-		(property "Reference" "R?"
+		(property "Reference" "R909"
 			(at 154.94 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2671,7 +2671,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/9586bcca-c960-42fc-9963-50259dda15b0"
-					(reference "R?")
+					(reference "R909")
 					(unit 1)
 				)
 			)
@@ -2689,7 +2689,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1783e0ff-0c2e-4844-86d9-44d5bb2672fc")
-		(property "Reference" "R?"
+		(property "Reference" "R908"
 			(at 150.114 79.248 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2790,7 +2790,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/9586bcca-c960-42fc-9963-50259dda15b0"
-					(reference "R?")
+					(reference "R908")
 					(unit 1)
 				)
 			)
@@ -2808,7 +2808,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f783c62-bccd-443d-8516-94ed77a0ff95")
-		(property "Reference" "R?"
+		(property "Reference" "R906"
 			(at 144.78 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2909,7 +2909,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/9586bcca-c960-42fc-9963-50259dda15b0"
-					(reference "R?")
+					(reference "R906")
 					(unit 1)
 				)
 			)
@@ -2928,7 +2928,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da1aacec-da65-407f-9692-2f60b776bca5")
-		(property "Reference" "R?"
+		(property "Reference" "R907"
 			(at 151.13 71.374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3029,7 +3029,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/9586bcca-c960-42fc-9963-50259dda15b0"
-					(reference "R?")
+					(reference "R907")
 					(unit 1)
 				)
 			)
@@ -3046,7 +3046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0923c37-a2fd-4d4f-b7af-a82adf3b2134")
-		(property "Reference" "D?"
+		(property "Reference" "D901"
 			(at 127 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3178,7 +3178,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/9586bcca-c960-42fc-9963-50259dda15b0"
-					(reference "D?")
+					(reference "D901")
 					(unit 1)
 				)
 			)
