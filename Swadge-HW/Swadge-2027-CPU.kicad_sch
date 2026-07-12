@@ -3351,7 +3351,7 @@
 		(uuid "35020a09-4f0c-4cad-a484-f9cd75ebebec")
 	)
 	(bus_entry
-		(at 157.48 121.92)
+		(at 172.72 121.92)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3360,7 +3360,7 @@
 		(uuid "3dfc2224-7ceb-49ce-9cab-d721890d4385")
 	)
 	(bus_entry
-		(at 157.48 127)
+		(at 172.72 127)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3450,7 +3450,7 @@
 		(uuid "776298a6-f452-4a0f-b02f-c6c1c78c5f0d")
 	)
 	(bus_entry
-		(at 157.48 127)
+		(at 172.72 127)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3468,7 +3468,7 @@
 		(uuid "7b09536a-f7e9-4005-812e-9fdb2b5804f3")
 	)
 	(bus_entry
-		(at 157.48 121.92)
+		(at 172.72 121.92)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3486,7 +3486,7 @@
 		(uuid "8441c92a-5341-4da7-8763-cb22286a566d")
 	)
 	(bus_entry
-		(at 157.48 129.54)
+		(at 172.72 129.54)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3495,7 +3495,7 @@
 		(uuid "86b2e09a-b094-4629-a9c6-ed49db0b9ed4")
 	)
 	(bus_entry
-		(at 157.48 129.54)
+		(at 172.72 129.54)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3558,7 +3558,7 @@
 		(uuid "b06fd671-a254-4c68-8ddd-fe32900c4c22")
 	)
 	(bus_entry
-		(at 157.48 132.08)
+		(at 172.72 132.08)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3576,7 +3576,7 @@
 		(uuid "c94ee220-ae31-46ef-9067-91d4adda4cb3")
 	)
 	(bus_entry
-		(at 157.48 132.08)
+		(at 172.72 132.08)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3594,7 +3594,7 @@
 		(uuid "d86bda3c-f645-4aa6-9bde-f57ec4f5ea64")
 	)
 	(bus_entry
-		(at 157.48 124.46)
+		(at 172.72 124.46)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3603,7 +3603,7 @@
 		(uuid "e00fdd94-d326-46d5-85bf-c5bfde321d28")
 	)
 	(bus_entry
-		(at 157.48 124.46)
+		(at 172.72 124.46)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3711,7 +3711,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 129.54) (xy 154.94 129.54)
+			(xy 137.16 129.54) (xy 170.18 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3791,7 +3791,7 @@
 	)
 	(bus
 		(pts
-			(xy 157.48 142.24) (xy 187.96 142.24)
+			(xy 172.72 142.24) (xy 187.96 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4081,7 +4081,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 121.92) (xy 154.94 121.92)
+			(xy 137.16 121.92) (xy 170.18 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4331,7 +4331,7 @@
 	)
 	(bus
 		(pts
-			(xy 157.48 121.92) (xy 157.48 142.24)
+			(xy 172.72 121.92) (xy 172.72 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4341,7 +4341,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 119.38) (xy 154.94 119.38)
+			(xy 137.16 119.38) (xy 170.18 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4421,7 +4421,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 124.46) (xy 154.94 124.46)
+			(xy 137.16 124.46) (xy 170.18 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4491,7 +4491,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 127) (xy 154.94 127)
+			(xy 137.16 127) (xy 170.18 127)
 		)
 		(stroke
 			(width 0)
@@ -6195,7 +6195,7 @@
 		(uuid "41480801-c3d1-4674-8e42-8ac43642a8a3")
 	)
 	(label "FSPI_D"
-		(at 154.94 124.46 180)
+		(at 170.18 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6395,7 +6395,7 @@
 		(uuid "a27d450a-46f9-4707-962e-869f9347c043")
 	)
 	(label "FSPI_CS1"
-		(at 154.94 119.38 180)
+		(at 170.18 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6495,7 +6495,7 @@
 		(uuid "c9d2c5a0-8fa0-4e76-aec3-bc974c117ec0")
 	)
 	(label "FSPI_Q"
-		(at 154.94 129.54 180)
+		(at 170.18 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6515,7 +6515,7 @@
 		(uuid "d5d08a17-e996-4adc-86e8-e7204f57eb55")
 	)
 	(label "FSPI_CS0"
-		(at 154.94 121.92 180)
+		(at 170.18 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6575,7 +6575,7 @@
 		(uuid "fbd98d90-a693-4958-84d1-c0f410f22ebb")
 	)
 	(label "FSPI_CLK"
-		(at 154.94 127 180)
+		(at 170.18 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6745,6 +6745,114 @@
 			(justify left)
 		)
 		(uuid "ccab3a54-da85-4413-b95e-d682777f1e59")
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 143.51 55.88) (xy 143.51 63.5) (xy 146.05 63.5) (xy 146.05 55.88)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "555b196d-b85c-4994-9890-16bc9c00b04d")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 156.21 130.81) (xy 156.21 118.11) (xy 153.67 118.11) (xy 153.67 130.81)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "c5d9d73d-bb02-4e48-895a-210b7ab90a12")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 154.94 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f555759-94ad-4dde-a78f-68c3c650bb09")
+		(property "Netclass" "Comm_TP"
+			(at 155.6385 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -177.8 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 144.78 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe0f7c6c-6e5e-4bdc-a01d-146f051ea6f7")
+		(property "Netclass" "Comm_TP"
+			(at 145.4785 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -187.96 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Swadge_Parts:ESP32-S2-MINI-2")

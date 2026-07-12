@@ -188,7 +188,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Thermistor_PTC"
+		(symbol "Device:Thermistor_NTC"
 			(pin_numbers
 				(hide yes)
 			)
@@ -201,7 +201,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TH"
-				(at -4.064 0 90)
+				(at -4.445 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -210,8 +210,8 @@
 					)
 				)
 			)
-			(property "Value" "Thermistor_PTC"
-				(at 3.048 0 90)
+			(property "Value" "Thermistor_NTC"
+				(at 3.175 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -221,7 +221,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 1.27 -5.08 0)
+				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -229,10 +229,20 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Datasheet" ""
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Temperature dependent resistor, negative temperature coefficient"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -243,18 +253,7 @@
 					)
 				)
 			)
-			(property "Description" "Temperature dependent resistor, positive temperature coefficient"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "resistor PTC thermistor sensor RTD"
+			(property "ki_keywords" "thermistor NTC resistor sensor RTD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -276,7 +275,7 @@
 					)
 				)
 			)
-			(symbol "Thermistor_PTC_0_1"
+			(symbol "Thermistor_NTC_0_1"
 				(arc
 					(start -3.175 2.413)
 					(mid -3.0506 2.3165)
@@ -399,8 +398,8 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 -3.683) (xy -1.778 -1.397) (xy -2.032 -2.159) (xy -1.524 -2.159) (xy -1.778 -1.397)
-						(xy -1.778 -1.651)
+						(xy -1.778 -1.397) (xy -1.778 -3.683) (xy -2.032 -2.921) (xy -1.524 -2.921) (xy -1.778 -3.683)
+						(xy -1.778 -3.429)
 					)
 					(stroke
 						(width 0)
@@ -422,7 +421,7 @@
 					)
 				)
 			)
-			(symbol "Thermistor_PTC_1_1"
+			(symbol "Thermistor_NTC_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -3080,7 +3079,7 @@
 				)
 			)
 		)
-		(property "Cost100" "0.22"
+		(property "Cost100" "0.0049"
 			(at 15.24 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -3102,7 +3101,7 @@
 				)
 			)
 		)
-		(property "LCSC" "25967"
+		(property "LCSC" "C23074"
 			(at 15.24 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -3113,7 +3112,7 @@
 				)
 			)
 		)
-		(property "Cost @ 2.5k" "0.0018"
+		(property "Cost @ 2.5k" "0.0044"
 			(at 15.24 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -3742,7 +3741,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25973"
+		(property "LCSC" "C23088"
 			(at 27.94 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3753,7 +3752,7 @@
 				)
 			)
 		)
-		(property "Cost @ 2.5k" "0.001"
+		(property "Cost @ 2.5k" "0.0016"
 			(at 27.94 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3780,7 +3779,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Thermistor_PTC")
+		(lib_id "Device:Thermistor_NTC")
 		(at 27.94 143.51 0)
 		(mirror x)
 		(unit 1)
@@ -3802,7 +3801,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Thermistor_PTC"
+		(property "Value" "Thermistor_NTC"
 			(at 30.353 141.9804 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3813,7 +3812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
 			(at 29.21 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -3825,7 +3824,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C41417292.pdf"
 			(at 27.94 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -3836,7 +3835,29 @@
 				)
 			)
 		)
-		(property "Description" "Temperature dependent resistor, positive temperature coefficient"
+		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+			(at 27.94 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C41417292"
+			(at 27.94 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost @ 2.5k" "0.0129"
 			(at 27.94 143.51 0)
 			(hide yes)
 			(show_name no)

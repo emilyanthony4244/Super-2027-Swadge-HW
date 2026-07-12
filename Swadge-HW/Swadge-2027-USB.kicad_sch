@@ -2450,6 +2450,114 @@
 		)
 		(uuid "f35e3a4b-3292-4e78-8a23-6f46e56d998d")
 	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 163.83 71.12) (xy 163.83 83.82) (xy 166.37 83.82) (xy 166.37 71.12)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "5a7e1766-9acb-4c81-9801-6003c9e899c3")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 135.8588 73.66) (xy 135.8588 81.28) (xy 138.3988 81.28) (xy 138.3988 73.66)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "61439c30-0076-4a74-9e43-5fa6dacf1e8f")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 165.1 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22d74311-e905-432d-85e5-47561938bb82")
+		(property "Netclass" "Comm_TP"
+			(at 165.7985 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -167.64 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 137.1288 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f72d56b6-f6fe-483f-b900-845388ebd436")
+		(property "Netclass" "Comm_TP"
+			(at 137.8273 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -195.6112 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_name "R_US_30")
 		(lib_id "Swadge_Parts:R_US")
@@ -2462,7 +2570,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e5c48ab-f7aa-4226-a730-11df5b32069d")
-		(property "Reference" "R31"
+		(property "Reference" "R?"
 			(at 154.94 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2563,7 +2671,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/9586bcca-c960-42fc-9963-50259dda15b0"
-					(reference "R31")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -2581,7 +2689,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1783e0ff-0c2e-4844-86d9-44d5bb2672fc")
-		(property "Reference" "R30"
+		(property "Reference" "R?"
 			(at 150.114 79.248 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2682,7 +2790,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/9586bcca-c960-42fc-9963-50259dda15b0"
-					(reference "R30")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -2700,7 +2808,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f783c62-bccd-443d-8516-94ed77a0ff95")
-		(property "Reference" "R23"
+		(property "Reference" "R?"
 			(at 144.78 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2801,7 +2909,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/9586bcca-c960-42fc-9963-50259dda15b0"
-					(reference "R23")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -2820,7 +2928,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da1aacec-da65-407f-9692-2f60b776bca5")
-		(property "Reference" "R29"
+		(property "Reference" "R?"
 			(at 151.13 71.374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2921,7 +3029,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/9586bcca-c960-42fc-9963-50259dda15b0"
-					(reference "R29")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -2938,7 +3046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0923c37-a2fd-4d4f-b7af-a82adf3b2134")
-		(property "Reference" "D13"
+		(property "Reference" "D?"
 			(at 127 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3070,7 +3178,7 @@
 			)
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6/9586bcca-c960-42fc-9963-50259dda15b0"
-					(reference "D13")
+					(reference "D?")
 					(unit 1)
 				)
 			)

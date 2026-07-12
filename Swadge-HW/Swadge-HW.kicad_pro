@@ -577,10 +577,43 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/FSPI_CLK": [
+        "Comm_TP"
+      ],
+      "/FSPI_CS0": [
+        "Comm_TP"
+      ],
+      "/FSPI_CS1": [
+        "Comm_TP"
+      ],
+      "/FSPI_D": [
+        "Comm_TP"
+      ],
+      "/FSPI_Q": [
+        "Comm_TP"
+      ],
       "/I2C_SCL": [
         "Comm_TP"
       ],
       "/I2C_SDA": [
+        "Comm_TP"
+      ],
+      "/RX": [
+        "Comm_TP"
+      ],
+      "/TX": [
+        "Comm_TP"
+      ],
+      "/USB/EXT_USB_D+": [
+        "Comm_TP"
+      ],
+      "/USB/EXT_USB_D-": [
+        "Comm_TP"
+      ],
+      "/USB_D+": [
+        "Comm_TP"
+      ],
+      "/USB_D-": [
         "Comm_TP"
       ]
     },
@@ -722,6 +755,18 @@
           "group_by": false,
           "label": "Cost@2500",
           "name": "Cost@2500",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Link",
+          "name": "LCSC Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Datasheet",
+          "name": "LCSC Datasheet",
           "show": false
         }
       ],
