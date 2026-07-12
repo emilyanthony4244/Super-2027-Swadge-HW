@@ -793,6 +793,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "EXPANSION SLOT -\nSPI2 bus with CS1\nAvailable to be populated with\nmore flash ram"
+		(exclude_from_sim no)
+		(at 149.86 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "11498a96-ebd3-4e86-8c0d-f4600d0ffc59")
+	)
 	(junction
 		(at 149.86 66.04)
 		(diameter 0)
@@ -1185,7 +1195,7 @@
 		)
 		(uuid "873a7043-d4bc-4ecb-a05d-ec79be175500")
 	)
-	(hierarchical_label "COMM{COMM_BUS}"
+	(hierarchical_label "{COMM}"
 		(shape bidirectional)
 		(at 119.38 73.66 180)
 		(effects
@@ -1547,10 +1557,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "70c6cd13-d6ef-42ec-8d0d-c5a1cb428f35")
 		(property "Reference" "U15"

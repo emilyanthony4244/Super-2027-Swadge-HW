@@ -2337,7 +2337,7 @@
 		)
 		(uuid "0185f5f3-0b65-41f3-9ad8-919cd0c96890")
 	)
-	(label "COMM.USB_D+"
+	(label "USB_D+"
 		(at 179.07 73.66 180)
 		(effects
 			(font
@@ -2397,7 +2397,7 @@
 		)
 		(uuid "9997878e-452f-4b82-a34c-e219b2c194ca")
 	)
-	(label "COMM.USB_D-"
+	(label "USB_D-"
 		(at 179.07 81.28 180)
 		(effects
 			(font
@@ -2417,7 +2417,7 @@
 		)
 		(uuid "fe0dc34e-ef98-495a-baf4-2ab2440c1731")
 	)
-	(hierarchical_label "COMM{COMM_BUS}"
+	(hierarchical_label "{COMM}"
 		(shape bidirectional)
 		(at 195.58 86.36 0)
 		(effects

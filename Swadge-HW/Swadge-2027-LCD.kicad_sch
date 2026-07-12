@@ -4317,7 +4317,7 @@
 		)
 		(uuid "0b7f1af6-198b-44b8-af5a-d1ff306ebacc")
 	)
-	(label "PERF.TFT_ATP"
+	(label "TFT_ATP"
 		(at 154.94 93.98 180)
 		(effects
 			(font
@@ -4347,7 +4347,7 @@
 		)
 		(uuid "929f7448-5393-44a8-96f4-0a6c2ceb4e72")
 	)
-	(label "PERF.TFT_RS"
+	(label "TFT_RS"
 		(at 160.02 101.6 0)
 		(effects
 			(font
@@ -4357,7 +4357,7 @@
 		)
 		(uuid "a3d9c0f2-69ee-44d6-8e8d-6407c486534f")
 	)
-	(label "PERF.TFT_RESET"
+	(label "TFT_RESET"
 		(at 160.02 109.22 0)
 		(effects
 			(font
@@ -4397,7 +4397,7 @@
 		)
 		(uuid "de13c42e-7b6b-4c0b-b377-856120e4db74")
 	)
-	(label "COMM.FSPI_CS0"
+	(label "FSPI_CS0"
 		(at 187.96 86.36 0)
 		(effects
 			(font
@@ -4462,7 +4462,7 @@
 		)
 		(uuid "1ee93fed-3acb-4a61-9d3f-facfe4eaacd2")
 	)
-	(hierarchical_label "COMM{COMM_BUS}"
+	(hierarchical_label "{COMM}"
 		(shape bidirectional)
 		(at 180.34 78.74 180)
 		(effects
@@ -4473,7 +4473,7 @@
 		)
 		(uuid "72517445-cdd5-4ecc-a81c-d4330da2247d")
 	)
-	(hierarchical_label "PERF{PERF_BUS}"
+	(hierarchical_label "{PERIPHERAL}"
 		(shape input)
 		(at 152.4 83.82 180)
 		(effects

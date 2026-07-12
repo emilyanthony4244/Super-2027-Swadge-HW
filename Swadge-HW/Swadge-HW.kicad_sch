@@ -335,355 +335,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Swadge_Parts:Conn_01x05_Male"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x05_Male"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Swadge_Parts:PinHeader_1x05_P2.54mm_Vertical"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_PINREX-210-91-05GB03_C390683.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C390683"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Digikey" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Cost100" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Notes" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Substitutable" "Y"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x05_Male_1_1"
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Swadge_Parts:Conn_02x03_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -2877,6 +2528,12 @@
 		(uuid "66c37541-e44d-4910-8fed-d47d82e01917")
 	)
 	(junction
+		(at 71.12 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a4c8b34-66a5-4734-89ec-0c07ffa0a687")
+	)
+	(junction
 		(at 246.38 -43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2917,12 +2574,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccf13943-57bf-404e-a587-5b3685ff463f")
-	)
-	(junction
-		(at 71.12 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd84fbbd-d9e6-4f6d-9fee-a0cf89b06f7e")
 	)
 	(junction
 		(at 71.12 119.38)
@@ -3138,7 +2789,7 @@
 	)
 	(bus
 		(pts
-			(xy 20.32 43.18) (xy 71.12 43.18)
+			(xy 55.88 43.18) (xy 71.12 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3178,7 +2829,7 @@
 	)
 	(bus
 		(pts
-			(xy 20.32 60.96) (xy 20.32 43.18)
+			(xy 55.88 60.96) (xy 55.88 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3255,6 +2906,16 @@
 			(type default)
 		)
 		(uuid "415cfdfe-dd44-417d-901c-88c7940c52df")
+	)
+	(bus
+		(pts
+			(xy 50.8 60.96) (xy 55.88 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "444f9edf-bb2e-4c2d-9533-04aae594b489")
 	)
 	(bus
 		(pts
@@ -3545,16 +3206,6 @@
 			(type default)
 		)
 		(uuid "822bebf3-1c32-4165-b55a-5aa05cb0bf19")
-	)
-	(bus
-		(pts
-			(xy 25.4 60.96) (xy 20.32 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "883ce0ed-a985-4b15-98fa-1357b85dda5f")
 	)
 	(wire
 		(pts
@@ -4168,78 +3819,6 @@
 			)
 		)
 	)
-	(global_label "5VIN"
-		(shape input)
-		(at 373.38 -41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "732db5e8-fb07-49f6-b400-14921ac35ab4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 366.7336 -41.8306 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "TX"
-		(shape input)
-		(at 373.38 -39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7cf2df5f-5f47-4c93-b3e6-9c55f4b11306")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 368.7898 -39.2906 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "RX"
-		(shape input)
-		(at 373.38 -36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8fb30e45-315c-47c5-8ccd-f1f76dde11fd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 368.4874 -36.7506 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "GPIO42"
 		(shape input)
 		(at 350.52 -36.83 0)
@@ -4309,30 +3888,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "BTN_1"
-		(shape input)
-		(at 373.38 -44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f0222cbb-0b1b-49c5-bba4-763e27d456e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 365.2217 -44.5294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -7045,161 +6600,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Swadge_Parts:Conn_01x05_Male")
-		(at 378.46 -39.37 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "a55c1b99-3293-490d-831c-cf15a08bdfa8")
-		(property "Reference" "J3"
-			(at 378.46 -46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05_Male"
-			(at 378.46 -31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Swadge_Parts:PinHeader_1x05_P2.54mm_Vertical"
-			(at 378.46 -39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_PINREX-210-91-05GB03_C390683.pdf"
-			(at 378.46 -39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 378.46 -39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C390683"
-			(at 378.46 -39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 378.46 -39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Cost100" ""
-			(at 378.46 -39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" "DNP"
-			(at 378.46 -39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Substitutable" "Y"
-			(at 378.46 -39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Cost @ 2.5k" ""
-			(at 378.46 -39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2cac6b7d-2926-4cbd-81ac-37cbe986d39f")
-		)
-		(pin "2"
-			(uuid "e21bd577-cc71-4c6f-8641-c744d834d4c7")
-		)
-		(pin "3"
-			(uuid "4783fdd7-dc01-49fa-a57e-268573df5471")
-		)
-		(pin "4"
-			(uuid "1b503bc9-ef67-45de-aaed-4319cbadc8f1")
-		)
-		(pin "5"
-			(uuid "901ce982-f685-4467-a3a7-72818eeced24")
-		)
-		(instances
-			(project "Swadge-HW"
-				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Swadge_Parts:GND")
 		(at 238.76 -80.01 0)
 		(unit 1)
@@ -7271,83 +6671,6 @@
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
 					(reference "#PWR116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Swadge_Parts:GND")
-		(at 373.38 -34.29 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b0c4b47b-f7ae-4d66-b619-e92865675556")
-		(property "Reference" "#PWR53"
-			(at 367.03 -34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 369.57 -34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 373.38 -34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 373.38 -34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 373.38 -34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "060eca61-cf8c-4418-b86c-43073be24614")
-		)
-		(instances
-			(project "Swadge-HW"
-				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "#PWR53")
 					(unit 1)
 				)
 			)
@@ -8590,7 +7913,7 @@
 	)
 	(sheet
 		(at 228.6 127)
-		(size 25.4 25.4)
+		(size 50.8 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8661,7 +7984,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -8692,6 +8014,16 @@
 				(justify left top)
 			)
 		)
+		(property "BUS" "SPI2, CS1"
+			(at 193.04 147.32 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3.3V" input
 			(at 177.8 129.54 180)
 			(uuid "78f09937-e9df-432c-ab6d-716944426e90")
@@ -8702,7 +8034,7 @@
 				(justify left)
 			)
 		)
-		(pin "COMM{COMM_BUS}" bidirectional
+		(pin "{COMM}" bidirectional
 			(at 177.8 137.16 180)
 			(uuid "291b11d6-bb47-4f9e-b4d2-e82e7c75c5cf")
 			(effects
@@ -8778,7 +8110,7 @@
 				(justify left)
 			)
 		)
-		(pin "COMM{COMM_BUS}" input
+		(pin "{COMM}" input
 			(at 254 58.42 180)
 			(uuid "bac5890f-8a72-4ce0-9a52-48238d4f87ad")
 			(effects
@@ -8823,7 +8155,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -8854,6 +8185,16 @@
 				(justify left top)
 			)
 		)
+		(property "BUS" "SPI2, CS0"
+			(at 91.44 147.32 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3.3V" input
 			(at 76.2 129.54 180)
 			(uuid "0627fc83-2837-410b-bb53-8c9dddc4ac01")
@@ -8864,7 +8205,7 @@
 				(justify left)
 			)
 		)
-		(pin "COMM{COMM_BUS}" bidirectional
+		(pin "{COMM}" bidirectional
 			(at 76.2 137.16 180)
 			(uuid "8ff112fb-18e7-417f-b5c0-f5903294f8a5")
 			(effects
@@ -8884,7 +8225,7 @@
 				(justify left)
 			)
 		)
-		(pin "PERF{PERF_BUS}" input
+		(pin "{PERIPHERAL}" input
 			(at 76.2 142.24 180)
 			(uuid "e94eac1b-ea71-4066-af58-c8184c2f4c75")
 			(effects
@@ -8950,7 +8291,7 @@
 				(justify left)
 			)
 		)
-		(pin "PERF{PERF_BUS}" input
+		(pin "{PERIPHERAL}" input
 			(at 25.4 139.7 180)
 			(uuid "8900ce9d-6aec-4850-a944-ab238333f948")
 			(effects
@@ -8985,7 +8326,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -9016,6 +8356,16 @@
 				(justify left top)
 			)
 		)
+		(property "I2C Address" "0x6B"
+			(at 101.6 63.5 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3.3V" output
 			(at 127 53.34 0)
 			(uuid "45bda4ac-c930-48e8-bb77-9e07dd5084b7")
@@ -9026,7 +8376,7 @@
 				(justify right)
 			)
 		)
-		(pin "COMM{COMM_BUS}" bidirectional
+		(pin "{COMM}" bidirectional
 			(at 76.2 60.96 180)
 			(uuid "7fd1ea1d-614b-4cba-afd6-978fa00f30e9")
 			(effects
@@ -9046,7 +8396,7 @@
 				(justify left)
 			)
 		)
-		(pin "PERF{PERF_BUS}" bidirectional
+		(pin "{PERIPHERAL}" bidirectional
 			(at 76.2 66.04 180)
 			(uuid "2f7b4adf-9cc5-4496-ac05-90ab5a067015")
 			(effects
@@ -9122,14 +8472,14 @@
 				(justify right)
 			)
 		)
-		(pin "COMM{COMM_BUS}" bidirectional
-			(at 25.4 60.96 180)
+		(pin "{COMM}" bidirectional
+			(at 50.8 60.96 0)
 			(uuid "3584454a-1e46-47bf-a664-9392e3e0332f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "GND" passive
@@ -9157,7 +8507,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -9188,6 +8537,16 @@
 				(justify left top)
 			)
 		)
+		(property "I2C Address" "0x6A"
+			(at 139.7 144.78 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3.3V" input
 			(at 127 129.54 180)
 			(uuid "f00643ec-cadd-4da5-9b49-bbdda7701a50")
@@ -9198,7 +8557,7 @@
 				(justify left)
 			)
 		)
-		(pin "COMM{COMM_BUS}" bidirectional
+		(pin "{COMM}" bidirectional
 			(at 127 137.16 180)
 			(uuid "1e57b15c-42b7-43c0-83e2-3663aabb6a14")
 			(effects
@@ -9294,7 +8653,7 @@
 				(justify right)
 			)
 		)
-		(pin "COMM{COMM_BUS}" bidirectional
+		(pin "{COMM}" bidirectional
 			(at 203.2 58.42 0)
 			(uuid "4489fcaf-9338-4b9e-b6f3-f76acad71877")
 			(effects
@@ -9304,7 +8663,7 @@
 				(justify right)
 			)
 		)
-		(pin "PERF{PERF_BUS}" bidirectional
+		(pin "{PERIPHERAL}" bidirectional
 			(at 203.2 68.58 0)
 			(uuid "ac936ccb-2e3e-4784-8f72-df078a1f8e8e")
 			(effects

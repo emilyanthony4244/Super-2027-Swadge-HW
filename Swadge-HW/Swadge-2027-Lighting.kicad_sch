@@ -1929,7 +1929,7 @@
 		)
 		(uuid "4d6deae8-2d2b-4498-9b3c-e87f1a814739")
 	)
-	(label "COMM.LED"
+	(label "LED"
 		(at 45.72 66.04 0)
 		(effects
 			(font
@@ -1989,7 +1989,7 @@
 		)
 		(uuid "d5859770-d8e4-4bd0-857a-024219a33f31")
 	)
-	(hierarchical_label "COMM{LED}"
+	(hierarchical_label "{COMM}"
 		(shape input)
 		(at 40.64 63.5 180)
 		(effects

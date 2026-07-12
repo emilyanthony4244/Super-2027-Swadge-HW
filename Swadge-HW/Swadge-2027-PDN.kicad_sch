@@ -10,6 +10,657 @@
 		(company "Magfest Inc")
 	)
 	(lib_symbols
+		(symbol "C_6"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Swadge_Parts:C_0603_1608Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Digikey" ""
+				(at 3.175 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Substitutable" "Y"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 0.001 0.001)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Swadge_Parts:C_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_6_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_6_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Swadge_Parts:Battery"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Swadge_Parts:2460"
+				(at -7.62 11.43 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p28.pdf"
+				(at -11.43 17.78 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "BATT HOLDER AA 1 CELL PC PIN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Digikey" "36-2460-ND"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Substitutable" "Y"
+				(at 10.16 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Notes" "Use through-hole AA Battery Holder in Style of Keystone 2460. Two fins hold batteries, not four fins."
+				(at -10.16 11.43 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Swadge_Parts:BCAAPC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Battery_0_1"
+				(rectangle
+					(start -2.032 1.778)
+					(end 2.032 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -1.397)
+					(end 2.032 -1.651)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.3208 1.1938)
+					(end 1.27 0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.3208 -1.9812)
+					(end 1.27 -2.4892)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.524) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.667) (xy 1.27 2.667)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.175) (xy 0.762 2.159)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Swadge_Parts:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Swadge_Parts:L_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Substitutable" "Y"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Swadge_Parts:R_US"
 			(pin_numbers
 				(hide yes)
@@ -515,36 +1166,297 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sao:XB7608AJ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 10.16 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XB7608AJ"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2681921.pdf"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2681921"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Cost @ 2.5k" "0.0685"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Link" "https://www.lcsc.com/product-detail/C2681921.html"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "XB7608AJ_0_0"
+				(pin power_in line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "BATT_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "BATT_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "XB7608AJ_1_1"
+				(rectangle
+					(start -12.7 7.62)
+					(end 12.7 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "TBD - Power Switch Controlling full current flow or just forcing system to deep sleep"
+		(exclude_from_sim no)
+		(at 170.18 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "51d98075-0e1f-40b8-864f-1a157912e437")
+	)
+	(text "VMON = VBATT * 0.18868"
+		(exclude_from_sim no)
+		(at 63.5 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ff2a58cc-9775-4005-8c7d-4a3899122c8f")
 	)
 	(junction
-		(at 144.78 73.66)
+		(at 213.36 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "23022c3a-789f-43ab-b544-f116a55a99fb")
+		(uuid "10682813-ce67-453f-9300-7e23de5c9704")
 	)
 	(junction
-		(at 93.98 91.44)
+		(at 144.78 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "68cd6d18-3240-47e1-899f-567c25fdd9d7")
+		(uuid "1e8f422e-72ab-488a-a058-68318a6f29c8")
 	)
 	(junction
-		(at 144.78 91.44)
+		(at 228.6 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a4e1cb29-2706-4c0a-86e5-662a95eadb0d")
+		(uuid "370fb684-b7a4-42e0-9ca9-49297c0495de")
 	)
-	(no_connect
-		(at 142.24 63.5)
-		(uuid "059715c2-6010-40dd-b0eb-6bebd9574591")
+	(junction
+		(at 68.58 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43e1a519-1fa4-4304-a5fe-1558f9ace2e1")
 	)
-	(no_connect
-		(at 142.24 60.96)
-		(uuid "8b48e713-2713-4250-8777-a72007d752c5")
+	(junction
+		(at 88.9 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c6a5cde-5ffd-4a63-ad86-c1375dcfac7d")
 	)
-	(no_connect
-		(at 142.24 66.04)
-		(uuid "fe37ab56-cb82-45d9-83d0-d5e725694ee4")
+	(junction
+		(at 76.2 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "628eb613-2858-44bb-b217-1e9fed5f57cc")
+	)
+	(junction
+		(at 144.78 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "661c7b02-f7bd-4c88-97f3-96b5004ec3d3")
+	)
+	(junction
+		(at 88.9 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67b14bce-87b6-434d-9b98-01851e4b086f")
+	)
+	(junction
+		(at 96.52 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c371172-eea2-4e5c-87cc-328270892aef")
+	)
+	(junction
+		(at 251.46 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "905e90b0-8603-4fb8-864f-2a2922515525")
+	)
+	(junction
+		(at 228.6 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "951213a3-92ca-4a52-9efb-90060c27b218")
+	)
+	(junction
+		(at 116.84 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd5ac1ae-1ee5-4568-863b-320691deae8d")
 	)
 	(bus_entry
 		(at 78.74 55.88)
@@ -556,6 +1468,15 @@
 		(uuid "0f1bfa20-7812-4786-a4c7-03dfea816897")
 	)
 	(bus_entry
+		(at 152.4 66.04)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66adc2ef-1a49-4030-af7f-cf21ee24f32c")
+	)
+	(bus_entry
 		(at 78.74 58.42)
 		(size 2.54 2.54)
 		(stroke
@@ -563,6 +1484,24 @@
 			(type default)
 		)
 		(uuid "928301d7-b2fa-4696-93c1-0ebfe334b3bc")
+	)
+	(bus_entry
+		(at 152.4 63.5)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b947ec-f684-4b66-988b-70672f8be752")
+	)
+	(bus_entry
+		(at 152.4 68.58)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e655e048-72e7-4904-9416-f49255ea7ba6")
 	)
 	(bus_entry
 		(at 78.74 88.9)
@@ -575,7 +1514,47 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 73.66) (xy 93.98 71.12)
+			(xy 251.46 60.96) (xy 251.46 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04e5f126-be0a-4d73-999e-ad6f7ad833d1")
+	)
+	(wire
+		(pts
+			(xy 213.36 73.66) (xy 213.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05df1c91-d41e-41b6-ad00-2f9502ac6054")
+	)
+	(wire
+		(pts
+			(xy 243.84 55.88) (xy 251.46 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07be3efa-c089-430a-889e-abcf1595b2a8")
+	)
+	(wire
+		(pts
+			(xy 251.46 93.98) (xy 251.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f1e02c-0006-4470-8767-c3b04d4f1d1e")
+	)
+	(wire
+		(pts
+			(xy 88.9 81.28) (xy 88.9 71.12)
 		)
 		(stroke
 			(width 0)
@@ -595,13 +1574,23 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 71.12) (xy 101.6 71.12)
+			(xy 88.9 71.12) (xy 96.52 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0a9d74d6-63cf-4357-b636-ad7e63de2561")
+	)
+	(wire
+		(pts
+			(xy 109.22 149.86) (xy 116.84 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b0a18b2-139b-450c-96bd-cc53a58dc9e1")
 	)
 	(wire
 		(pts
@@ -615,7 +1604,77 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 111.76) (xy 144.78 91.44)
+			(xy 78.74 149.86) (xy 76.2 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "101581f0-a437-41a5-948b-d328c6653515")
+	)
+	(wire
+		(pts
+			(xy 66.04 147.32) (xy 76.2 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "123e2a17-4fb2-4114-bdd6-13d7eb180a55")
+	)
+	(wire
+		(pts
+			(xy 228.6 68.58) (xy 228.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1718cdc3-cceb-402a-a9cb-73ebbace6651")
+	)
+	(wire
+		(pts
+			(xy 213.36 93.98) (xy 228.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e552c5c-3eaf-4566-9f1f-c76ba90c6cc4")
+	)
+	(wire
+		(pts
+			(xy 88.9 111.76) (xy 144.78 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc0b01c-6ccf-43b4-9f1d-b3f5c4281a55")
+	)
+	(wire
+		(pts
+			(xy 116.84 149.86) (xy 144.78 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258f6845-abcd-43ee-bc50-f7542c1cf957")
+	)
+	(wire
+		(pts
+			(xy 144.78 93.98) (xy 144.78 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b424d6-85a2-4101-b520-632f2aab93e5")
+	)
+	(wire
+		(pts
+			(xy 144.78 73.66) (xy 144.78 93.98)
 		)
 		(stroke
 			(width 0)
@@ -635,7 +1694,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 66.04) (xy 142.24 66.04)
+			(xy 68.58 127) (xy 68.58 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c851abf-b555-41cd-8866-d88064c8d956")
+	)
+	(wire
+		(pts
+			(xy 127 66.04) (xy 149.86 66.04)
 		)
 		(stroke
 			(width 0)
@@ -645,23 +1714,23 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 91.44) (xy 93.98 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31ae88b6-cfbe-42f6-bd61-f9f5d9aa4bff")
-	)
-	(wire
-		(pts
-			(xy 228.6 55.88) (xy 248.92 55.88)
+			(xy 203.2 55.88) (xy 228.6 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "336800bd-3ffc-4f3b-b4b5-7d38b689103c")
+	)
+	(wire
+		(pts
+			(xy 88.9 91.44) (xy 88.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3809aa2e-3b07-4473-81fb-728724cbc997")
 	)
 	(wire
 		(pts
@@ -675,17 +1744,27 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 81.28) (xy 93.98 91.44)
+			(xy 88.9 101.6) (xy 88.9 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ca8475e-0e26-49f9-b817-9c9c66235613")
+		(uuid "3a73c8e3-bc7d-440d-acfc-6345196e5d40")
 	)
 	(wire
 		(pts
-			(xy 127 60.96) (xy 142.24 60.96)
+			(xy 96.52 71.12) (xy 96.52 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4332b0ed-fbf7-4d7e-a91d-9282e5cd5e77")
+	)
+	(wire
+		(pts
+			(xy 127 60.96) (xy 149.86 60.96)
 		)
 		(stroke
 			(width 0)
@@ -695,13 +1774,23 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 73.66) (xy 203.2 73.66)
+			(xy 76.2 147.32) (xy 76.2 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "518d8fa6-e403-408b-9a49-c6488d0646f5")
+		(uuid "5764bf1d-4dd1-4540-9570-f2ce6c11209e")
+	)
+	(wire
+		(pts
+			(xy 76.2 147.32) (xy 78.74 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a73be80-b057-4326-a25e-114158a2b0df")
 	)
 	(bus
 		(pts
@@ -712,6 +1801,26 @@
 			(type default)
 		)
 		(uuid "5dffcd91-b508-4746-b218-ccabdf85580a")
+	)
+	(wire
+		(pts
+			(xy 116.84 147.32) (xy 109.22 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6220230d-703d-4352-816b-b4d53cd63295")
+	)
+	(wire
+		(pts
+			(xy 144.78 149.86) (xy 144.78 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62368ced-e3b6-4ee3-8caa-7212aebdcc28")
 	)
 	(bus
 		(pts
@@ -725,13 +1834,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 91.44) (xy 144.78 73.66)
+			(xy 96.52 71.12) (xy 101.6 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "691bf8be-c28b-49aa-8969-de0d46e12390")
+		(uuid "6b5f3195-c97a-46bd-9034-dd1eda588412")
 	)
 	(bus
 		(pts
@@ -745,13 +1854,33 @@
 	)
 	(wire
 		(pts
-			(xy 127 63.5) (xy 142.24 63.5)
+			(xy 127 63.5) (xy 149.86 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7820078f-e3ee-40d9-a633-ffcc676c5c23")
+	)
+	(wire
+		(pts
+			(xy 88.9 88.9) (xy 88.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a297738-c96e-4c55-b739-80bb510c09b6")
+	)
+	(wire
+		(pts
+			(xy 236.22 55.88) (xy 228.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c44b6a8-b5e5-42f8-9dc9-92b1697b804a")
 	)
 	(wire
 		(pts
@@ -765,6 +1894,26 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 93.98) (xy 251.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b7989b6-a5a3-459a-9ff9-e1124c29c564")
+	)
+	(wire
+		(pts
+			(xy 251.46 55.88) (xy 271.78 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5c2d86-daa9-4433-be42-c4839a460d03")
+	)
+	(wire
+		(pts
 			(xy 127 73.66) (xy 144.78 73.66)
 		)
 		(stroke
@@ -772,16 +1921,6 @@
 			(type default)
 		)
 		(uuid "91832eb5-9bbb-43b7-bddf-911f59f652e4")
-	)
-	(wire
-		(pts
-			(xy 93.98 91.44) (xy 97.79 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2cc3c75-2861-441a-be70-ee37992adf69")
 	)
 	(bus
 		(pts
@@ -792,6 +1931,26 @@
 			(type default)
 		)
 		(uuid "a99b240c-5bef-40ab-8e8c-92119ab3217e")
+	)
+	(bus
+		(pts
+			(xy 152.4 63.5) (xy 152.4 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adcb2026-899d-4e2e-a0f6-8b066e6bfb57")
+	)
+	(wire
+		(pts
+			(xy 228.6 55.88) (xy 228.6 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb72df42-10e8-40fc-97de-1e02fe127d3e")
 	)
 	(wire
 		(pts
@@ -805,7 +1964,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 111.76) (xy 144.78 111.76)
+			(xy 81.28 91.44) (xy 88.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c012267b-3009-4d3a-8d93-1c7147901960")
+	)
+	(wire
+		(pts
+			(xy 50.8 111.76) (xy 88.9 111.76)
 		)
 		(stroke
 			(width 0)
@@ -813,9 +1982,39 @@
 		)
 		(uuid "c29b5e9e-70d3-4d99-902f-2542075ba5be")
 	)
+	(bus
+		(pts
+			(xy 157.48 73.66) (xy 152.4 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a3b607-0736-42ec-a482-1f42dd79bd63")
+	)
 	(wire
 		(pts
-			(xy 127 55.88) (xy 203.2 55.88)
+			(xy 66.04 139.7) (xy 68.58 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4912afc-87a8-4ba4-8a86-215d24bc1737")
+	)
+	(wire
+		(pts
+			(xy 203.2 73.66) (xy 213.36 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d86367d1-ab17-4bc0-9386-02f621211398")
+	)
+	(wire
+		(pts
+			(xy 127 55.88) (xy 177.8 55.88)
 		)
 		(stroke
 			(width 0)
@@ -825,15 +2024,45 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 91.44) (xy 144.78 91.44)
+			(xy 78.74 139.7) (xy 68.58 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f788b563-4dd3-4497-86ba-bd9ff57df097")
+		(uuid "df9e2420-eb85-4a4b-a525-c33f6ac5d1d2")
 	)
-	(label "COMM.I2C_SCL"
+	(wire
+		(pts
+			(xy 96.52 127) (xy 68.58 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a31177-fa7e-465e-a6c6-c9e51d46d11b")
+	)
+	(wire
+		(pts
+			(xy 144.78 93.98) (xy 213.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe39e75-c6d1-48d8-900a-0f05b2ba81ad")
+	)
+	(wire
+		(pts
+			(xy 116.84 147.32) (xy 116.84 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8294d1f-8c4b-4e0c-9dcb-188c6027ef46")
+	)
+	(label "I2C_SCL"
 		(at 81.28 60.96 0)
 		(effects
 			(font
@@ -843,7 +2072,27 @@
 		)
 		(uuid "0338988c-e321-40d5-b837-9d8547293eef")
 	)
-	(label "PERF.VMON"
+	(label "GND"
+		(at 137.16 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e5e9427-c92a-46dc-bbb2-4b83a94d3b9c")
+	)
+	(label "BMS_STAT"
+		(at 149.86 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3ff39c07-40b5-45a3-8070-95c6f26b0d09")
+	)
+	(label "VMON"
 		(at 81.28 91.44 0)
 		(effects
 			(font
@@ -853,7 +2102,27 @@
 		)
 		(uuid "5b230486-7e86-4ca4-9217-d9d57406c158")
 	)
-	(label "COMM.I2C_SDA"
+	(label "BATT+"
+		(at 86.36 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70fbbced-3346-4635-a9ed-afbf257afaaa")
+	)
+	(label "BMS_PGOOD"
+		(at 149.86 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "887cdf7b-a1da-4d20-bb4b-2345bb31c03f")
+	)
+	(label "I2C_SDA"
 		(at 81.28 58.42 0)
 		(effects
 			(font
@@ -863,9 +2132,19 @@
 		)
 		(uuid "8dad7b22-bd7b-42c9-8244-ea60971cd495")
 	)
+	(label "BMS_INT"
+		(at 149.86 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a69004c5-302a-4a06-abcf-25bd33aef304")
+	)
 	(hierarchical_label "3.3V"
 		(shape output)
-		(at 248.92 55.88 0)
+		(at 271.78 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -896,7 +2175,18 @@
 		)
 		(uuid "80b26857-83fe-4ca4-8a6f-5e687898f7b6")
 	)
-	(hierarchical_label "PERF{PERF_BUS}"
+	(hierarchical_label "{INTERUPTS}"
+		(shape output)
+		(at 157.48 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d5fd024-73cb-4938-8a8f-6caabfc2596a")
+	)
+	(hierarchical_label "{PERIPHERAL}"
 		(shape bidirectional)
 		(at 53.34 83.82 180)
 		(effects
@@ -907,7 +2197,7 @@
 		)
 		(uuid "9e4b73b0-bd79-4a9b-a3df-265ae284a011")
 	)
-	(hierarchical_label "COMM{COMM_BUS}"
+	(hierarchical_label "{COMM}"
 		(shape bidirectional)
 		(at 53.34 50.8 180)
 		(effects
@@ -919,8 +2209,130 @@
 		(uuid "b9532532-f6e4-46cd-bb7c-521b8972defc")
 	)
 	(symbol
+		(lib_id "sao:XB7608AJ")
+		(at 93.98 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bf840ef-609e-428a-9f3d-7fb0aafb6e05")
+		(property "Reference" "U11"
+			(at 93.98 133.1425 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XB7608AJ"
+			(at 93.98 135.5668 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sao:CPC-5_2.6mmx4mm_P0.53mm"
+			(at 93.98 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2681921.pdf"
+			(at 93.98 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2681921"
+			(at 93.98 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost @ 2.5k" "0.0685"
+			(at 93.98 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C2681921.html"
+			(at 93.98 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7d5c4aa4-e333-443c-be81-da4a12fc2afa")
+		)
+		(pin "5"
+			(uuid "ece9ef1d-3425-4a4e-af9c-60f70aab6d71")
+		)
+		(pin "3"
+			(uuid "c6ea5732-163b-46d8-83ca-536e11f6d693")
+		)
+		(pin "4"
+			(uuid "b9656d47-6c75-4bfb-8632-771194dec00e")
+		)
+		(pin "1"
+			(uuid "536bde9a-15ee-43fa-aa38-093a0db572d0")
+		)
+		(instances
+			(project "Swadge-HW"
+				(path "/770c762f-3a30-4864-b7da-de353459cdd6/83e4033f-0c15-4157-a463-52f03cd15801"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Swadge_Parts:R_US")
-		(at 93.98 77.47 180)
+		(at 88.9 85.09 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -930,7 +2342,7 @@
 		(dnp no)
 		(uuid "5fd5adfd-67af-4a83-981d-f8ea2dfb58a8")
 		(property "Reference" "R21"
-			(at 97.028 78.232 0)
+			(at 91.948 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -940,7 +2352,7 @@
 			)
 		)
 		(property "Value" "43kΩ"
-			(at 97.79 76.2 0)
+			(at 92.71 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -950,7 +2362,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
-			(at 92.964 77.216 90)
+			(at 87.884 84.836 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -961,7 +2373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 77.47 90)
+			(at 86.36 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -972,7 +2384,7 @@
 			)
 		)
 		(property "Description" "Resistor US symbol"
-			(at 93.98 77.47 0)
+			(at 88.9 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -983,7 +2395,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 88.9 80.01 90)
+			(at 83.82 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -994,7 +2406,7 @@
 			)
 		)
 		(property "Cost100" "10"
-			(at 93.98 77.47 0)
+			(at 88.9 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1005,7 +2417,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 93.98 77.47 0)
+			(at 88.9 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1016,7 +2428,7 @@
 			)
 		)
 		(property "LCSC" "C23172"
-			(at 93.98 77.47 0)
+			(at 88.9 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1027,7 +2439,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0008"
-			(at 93.98 77.47 0)
+			(at 88.9 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1053,8 +2465,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Swadge_Parts:R_US")
-		(at 101.6 91.44 90)
+		(lib_id "Swadge_Parts:L")
+		(at 240.03 55.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1062,9 +2474,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fd2a8685-7afb-4030-acd8-c257fc1ffd59")
-		(property "Reference" "R22"
-			(at 101.6 88.9 90)
+		(uuid "997ee5e0-16aa-444f-adfd-3335ccf4c89e")
+		(property "Reference" "L5"
+			(at 240.03 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1073,8 +2485,8 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
-			(at 101.6 93.98 90)
+		(property "Value" "2.2uH"
+			(at 240.03 57.785 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1083,8 +2495,259 @@
 				)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
-			(at 101.854 90.424 90)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 240.03 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 240.03 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C216158"
+			(at 240.03 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost100" "0.019"
+			(at 240.03 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutable" "Y"
+			(at 240.03 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "~"
+			(at 240.03 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost @ 2.5k" "0.0331"
+			(at 240.03 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29f9357e-cc19-43c5-a70f-3e512547e043")
+		)
+		(pin "2"
+			(uuid "d725c637-f70f-49d8-835f-7f2cc97c1c94")
+		)
+		(instances
+			(project "Swadge-HW"
+				(path "/770c762f-3a30-4864-b7da-de353459cdd6/83e4033f-0c15-4157-a463-52f03cd15801"
+					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:Battery")
+		(at 35.56 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ca3c92a-5f5a-4c2a-8141-eaf9054bbc2d")
+		(property "Reference" "BT1"
+			(at 38.227 153.6939 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 38.227 156.1182 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Swadge_Parts:2460"
+			(at 38.227 158.5425 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p28.pdf"
+			(at 38.227 160.9668 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "BATT HOLDER AA 1 CELL PC PIN"
+			(at 38.227 163.3911 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Digikey" "36-2460-ND"
+			(at 38.227 165.8154 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Substitutable" "Y"
+			(at 38.227 168.2397 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Notes" "Use through-hole AA Battery Holder in Style of Keystone 2460. Two fins hold batteries, not four fins."
+			(at 38.227 170.664 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "d56dc02d-45f5-4aec-b61e-f368478b4144")
+		)
+		(pin "1"
+			(uuid "5df90688-ac1f-41ce-88c8-e9498dfe46aa")
+		)
+		(instances
+			(project "Swadge-HW"
+				(path "/770c762f-3a30-4864-b7da-de353459cdd6/83e4033f-0c15-4157-a463-52f03cd15801"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_6")
+		(lib_id "Swadge_Parts:C")
+		(at 228.6 64.77 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac4ace1d-c0d4-4524-8d3a-07f26e6bf7e2")
+		(property "Reference" "C24"
+			(at 226.06 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47nF"
+			(at 225.552 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 227.6348 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1095,7 +2758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 88.9 90)
+			(at 228.6 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1105,8 +2768,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor US symbol"
-			(at 101.6 91.44 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 228.6 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1117,7 +2780,233 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 99.06 86.36 90)
+			(at 225.425 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutable" "Y"
+			(at 228.6 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.001 0.001)
+				)
+			)
+		)
+		(property "LCSC" "C107093"
+			(at 228.6 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ce75c2a-9936-4a11-a4e0-79d321205524")
+		)
+		(pin "2"
+			(uuid "7970ee47-b424-4eda-8ce9-56dedd52e5c0")
+		)
+		(instances
+			(project "Swadge-HW"
+				(path "/770c762f-3a30-4864-b7da-de353459cdd6/83e4033f-0c15-4157-a463-52f03cd15801"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_6")
+		(lib_id "Swadge_Parts:C")
+		(at 251.46 64.77 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d161b269-0d8e-4d7f-aa9d-b28288500eae")
+		(property "Reference" "C37"
+			(at 248.92 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47nF"
+			(at 248.412 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 250.4948 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 251.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 248.285 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutable" "Y"
+			(at 251.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.001 0.001)
+				)
+			)
+		)
+		(property "LCSC" "C107093"
+			(at 251.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a531788-ff13-4def-832d-b58f521c5b56")
+		)
+		(pin "2"
+			(uuid "938574de-9767-4c82-9e2e-df5b129a528d")
+		)
+		(instances
+			(project "Swadge-HW"
+				(path "/770c762f-3a30-4864-b7da-de353459cdd6/83e4033f-0c15-4157-a463-52f03cd15801"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:R_US")
+		(at 88.9 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd2a8685-7afb-4030-acd8-c257fc1ffd59")
+		(property "Reference" "R22"
+			(at 91.44 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 86.36 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
+			(at 89.916 98.044 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor US symbol"
+			(at 88.9 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 93.98 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1128,7 +3017,7 @@
 			)
 		)
 		(property "Cost100" "10"
-			(at 101.6 91.44 0)
+			(at 88.9 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1139,7 +3028,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 101.6 91.44 0)
+			(at 88.9 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1150,7 +3039,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 101.6 91.44 0)
+			(at 88.9 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1161,7 +3050,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0007"
-			(at 101.6 91.44 0)
+			(at 88.9 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1343,7 +3232,7 @@
 		)
 	)
 	(sheet
-		(at 203.2 50.8)
+		(at 177.8 50.8)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1359,7 +3248,7 @@
 		)
 		(uuid "7daa4ba5-96fd-461d-be98-18bf8494bf52")
 		(property "Sheetname" "3V3"
-			(at 203.2 50.0884 0)
+			(at 177.8 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1370,7 +3259,7 @@
 			)
 		)
 		(property "Sheetfile" "Swadge-2027-3V3.kicad_sch"
-			(at 203.2 76.7846 0)
+			(at 177.8 76.7846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1381,7 +3270,7 @@
 			)
 		)
 		(pin "3.3V" output
-			(at 228.6 55.88 0)
+			(at 203.2 55.88 0)
 			(uuid "4ef95fb7-7129-4224-9273-aa77d275f235")
 			(effects
 				(font
@@ -1391,17 +3280,17 @@
 			)
 		)
 		(pin "GND" passive
-			(at 203.2 73.66 180)
+			(at 203.2 73.66 0)
 			(uuid "437d4f68-7c28-4436-a28d-3936ddac79dc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VREG_IN" input
-			(at 203.2 55.88 180)
+			(at 177.8 55.88 180)
 			(uuid "ccd50728-401e-442b-9353-fd3f0bbcc280")
 			(effects
 				(font

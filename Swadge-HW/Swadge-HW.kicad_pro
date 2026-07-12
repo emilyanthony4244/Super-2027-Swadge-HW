@@ -734,6 +734,21 @@
       "sort_field": "Cost @ 2.5k"
     },
     "bus_aliases": {
+      "COMM": [
+        "USB_D+",
+        "USB_D-",
+        "I2C_SCL",
+        "I2C_SDA",
+        "TX",
+        "RX",
+        "FSPI_CLK",
+        "FSPI_Q",
+        "FSPI_D",
+        "FSPI_CS0",
+        "FSPI_CS1",
+        "FSPI_WP",
+        "FSPI_HD"
+      ],
       "COMM_BUS": [
         "USB_D+",
         "USB_D-",
@@ -753,7 +768,31 @@
         "I2C_SCL",
         "I2C_SDA"
       ],
+      "INTERUPTS": [
+        "RTC_INT",
+        "BMS_INT",
+        "BMS_PGOOD",
+        "BMS_STAT",
+        "IMU_INT1",
+        "IMU_INT2",
+        "CH32_TMR1",
+        "CH32_TMR2"
+      ],
       "PERF_BUS": [
+        "TFT_RESET",
+        "TFT_ATP",
+        "TFT_RS",
+        "SPK_SHDN",
+        "I2S_SDIN",
+        "I2S_LRCK",
+        "I2S_SDOUT",
+        "I2S_BCLK",
+        "I2S_MCLK",
+        "LED",
+        "SWIO",
+        "VMON"
+      ],
+      "PERIPHERAL": [
         "TFT_RESET",
         "TFT_ATP",
         "TFT_RS",
@@ -839,7 +878,7 @@
         "uuid": "770c762f-3a30-4864-b7da-de353459cdd6"
       }
     ],
-    "used_designators": "C1-8,C10-13,C16-17,C19,C21-38,D1,D10-19,L1-4,J4-7,R1,R4,R6-8,R10-18,R20-39,U1-7,U10-15,SW9-17,P2,#PWR1-8,#PWR10-12,#PWR49,#PWR51-52,#PWR56-57,#PWR63,#PWR67-68,#PWR70,#PWR73-75,#PWR98,#PWR102-103,#PWR110-111,#PWR114-115,Q1-2",
+    "used_designators": "C1-8,C10-13,C16-17,C19,C21-38,D1,D10-19,L1-5,J3-7,R1,R4,R6-8,R10-18,R20-39,U1-7,U10-15,SW9-17,P2,#PWR1-8,#PWR10-12,#PWR49,#PWR51-53,#PWR56-57,#PWR63,#PWR67-68,#PWR70,#PWR73-75,#PWR98,#PWR102-103,#PWR110-111,#PWR114-115,Q1-2,BT1",
     "variants": []
   },
   "sheets": [

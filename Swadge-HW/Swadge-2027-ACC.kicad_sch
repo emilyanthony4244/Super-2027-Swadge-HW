@@ -1223,6 +1223,34 @@
 		)
 		(uuid "3d112300-8eb4-41b8-8c7d-31b3e2e534bf")
 	)
+	(bus_entry
+		(at 93.98 96.52)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b292a54-8fe0-4a73-819e-8a46f6dd97f4")
+	)
+	(bus_entry
+		(at 93.98 99.06)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb88148-80d9-4963-84ac-7526f4ce904b")
+	)
+	(bus
+		(pts
+			(xy 86.36 86.36) (xy 93.98 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "090d2beb-0854-4fa2-a0e6-d2e23144d079")
+	)
 	(wire
 		(pts
 			(xy 147.32 110.49) (xy 149.86 110.49)
@@ -1295,7 +1323,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 99.06) (xy 193.04 99.06)
+			(xy 157.48 99.06) (xy 185.42 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1303,15 +1331,15 @@
 		)
 		(uuid "30521838-e55b-47d3-a0e5-1ac7da132ec6")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 111.76 101.6) (xy 137.16 101.6)
+			(xy 93.98 86.36) (xy 93.98 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "39a340c7-e757-4ca9-aab1-dd03d680ef2d")
+		(uuid "3368b424-be9c-4b6a-be98-e91db45fb44a")
 	)
 	(wire
 		(pts
@@ -1362,6 +1390,16 @@
 			(type default)
 		)
 		(uuid "695759a9-55f0-453e-b61f-c62721f48462")
+	)
+	(wire
+		(pts
+			(xy 96.52 99.06) (xy 111.76 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0e3c3f-32e7-4371-8da4-eee18db00dcc")
 	)
 	(wire
 		(pts
@@ -1495,6 +1533,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 101.6) (xy 137.16 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a57f50-b457-4c62-b4e5-d2835a47a5ea")
+	)
+	(wire
+		(pts
 			(xy 129.54 68.58) (xy 129.54 111.76)
 		)
 		(stroke
@@ -1623,7 +1671,7 @@
 		)
 		(uuid "ff652e7d-4663-4f06-bcf9-95ecfb789ac2")
 	)
-	(label "COMM.I2C_SDA"
+	(label "I2C_SDA"
 		(at 111.76 81.28 0)
 		(effects
 			(font
@@ -1633,7 +1681,7 @@
 		)
 		(uuid "1a1d0719-d5c6-4079-ac44-17e232ddd125")
 	)
-	(label "COMM.I2C_SCL"
+	(label "I2C_SCL"
 		(at 111.76 78.74 0)
 		(effects
 			(font
@@ -1643,25 +1691,46 @@
 		)
 		(uuid "472dff48-a79d-4dc6-a6f7-d2b502f5d5ba")
 	)
-	(label "ACC_INT2"
-		(at 193.04 99.06 180)
+	(label "IMU_INT2"
+		(at 111.76 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "bb41c8e0-61d5-4f43-b436-ba7bafee491d")
+		(uuid "71241e61-e035-4efa-a121-d8937f6273db")
 	)
-	(label "ACC_INT1"
-		(at 111.76 101.6 0)
+	(label "IMU_INT2"
+		(at 185.42 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "79e842f4-d1c9-434f-b1f2-f3a9d5bf09ee")
+	)
+	(label "IMU_INT1"
+		(at 96.52 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "eb6cd70d-7f9e-468a-a8cd-b699427908fe")
+		(uuid "db27528a-a3f0-44da-8d8d-3983f1fd3bd2")
+	)
+	(hierarchical_label "{INTERUPTS}"
+		(shape input)
+		(at 86.36 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a143c03-d94c-46c1-a212-9bcab8fea054")
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
@@ -1685,7 +1754,7 @@
 		)
 		(uuid "4550b37f-a1a3-421e-82f2-9e64daae5ed2")
 	)
-	(hierarchical_label "COMM{COMM_BUS}"
+	(hierarchical_label "{COMM}"
 		(shape bidirectional)
 		(at 104.14 76.2 180)
 		(effects
