@@ -8832,6 +8832,17 @@
 		)
 		(uuid "a4bfe5aa-4f93-4be8-8b5c-7912251ce163")
 	)
+	(hierarchical_label "{INTERUPTS}"
+		(shape bidirectional)
+		(at 33.02 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8a2f898-f1dd-43b2-bc3d-5c5beca6c8f9")
+	)
 	(hierarchical_label "IO{TOUCH_[1..12],BTN_[1..8]}"
 		(shape input)
 		(at 193.04 71.12 0)

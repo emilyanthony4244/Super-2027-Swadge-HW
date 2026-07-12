@@ -878,7 +878,7 @@
         "uuid": "770c762f-3a30-4864-b7da-de353459cdd6"
       }
     ],
-    "used_designators": "C1-8,C10-13,C16-17,C19,C21-38,D1,D10-19,L1-5,J3-7,R1,R4,R6-8,R10-18,R20-39,U1-7,U10-15,SW9-17,P2,#PWR1-8,#PWR10-12,#PWR49,#PWR51-53,#PWR56-57,#PWR63,#PWR67-68,#PWR70,#PWR73-75,#PWR98,#PWR102-103,#PWR110-111,#PWR114-115,Q1-2,BT1",
+    "used_designators": "C1-8,C10-13,C16-17,C19,C21-38,D1,D6,D10-19,L1-5,J3-7,R1,R4,R6-8,R10-18,R20-39,U1-7,U10-15,SW9-17,P2,#PWR1-8,#PWR10-12,#PWR49,#PWR51-53,#PWR56-57,#PWR63,#PWR67-68,#PWR70,#PWR73-75,#PWR98,#PWR102-103,#PWR110-111,#PWR114-115,Q1-2,BT1,Y1",
     "variants": []
   },
   "sheets": [
@@ -929,6 +929,10 @@
     [
       "83e4033f-0c15-4157-a463-52f03cd15801",
       "Power Distribution"
+    ],
+    [
+      "54e099cb-7928-419d-b785-f2359f257eb1",
+      "RTC"
     ]
   ],
   "text_variables": {},
