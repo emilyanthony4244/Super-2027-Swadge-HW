@@ -2022,6 +2022,17 @@
 				)
 			)
 		)
+		(property "Cost @ 2.5k" "0.1798"
+			(at 143.51 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "20"
 			(uuid "ebc2b247-3448-4f43-9ba2-d158b86abf5c")
 		)
@@ -2201,6 +2212,17 @@
 				)
 			)
 		)
+		(property "Cost @ 2.5k" "0.0121"
+			(at 66.04 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "779a5b7b-544f-4320-be33-115ab05ee950")
 		)
@@ -2325,7 +2347,7 @@
 				)
 			)
 		)
-		(property "Cost @ 2.5k" "0.0007"
+		(property "Cost @ 2.5k" "0.0023"
 			(at 246.38 85.09 0)
 			(hide yes)
 			(show_name no)

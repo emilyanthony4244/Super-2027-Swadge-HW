@@ -4771,7 +4771,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22790"
+		(property "LCSC" "C2906989"
 			(at 243.84 -92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4782,7 +4782,7 @@
 				)
 			)
 		)
-		(property "Cost @ 2.5k" "0.0008"
+		(property "Cost @ 2.5k" "0.0022"
 			(at 243.84 -92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5537,7 +5537,7 @@
 				)
 			)
 		)
-		(property "Cost @ 2.5k" "0.0079"
+		(property "Cost @ 2.5k" "0.0198"
 			(at 238.76 -83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6302,7 +6302,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23140"
+		(property "LCSC" "C108661"
 			(at 233.68 -92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6313,7 +6313,7 @@
 				)
 			)
 		)
-		(property "Cost @ 2.5k" "0.0008"
+		(property "Cost @ 2.5k" "0.0018"
 			(at 233.68 -92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7083,6 +7083,17 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0261"
+			(at 276.86 -52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutable" "N"
 			(at 276.86 -52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8314,7 +8325,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C29936"
 			(at 233.68 -62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8325,7 +8336,7 @@
 				)
 			)
 		)
-		(property "Cost @ 2.5k" "0.0035"
+		(property "Cost @ 2.5k" "0.0121"
 			(at 233.68 -62.23 0)
 			(hide yes)
 			(show_name no)

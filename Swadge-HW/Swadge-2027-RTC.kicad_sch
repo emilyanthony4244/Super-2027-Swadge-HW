@@ -1494,6 +1494,17 @@
 				)
 			)
 		)
+		(property "Cost @ 2.5k" "0.0837"
+			(at 127 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c8107935-c379-4cb8-9ca5-455720d49e20")
 		)
@@ -1724,6 +1735,17 @@
 			)
 		)
 		(property "LCSC Datasheet" "https://www.lcsc.com/datasheet/C42396735.pdf"
+			(at 144.78 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost @ 2.5k" "0.0771"
 			(at 144.78 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -1991,6 +2013,17 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0663"
+			(at 101.6 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutable" "Y"
 			(at 101.6 72.39 0)
 			(hide yes)
 			(show_name no)

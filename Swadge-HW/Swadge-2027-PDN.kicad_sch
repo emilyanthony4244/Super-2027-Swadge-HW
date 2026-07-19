@@ -3534,6 +3534,17 @@
 				)
 			)
 		)
+		(property "Cost @ 2.5k" "0.0071"
+			(at 228.6 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1ce75c2a-9936-4a11-a4e0-79d321205524")
 		)
@@ -3638,6 +3649,17 @@
 			)
 		)
 		(property "LCSC" "C107093"
+			(at 251.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost @ 2.5k" "0.0071"
 			(at 251.46 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4000,7 +4022,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C2906982"
 			(at 88.9 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4011,7 +4033,7 @@
 				)
 			)
 		)
-		(property "Cost @ 2.5k" "0.0007"
+		(property "Cost @ 2.5k" "0.0037"
 			(at 88.9 97.79 0)
 			(hide yes)
 			(show_name no)

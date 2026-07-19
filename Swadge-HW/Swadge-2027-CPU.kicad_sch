@@ -3022,8 +3022,8 @@
 		(uuid "018fcbaf-db1c-4bee-a2eb-7bdabe41022b")
 	)
 	(rectangle
-		(start 116.84 148.59)
-		(end 133.35 156.21)
+		(start 116.84 138.43)
+		(end 133.35 148.59)
 		(stroke
 			(width 0)
 			(type dash_dot_dot)
@@ -3069,17 +3069,6 @@
 			(type none)
 		)
 		(uuid "e2092b1e-43f6-4ab3-bb80-64eaa82ab9c5")
-	)
-	(text "TBD - Is this still true"
-		(exclude_from_sim no)
-		(at 124.46 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "483d5457-2a5a-4cac-994c-2c1b019ae755")
 	)
 	(text "I2C Pullups"
 		(exclude_from_sim no)
@@ -3137,9 +3126,9 @@
 		)
 		(uuid "d1f275ed-39f7-4179-9a54-6a9f411aef18")
 	)
-	(text "GPIO18 has an\ninternal 10K\npullup to 3.3V"
+	(text "Pin 22:\nGPIO18 has an\ninternal 10K\npullup to 3.3V"
 		(exclude_from_sim no)
-		(at 118.11 154.94 0)
+		(at 118.11 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6151,12 +6140,12 @@
 		(uuid "1531d804-366a-4d10-8511-447b576d346c")
 	)
 	(label "TFT_RESET"
-		(at 177.8 149.86 0)
+		(at 170.18 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "29c931d0-38b8-4c2f-8908-e20cc905d6b3")
 	)
@@ -6401,7 +6390,7 @@
 		(uuid "a27d450a-46f9-4707-962e-869f9347c043")
 	)
 	(label "FSPI_CS1"
-		(at 170.18 119.38 180)
+		(at 185.42 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7279,6 +7268,17 @@
 				)
 			)
 		)
+		(property "Cost @ 2.5k" "0.0121"
+			(at 76.2 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "133265f6-dd74-456a-b647-12849d4efe41")
 		)
@@ -7391,6 +7391,17 @@
 			)
 		)
 		(property "LCSC" "C14663"
+			(at 96.52 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost @ 2.5k" "0.0182"
 			(at 96.52 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7667,7 +7678,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C59461"
+		(property "LCSC" "C159801"
+			(at 86.36 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost @ 2.5k" "0.0198"
 			(at 86.36 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7800,6 +7822,17 @@
 				)
 			)
 		)
+		(property "Cost @ 2.5k" "0.0037"
+			(at 38.1 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0456ff3c-0350-4c0d-b1ac-4b6a725617b8")
 		)
@@ -7911,6 +7944,17 @@
 			)
 		)
 		(property "LCSC" "C2906982"
+			(at 76.2 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost @ 2.5k" "0.0037"
 			(at 76.2 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -8034,6 +8078,17 @@
 			)
 		)
 		(property "LCSC" "C2906982"
+			(at 27.94 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost @ 2.5k" "0.0037"
 			(at 27.94 24.13 0)
 			(hide yes)
 			(show_name no)

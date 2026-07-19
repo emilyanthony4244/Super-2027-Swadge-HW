@@ -1380,7 +1380,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C2906982"
 			(at 101.6 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1391,7 +1391,7 @@
 				)
 			)
 		)
-		(property "Cost @ 2.5k" "0.0007"
+		(property "Cost @ 2.5k" "0.0037"
 			(at 101.6 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1514,7 +1514,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C2906982"
 			(at 91.44 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1525,7 +1525,7 @@
 				)
 			)
 		)
-		(property "Cost @ 2.5k" "0.0007"
+		(property "Cost @ 2.5k" "0.0037"
 			(at 91.44 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1775,7 +1775,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C282519"
+		(property "LCSC" "C14663"
 			(at 170.18 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -1786,7 +1786,7 @@
 				)
 			)
 		)
-		(property "Cost @ 2.5k" "0.0015"
+		(property "Cost @ 2.5k" "0.0182"
 			(at 170.18 77.47 0)
 			(hide yes)
 			(show_name no)
