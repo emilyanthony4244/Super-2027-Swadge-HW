@@ -1415,7 +1415,7 @@
 		)
 		(uuid "4b95a6a2-5861-4bfd-9104-82629a4f4dc5")
 	)
-	(text "BQ24259 Switches at 1.2Mhz"
+	(text "BQ24259 Switches at 1.5Mhz\nDefault Vsys_min set at 3.5V\nVsys = Vbatt when Vbatt > Vsys_min"
 		(exclude_from_sim no)
 		(at 134.62 25.4 0)
 		(effects

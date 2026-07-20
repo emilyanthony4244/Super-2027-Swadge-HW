@@ -1613,6 +1613,26 @@
 		)
 		(uuid "51d98075-0e1f-40b8-864f-1a157912e437")
 	)
+	(text "This inductor needs to be smaller"
+		(exclude_from_sim no)
+		(at 241.3 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c0522f86-7215-49ac-af03-b66c3797e79d")
+	)
+	(text "Vsys is 3.5 to 4.2Vdc"
+		(exclude_from_sim no)
+		(at 149.86 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cc9334f8-6349-459e-845b-fa7e67c3d9c6")
+	)
 	(text "VMON = VBATT * 0.18868"
 		(exclude_from_sim no)
 		(at 63.5 88.9 0)

@@ -52,8 +52,8 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.25,
-          "corner_smoothing": 2,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -653,14 +653,14 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.3,
+        "clearance": 0.25,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Touch",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.16,
         "tuning_profile": "",
         "via_diameter": 0.5,
         "via_drill": 0.3
