@@ -6239,6 +6239,16 @@
 		)
 		(uuid "5ab985a6-e98a-484a-bdb9-4c8a50558243")
 	)
+	(label "{PERIPHERAL}"
+		(at 195.58 127 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "617031b7-22a6-4e75-8dd3-02dad0938b6f")
+	)
 	(label "I2S_BCLK"
 		(at 27.94 121.92 180)
 		(effects
