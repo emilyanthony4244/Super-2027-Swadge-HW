@@ -1625,7 +1625,7 @@
 	)
 	(text "Vsys is 3.5 to 4.2Vdc"
 		(exclude_from_sim no)
-		(at 149.86 52.07 0)
+		(at 128.27 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1682,6 +1682,18 @@
 		(uuid "1e8f422e-72ab-488a-a058-68318a6f29c8")
 	)
 	(junction
+		(at 251.46 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ccf6b1e-3f2b-4471-84b9-1f91c99b1944")
+	)
+	(junction
+		(at 262.89 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "308428ad-ad0c-4bb5-b2ec-16799b1c3834")
+	)
+	(junction
 		(at 27.94 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1704,6 +1716,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49aaaac5-f5ea-41f5-9c35-2e0237281055")
+	)
+	(junction
+		(at 251.46 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53333966-7ab5-41d3-ae8b-38f2105f922e")
 	)
 	(junction
 		(at 88.9 111.76)
@@ -1736,12 +1754,6 @@
 		(uuid "7cc19919-8656-4185-adda-d36bbd447ec7")
 	)
 	(junction
-		(at 251.46 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "905e90b0-8603-4fb8-864f-2a2922515525")
-	)
-	(junction
 		(at 228.6 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1754,24 +1766,8 @@
 		(uuid "dd5ac1ae-1ee5-4568-863b-320691deae8d")
 	)
 	(no_connect
-		(at 173.99 40.64)
-		(uuid "2886eae7-9a0d-4ddf-9430-1b36e4962010")
-	)
-	(no_connect
-		(at 167.64 27.94)
-		(uuid "89d638e3-2402-4732-b52f-557dafe66e1e")
-	)
-	(no_connect
-		(at 171.45 40.64)
-		(uuid "b2b6468c-a3c1-44c8-b4e2-33cf13f42109")
-	)
-	(no_connect
-		(at 177.8 30.48)
-		(uuid "b9caba1d-ec33-4345-8ba5-4080b07619c9")
-	)
-	(no_connect
-		(at 167.64 33.02)
-		(uuid "f3fc7bb4-1c1e-4c14-ac87-0a2669f54bb1")
+		(at 269.24 58.42)
+		(uuid "36a01193-3697-4955-8e5a-e946105e770e")
 	)
 	(bus_entry
 		(at 66.04 55.88)
@@ -1846,6 +1842,16 @@
 			(type default)
 		)
 		(uuid "04f3bc11-3ff0-466e-a765-9b3425c3c492")
+	)
+	(wire
+		(pts
+			(xy 127 55.88) (xy 177.8 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "055a91c6-c2cb-438a-9093-62d3f0374f12")
 	)
 	(wire
 		(pts
@@ -2059,6 +2065,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 55.88) (xy 259.08 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d10e8f0-9db7-4e18-8fb6-21cac17937cc")
+	)
+	(wire
+		(pts
 			(xy 127 66.04) (xy 149.86 66.04)
 		)
 		(stroke
@@ -2189,6 +2205,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 93.98) (xy 262.89 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f42913b-8dab-45ea-9c0a-ee81d1ba0fb4")
+	)
+	(wire
+		(pts
 			(xy 68.58 58.42) (xy 101.6 58.42)
 		)
 		(stroke
@@ -2259,6 +2285,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 66.04) (xy 262.89 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752f3c6b-5f95-4074-a1da-d431ca04d1dc")
+	)
+	(wire
+		(pts
 			(xy 127 63.5) (xy 149.86 63.5)
 		)
 		(stroke
@@ -2306,16 +2342,6 @@
 			(type default)
 		)
 		(uuid "8b7989b6-a5a3-459a-9ff9-e1124c29c564")
-	)
-	(wire
-		(pts
-			(xy 251.46 55.88) (xy 271.78 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c5c2d86-daa9-4433-be42-c4839a460d03")
 	)
 	(wire
 		(pts
@@ -2469,16 +2495,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 55.88) (xy 177.8 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd4ab18d-7115-4b5c-bc93-9825bb545c32")
-	)
-	(wire
-		(pts
 			(xy 78.74 139.7) (xy 68.58 139.7)
 		)
 		(stroke
@@ -2486,6 +2502,16 @@
 			(type default)
 		)
 		(uuid "df9e2420-eb85-4a4b-a525-c33f6ac5d1d2")
+	)
+	(wire
+		(pts
+			(xy 262.89 71.12) (xy 265.43 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0371089-1ef1-462b-80c9-34458fd55bb0")
 	)
 	(wire
 		(pts
@@ -2509,6 +2535,26 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 93.98) (xy 262.89 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec62bbe2-5c5d-4a7b-845f-d679f04ad083")
+	)
+	(wire
+		(pts
+			(xy 269.24 53.34) (xy 274.32 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edba7d61-d030-4e95-8989-5c3307514ee8")
+	)
+	(wire
+		(pts
 			(xy 144.78 93.98) (xy 213.36 93.98)
 		)
 		(stroke
@@ -2516,6 +2562,16 @@
 			(type default)
 		)
 		(uuid "efe39e75-c6d1-48d8-900a-0f05b2ba81ad")
+	)
+	(wire
+		(pts
+			(xy 265.43 66.04) (xy 265.43 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f363b567-a445-4ca3-aa8f-4d388401e959")
 	)
 	(wire
 		(pts
@@ -2556,6 +2612,16 @@
 			(justify left bottom)
 		)
 		(uuid "0e5e9427-c92a-46dc-bbb2-4b83a94d3b9c")
+	)
+	(label "VSYS"
+		(at 148.59 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19a7751e-61f9-4cb5-af84-0bcd16b05895")
 	)
 	(label "TEMP"
 		(at 91.44 68.58 0)
@@ -2617,6 +2683,16 @@
 		)
 		(uuid "887cdf7b-a1da-4d20-bb4b-2345bb31c03f")
 	)
+	(label "GND"
+		(at 255.27 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8be5539a-0fb5-4cfa-992a-5973552f3d1c")
+	)
 	(label "I2C_SDA"
 		(at 68.58 58.42 0)
 		(effects
@@ -2636,6 +2712,16 @@
 			(justify right bottom)
 		)
 		(uuid "a69004c5-302a-4a06-abcf-25bd33aef304")
+	)
+	(label "3.3V_F"
+		(at 247.65 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c512db4f-4dfb-4000-9b4a-5a30d56ab140")
 	)
 	(label "TEMP"
 		(at 38.1 137.16 180)
@@ -2669,7 +2755,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape output)
-		(at 271.78 55.88 0)
+		(at 274.32 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4081,8 +4167,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:SW_SPDT_1825232-1")
-		(at 172.72 30.48 0)
-		(mirror y)
+		(at 264.16 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4092,7 +4177,7 @@
 		(dnp no)
 		(uuid "fd37c5ea-6ceb-4eee-8cdd-45a9a9d63530")
 		(property "Reference" "SW9"
-			(at 172.72 24.13 0)
+			(at 264.16 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4102,7 +4187,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT_1825232-1"
-			(at 156.972 30.988 0)
+			(at 279.908 56.388 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4113,7 +4198,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:1825232-1"
-			(at 172.72 13.97 0)
+			(at 264.16 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4124,7 +4209,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_SHOU-HAN-SK12D07VG4_C393937.pdf"
-			(at 172.72 16.51 0)
+			(at 264.16 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4135,7 +4220,7 @@
 			)
 		)
 		(property "Description" "Slide Switch SPDT Through Hole, Right Angle"
-			(at 172.72 30.48 0)
+			(at 264.16 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4146,7 +4231,7 @@
 			)
 		)
 		(property "Digikey" "A107673-ND"
-			(at 172.72 19.05 0)
+			(at 264.16 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4157,7 +4242,7 @@
 			)
 		)
 		(property "Cost100" "45"
-			(at 172.72 11.43 0)
+			(at 264.16 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4168,7 +4253,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 172.72 30.48 0)
+			(at 264.16 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4179,7 +4264,7 @@
 			)
 		)
 		(property "Notes" "Use SPDT slide switch. Similar to 1825232-1"
-			(at 172.72 21.59 0)
+			(at 264.16 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4190,7 +4275,7 @@
 			)
 		)
 		(property "LCSC" "C393937"
-			(at 172.72 30.48 0)
+			(at 264.16 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4201,7 +4286,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0123"
-			(at 172.72 30.48 0)
+			(at 264.16 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
