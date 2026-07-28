@@ -461,7 +461,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Swadge_Parts:1x18650_Battery_Holder"
+		(symbol "Swadge_Parts:BH-18650-B"
 			(pin_names
 				(offset 0)
 			)
@@ -586,6 +586,17 @@
 					)
 				)
 			)
+			(property "ki_keywords" "18650 Single Cell Battery Holder"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_fp_filters" "Swadge_Parts:BCAAPC"
 				(at 0 0 0)
 				(show_name no)
@@ -597,56 +608,10 @@
 					)
 				)
 			)
-			(symbol "1x18650_Battery_Holder_0_1"
-				(rectangle
-					(start -2.032 0.508)
-					(end 2.032 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.3208 -0.0762)
-					(end 1.27 -0.5842)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "BH-18650-B_0_1"
 				(polyline
 					(pts
-						(xy 0 0.508) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.651) (xy 1.524 1.651)
+						(xy -2.159 1.016) (xy -1.143 1.016)
 					)
 					(stroke
 						(width 0.254)
@@ -658,10 +623,56 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 2.159) (xy 1.016 1.143)
+						(xy -1.651 0.508) (xy -1.651 1.524)
 					)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.508 -2.032)
+					(end -0.254 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.0762 -1.3208)
+					(end 0.5842 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -669,11 +680,11 @@
 					)
 				)
 			)
-			(symbol "1x18650_Battery_Holder_1_1"
+			(symbol "BH-18650-B_1_1"
 				(pin passive line
-					(at 0 5.08 270)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "+"
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -689,9 +700,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "-"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1403,7 +1414,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sao:XB7608AJ"
+		(symbol "Swadge_Parts:XB7608AJ"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1429,8 +1440,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Swadge_Parts:CPC-5_2.6mmx4mm_P0.53mm"
+				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1451,8 +1462,8 @@
 					)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "Battery Safety Isolator"
+				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1486,6 +1497,17 @@
 			)
 			(property "LCSC Link" "https://www.lcsc.com/product-detail/C2681921.html"
 				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Battery Protection Circuit"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1587,6 +1609,68 @@
 					)
 				)
 			)
+			(symbol "XB7608AJ_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -3.81) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
 			(symbol "XB7608AJ_1_1"
 				(rectangle
 					(start -12.7 7.62)
@@ -1597,6 +1681,14 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(text "Sys GND"
+					(at 7.62 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
@@ -2874,7 +2966,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sao:XB7608AJ")
+		(lib_id "Swadge_Parts:XB7608AJ")
 		(at 93.98 144.78 0)
 		(unit 1)
 		(body_style 1)
@@ -2906,7 +2998,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:CPC-5_2.6mmx4mm_P0.53mm"
-			(at 93.98 144.78 0)
+			(at 93.98 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2927,8 +3019,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 93.98 144.78 0)
+		(property "Description" "Battery Safety Isolator"
+			(at 93.98 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3399,8 +3491,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Swadge_Parts:1x18650_Battery_Holder")
-		(at 50.8 144.78 0)
+		(lib_id "Swadge_Parts:BH-18650-B")
+		(at 50.8 144.78 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3411,7 +3503,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ca3c92a-5f5a-4c2a-8141-eaf9054bbc2d")
 		(property "Reference" "BT1"
-			(at 53.467 143.5678 0)
+			(at 53.467 143.5678 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3422,7 +3514,7 @@
 			)
 		)
 		(property "Value" "Battery Holder"
-			(at 53.467 145.9921 0)
+			(at 53.467 145.9921 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3433,7 +3525,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:BH-18650-Bxxx002"
-			(at 53.467 140.7625 0)
+			(at 54.8175 147.447 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3445,7 +3537,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2988620.pdf"
-			(at 53.467 143.1868 0)
+			(at 52.3932 147.447 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3457,7 +3549,7 @@
 			)
 		)
 		(property "Description" "BATT HOLDER, 18650, 1 CELL SMD"
-			(at 53.467 145.6111 0)
+			(at 49.9689 147.447 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3469,7 +3561,7 @@
 			)
 		)
 		(property "Digikey" "36-1042P-ND"
-			(at 53.467 148.0354 0)
+			(at 47.5446 147.447 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3481,7 +3573,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 53.467 150.4597 0)
+			(at 45.1203 147.447 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3493,7 +3585,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 53.467 152.884 0)
+			(at 42.696 147.447 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3505,7 +3597,7 @@
 			)
 		)
 		(property "LCSC" "C2988620"
-			(at 58.42 152.4 0)
+			(at 43.18 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3516,7 +3608,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.9186"
-			(at 55.88 154.94 0)
+			(at 40.64 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

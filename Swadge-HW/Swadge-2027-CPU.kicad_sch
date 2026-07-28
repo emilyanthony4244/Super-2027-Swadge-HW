@@ -8591,11 +8591,9 @@
 		)
 		(pin "19"
 			(uuid "f10b8cb3-ce82-44d0-bd81-46d4175ee42b")
-			(alternate "GPIO15")
 		)
 		(pin "15"
 			(uuid "5f910deb-8b92-47ca-b417-43f31f04540e")
-			(alternate "TOUCH11")
 		)
 		(pin "64"
 			(uuid "ebbcd8b3-9c20-48e7-8729-c09703b07a36")
@@ -8611,7 +8609,6 @@
 		)
 		(pin "7"
 			(uuid "8daa3544-6090-4922-806a-404b3ce7a2e5")
-			(alternate "TOUCH3")
 		)
 		(pin "30"
 			(uuid "a5b24978-6a4f-4fa6-b04a-4c3352d8372d")
@@ -8621,33 +8618,27 @@
 		)
 		(pin "34"
 			(uuid "26f8e3e5-b047-43fd-87b4-9cadc61fad17")
-			(alternate "FSPIWP")
 		)
 		(pin "6"
 			(uuid "0d5d33c3-e430-4368-b0bf-1f44e10ecb20")
-			(alternate "TOUCH2")
 		)
 		(pin "1"
 			(uuid "6694aa5b-a06f-4ebf-8fb1-f8c4370f146a")
 		)
 		(pin "28"
 			(uuid "e979bc59-3090-48a4-994a-c02f0c043a13")
-			(alternate "FSPIHD")
 		)
 		(pin "54"
 			(uuid "b9301932-61af-48a3-bf7f-5e4c4bf5193c")
 		)
 		(pin "11"
 			(uuid "4b0f72a0-bdba-41f6-beb6-b0b29450fb58")
-			(alternate "TOUCH7")
 		)
 		(pin "20"
 			(uuid "a1066ac7-2ccd-4042-a386-d05c7b6e53fa")
-			(alternate "GPIO16")
 		)
 		(pin "38"
 			(uuid "cf445012-05a1-47cb-8834-062739bd6e82")
-			(alternate "GPIO42")
 		)
 		(pin "47"
 			(uuid "2c582548-9e57-4368-a7c4-c91bc4da465f")
@@ -8699,15 +8690,12 @@
 		)
 		(pin "5"
 			(uuid "7d4e64da-6810-46b3-bbf3-50c362f79bdb")
-			(alternate "TOUCH1")
 		)
 		(pin "8"
 			(uuid "b7bcb064-3b48-4208-88b9-36eeccd128ce")
-			(alternate "TOUCH4")
 		)
 		(pin "10"
 			(uuid "6b83dadc-1fd5-4762-a9be-df050930b8c0")
-			(alternate "TOUCH6")
 		)
 		(pin "55"
 			(uuid "13116490-16e8-4bdd-8bd2-f84cf8759ccc")
@@ -8717,37 +8705,30 @@
 		)
 		(pin "9"
 			(uuid "77547516-26fa-4ce1-863e-c9bdf42a9036")
-			(alternate "TOUCH5")
 		)
 		(pin "12"
 			(uuid "cb85e41c-39d7-4b3d-8fdd-213148fff1c4")
-			(alternate "TOUCH8")
 		)
 		(pin "13"
 			(uuid "ca71fa92-770e-4fc8-b982-bb422c7618ed")
-			(alternate "TOUCH9")
 		)
 		(pin "52"
 			(uuid "47e3f796-e343-4506-b3c9-7d91bb76faa0")
 		)
 		(pin "14"
 			(uuid "585837b3-d826-4f37-a04c-deaf341fd744")
-			(alternate "TOUCH10")
 		)
 		(pin "3"
 			(uuid "fbce7ac9-17a9-456c-9812-67815d63ce55")
 		)
 		(pin "16"
 			(uuid "9eac0e67-2dff-4bf8-a45e-6cf5148a215f")
-			(alternate "TOUCH12")
 		)
 		(pin "18"
 			(uuid "346a5a6e-f28e-4b9b-93be-4d26f6cf0911")
-			(alternate "ADC2_CH3")
 		)
 		(pin "17"
 			(uuid "c49b607a-4355-4048-b6c3-79ee25ce5636")
-			(alternate "ADC2_CH2")
 		)
 		(pin "44"
 			(uuid "83f386b9-83e2-4697-b74a-9bc7af803de0")
@@ -8769,31 +8750,24 @@
 		)
 		(pin "29"
 			(uuid "c8b9bbfd-2f65-4cb6-8450-75676dee78ca")
-			(alternate "FSPICS0")
 		)
 		(pin "31"
 			(uuid "59700a1a-2497-4c7d-9c55-227a9a202295")
-			(alternate "FSPID")
 		)
 		(pin "32"
 			(uuid "5efdcd1d-5535-4764-a671-0c7399cb2cd7")
-			(alternate "FSPICLK")
 		)
 		(pin "33"
 			(uuid "7b1d25c9-3533-419b-bec0-82f42b7c5a25")
-			(alternate "FSPIQ")
 		)
 		(pin "35"
 			(uuid "fbff95fd-fd03-4506-a2c6-b20377c2f152")
-			(alternate "GPIO39")
 		)
 		(pin "36"
 			(uuid "faf90010-0aae-4217-88aa-0d9028a6fdf7")
-			(alternate "GPIO40")
 		)
 		(pin "37"
 			(uuid "a42f1f79-1742-4f4e-909e-a78f415256cc")
-			(alternate "GPIO41")
 		)
 		(pin "39"
 			(uuid "f608149e-0575-4959-9ca6-cd87fdaba190")
