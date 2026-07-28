@@ -954,16 +954,8 @@
 		(uuid "955515d3-b9b8-42d4-9c2c-5a0b31013ae2")
 	)
 	(no_connect
-		(at 215.9 114.3)
-		(uuid "14bb1113-80a9-453e-8f29-e01a890b165c")
-	)
-	(no_connect
 		(at 96.52 101.6)
 		(uuid "330d28fc-e768-4cf5-9b87-f36bd1f56ef8")
-	)
-	(no_connect
-		(at 58.42 76.2)
-		(uuid "40125569-499c-448d-9b02-6e1d9b371288")
 	)
 	(no_connect
 		(at 96.52 93.98)
@@ -1015,6 +1007,15 @@
 		(uuid "312958e4-867f-4c60-8667-55a00fd4bb00")
 	)
 	(bus_entry
+		(at 251.46 116.84)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40fc5c3b-4532-423b-bc38-b4c5868b40da")
+	)
+	(bus_entry
 		(at 236.22 73.66)
 		(size -2.54 2.54)
 		(stroke
@@ -1024,7 +1025,16 @@
 		(uuid "5092fcff-d948-4a4a-992d-bc0f4bd01d0b")
 	)
 	(bus_entry
-		(at 251.46 123.19)
+		(at 251.46 127)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a0b2f59-1921-4d81-951b-5f8d5c9cc92e")
+	)
+	(bus_entry
+		(at 251.46 121.92)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1060,7 +1070,7 @@
 		(uuid "cca98956-2767-4cc5-b66e-354d23053a74")
 	)
 	(bus_entry
-		(at 251.46 127)
+		(at 251.46 124.46)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1123,6 +1133,16 @@
 		)
 		(uuid "010f3171-2738-4e3d-bc3d-aaeb02e306be")
 	)
+	(bus
+		(pts
+			(xy 251.46 105.41) (xy 251.46 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032da308-ca53-4c81-a65c-da652b3c8cde")
+	)
 	(wire
 		(pts
 			(xy 190.5 101.6) (xy 200.66 101.6)
@@ -1165,7 +1185,7 @@
 	)
 	(bus
 		(pts
-			(xy 251.46 123.19) (xy 251.46 127)
+			(xy 251.46 121.92) (xy 251.46 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1182,6 +1202,16 @@
 			(type default)
 		)
 		(uuid "15b3b11f-fb8a-42b9-b640-6abdcc71ad32")
+	)
+	(wire
+		(pts
+			(xy 238.76 129.54) (xy 248.92 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15b967cf-a407-4303-a27d-6e505fa01c6b")
 	)
 	(wire
 		(pts
@@ -1242,6 +1272,16 @@
 			(type default)
 		)
 		(uuid "30bcc26d-7e5c-4605-97d2-52933549b2a4")
+	)
+	(bus
+		(pts
+			(xy 251.46 124.46) (xy 251.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a20149-9fb5-4dde-a7f2-031cfaf32893")
 	)
 	(wire
 		(pts
@@ -1495,16 +1535,6 @@
 	)
 	(bus
 		(pts
-			(xy 251.46 105.41) (xy 251.46 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e0dd441-58ba-4783-95e8-4df4affd3e5a")
-	)
-	(bus
-		(pts
 			(xy 48.26 35.56) (xy 48.26 114.3)
 		)
 		(stroke
@@ -1525,7 +1555,7 @@
 	)
 	(bus
 		(pts
-			(xy 251.46 119.38) (xy 251.46 123.19)
+			(xy 251.46 119.38) (xy 251.46 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1625,7 +1655,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 125.73) (xy 248.92 125.73)
+			(xy 238.76 124.46) (xy 248.92 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1695,6 +1725,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 119.38) (xy 248.92 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c9df21-bf95-4d38-80cf-4a76c84325e0")
+	)
+	(wire
+		(pts
 			(xy 66.04 106.68) (xy 66.04 91.44)
 		)
 		(stroke
@@ -1715,7 +1755,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 129.54) (xy 248.92 129.54)
+			(xy 238.76 127) (xy 248.92 127)
 		)
 		(stroke
 			(width 0)
@@ -1873,6 +1913,16 @@
 		)
 		(uuid "0844383a-cc4a-4af7-991f-2398163a04ef")
 	)
+	(label "CH32_TMR1"
+		(at 58.42 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ad929b8-b1cd-48d6-ae26-f1b5b08b1431")
+	)
 	(label "IO.BTN_3"
 		(at 233.68 66.04 180)
 		(effects
@@ -1913,6 +1963,26 @@
 		)
 		(uuid "2e4d35ca-5c32-4124-8ae6-a7a6f1dd178d")
 	)
+	(label "CH32_INT"
+		(at 238.76 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3587e0b2-4b2b-457b-9eb3-6ac7697bbba1")
+	)
+	(label "CH32_INT"
+		(at 215.9 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e4056b0-3ba8-4938-865e-0c33604d381e")
+	)
 	(label "IMU_INT1"
 		(at 238.76 121.92 0)
 		(effects
@@ -1944,7 +2014,7 @@
 		(uuid "4bc12983-aa0e-4ab9-8edb-bb9d260fa166")
 	)
 	(label "BMS_INT"
-		(at 238.76 129.54 0)
+		(at 238.76 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1952,6 +2022,16 @@
 			(justify left bottom)
 		)
 		(uuid "6a76370a-fbba-4df7-8967-fe11a0fd621a")
+	)
+	(label "CH32_TMR1"
+		(at 238.76 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c42ad54-c92d-4706-82b2-55b8a09f89ec")
 	)
 	(label "RTC_INT"
 		(at 219.71 73.66 180)
@@ -2034,7 +2114,7 @@
 		(uuid "e70c4c60-fa1c-4c77-8b92-25cf8cc43e7d")
 	)
 	(label "RTC_INT"
-		(at 238.76 125.73 0)
+		(at 238.76 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
