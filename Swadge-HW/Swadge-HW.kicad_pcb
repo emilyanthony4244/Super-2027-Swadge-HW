@@ -44985,10 +44985,10 @@
 	)
 	(gr_circle
 		(center 125 135)
-		(end 140 145)
+		(end 141 135)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "User.1")
@@ -45078,10 +45078,10 @@
 	)
 	(gr_circle
 		(center 175 135)
-		(end 190 145)
+		(end 191 135)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "User.1")
@@ -45134,6 +45134,30 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Screen Y Center"
+		(at 88.8 104.3 0)
+		(layer "User.1")
+		(uuid "bf036354-8416-42f5-8ad2-62d6b791d94f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Screen X Center"
+		(at 151.1 40.1 0)
+		(layer "User.1")
+		(uuid "565e01ee-9574-4fa7-bca9-70e51b1c655d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "80mm Core, Screen Offset by -10mm"
 		(at 164 50 0)
 		(layer "User.1")
@@ -45168,6 +45192,80 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "7b7bdc36-76e9-4037-b675-62ee1abac1ed")
+		(pts
+			(xy 90 40) (xy 125 151)
+		)
+		(height -15.4)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "111.0000 mm"
+			(at 72.9 95.584575 90)
+			(layer "User.1")
+			(uuid "7b7bdc36-76e9-4037-b675-62ee1abac1ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "8e9ab85e-5f92-4187-a501-359bef7c7a0e")
+		(pts
+			(xy 220 50) (xy 80 50)
+		)
+		(height -14.8)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "140.0000 mm"
+			(at 150 34.05 0)
+			(layer "User.1")
+			(uuid "8e9ab85e-5f92-4187-a501-359bef7c7a0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 	)
 	(point
