@@ -955,7 +955,11 @@
         "LED",
         "SWIO",
         "VMON",
-        "I2S_RESET"
+        "I2S_RESET",
+        "SAO_A",
+        "SAO_B",
+        "MIC",
+        "SPK"
       ],
       "SAO": [
         "SAO_B",
