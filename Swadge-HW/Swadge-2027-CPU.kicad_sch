@@ -7213,7 +7213,7 @@
 		(uuid "1f47e182-a084-46bb-940c-33bfe1993eb1")
 	)
 	(label "SPK"
-		(at 177.8 109.22 180)
+		(at 177.8 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7323,7 +7323,7 @@
 		(uuid "538ad5c8-815b-4a45-8ffa-421aedfe7dbc")
 	)
 	(label "MIC"
-		(at 177.8 111.76 180)
+		(at 177.8 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9011,7 +9011,6 @@
 		)
 		(pin "21"
 			(uuid "60bb8ffe-07d5-48ee-b7d2-5b4f766ac1bc")
-			(alternate "ADC2_CH6")
 		)
 		(pin "22"
 			(uuid "350ca06f-3651-41dc-ba4a-cc0ccb332597")
