@@ -1,6 +1,6 @@
 The hardware layout is composed of the following subsections:
 [[Processor Subsystem|Primary CPU]]
-[Power Regulation and Distribution Network](/../docs/PDN.md)
+[Power Regulation and Distribution Network](/docs/PDN.md)
 MCU Expansion
 User Inputs
 Graphical Display
