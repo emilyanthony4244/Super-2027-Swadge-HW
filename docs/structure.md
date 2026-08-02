@@ -1,5 +1,5 @@
 The hardware layout is composed of the following subsections:
-[[Processor Subsystem|Primary CPU]]
+[Primary CPU](/docs/CPU.md)
 [Power Regulation and Distribution Network](/docs/PDN.md)
 MCU Expansion
 User Inputs
