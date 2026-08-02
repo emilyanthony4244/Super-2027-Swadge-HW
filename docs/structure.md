@@ -1,11 +1,11 @@
 The hardware layout is composed of the following subsections:  
 [Primary CPU](/docs/CPU.md).  
 [Power Regulation and Distribution Network](/docs/PDN.md)  
-MCU Expansion
+MCU Expansion.  
 [User Inputs](/docs/userIO.md).  
 Graphical Display.  
 Audio Input/Output.  
-Peripherals.  
+[Peripherals](/docs/peripheral.md).  
 
 The Swadge provides the following external interfaces:
 USB-C
