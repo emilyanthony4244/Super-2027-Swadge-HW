@@ -10,7 +10,7 @@
 		(uuid "20a3d5c7-3057-496e-bea9-2f7777f1548d")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left)
@@ -53,6 +53,17 @@
 		)
 	)
 	(attr smd)
+	(fp_rect
+		(start -2.5 -0.8)
+		(end 2.5 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6a4f972d-2d1b-47fd-999a-484e38c47109")
+	)
 	(fp_line
 		(start -2.4 -0.7)
 		(end 2.4 -0.7)
@@ -60,7 +71,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "d99f39e5-e2fe-44fe-b8af-002854d60c49")
 	)
 	(fp_line
@@ -70,7 +81,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "d6894c7d-abb8-43bd-86e1-6756e8e1ec4c")
 	)
 	(fp_line
@@ -80,7 +91,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "6c78b72a-5ae0-4528-bd1d-8486497adaf0")
 	)
 	(fp_line
@@ -90,7 +101,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "42f2821e-9c0d-44f4-b908-e955aa7528cc")
 	)
 	(fp_line
@@ -100,19 +111,8 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "fbbd340a-26b0-4dc6-a3ba-2949c62a6cbf")
-	)
-	(fp_rect
-		(start -2.5 -0.8)
-		(end 2.5 1.3)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "6a4f972d-2d1b-47fd-999a-484e38c47109")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 2.5 0 0)
@@ -164,15 +164,15 @@
 		(uuid "b5f26a3a-a728-4165-bbc8-160e710c3f0f")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Swadge-Parts/package3d/SK6812-cube.step"
+	(model "${KIPRJMOD}/../Swadge-Parts/package3d/LED-SMD_4P-L4.0-W1.6-L.step"
 		(offset
-			(xyz -2 -1.1 0)
+			(xyz 0 -0.45 1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -180)
 		)
 	)
 )
