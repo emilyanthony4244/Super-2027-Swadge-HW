@@ -271,129 +271,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -12817,12 +12694,6 @@
 		(uuid "0928e39f-e355-4dc7-ab28-5623ef64721f")
 	)
 	(junction
-		(at 152.4 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1087b1ba-7a90-4e51-87d0-6e7eac2a0226")
-	)
-	(junction
 		(at 299.72 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12973,10 +12844,10 @@
 		(uuid "5b313abf-0b1b-45aa-9059-c55fcb71a458")
 	)
 	(junction
-		(at 95.25 184.15)
+		(at 302.26 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "62b639a8-6675-42ec-96a4-64606b5a7f81")
+		(uuid "5debc768-fb65-4ddd-9062-29b2b0ac4d9c")
 	)
 	(junction
 		(at 115.57 236.22)
@@ -13019,6 +12890,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71f84fb6-f635-4a65-b522-cbdc9c60cce0")
+	)
+	(junction
+		(at 165.1 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "752ed786-ca7e-46eb-9e9c-d833b3840d5e")
 	)
 	(junction
 		(at 55.88 162.56)
@@ -13147,12 +13024,6 @@
 		(uuid "b196d5b6-9fa9-40cb-9324-f4f9a06e503c")
 	)
 	(junction
-		(at 165.1 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b363ecfd-77d1-4515-8ff7-b343ad1fbbbb")
-	)
-	(junction
 		(at 287.02 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13243,7 +13114,7 @@
 		(uuid "e06bce73-27a3-4a7a-81bf-69d8831d0fc6")
 	)
 	(junction
-		(at 194.31 179.07)
+		(at 298.45 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e18d5993-d3a6-48eb-afd2-2fb8ac367224")
@@ -13357,7 +13228,7 @@
 		(uuid "8c427249-c707-4444-bf9d-57121b916091")
 	)
 	(no_connect
-		(at 279.4 218.44)
+		(at 266.7 213.36)
 		(uuid "8fa9efb9-4757-4d27-afb7-d5a3c9e3c63a")
 	)
 	(no_connect
@@ -13377,6 +13248,10 @@
 		(uuid "b1e5f98d-6141-4bc3-8681-81e11ed26cb4")
 	)
 	(no_connect
+		(at 238.76 90.17)
+		(uuid "d67b22be-e7a0-416d-8f5b-4dda4b8a3ef0")
+	)
+	(no_connect
 		(at 34.29 104.14)
 		(uuid "d712adf9-cd5b-43ad-973d-18da85a89722")
 	)
@@ -13385,12 +13260,12 @@
 		(uuid "d81a1c2a-5dd3-4d1e-9c48-4a05822c2ac3")
 	)
 	(no_connect
-		(at 307.34 252.73)
-		(uuid "dfb4ffd5-1835-473b-a020-c60b8c73ac29")
+		(at 240.03 90.17)
+		(uuid "de2a9af3-8c8a-4a04-ba5e-65a3957aedee")
 	)
 	(no_connect
-		(at 34.29 101.6)
-		(uuid "ebd06ad6-590e-42cd-b04b-dd9dfd3d908e")
+		(at 307.34 252.73)
+		(uuid "dfb4ffd5-1835-473b-a020-c60b8c73ac29")
 	)
 	(no_connect
 		(at 284.48 39.37)
@@ -13573,6 +13448,16 @@
 			(type default)
 		)
 		(uuid "0a0f8706-7c17-452b-98bc-d912eee2df89")
+	)
+	(wire
+		(pts
+			(xy 302.26 229.87) (xy 298.45 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b33e8e5-3fde-4f30-8f95-d0bfc090f74a")
 	)
 	(wire
 		(pts
@@ -13766,7 +13651,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 184.15) (xy 104.14 184.15)
+			(xy 86.36 184.15) (xy 104.14 184.15)
 		)
 		(stroke
 			(width 0)
@@ -13803,16 +13688,6 @@
 			(type default)
 		)
 		(uuid "1880ce06-e7f5-45b1-9ac6-118838669517")
-	)
-	(wire
-		(pts
-			(xy 165.1 166.37) (xy 187.96 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1892c698-fd69-4339-8f1f-a8eedb3bdb8c")
 	)
 	(wire
 		(pts
@@ -14016,7 +13891,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 179.07) (xy 194.31 177.8)
+			(xy 298.45 229.87) (xy 298.45 228.6)
 		)
 		(stroke
 			(width 0)
@@ -14176,7 +14051,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 179.07) (xy 194.31 179.07)
+			(xy 295.91 229.87) (xy 298.45 229.87)
 		)
 		(stroke
 			(width 0)
@@ -14196,16 +14071,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 173.99) (xy 205.74 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34385356-6d87-4e49-8e60-bcdfbf4d238d")
-	)
-	(wire
-		(pts
 			(xy 125.73 83.82) (xy 129.54 83.82)
 		)
 		(stroke
@@ -14213,6 +14078,16 @@
 			(type default)
 		)
 		(uuid "343b013d-9368-4dea-8271-0cd87c75cbac")
+	)
+	(wire
+		(pts
+			(xy 194.31 189.23) (xy 194.31 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "349f5edc-3a05-4f26-af12-d0bfef557b6f")
 	)
 	(wire
 		(pts
@@ -14444,16 +14319,6 @@
 		)
 		(uuid "48369b85-90d6-40a9-becf-16750e953e28")
 	)
-	(wire
-		(pts
-			(xy 198.12 168.91) (xy 198.12 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48e430cb-0090-4bde-998c-e32f2c3336f9")
-	)
 	(polyline
 		(pts
 			(xy 27.94 241.3) (xy 27.94 238.76)
@@ -14546,7 +14411,17 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 189.23) (xy 212.09 189.23)
+			(xy 306.07 222.25) (xy 302.26 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e46c204-4fb4-431c-9f26-dadc40124cd8")
+	)
+	(wire
+		(pts
+			(xy 194.31 189.23) (xy 212.09 189.23)
 		)
 		(stroke
 			(width 0)
@@ -14583,6 +14458,16 @@
 			(type default)
 		)
 		(uuid "50c8611b-6c68-43a6-b911-94b2b11b2acc")
+	)
+	(wire
+		(pts
+			(xy 125.73 91.44) (xy 129.54 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ec30d5-1dd4-4c63-af00-ba69270b38fe")
 	)
 	(polyline
 		(pts
@@ -14826,7 +14711,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 190.5) (xy 152.4 190.5)
+			(xy 149.86 190.5) (xy 156.21 190.5)
 		)
 		(stroke
 			(width 0)
@@ -14913,16 +14798,6 @@
 			(type default)
 		)
 		(uuid "6ed48404-a925-43a3-9ef3-acfad49bd8d8")
-	)
-	(wire
-		(pts
-			(xy 125.73 91.44) (xy 129.54 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fa86f36-87cc-4a36-b1a9-08c18011cf29")
 	)
 	(wire
 		(pts
@@ -15106,16 +14981,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 171.45) (xy 186.69 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d412b33-762d-4f8d-9d02-fabc058825ac")
-	)
-	(wire
-		(pts
 			(xy 157.48 123.19) (xy 157.48 130.81)
 		)
 		(stroke
@@ -15273,6 +15138,16 @@
 			(type default)
 		)
 		(uuid "89bfb093-716c-4c8c-9721-c43ba862a428")
+	)
+	(wire
+		(pts
+			(xy 302.26 222.25) (xy 302.26 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89e6d567-5a9b-4946-80d3-dd319da410f1")
 	)
 	(wire
 		(pts
@@ -15666,6 +15541,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 166.37) (xy 165.1 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5dcd8c7-c72e-417e-b29b-ed0e26ff6ae3")
+	)
+	(wire
+		(pts
 			(xy 227.33 62.23) (xy 227.33 69.85)
 		)
 		(stroke
@@ -15743,6 +15628,16 @@
 			(type default)
 		)
 		(uuid "aa1f0693-18b2-41d4-aa5a-d0192cc3f6dc")
+	)
+	(wire
+		(pts
+			(xy 205.74 173.99) (xy 205.74 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af2a458c-8ae3-4e41-b9cc-1f5fc3b9d198")
 	)
 	(polyline
 		(pts
@@ -16016,16 +15911,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 171.45) (xy 187.96 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c66e41f9-0877-41c7-a879-c0f6fda46412")
-	)
-	(wire
-		(pts
 			(xy 287.02 240.03) (xy 254 240.03)
 		)
 		(stroke
@@ -16063,16 +15948,6 @@
 			(type default)
 		)
 		(uuid "c7cf17dd-f9fa-43a5-8388-7122019f1623")
-	)
-	(wire
-		(pts
-			(xy 86.36 184.15) (xy 95.25 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8395703-441b-4769-a9ba-614cf2e05f92")
 	)
 	(polyline
 		(pts
@@ -16326,6 +16201,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 223.52) (xy 306.07 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da8bab8d-2541-42d9-82a1-5469b18a5439")
+	)
+	(wire
+		(pts
 			(xy 294.64 93.98) (xy 294.64 99.06)
 		)
 		(stroke
@@ -16423,6 +16308,16 @@
 			(type default)
 		)
 		(uuid "e51664f4-7018-4468-a961-44f97c803f6e")
+	)
+	(wire
+		(pts
+			(xy 30.48 101.6) (xy 34.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5327cc3-811f-4f85-884a-41f783b463c6")
 	)
 	(polyline
 		(pts
@@ -16743,16 +16638,6 @@
 			(type default)
 		)
 		(uuid "fdb804cb-9f2a-4253-baa4-14b7b8a5c772")
-	)
-	(wire
-		(pts
-			(xy 152.4 190.5) (xy 156.21 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "febcf634-7a73-4b95-a22f-0239802911c0")
 	)
 	(wire
 		(pts
@@ -18318,6 +18203,30 @@
 			)
 		)
 	)
+	(global_label "RTC_WakeUp"
+		(shape input)
+		(at 292.1 219.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96a374e2-30b2-4399-a52c-c86e7b6a3379")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.443 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "TOUCH_7"
 		(shape input)
 		(at 129.54 66.04 0)
@@ -19278,6 +19187,30 @@
 			)
 		)
 	)
+	(global_label "RTC_WakeUp"
+		(shape input)
+		(at 129.54 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7ba48ec-7672-466b-82ec-f1f60b822d33")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.197 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "TFT_RESET"
 		(shape input)
 		(at 115.57 231.14 180)
@@ -19424,17 +19357,17 @@
 	)
 	(global_label "TFT_RESET"
 		(shape input)
-		(at 129.54 91.44 0)
+		(at 30.48 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f502a848-84a5-4e8d-8b23-9949e2ee7305")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.6898 91.3606 0)
+			(at 17.7583 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19442,7 +19375,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -19544,7 +19477,7 @@
 	)
 	(global_label "TFT_FMARK"
 		(shape input)
-		(at 279.4 218.44 180)
+		(at 266.7 213.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19554,7 +19487,7 @@
 		)
 		(uuid "fbec73ee-ace0-4b43-b4be-ff33d3a115af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.2548 218.44 0)
+			(at 253.5548 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19808,9 +19741,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "014edec8-bd96-492e-a2f3-4eb64dda3396")
 		(property "Reference" "R30"
 			(at 233.934 114.3 90)
@@ -21860,7 +21793,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 232.41 0)
+			(at 193.548 232.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23112,9 +23045,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1c31a40f-0dc5-4f1d-b1db-a052ed059b89")
 		(property "Reference" "R29"
 			(at 233.934 111.76 90)
@@ -23445,83 +23378,6 @@
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Swadge_Parts:GND")
-		(at 194.31 179.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1cc7fc53-3a46-46aa-9071-27ff06c733fa")
-		(property "Reference" "#PWR063"
-			(at 194.31 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "395f4ffe-4c6e-4f9d-b02d-739c2db08380")
-		)
-		(instances
-			(project "Swadge-HW"
-				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -25878,7 +25734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 93.472 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -26344,7 +26200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 203.962 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -26626,7 +26482,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 234.95 0)
+			(at 193.548 234.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27279,8 +27135,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:SW_SPDT_1825232-1")
-		(at 193.04 168.91 0)
-		(mirror y)
+		(at 297.18 219.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27290,7 +27145,7 @@
 		(dnp no)
 		(uuid "518b80d3-e901-4899-acf3-744645e18b91")
 		(property "Reference" "SW1"
-			(at 193.04 162.56 0)
+			(at 297.18 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27300,7 +27155,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 192.532 173.99 0)
+			(at 297.688 224.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27310,7 +27165,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:1825232-1"
-			(at 193.04 152.4 0)
+			(at 297.18 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27321,7 +27176,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_SHOU-HAN-SK12D07VG4_C393937.pdf"
-			(at 193.04 154.94 0)
+			(at 297.18 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27332,7 +27187,7 @@
 			)
 		)
 		(property "Description" "Slide Switch SPDT Through Hole, Right Angle"
-			(at 193.04 168.91 0)
+			(at 297.18 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27343,7 +27198,7 @@
 			)
 		)
 		(property "Digikey" "A107673-ND"
-			(at 193.04 157.48 0)
+			(at 297.18 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27354,7 +27209,7 @@
 			)
 		)
 		(property "Cost100" "45"
-			(at 193.04 149.86 0)
+			(at 297.18 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27365,7 +27220,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 193.04 168.91 0)
+			(at 297.18 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27376,7 +27231,7 @@
 			)
 		)
 		(property "Notes" "Use SPDT slide switch. Similar to 1825232-1"
-			(at 193.04 160.02 0)
+			(at 297.18 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27387,7 +27242,7 @@
 			)
 		)
 		(property "LCSC" "C393937"
-			(at 193.04 168.91 0)
+			(at 297.18 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27398,7 +27253,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0123"
-			(at 193.04 168.91 0)
+			(at 297.18 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29366,9 +29221,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "66fbfc6a-1524-4418-909f-cef4e266b22a")
 		(property "Reference" "R26"
 			(at 233.934 104.14 90)
@@ -30035,6 +29890,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Swadge_Parts:R_US")
+		(at 302.26 213.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "732aee88-b739-43c2-bccb-34a8bff03100")
+		(property "Reference" "R49"
+			(at 304.8 213.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 306.832 213.106 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
+			(at 303.276 213.614 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor US symbol"
+			(at 302.26 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 307.34 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost100" "10"
+			(at 302.26 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+			)
+		)
+		(property "Substitutable" "Y"
+			(at 302.26 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 302.26 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost @ 2.5k" "0.0007"
+			(at 302.26 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1fdc4833-e909-4602-8f62-f70119d5a934")
+		)
+		(pin "2"
+			(uuid "6e09161d-c300-4bc9-a2de-f17658bfc255")
+		)
+		(instances
+			(project "Swadge-HW"
+				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Swadge_Parts:C")
 		(at 185.42 71.12 90)
 		(unit 1)
@@ -30177,9 +30166,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "73e87f03-237d-4fe9-b8b8-f9f55f6f16b4")
 		(property "Reference" "R28"
 			(at 233.934 109.22 90)
@@ -32577,7 +32566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 127.762 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -34153,9 +34142,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9c3b887e-4682-4c57-8104-7eeac4d12822")
 		(property "Reference" "R27"
 			(at 233.934 106.68 90)
@@ -34359,7 +34348,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:NULL")
-		(at 270.51 226.06 0)
+		(at 256.54 227.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34370,7 +34359,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f939b39-ef02-485e-849b-149f87f5f296")
 		(property "Reference" "N1"
-			(at 274.32 224.7899 0)
+			(at 260.35 226.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34381,7 +34370,7 @@
 			)
 		)
 		(property "Value" "Board Outline & Acrylic"
-			(at 274.32 227.3299 0)
+			(at 260.35 228.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34392,7 +34381,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:Fairy"
-			(at 270.51 226.06 0)
+			(at 256.54 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34403,7 +34392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 226.06 0)
+			(at 256.54 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34414,7 +34403,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 270.51 226.06 0)
+			(at 256.54 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36307,9 +36296,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ada9e36f-b0d9-46fc-81af-0d00a8b1f93d")
 		(property "Reference" "R31"
 			(at 233.934 116.84 90)
@@ -37158,85 +37147,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 149.86 163.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4d544bc-d3f9-4c1f-a60e-917ff47bc511")
-		(property "Reference" "TP1"
-			(at 152.4 159.2579 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Batt+ TestPoint"
-			(at 152.4 161.7979 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
-			(at 154.94 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 149.86 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b9f33265-766e-468e-b6a1-2b939147d533")
-		)
-		(instances
-			(project "Swadge-HW"
-				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Swadge_Parts:GENERIC_LDO_GOI")
 		(at 29.21 218.44 180)
 		(unit 1)
@@ -37642,6 +37552,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Swadge_Parts:+3.3V")
+		(at 302.26 209.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b72fa77e-40ee-4213-8dcb-5543947d2828")
+		(property "Reference" "#PWR0105"
+			(at 302.26 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 302.26 205.994 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.26 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 302.26 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0da25e58-bda0-4bb1-b15d-4058795f275f")
+		)
+		(instances
+			(project "Swadge-HW"
+				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Swadge_Parts:B3FS-4002P")
 		(at 275.59 133.35 0)
 		(unit 1)
@@ -37796,7 +37783,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:RB017A1505A")
-		(at 124.46 252.73 0)
+		(at 125.73 252.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37806,7 +37793,7 @@
 		(dnp no)
 		(uuid "b76facbc-1c81-48a8-8df4-454e027dea11")
 		(property "Reference" "U5"
-			(at 124.46 250.19 0)
+			(at 125.73 250.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37816,7 +37803,7 @@
 			)
 		)
 		(property "Value" "RB017A1505A"
-			(at 124.46 256.54 0)
+			(at 125.73 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37826,7 +37813,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:NULL"
-			(at 124.46 223.52 0)
+			(at 125.73 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37837,7 +37824,7 @@
 			)
 		)
 		(property "Datasheet" "https://drive.google.com/file/d/1NLfZcvebjaLV-Czjnykhp9hAcljS5bjG/view?usp=sharing"
-			(at 124.46 228.6 0)
+			(at 125.73 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37848,7 +37835,7 @@
 			)
 		)
 		(property "Description" "240x280 color TFT with rounded corners"
-			(at 124.46 252.73 0)
+			(at 125.73 252.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37859,7 +37846,7 @@
 			)
 		)
 		(property "Notes" "Display"
-			(at 124.46 226.06 0)
+			(at 125.73 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37870,7 +37857,7 @@
 			)
 		)
 		(property "Digikey" "http://www.ronboe.com/index.html"
-			(at 124.46 236.22 0)
+			(at 125.73 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37881,7 +37868,7 @@
 			)
 		)
 		(property "Cost100" "250"
-			(at 124.46 233.68 0)
+			(at 125.73 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37892,7 +37879,7 @@
 			)
 		)
 		(property "Substitutable" "N"
-			(at 124.46 231.14 0)
+			(at 125.73 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37903,7 +37890,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 124.46 252.73 0)
+			(at 125.73 252.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37913,7 +37900,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "3.00"
-			(at 124.46 252.73 0)
+			(at 125.73 252.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38432,83 +38419,6 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:GND")
-		(at 186.69 170.18 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bbff66df-d8ad-418e-8600-818a31e720ad")
-		(property "Reference" "#PWR059"
-			(at 180.34 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 182.118 170.18 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c1806966-6754-404d-bd67-2e5ac141cda7")
-		)
-		(instances
-			(project "Swadge-HW"
-				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Swadge_Parts:GND")
 		(at 25.4 146.05 0)
 		(unit 1)
 		(body_style 1)
@@ -38792,6 +38702,83 @@
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:GND")
+		(at 306.07 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c143c50b-f3f6-44f0-9294-a22914f5977c")
+		(property "Reference" "#PWR0106"
+			(at 306.07 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 306.07 227.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 306.07 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77682886-7a89-4d05-8a43-bf63a96b5255")
+		)
+		(instances
+			(project "Swadge-HW"
+				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -39803,7 +39790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 84.582 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -41921,84 +41908,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 152.4 190.5 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ddfe9238-bceb-4395-aee1-c5fcb06f0cc1")
-		(property "Reference" "TP2"
-			(at 154.94 192.5319 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Batt- TestPoint"
-			(at 154.432 194.056 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
-			(at 147.32 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 152.4 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2aa57e4b-910e-4350-a59d-18b42415631a")
-		)
-		(instances
-			(project "Swadge-HW"
-				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Swadge_Parts:R_US")
 		(at 63.5 162.56 270)
 		(unit 1)
@@ -42313,7 +42222,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 237.49 0)
+			(at 193.548 237.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
