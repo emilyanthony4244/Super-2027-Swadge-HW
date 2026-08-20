@@ -12694,10 +12694,10 @@
 		(uuid "0928e39f-e355-4dc7-ab28-5623ef64721f")
 	)
 	(junction
-		(at 299.72 149.86)
+		(at 275.59 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "10b4779a-58ac-4410-8461-12c5a1db4e2e")
+		(uuid "0ca853c2-0ccc-4513-bd39-06dafc8eafd5")
 	)
 	(junction
 		(at 43.18 173.99)
@@ -12730,18 +12730,6 @@
 		(uuid "25e41402-b6e7-4d0b-ac62-9fb203751448")
 	)
 	(junction
-		(at 299.72 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "290ce2b7-1ebc-4e80-986e-622846f9bfce")
-	)
-	(junction
-		(at 280.67 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ac5b9ef-12de-49ff-afb1-053fed168cc7")
-	)
-	(junction
 		(at 38.1 250.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12754,6 +12742,12 @@
 		(uuid "2ae10851-08cd-452c-a2ca-ae8674175983")
 	)
 	(junction
+		(at 267.97 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f994c69-7179-4273-b352-b8f1e34d7bb5")
+	)
+	(junction
 		(at 17.78 250.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12764,6 +12758,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31c4635a-9763-4dad-a79a-699ee08a485c")
+	)
+	(junction
+		(at 294.64 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "320d4272-3d7b-42d6-b8e1-53161d1bd9ef")
 	)
 	(junction
 		(at 124.46 123.19)
@@ -12790,6 +12790,12 @@
 		(uuid "3977d660-25c3-44d9-93e8-0380ba622f12")
 	)
 	(junction
+		(at 275.59 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d9bc23e-48d2-46fc-9b0d-a518747e1be9")
+	)
+	(junction
 		(at 220.98 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12806,12 +12812,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46ce8f39-bdc2-4979-b36f-a79a05dd4fc9")
-	)
-	(junction
-		(at 307.34 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47b82aed-fbd4-4654-a5e5-590a7e18db2c")
 	)
 	(junction
 		(at 205.74 173.99)
@@ -12860,18 +12860,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68a81f0e-d247-4ba8-8e34-82a60d16e8b0")
-	)
-	(junction
-		(at 280.67 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69224883-a1d5-4fe7-838a-82ea507f6812")
-	)
-	(junction
-		(at 307.34 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b15a530-1541-48a3-8187-1416a1d2247f")
 	)
 	(junction
 		(at 53.34 165.1)
@@ -12952,10 +12940,10 @@
 		(uuid "8cb55567-80ac-46c2-a3e1-d120da56e0c2")
 	)
 	(junction
-		(at 307.34 80.01)
+		(at 267.97 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8e5ae513-9410-403a-a510-e10fa6ee86c2")
+		(uuid "8d9bfb58-be26-4c1b-99f5-47c97f48e1fe")
 	)
 	(junction
 		(at 49.53 173.99)
@@ -12974,6 +12962,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9227c5ee-05ad-4d6c-962f-328f78d495d6")
+	)
+	(junction
+		(at 267.97 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92e85088-adee-4a4f-bd01-1ff53f9e8a70")
 	)
 	(junction
 		(at 260.35 261.62)
@@ -13096,6 +13090,18 @@
 		(uuid "d08c0b88-69db-4883-b083-3939de87dd87")
 	)
 	(junction
+		(at 294.64 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d441a2a0-3091-4780-9cac-2a91551cff46")
+	)
+	(junction
+		(at 294.64 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4d8fe67-1a8c-452e-9e56-a97d4899f26a")
+	)
+	(junction
 		(at 25.4 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13106,12 +13112,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfbda831-b692-4c37-b2cc-e5a98cb06841")
-	)
-	(junction
-		(at 280.67 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e06bce73-27a3-4a7a-81bf-69d8831d0fc6")
 	)
 	(junction
 		(at 298.45 229.87)
@@ -13234,10 +13234,6 @@
 	(no_connect
 		(at 378.46 44.45)
 		(uuid "92b47981-f973-41ca-9e8e-18eb1ff835b3")
-	)
-	(no_connect
-		(at 378.46 52.07)
-		(uuid "93dfe3b2-1456-45ae-897e-4d1bdea66799")
 	)
 	(no_connect
 		(at 34.29 99.06)
@@ -13457,7 +13453,17 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 134.62) (xy 299.72 135.89)
+			(xy 294.64 74.93) (xy 294.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3e655e-1132-4c74-a5b0-bd26debd3460")
+	)
+	(wire
+		(pts
+			(xy 299.72 133.35) (xy 299.72 135.89)
 		)
 		(stroke
 			(width 0)
@@ -13575,16 +13581,6 @@
 		)
 		(uuid "11a2b347-d992-49a9-ae08-d86777004311")
 	)
-	(wire
-		(pts
-			(xy 267.97 93.98) (xy 267.97 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11bc81b0-5536-4319-a881-dd0656bb0ae0")
-	)
 	(polyline
 		(pts
 			(xy 261.62 68.58) (xy 261.62 64.77)
@@ -13607,7 +13603,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 148.59) (xy 299.72 149.86)
+			(xy 299.72 148.59) (xy 299.72 151.13)
 		)
 		(stroke
 			(width 0)
@@ -14225,16 +14221,6 @@
 		)
 		(uuid "3f77cc4c-9eee-4b03-b00a-0ce3875460c7")
 	)
-	(wire
-		(pts
-			(xy 267.97 113.03) (xy 267.97 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f92a7a1-b702-43ad-a86e-e36b56761e2a")
-	)
 	(polyline
 		(pts
 			(xy 25.4 16.51) (xy 25.4 12.7)
@@ -14274,16 +14260,6 @@
 			(type default)
 		)
 		(uuid "43dc2904-96cb-434d-adfe-b49144720570")
-	)
-	(wire
-		(pts
-			(xy 125.73 88.9) (xy 129.54 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45b26424-623d-43c8-ba61-53e8b7b17a86")
 	)
 	(wire
 		(pts
@@ -14867,16 +14843,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 113.03) (xy 294.64 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75bfd957-529c-4173-9ac3-e84137161c18")
-	)
-	(wire
-		(pts
 			(xy 66.04 175.26) (xy 68.58 175.26)
 		)
 		(stroke
@@ -14914,6 +14880,16 @@
 			(type default)
 		)
 		(uuid "79efbc5f-6e1d-424d-9424-3414adb72d0d")
+	)
+	(wire
+		(pts
+			(xy 267.97 93.98) (xy 267.97 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a9ba7a3-4289-41f2-bccc-d0b6ce23d36b")
 	)
 	(wire
 		(pts
@@ -15007,16 +14983,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 74.93) (xy 267.97 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80b0d493-cc4f-42c8-8edd-02fddf16dd02")
-	)
-	(wire
-		(pts
 			(xy 176.53 231.14) (xy 176.53 233.68)
 		)
 		(stroke
@@ -15067,16 +15033,6 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 149.86) (xy 299.72 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83b49105-7ae2-46f9-a712-7f439784eb7f")
-	)
-	(wire
-		(pts
 			(xy 260.35 245.11) (xy 260.35 247.65)
 		)
 		(stroke
@@ -15124,6 +15080,16 @@
 			(type default)
 		)
 		(uuid "86d0630e-a62a-4a4a-a6aa-86321e8f7314")
+	)
+	(wire
+		(pts
+			(xy 267.97 74.93) (xy 267.97 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891e519c-133b-4686-b097-bda7da4c17ef")
 	)
 	(wire
 		(pts
@@ -15354,16 +15320,6 @@
 			(type default)
 		)
 		(uuid "960e135e-65e9-4baa-a871-696b8c062140")
-	)
-	(wire
-		(pts
-			(xy 30.48 104.14) (xy 34.29 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96662769-2dd8-4c17-af35-af3b2f45f355")
 	)
 	(wire
 		(pts
@@ -15634,6 +15590,16 @@
 			(type default)
 		)
 		(uuid "aa1f0693-18b2-41d4-aa5a-d0192cc3f6dc")
+	)
+	(wire
+		(pts
+			(xy 294.64 93.98) (xy 294.64 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe0c146-736d-421a-8ba2-0844f83c11b2")
 	)
 	(wire
 		(pts
@@ -15927,16 +15893,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 74.93) (xy 294.64 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6f325af-cb16-4877-a42b-2d49d6654e9a")
-	)
-	(wire
-		(pts
 			(xy 48.26 17.78) (xy 59.69 17.78)
 		)
 		(stroke
@@ -16024,6 +15980,16 @@
 			(type default)
 		)
 		(uuid "cd00a66e-a689-43d4-8666-6319e057645c")
+	)
+	(wire
+		(pts
+			(xy 294.64 113.03) (xy 294.64 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd89b840-36bc-4af0-9167-a4cf4aeb6e60")
 	)
 	(wire
 		(pts
@@ -16157,6 +16123,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 88.9) (xy 129.54 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c5756b-2331-4e26-8734-d073a153d8a1")
+	)
+	(wire
+		(pts
 			(xy 78.74 165.1) (xy 78.74 167.64)
 		)
 		(stroke
@@ -16224,16 +16200,6 @@
 			(type default)
 		)
 		(uuid "db9030bb-da9c-4c86-a547-ae9802326097")
-	)
-	(wire
-		(pts
-			(xy 294.64 93.98) (xy 294.64 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd62db1e-774f-4f26-afd3-62541f11b4ef")
 	)
 	(wire
 		(pts
@@ -16334,16 +16300,6 @@
 			(type default)
 		)
 		(uuid "e57feb67-c685-4d8b-bb6d-917916e23823")
-	)
-	(wire
-		(pts
-			(xy 299.72 133.35) (xy 299.72 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6c34585-3224-4928-8d3a-60d49dc38f93")
 	)
 	(wire
 		(pts
@@ -16587,6 +16543,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 52.07) (xy 381 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8056e18-4f1f-435a-8cd2-7d9953379d3e")
+	)
+	(wire
+		(pts
 			(xy 229.87 26.67) (xy 229.87 31.75)
 		)
 		(stroke
@@ -16664,6 +16630,16 @@
 			(type default)
 		)
 		(uuid "ff22dd74-54dc-4f6d-afb4-3cd700dba8db")
+	)
+	(wire
+		(pts
+			(xy 267.97 113.03) (xy 267.97 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff24e18a-86e6-40f7-a5cb-a0f4ce32f3e8")
 	)
 	(wire
 		(pts
@@ -16926,30 +16902,6 @@
 		(uuid "1001ec6e-db6d-472f-add1-eb15a4db8998")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 245.0306 190.3126 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "BTN_8"
-		(shape input)
-		(at 275.59 148.59 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "13db3ede-900b-46dd-a7bd-7c45f0ec9e64")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.4317 148.5106 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17443,17 +17395,17 @@
 	)
 	(global_label "BTN_5"
 		(shape input)
-		(at 294.64 93.98 180)
+		(at 307.34 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "3cc23443-c6e1-4860-893c-aa0ff72fbb62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.4817 93.9006 0)
+			(at 316.0704 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17461,7 +17413,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -17515,17 +17467,17 @@
 	)
 	(global_label "BTN_2"
 		(shape input)
-		(at 267.97 93.98 180)
+		(at 280.67 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "48b6bfae-72cb-48af-80aa-869cabacc2db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.8117 93.9006 0)
+			(at 289.4004 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17533,7 +17485,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -17563,17 +17515,17 @@
 	)
 	(global_label "BTN_1"
 		(shape input)
-		(at 267.97 74.93 180)
+		(at 280.67 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "4f2d092c-4a75-43b3-80b4-83ea907c3992")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.8117 74.8506 0)
+			(at 289.4004 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17581,7 +17533,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -18041,6 +17993,30 @@
 			)
 		)
 	)
+	(global_label "BTN_7"
+		(shape input)
+		(at 299.72 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "820a429b-0731-4ef2-bd05-cd051641a578")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 308.4504 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Batt -"
 		(shape input)
 		(at 149.86 190.5 180)
@@ -18091,17 +18067,17 @@
 	)
 	(global_label "BTN_4"
 		(shape input)
-		(at 294.64 74.93 180)
+		(at 307.34 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "83502288-e5e1-46f2-95d5-55bd50b5dba0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.4817 74.8506 0)
+			(at 316.0704 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18109,7 +18085,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -18307,7 +18283,7 @@
 	)
 	(global_label "VMON"
 		(shape input)
-		(at 129.54 88.9 0)
+		(at 381 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18317,7 +18293,7 @@
 		)
 		(uuid "9f2e525e-fba2-45ce-b8b9-550413524a56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.1541 88.9794 0)
+			(at 388.6141 52.1494 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18390,6 +18366,30 @@
 		(uuid "a2eaaf32-4a1d-4749-94e8-3610722a38a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 159.2556 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BTN_8"
+		(shape input)
+		(at 299.72 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a346bdb5-9516-4b27-914f-3a61de7c60b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 308.4504 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18619,17 +18619,17 @@
 	)
 	(global_label "BTN_6"
 		(shape input)
-		(at 294.64 113.03 180)
+		(at 307.34 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b97050db-f581-4b35-84a8-81f142cd6c31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.4817 112.9506 0)
+			(at 316.0704 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18637,7 +18637,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -19195,17 +19195,17 @@
 	)
 	(global_label "BTN_3"
 		(shape input)
-		(at 267.97 113.03 180)
+		(at 280.67 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e5da217e-d86a-4901-8732-f5289bd3ba4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.8117 112.9506 0)
+			(at 289.4004 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19213,7 +19213,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -19411,17 +19411,17 @@
 	)
 	(global_label "TFT_RESET"
 		(shape input)
-		(at 30.48 104.14 180)
+		(at 129.54 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "f502a848-84a5-4e8d-8b23-9949e2ee7305")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.7583 104.14 0)
+			(at 142.2617 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19429,7 +19429,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -19454,30 +19454,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "BTN_7"
-		(shape input)
-		(at 275.59 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f6e41c22-1d0e-4873-a8c0-3a8f67aba7c8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.4317 133.2706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -19706,6 +19682,83 @@
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:+3.3V")
+		(at 275.59 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0077f6f9-5f5d-4423-88e0-432a6f2835c5")
+		(property "Reference" "#PWR0102"
+			(at 275.59 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 275.59 143.764 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 275.59 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69d12a9f-75c5-485d-b610-d2a9e9151301")
+		)
+		(instances
+			(project "Swadge-HW"
+				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -19994,83 +20047,6 @@
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Swadge_Parts:GND")
-		(at 307.34 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "026358a6-531e-4097-9a83-2a1c88c8191f")
-		(property "Reference" "#PWR0101"
-			(at 307.34 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 307.34 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 307.34 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 307.34 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9547b565-fe72-4fec-922c-b1d6b4fc1f7b")
-		)
-		(instances
-			(project "Swadge-HW"
-				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -22335,85 +22311,6 @@
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Swadge_Parts:GND")
-		(at 299.72 149.86 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18dfa7a3-398d-46d0-a1fc-58a6b9c5c930")
-		(property "Reference" "#PWR099"
-			(at 306.07 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 303.53 149.8599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 299.72 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 299.72 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bdd0cb9c-27eb-4216-b24c-fbe411e36d11")
-		)
-		(instances
-			(project "Swadge-HW"
-				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -24788,83 +24685,6 @@
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Swadge_Parts:GND")
-		(at 280.67 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "33785715-903c-46b8-94c8-8afa9a4b6a1a")
-		(property "Reference" "#PWR093"
-			(at 280.67 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 280.67 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 280.67 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 280.67 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 280.67 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4bee442c-d97f-4572-86e6-cd172ead9b18")
-		)
-		(instances
-			(project "Swadge-HW"
-				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -28918,6 +28738,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Swadge_Parts:+3.3V")
+		(at 267.97 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "637d9326-b5a5-47f4-81d6-5456fac5c92b")
+		(property "Reference" "#PWR094"
+			(at 267.97 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 267.97 89.154 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 267.97 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "66a95d4e-845b-4d6e-9323-e04e82cf40c4")
+		)
+		(instances
+			(project "Swadge-HW"
+				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Swadge_Parts:+3V3")
 		(at 156.21 231.14 90)
 		(unit 1)
@@ -28989,84 +28886,6 @@
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Swadge_Parts:GND")
-		(at 307.34 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65ea74e0-4ff3-458c-b692-53a1fe7ead54")
-		(property "Reference" "#PWR0100"
-			(at 307.34 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 307.34 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 307.34 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 307.34 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f02e330f-e250-4b87-b521-15607f2bbc4f")
-		)
-		(instances
-			(project "Swadge-HW"
-				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -29326,6 +29145,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Swadge_Parts:+3.3V")
+		(at 294.64 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "675fb408-3131-47f4-b1ef-a17fa932475c")
+		(property "Reference" "#PWR093"
+			(at 294.64 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 294.64 70.104 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 294.64 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "540b0805-0829-4db6-af34-dc051e37a9d0")
+		)
+		(instances
+			(project "Swadge-HW"
+				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Swadge_Parts:R_US")
 		(at 306.07 190.5 90)
 		(unit 1)
@@ -29454,6 +29350,83 @@
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
 					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:+3.3V")
+		(at 267.97 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6dc33dcd-f275-4fb8-b430-e665a4d1a21d")
+		(property "Reference" "#PWR099"
+			(at 267.97 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 267.97 108.204 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 267.97 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a18e342-ad9a-4641-844b-38b87acc74c0")
+		)
+		(instances
+			(project "Swadge-HW"
+				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -31580,8 +31553,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Swadge_Parts:GND")
-		(at 280.67 118.11 0)
+		(lib_id "Swadge_Parts:+3.3V")
+		(at 267.97 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31589,9 +31562,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "806ba19e-6fd3-43ff-9ba5-1089479294bb")
-		(property "Reference" "#PWR094"
-			(at 280.67 124.46 0)
+		(uuid "816db834-7fd5-45db-8f61-2dfd6ecbc857")
+		(property "Reference" "#PWR092"
+			(at 267.97 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31601,8 +31574,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 280.67 122.428 0)
+		(property "Value" "3V3"
+			(at 267.97 70.104 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31612,7 +31585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 118.11 0)
+			(at 267.97 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31623,7 +31596,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 118.11 0)
+			(at 267.97 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31633,8 +31606,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 280.67 118.11 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 267.97 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31645,12 +31618,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d95811c8-4cc9-466b-a763-9a31d908eeb4")
+			(uuid "15ac7903-a04e-468d-ba46-d5ce381070b6")
 		)
 		(instances
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "#PWR094")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -36133,6 +36106,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Swadge_Parts:+3.3V")
+		(at 294.64 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac2910c0-3ac9-4d58-bf2c-c42d744cd17d")
+		(property "Reference" "#PWR098"
+			(at 294.64 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 294.64 89.154 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 294.64 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad04dc93-ad68-4b9d-aace-4f872a8af54b")
+		)
+		(instances
+			(project "Swadge-HW"
+				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Swadge_Parts:R_US")
 		(at 245.11 167.64 0)
 		(unit 1)
@@ -39952,83 +40002,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Swadge_Parts:GND")
-		(at 307.34 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cbd1c712-b7ba-40f6-a16c-9541ef7b97ff")
-		(property "Reference" "#PWR0102"
-			(at 307.34 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 307.34 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 307.34 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 307.34 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4b82c776-6d7d-4493-9af6-62b97b462e11")
-		)
-		(instances
-			(project "Swadge-HW"
-				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Swadge_Parts:R_US")
 		(at 306.07 176.53 90)
 		(unit 1)
@@ -40797,83 +40770,6 @@
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Swadge_Parts:GND")
-		(at 280.67 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d208c9e2-d935-498b-9372-da01caffe329")
-		(property "Reference" "#PWR092"
-			(at 280.67 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 280.67 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 280.67 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 280.67 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 280.67 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "71ddcb39-9596-4f5f-bc02-a3c4f44d499f")
-		)
-		(instances
-			(project "Swadge-HW"
-				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -42428,85 +42324,6 @@
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
 					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Swadge_Parts:GND")
-		(at 299.72 134.62 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e36beaca-7ee9-407e-8b09-4b288a3d1ffb")
-		(property "Reference" "#PWR098"
-			(at 306.07 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 303.53 134.6199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 299.72 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 299.72 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1be24c0f-7f58-4bad-880d-7bf71d8df898")
-		)
-		(instances
-			(project "Swadge-HW"
-				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -44356,6 +44173,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Swadge_Parts:+3.3V")
+		(at 294.64 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f4c6d28d-b0fc-409b-8855-e537bf600005")
+		(property "Reference" "#PWR0100"
+			(at 294.64 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 294.64 108.204 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 294.64 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19a910e5-e095-4fc8-9a0e-acca0f6b3b58")
+		)
+		(instances
+			(project "Swadge-HW"
+				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Swadge_Parts:GND")
 		(at 74.93 233.68 0)
 		(unit 1)
@@ -44978,6 +44872,83 @@
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:+3.3V")
+		(at 275.59 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe52dcfb-c7f6-41d9-82fc-9f50d92dd8e5")
+		(property "Reference" "#PWR0101"
+			(at 275.59 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 275.59 128.524 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 275.59 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf9094f3-8bbe-4d19-8e3f-a82b2c8a6afe")
+		)
+		(instances
+			(project "Swadge-HW"
+				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
