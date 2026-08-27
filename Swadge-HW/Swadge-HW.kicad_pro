@@ -638,7 +638,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 20,
     "annotation": {
       "method": 0,
       "sort_order": 0
@@ -659,7 +659,7 @@
       "exclude_dnp": true,
       "fields_ordered": [
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -746,6 +746,30 @@
           "group_by": false,
           "label": "Cost@2500",
           "name": "Cost@2500",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Link",
+          "name": "LCSC Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Datasheet",
+          "name": "LCSC Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Color",
+          "name": "Color",
           "show": false
         }
       ],
@@ -753,8 +777,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Cost @ 2.5k"
+      "sort_asc": true,
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -815,7 +839,7 @@
         "uuid": "770c762f-3a30-4864-b7da-de353459cdd6"
       }
     ],
-    "used_designators": "D15-17,#PWR42,#PWR59,#PWR63,#PWR92-94,#PWR98-101,R23,R50-52,C30",
+    "used_designators": "L3,D14-17,D21-45,#PWR13,#PWR17,#PWR29,#PWR42,#PWR59,#PWR63,#PWR69,#PWR86-87,#PWR89-94,#PWR98-102,#PWR104,#PWR107-115,R2,R23,R30,R48-52,R54-56,R72-97,C1,C5,C14-16,C18,C30,C45,C56,C77-80,U11,SW10-15,TP1,FB1",
     "variants": []
   },
   "sheets": [
