@@ -14060,7 +14060,7 @@
 	)
 	(text "charles pls"
 		(exclude_from_sim no)
-		(at 121.158 307.34 0)
+		(at 110.998 307.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15389,7 +15389,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 297.18) (xy 172.72 297.18)
+			(xy 165.1 297.18) (xy 172.72 297.18)
 		)
 		(stroke
 			(width 0)
@@ -16799,7 +16799,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 297.18) (xy 170.18 299.72)
+			(xy 165.1 297.18) (xy 165.1 299.72)
 		)
 		(stroke
 			(width 0)
@@ -18319,7 +18319,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 309.88) (xy 170.18 307.34)
+			(xy 165.1 309.88) (xy 165.1 307.34)
 		)
 		(stroke
 			(width 0)
@@ -21497,6 +21497,16 @@
 		)
 		(uuid "3d6bee58-53ea-4022-a5c9-dea906b7a4d5")
 	)
+	(label "SPK_IN_P"
+		(at 121.92 302.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42cd8f93-5cd7-4114-abc3-af7317294ef7")
+	)
 	(label "TEMP"
 		(at 165.1 236.22 0)
 		(effects
@@ -21517,6 +21527,16 @@
 		)
 		(uuid "4e023123-7960-4879-9940-ac9c9eb101d3")
 	)
+	(label "SPK_N"
+		(at 165.1 322.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d961f01-fb4e-4aea-983b-c9a6e8c507d9")
+	)
 	(label "~{STBY}"
 		(at 132.08 238.76 0)
 		(effects
@@ -21527,6 +21547,26 @@
 		)
 		(uuid "70670bbb-e8c4-40ce-8f6e-f3da0e57609c")
 	)
+	(label "VO_P"
+		(at 152.4 287.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78535f92-3f10-460f-a206-04b03e08019d")
+	)
+	(label "SPK_P"
+		(at 165.1 320.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f15e79f-ca42-478f-898f-75fdf324e33b")
+	)
 	(label "VOUT"
 		(at 246.38 182.88 0)
 		(effects
@@ -21536,6 +21576,36 @@
 			(justify left bottom)
 		)
 		(uuid "916fbec1-6088-4b22-975d-1eac48836734")
+	)
+	(label "U_D-"
+		(at 48.26 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96837c4e-6738-4c7d-98f8-0086adc14305")
+	)
+	(label "SPK_DRN"
+		(at 172.72 297.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9aec7909-5628-4863-a116-db30d2daf242")
+	)
+	(label "U_D+"
+		(at 48.26 218.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d20d83e-4d79-4c23-8966-184f94fbc1ab")
 	)
 	(label "~{CHRG}"
 		(at 132.08 236.22 0)
@@ -21556,6 +21626,16 @@
 			(justify left bottom)
 		)
 		(uuid "ac5d387e-dbb3-4d2f-a5ee-9a52bd406ef4")
+	)
+	(label "SPK_IN_N"
+		(at 127 307.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6ee8d7b-b6a9-4656-baa2-2d2c06a752cf")
 	)
 	(label "RTC_INT"
 		(at 425.45 222.25 180)
@@ -24531,7 +24611,7 @@
 	)
 	(global_label "SPK"
 		(shape input)
-		(at 114.3 307.34 180)
+		(at 104.14 307.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24541,7 +24621,7 @@
 		)
 		(uuid "fafa4853-8ca3-4643-8f16-a749b504b640")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.5653 307.34 0)
+			(at 97.4053 307.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28214,7 +28294,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:R_US")
-		(at 170.18 303.53 180)
+		(at 165.1 303.53 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28224,7 +28304,7 @@
 		(dnp no)
 		(uuid "1904b885-7965-46df-a6f9-e9622896941b")
 		(property "Reference" "R54"
-			(at 167.64 303.53 90)
+			(at 162.56 303.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28234,7 +28314,7 @@
 			)
 		)
 		(property "Value" "120Ω"
-			(at 172.72 303.53 90)
+			(at 167.64 303.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28244,7 +28324,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
-			(at 169.164 303.276 90)
+			(at 164.084 303.276 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28255,7 +28335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 303.53 90)
+			(at 162.56 303.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28266,7 +28346,7 @@
 			)
 		)
 		(property "Description" "Resistor US symbol"
-			(at 170.18 303.53 0)
+			(at 165.1 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28277,7 +28357,7 @@
 			)
 		)
 		(property "Cost100" "10"
-			(at 170.18 303.53 0)
+			(at 165.1 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28288,7 +28368,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 165.1 306.07 90)
+			(at 160.02 306.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28299,7 +28379,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 170.18 303.53 0)
+			(at 165.1 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28310,7 +28390,7 @@
 			)
 		)
 		(property "LCSC" "C313655"
-			(at 170.18 303.53 0)
+			(at 165.1 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28321,7 +28401,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0007"
-			(at 170.18 303.53 0)
+			(at 165.1 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28332,7 +28412,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 170.18 303.53 90)
+			(at 165.1 303.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54514,7 +54594,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:GND")
-		(at 170.18 309.88 0)
+		(at 165.1 309.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -54524,7 +54604,7 @@
 		(dnp no)
 		(uuid "e0628eb3-6e2f-47ee-a46a-be456e8eecaa")
 		(property "Reference" "#PWR082"
-			(at 170.18 316.23 0)
+			(at 165.1 316.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54535,7 +54615,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 311.658 0)
+			(at 168.91 311.658 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54545,7 +54625,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 309.88 0)
+			(at 165.1 309.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54556,7 +54636,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 309.88 0)
+			(at 165.1 309.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54567,7 +54647,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 309.88 0)
+			(at 165.1 309.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
