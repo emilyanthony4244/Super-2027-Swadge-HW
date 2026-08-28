@@ -14286,12 +14286,6 @@
 		(uuid "19ed83d4-f17b-421c-9cbc-bfee49c3ede8")
 	)
 	(junction
-		(at 149.86 220.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1afff333-8bfc-4e79-945e-fd65b171475b")
-	)
-	(junction
 		(at 60.96 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14484,12 +14478,6 @@
 		(uuid "5eea914a-c220-4ea5-9783-fe7b509adfb5")
 	)
 	(junction
-		(at 172.72 220.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61705a7c-2347-45a3-b760-94cc4ddb8983")
-	)
-	(junction
 		(at 205.74 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14550,6 +14538,12 @@
 		(uuid "6d1b0fd4-0bc1-4d55-b227-2c4dda8cef2d")
 	)
 	(junction
+		(at 139.7 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e3b3514-e102-43cc-b989-f0ac8860334e")
+	)
+	(junction
 		(at 396.24 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14590,6 +14584,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73b8ac57-7b13-4367-8185-23a25d2ea192")
+	)
+	(junction
+		(at 149.86 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "746fa81b-34df-46b4-9aba-92168b857efa")
 	)
 	(junction
 		(at 360.68 129.54)
@@ -14736,6 +14736,12 @@
 		(uuid "a5d50ac7-3121-40b3-b124-50155b3b2356")
 	)
 	(junction
+		(at 172.72 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5d56fd9-c5b2-44e1-a18e-4ab852f11147")
+	)
+	(junction
 		(at 502.92 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14776,12 +14782,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "add9f993-f05f-416e-ae3a-dbb71ec106d0")
-	)
-	(junction
-		(at 160.02 220.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae8c16df-01ca-487a-80a4-641ded08f80a")
 	)
 	(junction
 		(at 360.68 134.62)
@@ -14946,12 +14946,6 @@
 		(uuid "d2c24ce9-ed4d-42b8-96be-bfa1e5fc3f03")
 	)
 	(junction
-		(at 172.72 236.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4356812-3122-40fb-b769-a5813b0e317b")
-	)
-	(junction
 		(at 271.78 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15022,12 +15016,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0b248ce-03f9-4600-b908-560f4405e4c8")
-	)
-	(junction
-		(at 139.7 220.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f21f36f0-3d18-42e0-8c9e-254cd77742c8")
 	)
 	(junction
 		(at 492.76 88.9)
@@ -15539,6 +15527,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 215.9) (xy 149.86 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e1980a-cda0-4733-bf46-f7fe3d119ba3")
+	)
+	(wire
+		(pts
 			(xy 472.44 104.14) (xy 482.6 104.14)
 		)
 		(stroke
@@ -15849,16 +15847,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 220.98) (xy 172.72 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "215264d3-d7eb-4720-a928-568fadd317d4")
-	)
-	(wire
-		(pts
 			(xy 35.56 190.5) (xy 40.64 190.5)
 		)
 		(stroke
@@ -15916,6 +15904,16 @@
 			(type default)
 		)
 		(uuid "22ee7b81-bfc7-464b-ab61-d0b4078963ae")
+	)
+	(wire
+		(pts
+			(xy 172.72 226.06) (xy 172.72 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c5499f-68ee-4e23-8127-9a1ffb00fde7")
 	)
 	(wire
 		(pts
@@ -16149,7 +16147,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 220.98) (xy 149.86 223.52)
+			(xy 149.86 215.9) (xy 149.86 223.52)
 		)
 		(stroke
 			(width 0)
@@ -16719,7 +16717,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 220.98) (xy 149.86 220.98)
+			(xy 139.7 215.9) (xy 149.86 215.9)
 		)
 		(stroke
 			(width 0)
@@ -17709,16 +17707,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 220.98) (xy 139.7 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a30a896-5d2c-475a-b405-3e4b2a25d979")
-	)
-	(wire
-		(pts
 			(xy 345.44 127) (xy 344.17 127)
 		)
 		(stroke
@@ -18099,16 +18087,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 215.9) (xy 139.7 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7add0c09-e702-4799-af29-ea84546b60cd")
-	)
-	(wire
-		(pts
 			(xy 162.56 88.9) (xy 175.26 88.9)
 		)
 		(stroke
@@ -18246,16 +18224,6 @@
 			(type default)
 		)
 		(uuid "7e00be3a-d9f6-49de-9b33-5cb9929cf7e8")
-	)
-	(wire
-		(pts
-			(xy 160.02 220.98) (xy 172.72 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eef98d0-dac5-4957-93fe-a67b9531fc5a")
 	)
 	(wire
 		(pts
@@ -18689,7 +18657,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 220.98) (xy 185.42 220.98)
+			(xy 160.02 220.98) (xy 185.42 220.98)
 		)
 		(stroke
 			(width 0)
@@ -20339,16 +20307,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 220.98) (xy 160.02 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9bf1854-d1d1-4acd-a2f4-ff897cdc0e65")
-	)
-	(wire
-		(pts
 			(xy 502.92 198.12) (xy 513.08 198.12)
 		)
 		(stroke
@@ -20456,6 +20414,16 @@
 			(type default)
 		)
 		(uuid "deb2ec2b-57a3-4bef-a097-6c40ca0413ae")
+	)
+	(wire
+		(pts
+			(xy 139.7 215.9) (xy 139.7 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "debeb1b0-0d1b-4c2d-9649-b61a0dffa941")
 	)
 	(wire
 		(pts
@@ -21189,7 +21157,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 232.41) (xy 172.72 236.22)
+			(xy 172.72 233.68) (xy 172.72 236.22)
 		)
 		(stroke
 			(width 0)
@@ -52902,7 +52870,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:R_US")
-		(at 172.72 228.6 180)
+		(at 172.72 229.87 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -52912,7 +52880,7 @@
 		(dnp no)
 		(uuid "d41a8742-d0ef-4ff0-bed1-d7002fcac799")
 		(property "Reference" "R42"
-			(at 170.18 228.6 90)
+			(at 170.18 229.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52922,7 +52890,7 @@
 			)
 		)
 		(property "Value" "5.1kΩ"
-			(at 175.26 228.6 90)
+			(at 175.26 229.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52932,7 +52900,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
-			(at 171.704 228.346 90)
+			(at 171.704 229.616 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52943,7 +52911,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 228.6 90)
+			(at 170.18 229.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52954,7 +52922,7 @@
 			)
 		)
 		(property "Description" "Resistor US symbol"
-			(at 172.72 228.6 0)
+			(at 172.72 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52965,7 +52933,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 167.64 231.14 90)
+			(at 167.64 232.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52976,7 +52944,7 @@
 			)
 		)
 		(property "Cost100" "10"
-			(at 172.72 228.6 0)
+			(at 172.72 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52987,7 +52955,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 172.72 228.6 0)
+			(at 172.72 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52998,7 +52966,7 @@
 			)
 		)
 		(property "LCSC" "C23186"
-			(at 172.72 228.6 0)
+			(at 172.72 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53009,7 +52977,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0008"
-			(at 172.72 228.6 0)
+			(at 172.72 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53020,7 +52988,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 172.72 228.6 90)
+			(at 172.72 229.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53736,7 +53704,7 @@
 		(dnp no)
 		(uuid "d81a1fec-d7d0-4e97-86fd-8f1ca9301c34")
 		(property "Reference" "U3"
-			(at 142.24 215.9 0)
+			(at 142.24 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53747,7 +53715,7 @@
 			)
 		)
 		(property "Value" "TP4056-42-ESOP8"
-			(at 142.24 218.44 0)
+			(at 142.24 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
