@@ -980,7 +980,7 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "0bf535f0-98b0-42cf-8e54-d1b6415d9a05")
-		(at 62 138 -45)
+		(at 66 142 -45)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D31"
@@ -1234,7 +1234,7 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "0e070e63-b388-469a-930c-4c7657bb88af")
-		(at 143 143 45)
+		(at 139 147 45)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D37"
@@ -1488,7 +1488,7 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "168cbead-dc4e-4b1c-a327-e6b42be032ac")
-		(at 133 133 45)
+		(at 129 137 45)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D35"
@@ -9435,7 +9435,7 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "1da9d6ac-3c3d-44c6-8cad-6572178561d6")
-		(at 137 134 45)
+		(at 133 138 45)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D26"
@@ -10809,7 +10809,7 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4141d032-77d3-481e-ba7f-d7d8db2b066c")
-		(at 142 139 45)
+		(at 138 143 45)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D27"
@@ -11360,7 +11360,7 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4d8e4e23-d5d3-4b38-a4ee-3c874d2e22be")
-		(at 52 148 -45)
+		(at 56 152 -45)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D23"
@@ -11614,12 +11614,12 @@
 	(footprint "Swadge_Parts:YTS-D003-1A"
 		(layer "F.Cu")
 		(uuid "50ab9e0a-2ba3-41e8-9a16-0cd7ae014554")
-		(at 59 115 -135)
+		(at 56 124 -135)
 		(property "Reference" "SW2"
 			(at 0 0 225)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "23df4ade-1bb1-4006-bcfc-dce59a2d2732")
+			(uuid "8ac0deb2-6a7b-4c80-90fc-9fa770620a58")
 			(effects
 				(font
 					(size 1 1)
@@ -11631,7 +11631,7 @@
 			(at 0 4 225)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "22ad397e-a838-48db-8321-76b93ceb269e")
+			(uuid "154057c3-1b2f-48d2-ae90-73f3987d1684")
 			(effects
 				(font
 					(size 1 1)
@@ -11643,7 +11643,7 @@
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "09febb64-5d81-4d47-aa12-5f4000fb18cd")
+			(uuid "83975829-e5d9-4407-9e81-68260c6c7ded")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11655,7 +11655,7 @@
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f3e727f7-4676-4260-8133-fdf8d36a0c83")
+			(uuid "87e7b25e-9a4d-4460-8e77-e7907d5d352f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12907,7 +12907,7 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "738cdbcf-85bc-46cf-a5a1-64b2026ebf0f")
-		(at 53 144 -45)
+		(at 57 148 -45)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D33"
@@ -13396,7 +13396,7 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "7a12e3a3-c700-487f-bfcc-443636f1b73a")
-		(at 132 129 45)
+		(at 128 133 45)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D25"
@@ -13650,11 +13650,11 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "7d9848e1-a96b-4488-9d8b-775dc0f27303")
-		(at 84.9 121.9 -45)
+		(at 66.466612 115.636876 25)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D41"
-			(at 0 -1.43 135)
+			(at 0 -1.430001 25)
 			(layer "F.SilkS")
 			(uuid "63697d3b-6983-48d3-8a1f-13414261b477")
 			(effects
@@ -13665,7 +13665,7 @@
 			)
 		)
 		(property "Value" "A-SP192GB1D-A02-4T"
-			(at 0 1.43 135)
+			(at 0 1.430001 25)
 			(layer "F.Fab")
 			(uuid "03d78e3f-966b-435a-8d1c-d7f386381f85")
 			(effects
@@ -13676,7 +13676,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5355458.pdf"
-			(at 0 0 135)
+			(at 0 0 25)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c109d13f-9316-4f0b-977f-250b9aeecd8e")
@@ -13688,7 +13688,7 @@
 			)
 		)
 		(property "Description" "Blue LED"
-			(at 0 0 135)
+			(at 0 0 25)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9d57bc20-0c60-4f27-85b3-d65a23df258a")
@@ -13700,7 +13700,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 315)
+			(at 0 0 25)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13713,7 +13713,7 @@
 			)
 		)
 		(property "LCSC" "C5355458"
-			(at 0 0 315)
+			(at 0 0 25)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13738,16 +13738,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.485 0.735)
-			(end 0.8 0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4f42971d-f5e5-49af-b116-487473bbabec")
-		)
-		(fp_line
 			(start -1.485 -0.735)
 			(end -1.485 0.735)
 			(stroke
@@ -13756,6 +13746,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "1f4dc36d-f8fc-4c9f-8b26-b35a20ab71a4")
+		)
+		(fp_line
+			(start -1.485 0.735)
+			(end 0.8 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4f42971d-f5e5-49af-b116-487473bbabec")
 		)
 		(fp_line
 			(start 0.8 -0.735)
@@ -13768,16 +13768,6 @@
 			(uuid "6eeda1a8-116d-407b-8f13-44a241b8b0cc")
 		)
 		(fp_line
-			(start -1.48 0.73)
-			(end -1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "991ea3b6-95b8-4076-b28b-eb1b4ec66116")
-		)
-		(fp_line
 			(start -1.48 -0.73)
 			(end 1.48 -0.73)
 			(stroke
@@ -13788,14 +13778,14 @@
 			(uuid "11146fa1-3c7b-4e20-9a16-760a796208ba")
 		)
 		(fp_line
-			(start 1.48 0.73)
-			(end -1.48 0.73)
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6307499a-ca49-4cb0-9254-7fba955bbf98")
+			(uuid "991ea3b6-95b8-4076-b28b-eb1b4ec66116")
 		)
 		(fp_line
 			(start 1.48 -0.73)
@@ -13808,18 +13798,18 @@
 			(uuid "3d1bbb09-d3ef-44a0-9d6c-f6e706a823df")
 		)
 		(fp_line
-			(start -0.8 0.4)
-			(end 0.8 0.4)
+			(start 1.48 0.73)
+			(end -1.48 0.73)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "1ee7660e-f975-4534-b077-cd4914f6a2ae")
+			(layer "F.CrtYd")
+			(uuid "6307499a-ca49-4cb0-9254-7fba955bbf98")
 		)
 		(fp_line
 			(start -0.8 -0.1)
-			(end -0.8 0.4)
+			(end -0.8 0.399999)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -13838,17 +13828,17 @@
 			(uuid "be1557b1-edb5-4f57-8f6c-840c2cfe0cf9")
 		)
 		(fp_line
-			(start 0.8 0.4)
-			(end 0.8 -0.4)
+			(start -0.8 0.399999)
+			(end 0.800001 0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3f65feb4-cffa-446b-a9bc-6d14db083fd6")
+			(uuid "1ee7660e-f975-4534-b077-cd4914f6a2ae")
 		)
 		(fp_line
-			(start 0.8 -0.4)
+			(start 0.8 -0.399999)
 			(end -0.5 -0.4)
 			(stroke
 				(width 0.1)
@@ -13857,8 +13847,18 @@
 			(layer "F.Fab")
 			(uuid "ff81db34-6a71-469a-946f-6584ed65a7fb")
 		)
+		(fp_line
+			(start 0.800001 0.4)
+			(end 0.8 -0.399999)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3f65feb4-cffa-446b-a9bc-6d14db083fd6")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 135)
+			(at 0 0 25)
 			(layer "F.Fab")
 			(uuid "df12a93a-a018-4492-8d0e-daedc2016ded")
 			(effects
@@ -13869,7 +13869,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.787501 0 315)
+			(at -0.787501 0 25)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -13879,7 +13879,7 @@
 			(uuid "56b6cd12-a901-4367-bd8f-b621627ed210")
 		)
 		(pad "2" smd roundrect
-			(at 0.787501 0 315)
+			(at 0.787501 0 25)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -13904,7 +13904,7 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "7e9c23a4-d243-48cd-954c-ebf7573010ef")
-		(at 148 148 45)
+		(at 144 152 45)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D38"
@@ -14943,7 +14943,7 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "880e2653-7e64-463f-8145-ffcc0b126c3f")
-		(at 63 134 -45)
+		(at 67 138 -45)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D21"
@@ -15197,13 +15197,13 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8970a450-f433-4023-a832-16657ea7689e")
-		(at 74.2125 126 -45)
+		(at 73 127 45)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D42"
-			(at 0 -1.43 135)
+			(at 0 -1.43 45)
 			(layer "F.SilkS")
-			(uuid "71ff1a4a-fe8d-4bf8-9b0c-7cbc968fa853")
+			(uuid "856ddfa4-bf18-49ed-8b6b-6c1753b4e021")
 			(effects
 				(font
 					(size 1 1)
@@ -15212,9 +15212,9 @@
 			)
 		)
 		(property "Value" "A-SP192GB1D-A02-4T"
-			(at 0 1.43 135)
+			(at 0 1.43 45)
 			(layer "F.Fab")
-			(uuid "e3f3f210-d472-4ebb-85e1-5f268e516092")
+			(uuid "3509252d-1c03-4b29-a2ac-40e14c8d1f86")
 			(effects
 				(font
 					(size 1 1)
@@ -15223,10 +15223,10 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5355458.pdf"
-			(at 0 0 135)
+			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9f6c9a55-d155-4acb-ac0d-cdd7d1efb4c0")
+			(uuid "96bbf8cd-8d17-44a0-a4b3-193ed64e46fd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15235,10 +15235,10 @@
 			)
 		)
 		(property "Description" "Blue LED"
-			(at 0 0 135)
+			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "adb0a85d-01ba-4999-aab0-15afdf54f8f2")
+			(uuid "958f0b73-acab-4327-98a3-456c0795046f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15247,7 +15247,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 315)
+			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15260,7 +15260,7 @@
 			)
 		)
 		(property "LCSC" "C5355458"
-			(at 0 0 315)
+			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15285,16 +15285,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.485 0.735)
-			(end 0.8 0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2b89db77-ea5d-4077-a26f-96958ede1fc2")
-		)
-		(fp_line
 			(start -1.485 -0.735)
 			(end -1.485 0.735)
 			(stroke
@@ -15303,6 +15293,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "a79896b3-35a0-4ffd-87f9-855791ffeded")
+		)
+		(fp_line
+			(start -1.485 0.735)
+			(end 0.8 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2b89db77-ea5d-4077-a26f-96958ede1fc2")
 		)
 		(fp_line
 			(start 0.8 -0.735)
@@ -15315,16 +15315,6 @@
 			(uuid "3d372258-b45c-4804-b0f5-d7c38552a26b")
 		)
 		(fp_line
-			(start -1.48 0.73)
-			(end -1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d61ecb10-1566-4c0b-8466-37f97264d156")
-		)
-		(fp_line
 			(start -1.48 -0.73)
 			(end 1.48 -0.73)
 			(stroke
@@ -15335,14 +15325,14 @@
 			(uuid "778f5df8-a934-4103-bb1e-551a3726c6ae")
 		)
 		(fp_line
-			(start 1.48 0.73)
-			(end -1.48 0.73)
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f501eff7-3cb8-4721-b1bd-3a6f7c28ed8c")
+			(uuid "d61ecb10-1566-4c0b-8466-37f97264d156")
 		)
 		(fp_line
 			(start 1.48 -0.73)
@@ -15355,24 +15345,14 @@
 			(uuid "052773c0-3a2f-48a6-aec6-72d9178a400a")
 		)
 		(fp_line
-			(start -0.8 0.4)
-			(end 0.8 0.4)
+			(start 1.48 0.73)
+			(end -1.48 0.73)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "dba7f4df-a1e2-46f8-bebb-d5d504e2238c")
-		)
-		(fp_line
-			(start -0.8 -0.1)
-			(end -0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "659149e7-3e22-4733-99e7-41baebdb2d99")
+			(layer "F.CrtYd")
+			(uuid "f501eff7-3cb8-4721-b1bd-3a6f7c28ed8c")
 		)
 		(fp_line
 			(start -0.5 -0.4)
@@ -15385,14 +15365,24 @@
 			(uuid "2903959c-2371-43ae-9ab8-0e8a9740d742")
 		)
 		(fp_line
-			(start 0.8 0.4)
-			(end 0.8 -0.4)
+			(start -0.8 -0.1)
+			(end -0.8 0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "29a4a5f5-88d1-46cb-ac16-583ffa599c64")
+			(uuid "659149e7-3e22-4733-99e7-41baebdb2d99")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dba7f4df-a1e2-46f8-bebb-d5d504e2238c")
 		)
 		(fp_line
 			(start 0.8 -0.4)
@@ -15404,8 +15394,18 @@
 			(layer "F.Fab")
 			(uuid "945fe23f-e2b6-414e-b17d-459afe6b6d52")
 		)
+		(fp_line
+			(start 0.8 0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "29a4a5f5-88d1-46cb-ac16-583ffa599c64")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 135)
+			(at 0 0 45)
 			(layer "F.Fab")
 			(uuid "4483faf6-64c4-41ec-9469-6544647b110b")
 			(effects
@@ -15416,7 +15416,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.787501 0 315)
+			(at -0.787501 0 45)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -15426,7 +15426,7 @@
 			(uuid "69a880c5-24bd-4351-9da9-4c3a88964116")
 		)
 		(pad "2" smd roundrect
-			(at 0.787501 0 315)
+			(at 0.787501 0 45)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -16045,7 +16045,7 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "93f26d2b-c357-4051-b426-98cda0ab51ad")
-		(at 58 139 -45)
+		(at 62 143 -45)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D22"
@@ -16299,11 +16299,11 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "a2e839bc-ef70-46a6-b907-77af87d2c7d5")
-		(at 126 127 45)
+		(at 127 127 135)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D43"
-			(at 0 -1.43 45)
+			(at 0 -1.43 135)
 			(layer "F.SilkS")
 			(uuid "5f117048-a397-4972-b3a0-76d55a85e61f")
 			(effects
@@ -16314,7 +16314,7 @@
 			)
 		)
 		(property "Value" "A-SP192GB1D-A02-4T"
-			(at 0 1.43 45)
+			(at 0 1.43 135)
 			(layer "F.Fab")
 			(uuid "0e2f1198-c214-437f-80d3-d5d2f6c6cbd4")
 			(effects
@@ -16325,7 +16325,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5355458.pdf"
-			(at 0 0 45)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ab4645f1-65cf-46d2-9f99-1ef9a3413e51")
@@ -16337,7 +16337,7 @@
 			)
 		)
 		(property "Description" "Blue LED"
-			(at 0 0 45)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2f7b64e0-8459-47e0-816f-3f6b4bf86be9")
@@ -16349,7 +16349,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 45)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16362,7 +16362,7 @@
 			)
 		)
 		(property "LCSC" "C5355458"
-			(at 0 0 45)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16387,6 +16387,16 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
+			(start 0.8 -0.735)
+			(end -1.485 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2ff37e56-fe9a-4dae-b396-c12ce56544d1")
+		)
+		(fp_line
 			(start -1.485 -0.735)
 			(end -1.485 0.735)
 			(stroke
@@ -16407,14 +16417,24 @@
 			(uuid "b69db1f7-eda7-465b-a92f-06d5226e7138")
 		)
 		(fp_line
-			(start 0.8 -0.735)
-			(end -1.485 -0.735)
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
 			(stroke
-				(width 0.12)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.SilkS")
-			(uuid "2ff37e56-fe9a-4dae-b396-c12ce56544d1")
+			(layer "F.CrtYd")
+			(uuid "ec3c7d2e-5e94-4cee-b83a-b33a05c21269")
+		)
+		(fp_line
+			(start 1.48 0.73)
+			(end -1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e76315f8-7a38-42fb-9f89-a14b8483b6f7")
 		)
 		(fp_line
 			(start -1.48 -0.73)
@@ -16437,24 +16457,24 @@
 			(uuid "af3a45d4-f73a-47c7-9210-8b891b475a6f")
 		)
 		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
+			(start 0.8 -0.4)
+			(end -0.5 -0.4)
 			(stroke
-				(width 0.05)
+				(width 0.1)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "ec3c7d2e-5e94-4cee-b83a-b33a05c21269")
+			(layer "F.Fab")
+			(uuid "9808fdaa-4890-4815-ac7e-71d39d7e987f")
 		)
 		(fp_line
-			(start 1.48 0.73)
-			(end -1.48 0.73)
+			(start 0.8 0.4)
+			(end 0.8 -0.4)
 			(stroke
-				(width 0.05)
+				(width 0.1)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "e76315f8-7a38-42fb-9f89-a14b8483b6f7")
+			(layer "F.Fab")
+			(uuid "103208c9-47f0-402e-94c2-ab0745622a92")
 		)
 		(fp_line
 			(start -0.5 -0.4)
@@ -16486,28 +16506,8 @@
 			(layer "F.Fab")
 			(uuid "f70c962c-f864-4c8c-aede-3c8ee94fbbdd")
 		)
-		(fp_line
-			(start 0.8 -0.4)
-			(end -0.5 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9808fdaa-4890-4815-ac7e-71d39d7e987f")
-		)
-		(fp_line
-			(start 0.8 0.4)
-			(end 0.8 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "103208c9-47f0-402e-94c2-ab0745622a92")
-		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 45)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(uuid "1f86ee55-0d01-49aa-8ed8-add4434f1354")
 			(effects
@@ -16518,7 +16518,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.787501 0 45)
+			(at -0.787501 0 135)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -16528,7 +16528,7 @@
 			(uuid "3b18867c-cbe1-4cac-ad21-d2d66cc169cf")
 		)
 		(pad "2" smd roundrect
-			(at 0.787501 0 45)
+			(at 0.787501 0 135)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -16553,7 +16553,7 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "a37f9b7a-00e7-4e0a-a6eb-86513e720918")
-		(at 147 144 45)
+		(at 143 148 45)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D28"
@@ -17924,7 +17924,7 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "acaa4a34-f977-45f1-9ba6-045e5e3fd8b8")
-		(at 48 149 -45)
+		(at 52 153 -45)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D24"
@@ -18178,7 +18178,7 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ae3cde41-7b18-42be-bd72-46260a3c1255")
-		(at 57 143 -45)
+		(at 61 147 -45)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D32"
@@ -18432,13 +18432,13 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b9310052-9c3a-4dc4-a53c-0e226b9bce36")
-		(at 125.7 114.3 45)
+		(at 133.533388 115.636876 -25)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D44"
-			(at 0 -1.43 45)
+			(at 0 -1.430001 155)
 			(layer "F.SilkS")
-			(uuid "2f75dfc9-61f1-4f66-bede-c2105e6772e5")
+			(uuid "e405d8c6-9006-43e6-bdc3-1a7fb4b9895d")
 			(effects
 				(font
 					(size 1 1)
@@ -18447,9 +18447,9 @@
 			)
 		)
 		(property "Value" "A-SP192GB1D-A02-4T"
-			(at 0 1.43 45)
+			(at 0 1.430001 155)
 			(layer "F.Fab")
-			(uuid "a8e4cc49-1e74-4909-acf6-8fef1e41719e")
+			(uuid "6e0049c5-13d9-41a0-bd21-aad706679d73")
 			(effects
 				(font
 					(size 1 1)
@@ -18458,10 +18458,10 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5355458.pdf"
-			(at 0 0 45)
+			(at 0 0 155)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f3ff31f1-9f99-4598-aa9e-d0fa8d4b93b9")
+			(uuid "67d2bcdf-f0a3-4989-b103-a82198cb6be8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18470,10 +18470,10 @@
 			)
 		)
 		(property "Description" "Blue LED"
-			(at 0 0 45)
+			(at 0 0 155)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f47febb3-1cd5-4cde-ad49-0e21aac07e92")
+			(uuid "96b5ac03-f3f2-445a-b6c0-ee7b8512b516")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18482,7 +18482,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 45)
+			(at 0 0 335)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18495,7 +18495,7 @@
 			)
 		)
 		(property "LCSC" "C5355458"
-			(at 0 0 45)
+			(at 0 0 335)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18520,16 +18520,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.485 -0.735)
-			(end -1.485 0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5843bfb9-c78f-488e-a0b2-b32cc0761531")
-		)
-		(fp_line
 			(start -1.485 0.735)
 			(end 0.8 0.735)
 			(stroke
@@ -18540,24 +18530,24 @@
 			(uuid "2fefc556-ace9-40d2-9857-4dd7a95746df")
 		)
 		(fp_line
+			(start -1.484999 -0.735)
+			(end -1.485 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5843bfb9-c78f-488e-a0b2-b32cc0761531")
+		)
+		(fp_line
 			(start 0.8 -0.735)
-			(end -1.485 -0.735)
+			(end -1.484999 -0.735)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
 			(uuid "949ea32a-781a-4000-b367-bc7b372be1f1")
-		)
-		(fp_line
-			(start -1.48 -0.73)
-			(end 1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "1f3c939d-b91e-4159-9b16-7e91a23c6bdc")
 		)
 		(fp_line
 			(start -1.48 0.73)
@@ -18570,14 +18560,14 @@
 			(uuid "117fe1dc-755d-4ccb-88e3-422ea852877f")
 		)
 		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9add88c3-09ae-4b13-b5af-7e1f01d55345")
+			(uuid "1f3c939d-b91e-4159-9b16-7e91a23c6bdc")
 		)
 		(fp_line
 			(start 1.48 0.73)
@@ -18590,28 +18580,18 @@
 			(uuid "e1769a71-fceb-4506-a4fd-f5303c1d6b16")
 		)
 		(fp_line
-			(start -0.5 -0.4)
-			(end -0.8 -0.1)
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "f0af6bcd-3c6d-4c4c-9186-e28ddb7af9c5")
+			(layer "F.CrtYd")
+			(uuid "9add88c3-09ae-4b13-b5af-7e1f01d55345")
 		)
 		(fp_line
-			(start -0.8 -0.1)
-			(end -0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f4da0b5f-bab1-477d-a2d2-1dc1f6248825")
-		)
-		(fp_line
-			(start -0.8 0.4)
-			(end 0.8 0.4)
+			(start -0.8 0.399999)
+			(end 0.800001 0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -18620,18 +18600,28 @@
 			(uuid "86b4d85d-8885-4745-8ac6-c74c07acf6e7")
 		)
 		(fp_line
-			(start 0.8 -0.4)
-			(end -0.5 -0.4)
+			(start -0.799999 -0.1)
+			(end -0.8 0.399999)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6de0dae1-aed8-444c-87da-4f75af1b0f01")
+			(uuid "f4da0b5f-bab1-477d-a2d2-1dc1f6248825")
 		)
 		(fp_line
-			(start 0.8 0.4)
-			(end 0.8 -0.4)
+			(start -0.499999 -0.4)
+			(end -0.799999 -0.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f0af6bcd-3c6d-4c4c-9186-e28ddb7af9c5")
+		)
+		(fp_line
+			(start 0.800001 0.4)
+			(end 0.8 -0.399999)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -18639,8 +18629,18 @@
 			(layer "F.Fab")
 			(uuid "1cbaec79-cbd9-468a-82d4-3dbef6f9bd79")
 		)
+		(fp_line
+			(start 0.8 -0.399999)
+			(end -0.499999 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6de0dae1-aed8-444c-87da-4f75af1b0f01")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 45)
+			(at 0 0 155)
 			(layer "F.Fab")
 			(uuid "bffa37ab-7696-4e35-8217-aed0d4f44522")
 			(effects
@@ -18651,7 +18651,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.787501 0 45)
+			(at -0.787501 0 335)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -18661,7 +18661,7 @@
 			(uuid "8d66a94d-d35e-475e-af4a-eabc29013cc1")
 		)
 		(pad "2" smd roundrect
-			(at 0.787501 0 45)
+			(at 0.787501 0 335)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -18983,12 +18983,12 @@
 	(footprint "Swadge_Parts:YTS-D003-1A"
 		(layer "F.Cu")
 		(uuid "c0b0129f-80af-42f4-ba9d-66ad43b07dad")
-		(at 59 127 45)
+		(at 56 136 45)
 		(property "Reference" "SW7"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "04f67bfe-4911-446d-b368-c043e2f365d1")
+			(uuid "7bb35b69-93a2-449b-9053-f44c3520c1dd")
 			(effects
 				(font
 					(size 1 1)
@@ -19000,7 +19000,7 @@
 			(at 0 4 45)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "5f9c880f-6e64-4378-9508-1e6d4d32ca81")
+			(uuid "4d7fcd3c-fe38-4f32-b8c7-90693d0344c6")
 			(effects
 				(font
 					(size 1 1)
@@ -19012,7 +19012,7 @@
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4bb4af9c-e8e4-4e31-8276-1fbf8ac9d0fe")
+			(uuid "855f3513-28d7-49f7-a05b-e1e34a135f5d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19024,7 +19024,7 @@
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5317db17-b30a-42d6-b3f8-2b72c57a5c21")
+			(uuid "d6ac243d-9d3b-4829-b180-fda7c360e67d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19390,7 +19390,7 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c0cea416-ef6d-44c5-b634-b5057a739269")
-		(at 47 153 -45)
+		(at 51 157 -45)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D34"
@@ -19644,7 +19644,7 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c238a0bb-4101-4f01-8c89-e5d9dd7310df")
-		(at 68 129 135)
+		(at 72 133 135)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D20"
@@ -19898,12 +19898,12 @@
 	(footprint "Swadge_Parts:YTS-D003-1A"
 		(layer "F.Cu")
 		(uuid "c90105af-17b8-4b9c-986b-cf020e7fae6e")
-		(at 53 121 -45)
+		(at 50 130 -45)
 		(property "Reference" "SW3"
 			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "e4e7935b-ce06-4ee0-be4f-0b20f5cd6ed4")
+			(uuid "79704d21-e8d8-4f3f-ac94-180dd7c598da")
 			(effects
 				(font
 					(size 1 1)
@@ -19915,7 +19915,7 @@
 			(at 0 4 315)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "6f9f6e11-ab72-42e7-b2d9-cba96fffda2a")
+			(uuid "1f67559c-5e90-4eec-8e6e-652dfe513281")
 			(effects
 				(font
 					(size 1 1)
@@ -19927,7 +19927,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ee2531e0-209d-4c6a-a678-3b00c1a8b1d5")
+			(uuid "4cd6ea1e-6031-4d09-9e36-2f4dbe89ea7b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19939,7 +19939,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "03d6335d-ebe5-48f3-b89c-3d85a2b3bdf8")
+			(uuid "892b2d86-2f29-41c8-8a7a-07bda57a1e7a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21051,7 +21051,7 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "d94899f8-74b7-45b1-b75d-338d7cf935cb")
-		(at 138 138 45)
+		(at 134 142 45)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D36"
@@ -21305,7 +21305,7 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e074665e-456e-43e7-b0b7-58d786ef6977")
-		(at 152 149 45)
+		(at 148 153 45)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D29"
@@ -21559,7 +21559,7 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e365813c-9850-4166-b9cb-05febee3503c")
-		(at 153 153 45)
+		(at 149 157 45)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D39"
@@ -21813,12 +21813,12 @@
 	(footprint "Swadge_Parts:YTS-D003-1A"
 		(layer "F.Cu")
 		(uuid "e3c47fd8-a65f-4676-97e5-4a5248ff3974")
-		(at 65 121 135)
+		(at 62 130 135)
 		(property "Reference" "SW8"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "de68c2ef-e769-4a08-8fab-c2568d86f62a")
+			(uuid "a2f26562-7c0c-4d7e-9054-44ffe1c4145a")
 			(effects
 				(font
 					(size 1 1)
@@ -21830,7 +21830,7 @@
 			(at 0 4 135)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "c9ce92f0-91ef-4bfa-9c82-5b2c9a28aafb")
+			(uuid "f607c519-e805-423b-b5de-61963adf7cd7")
 			(effects
 				(font
 					(size 1 1)
@@ -21842,7 +21842,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d1121620-8a33-42d8-8108-c5733409e4c8")
+			(uuid "f64d6404-6b95-4f48-b961-16a1b838ca41")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21854,7 +21854,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "88bbf639-c8c1-4540-85aa-dd44ac0f71ab")
+			(uuid "fc2430e2-c650-4936-be49-8429d164ad74")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22220,7 +22220,7 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "eb0e733d-875e-4695-9776-5907bb1c78c4")
-		(at 67 133 -45)
+		(at 71 137 -45)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D30"
@@ -22474,11 +22474,11 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ee485c54-7fbc-4344-a292-99d41ebd2c97")
-		(at 66.5 109.3 -45)
+		(at 63 100)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D40"
-			(at 0 -1.43 135)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "32f24931-1729-40ea-8d4d-c6e1a557bb2b")
 			(effects
@@ -22489,7 +22489,7 @@
 			)
 		)
 		(property "Value" "A-SP192GB1D-A02-4T"
-			(at 0 1.43 135)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "06bce2c2-dea3-4fb3-858b-b20c5c91a8cc")
 			(effects
@@ -22500,7 +22500,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5355458.pdf"
-			(at 0 0 135)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6542c694-b70e-4b92-8d86-56d810c810d1")
@@ -22512,7 +22512,7 @@
 			)
 		)
 		(property "Description" "Blue LED"
-			(at 0 0 135)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bdedb073-7b5b-4533-87ee-dca6e6861956")
@@ -22524,7 +22524,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 315)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22537,7 +22537,7 @@
 			)
 		)
 		(property "LCSC" "C5355458"
-			(at 0 0 315)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22562,16 +22562,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.485 0.735)
-			(end 0.8 0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "97beb40d-10a4-4c3b-ba27-de8e743f330e")
-		)
-		(fp_line
 			(start -1.485 -0.735)
 			(end -1.485 0.735)
 			(stroke
@@ -22580,6 +22570,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "10f38f21-f5b7-4d56-bd09-0a78cdd9e055")
+		)
+		(fp_line
+			(start -1.485 0.735)
+			(end 0.8 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "97beb40d-10a4-4c3b-ba27-de8e743f330e")
 		)
 		(fp_line
 			(start 0.8 -0.735)
@@ -22592,16 +22592,6 @@
 			(uuid "9ce24b04-cafb-40d1-a1f3-e5cb75ed853d")
 		)
 		(fp_line
-			(start -1.48 0.73)
-			(end -1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "fa81a85f-ab9d-4e24-8451-a8b5130ebb67")
-		)
-		(fp_line
 			(start -1.48 -0.73)
 			(end 1.48 -0.73)
 			(stroke
@@ -22612,14 +22602,14 @@
 			(uuid "25f71ce0-b01b-4016-8b97-ea8f6539af49")
 		)
 		(fp_line
-			(start 1.48 0.73)
-			(end -1.48 0.73)
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0849bf6a-ad59-4791-b269-aa05a8466895")
+			(uuid "fa81a85f-ab9d-4e24-8451-a8b5130ebb67")
 		)
 		(fp_line
 			(start 1.48 -0.73)
@@ -22632,14 +22622,14 @@
 			(uuid "f9b67904-aa9d-4d53-839a-bd2d886e3824")
 		)
 		(fp_line
-			(start -0.8 0.4)
-			(end 0.8 0.4)
+			(start 1.48 0.73)
+			(end -1.48 0.73)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "8c18f77c-daed-4eb8-b3f1-274c2668df12")
+			(layer "F.CrtYd")
+			(uuid "0849bf6a-ad59-4791-b269-aa05a8466895")
 		)
 		(fp_line
 			(start -0.8 -0.1)
@@ -22652,6 +22642,16 @@
 			(uuid "1788f94b-b528-46fa-8782-b24d547d2991")
 		)
 		(fp_line
+			(start -0.8 0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8c18f77c-daed-4eb8-b3f1-274c2668df12")
+		)
+		(fp_line
 			(start -0.5 -0.4)
 			(end -0.8 -0.1)
 			(stroke
@@ -22660,16 +22660,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "6aa96f08-7fba-4b25-8f6a-25df5568880d")
-		)
-		(fp_line
-			(start 0.8 0.4)
-			(end 0.8 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "19171365-54ce-43ac-8ca2-0eb9a22bb753")
 		)
 		(fp_line
 			(start 0.8 -0.4)
@@ -22681,8 +22671,18 @@
 			(layer "F.Fab")
 			(uuid "a4ea2cd4-34b9-4582-b12a-07c011d3dc61")
 		)
+		(fp_line
+			(start 0.8 0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "19171365-54ce-43ac-8ca2-0eb9a22bb753")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 135)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "cddbebcf-0ead-479a-b04a-6933b46c199c")
 			(effects
@@ -22693,7 +22693,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.787501 0 315)
+			(at -0.787501 0)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -22703,7 +22703,7 @@
 			(uuid "3109d58e-36e4-4a6c-a416-535bb5a4a75d")
 		)
 		(pad "2" smd roundrect
-			(at 0.787501 0 315)
+			(at 0.787501 0)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -22728,11 +22728,11 @@
 	(footprint "Swadge_Parts:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f2396db7-1a0e-4a70-ae69-c45aa932b21c")
-		(at 133.1 115.2 45)
+		(at 137 100)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D45"
-			(at 0 -1.43 45)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "080753ee-c4e6-48f0-9528-589c7e14a98b")
 			(effects
@@ -22743,7 +22743,7 @@
 			)
 		)
 		(property "Value" "A-SP192GB1D-A02-4T"
-			(at 0 1.43 45)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "20957c21-1d18-44ed-b39c-c60a84e798e4")
 			(effects
@@ -22754,7 +22754,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5355458.pdf"
-			(at 0 0 45)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5f789340-de63-42c2-858b-9b9379b67325")
@@ -22766,7 +22766,7 @@
 			)
 		)
 		(property "Description" "Blue LED"
-			(at 0 0 45)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ee2b5643-6904-4cb9-97c6-9ec7cedba124")
@@ -22778,7 +22778,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 45)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22791,7 +22791,7 @@
 			)
 		)
 		(property "LCSC" "C5355458"
-			(at 0 0 45)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22886,16 +22886,6 @@
 			(uuid "4eaeaf3f-7bc5-49af-85e6-9233a48611d3")
 		)
 		(fp_line
-			(start -0.5 -0.4)
-			(end -0.8 -0.1)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "bf6302b9-76da-4280-a39a-6b5a7f70a61c")
-		)
-		(fp_line
 			(start -0.8 -0.1)
 			(end -0.8 0.4)
 			(stroke
@@ -22914,6 +22904,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "3232c85a-9c93-4a98-a95f-a16369d3163c")
+		)
+		(fp_line
+			(start -0.5 -0.4)
+			(end -0.8 -0.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bf6302b9-76da-4280-a39a-6b5a7f70a61c")
 		)
 		(fp_line
 			(start 0.8 -0.4)
@@ -22936,7 +22936,7 @@
 			(uuid "0db00515-3d63-47c9-a530-8dc43d1fce07")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 45)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "6cb2c84f-eaa0-41af-9aeb-2edbfaa30ee9")
 			(effects
@@ -22947,7 +22947,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.787501 0 45)
+			(at -0.787501 0)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -22957,7 +22957,7 @@
 			(uuid "af35609f-9072-4c3f-82d8-7fd3f833e0c9")
 		)
 		(pad "2" smd roundrect
-			(at 0.787501 0 45)
+			(at 0.787501 0)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -61558,37 +61558,6 @@
 		(layer "Cmts.User")
 		(uuid "598550fb-69d2-40fc-8b43-48c23fd1c86e")
 	)
-	(gr_line
-		(start 52 153)
-		(end 78.162951 126.837049)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "1692106b-eab6-4412-a721-b00ddfa8662a")
-	)
-	(gr_circle
-		(center 100 100)
-		(end 100 135.5)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "2e178ce0-0877-420f-a531-35b16fd10651")
-	)
-	(gr_line
-		(start 149 153)
-		(end 122.837049 126.837049)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "bf5420af-cb06-4104-97f3-169a6609c656")
-	)
 	(gr_circle
 		(center 100 100)
 		(end 134 100)
@@ -61644,7 +61613,7 @@
 		(layer "User.2")
 		(uuid "555f61c3-ae0e-41eb-9669-3416d238da69")
 		(pts
-			(xy 100 100) (xy 47 153)
+			(xy 100 100) (xy 51 157)
 		)
 		(height 76.2)
 		(orientation 0)
@@ -61664,8 +61633,8 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "53.0000 mm"
-			(at 73.5 175.05 0)
+		(gr_text "49.0000 mm"
+			(at 75.5 175.05 0)
 			(layer "User.2")
 			(uuid "555f61c3-ae0e-41eb-9669-3416d238da69")
 			(effects
@@ -61681,7 +61650,7 @@
 		(layer "User.2")
 		(uuid "90b71d39-e172-472b-bae4-0abaa1992169")
 		(pts
-			(xy 100 100) (xy 47 153)
+			(xy 100 100) (xy 51 157)
 		)
 		(height -80.3)
 		(orientation 1)
@@ -61701,8 +61670,8 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "53.0000 mm"
-			(at 18.55 126.5 90)
+		(gr_text "57.0000 mm"
+			(at 18.55 128.5 90)
 			(layer "User.2")
 			(uuid "90b71d39-e172-472b-bae4-0abaa1992169")
 			(effects
@@ -61718,7 +61687,7 @@
 		(layer "User.2")
 		(uuid "a7589bd1-626a-4ab3-be24-0ae5629386a2")
 		(pts
-			(xy 100 100) (xy 48 149)
+			(xy 100 100) (xy 52 153)
 		)
 		(height -77.9)
 		(orientation 1)
@@ -61738,8 +61707,8 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "49.0000 mm"
-			(at 20.95 124.5 90)
+		(gr_text "53.0000 mm"
+			(at 20.95 126.5 90)
 			(layer "User.2")
 			(uuid "a7589bd1-626a-4ab3-be24-0ae5629386a2")
 			(effects
@@ -61755,7 +61724,7 @@
 		(layer "User.2")
 		(uuid "d82370ef-c832-49d5-abf9-5e12bb7b275d")
 		(pts
-			(xy 100 100) (xy 48 149)
+			(xy 100 100) (xy 52 153)
 		)
 		(height 70.9)
 		(orientation 0)
@@ -61775,10 +61744,47 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "52.0000 mm"
-			(at 74 169.75 0)
+		(gr_text "48.0000 mm"
+			(at 76 169.75 0)
 			(layer "User.2")
 			(uuid "d82370ef-c832-49d5-abf9-5e12bb7b275d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.2")
+		(uuid "f163e2c3-dd2b-4c80-8702-2db60fc9dacf")
+		(pts
+			(xy 100 100) (xy 149 157)
+		)
+		(height 76.2)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "49.0000 mm"
+			(at 124.5 175.05 0)
+			(layer "User.2")
+			(uuid "f163e2c3-dd2b-4c80-8702-2db60fc9dacf")
 			(effects
 				(font
 					(size 1 1)
@@ -61794,13 +61800,20 @@
 		(uuid "9298d9e2-152d-4cdf-b024-162c7cb44573")
 	)
 	(via
-		(at 59 121)
+		(at 56 130)
 		(size 2.8)
 		(drill 2.2)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
 		(net "GND")
 		(uuid "b937c746-f305-4229-b235-262b988088eb")
+	)
+	(group ""
+		(uuid "ee471104-febd-4107-b413-09c9129a54cc")
+		(members "50ab9e0a-2ba3-41e8-9a16-0cd7ae014554" "b937c746-f305-4229-b235-262b988088eb"
+			"c0b0129f-80af-42f4-ba9d-66ad43b07dad" "c90105af-17b8-4b9c-986b-cf020e7fae6e"
+			"e3c47fd8-a65f-4676-97e5-4a5248ff3974"
+		)
 	)
 	(embedded_fonts no)
 )
