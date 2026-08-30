@@ -50,6 +50,7 @@
 		)
 		(capping no)
 		(filling no)
+		(grid_origin 100 100)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -681,12 +682,12 @@
 	(footprint "Swadge_Parts:SK6812_SIDE_2"
 		(layer "F.Cu")
 		(uuid "0bebd814-dc99-4483-a1ce-bb6dc7ffad94")
-		(at 86.85 115.625)
+		(at 88 116)
 		(property "Reference" "D9"
 			(at 2.500001 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "0f595f17-c773-4e5d-a00c-717ec767ee56")
+			(uuid "e3301bda-1b8b-4e52-85dd-7e1eac80d2be")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -699,7 +700,7 @@
 			(at 0 -1.6 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "00939fa3-f1fa-42c0-a107-7c4b947cd615")
+			(uuid "17a235f6-3db5-41c4-87cd-74fb34c11468")
 			(effects
 				(font
 					(size 1 1)
@@ -711,7 +712,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f5008a5c-e0ea-485e-8430-7928a508a5a3")
+			(uuid "5fd6f632-efcf-4cc0-a0c1-82c0a2d0bc4e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -723,7 +724,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1711cad6-52c4-4ecf-9ea9-267213fa98b6")
+			(uuid "b7747f64-ec39-4d7b-9d42-733f160c8542")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1738,10 +1739,9 @@
 		)
 	)
 	(footprint "Swadge_Parts:HCTL HC-FPC-03-10-15RLTAG-TUCKED"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "169a27a4-8260-4fef-8775-2b527e8b530f")
-		(at 101.3 99.6 180)
+		(at 100.04 99.99 180)
 		(property "Reference" "J6"
 			(at -6.654844 -5.579033 180)
 			(unlocked yes)
@@ -11060,10 +11060,9 @@
 		)
 	)
 	(footprint "Swadge_Parts:SK6812_SIDE_2"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "43fa9f73-a459-4d4b-a9f5-d99eebc1aa71")
-		(at 89.354999 83.54 180)
+		(at 88.094999 83.93 180)
 		(property "Reference" "D3"
 			(at 2.5 0 180)
 			(unlocked yes)
@@ -12611,7 +12610,7 @@
 	(footprint "Swadge_Parts:SK6812_SIDE_2"
 		(layer "F.Cu")
 		(uuid "71b248e3-ad7c-4138-8f16-baa3a38e4f76")
-		(at 112.33 115.705)
+		(at 112 116)
 		(property "Reference" "D8"
 			(at 2.5 0 0)
 			(unlocked yes)
@@ -14449,10 +14448,9 @@
 		)
 	)
 	(footprint "Swadge_Parts:SK6812_SIDE_2"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "85e571ed-da4c-47cb-96f3-baa052dfb620")
-		(at 81.62 92.275 -90)
+		(at 80.36 92.665 -90)
 		(property "Reference" "D2"
 			(at 2.5 0 270)
 			(unlocked yes)
@@ -15748,10 +15746,9 @@
 		)
 	)
 	(footprint "Swadge_Parts:SK6812_SIDE_2"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "91aba7de-6aa5-4cb0-81fa-93fff78509df")
-		(at 113.97 83.57 180)
+		(at 112.71 83.96 180)
 		(property "Reference" "D4"
 			(at 2.5 0 180)
 			(unlocked yes)
@@ -16808,10 +16805,9 @@
 		)
 	)
 	(footprint "Swadge_Parts:SK6812_SIDE_2"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "a6dd32cb-4a44-4b16-8a36-15b3852eedb9")
-		(at 121.09 108.515 90)
+		(at 119.83 108.905 90)
 		(property "Reference" "D6"
 			(at 2.5 0 90)
 			(unlocked yes)
@@ -18688,10 +18684,9 @@
 		)
 	)
 	(footprint "Swadge_Parts:SK6812_SIDE_2"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "bfe282bc-beb4-4df1-bc18-95d27636236e")
-		(at 121.03 90.78 90)
+		(at 119.77 91.17 90)
 		(property "Reference" "D5"
 			(at 2.5 0 90)
 			(unlocked yes)
@@ -19905,7 +19900,7 @@
 		(uuid "c90105af-17b8-4b9c-986b-cf020e7fae6e")
 		(at 53 121 -45)
 		(property "Reference" "SW3"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e4e7935b-ce06-4ee0-be4f-0b20f5cd6ed4")
@@ -19917,7 +19912,7 @@
 			)
 		)
 		(property "Value" "YTS-D003-1A"
-			(at 0 4 -45)
+			(at 0 4 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "6f9f6e11-ab72-42e7-b2d9-cba96fffda2a")
@@ -19953,7 +19948,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19966,7 +19961,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19979,7 +19974,7 @@
 			)
 		)
 		(property "Notes" "Use low operating force (100gf) SMT box tactile buttons"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19992,7 +19987,7 @@
 			)
 		)
 		(property "LCSC" "C2910918"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20005,7 +20000,7 @@
 			)
 		)
 		(property "Cost@2500" "0.0156"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20018,7 +20013,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20247,7 +20242,7 @@
 			(uuid "29dde529-489f-4ac8-823c-8eb8475fb819")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "22e604c7-cf8b-4cd7-a545-2a0d7ccbe41b")
@@ -20596,7 +20591,7 @@
 			)
 		)
 		(property "Digikey" "SW1278CT-ND"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20609,7 +20604,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20622,7 +20617,7 @@
 			)
 		)
 		(property "Notes" "Use standard 12mmx12mm SMT box tactile buttons with flat top. Similar to TL3300DF160Q."
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20635,7 +20630,7 @@
 			)
 		)
 		(property "LCSC" "C455218"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20648,7 +20643,7 @@
 			)
 		)
 		(property "Cost@2500" "0.0478"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20661,7 +20656,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22985,10 +22980,9 @@
 		)
 	)
 	(footprint "Swadge_Parts:SK6812_SIDE_2"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "fa5c6441-53a1-404e-9924-d5428bf605da")
-		(at 81.65 108.535001 -90)
+		(at 80.39 108.925001 -90)
 		(property "Reference" "D1"
 			(at 2.5 0 270)
 			(unlocked yes)
@@ -25490,7 +25484,7 @@
 	(footprint "Swadge_Parts:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "0d19ca43-94d5-4f11-8bd5-46505011eadd")
-		(at 108.17 94.51 -90)
+		(at 107.3 94.1 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R61"
@@ -31289,7 +31283,7 @@
 	(footprint "Swadge_Parts:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "34fb5717-c1b5-45ca-bfc9-ae6f1bc6fa3f")
-		(at 117.53 94.176789 -90)
+		(at 119.2 95.8 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C65"
@@ -37735,7 +37729,7 @@
 			(uuid "b44f9360-eece-4ec5-920b-e7103f260586")
 		)
 		(fp_line
-			(start -6 3.499997)
+			(start -6 3.499996)
 			(end -6 -7.500001)
 			(stroke
 				(width 0.05)
@@ -37746,7 +37740,7 @@
 		)
 		(fp_line
 			(start -2.5 3.5)
-			(end -6 3.499997)
+			(end -6 3.499996)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -45945,7 +45939,7 @@
 			(uuid "3956b922-8acf-4808-b778-00beef6ad832")
 		)
 		(fp_line
-			(start 4.699999 -2.410001)
+			(start 4.7 -2.410001)
 			(end 4.699999 -4.31)
 			(stroke
 				(width 0.12)
@@ -45966,7 +45960,7 @@
 		)
 		(fp_line
 			(start 4.7 1.489999)
-			(end 4.700001 -0.51)
+			(end 4.700002 -0.51)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -51057,7 +51051,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy 5.35 0) (xy 7 0) (xy 6.999999 -4.000002) (xy 5.349999 -3.999999)
+				(xy 5.350001 0) (xy 7 0) (xy 6.999999 -4.000002) (xy 5.349999 -3.999999)
 			)
 			(stroke
 				(width 0.1)
@@ -51069,7 +51063,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -6 0) (xy 5.35 0) (xy 5.35 -7.500001) (xy -6 -7.499999)
+				(xy -6 0) (xy 5.350001 0) (xy 5.35 -7.500001) (xy -6 -7.499999)
 			)
 			(stroke
 				(width 0.1)
@@ -59486,7 +59480,7 @@
 	(footprint "Swadge_Parts:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "f81fd4a9-880b-4252-b5cc-dcf9f3ab54e3")
-		(at 99.04 99.09)
+		(at 97.1 96.4)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R62"
@@ -61631,7 +61625,6 @@
 	)
 	(group ""
 		(uuid "8e3ca3a5-0fe0-4772-bbbe-b347236ad778")
-		(locked yes)
 		(members "169a27a4-8260-4fef-8775-2b527e8b530f" "43fa9f73-a459-4d4b-a9f5-d99eebc1aa71"
 			"85e571ed-da4c-47cb-96f3-baa052dfb620" "91aba7de-6aa5-4cb0-81fa-93fff78509df"
 			"a6dd32cb-4a44-4b16-8a36-15b3852eedb9" "bfe282bc-beb4-4df1-bc18-95d27636236e"
