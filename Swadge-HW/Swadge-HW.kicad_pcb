@@ -25397,7 +25397,7 @@
 	(footprint "Swadge_Parts:SOT-23-5"
 		(layer "B.Cu")
 		(uuid "09d2fd17-eef5-409a-b812-97034479df04")
-		(at 110.05 76.1)
+		(at 111.95 77.1)
 		(descr "5-pin SOT23 package")
 		(tags "SOT-23-5")
 		(property "Reference" "U5"
@@ -39038,7 +39038,7 @@
 	(footprint "Swadge_Parts:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "78736b06-89b5-4799-89d7-5151fbe9205b")
-		(at 112 70)
+		(at 103.7 71.8)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R46"
@@ -39331,7 +39331,7 @@
 	(footprint "Diode_SMD:D_SMA"
 		(layer "B.Cu")
 		(uuid "787e78b4-e908-40d0-868f-77b75b043a1c")
-		(at 96 77)
+		(at 102.5 74.7)
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D13"
@@ -40509,7 +40509,7 @@
 	(footprint "Swadge_Parts:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "7b406358-0258-43e0-bf42-73f2b9754189")
-		(at 82 68 90)
+		(at 81.1 69.9 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R38"
@@ -44549,7 +44549,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 		(layer "B.Cu")
 		(uuid "97b5e715-bf4b-4467-a1f2-309e7bd90421")
-		(at 95.5 71)
+		(at 102.2 78.8 180)
 		(descr "SOT-23, Handsoldering")
 		(tags "SOT-23")
 		(property "Reference" "Q2"
@@ -44577,7 +44577,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -44591,7 +44591,7 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -44605,7 +44605,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -44631,34 +44631,14 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.04 1.58)
-			(end -0.84 1.58)
+			(start 0.76 1.58)
+			(end 0.76 0.65)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "f15fc5f4-a6fb-4816-aed4-26be05cd5d92")
-		)
-		(fp_line
-			(start -0.04 1.58)
-			(end 0.76 1.58)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "b71e52d6-b19d-45cd-bd80-71d3791e15e3")
-		)
-		(fp_line
-			(start 0.76 -1.58)
-			(end -0.7 -1.58)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "1109185f-f443-442b-a71c-fb8ed2b75709")
+			(uuid "9c716d35-d940-48e7-a0bf-28263a155e19")
 		)
 		(fp_line
 			(start 0.76 -1.58)
@@ -44671,14 +44651,34 @@
 			(uuid "2118e77c-f34a-4c05-81f1-dc9e6e55e208")
 		)
 		(fp_line
-			(start 0.76 1.58)
-			(end 0.76 0.65)
+			(start 0.76 -1.58)
+			(end -0.7 -1.58)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "9c716d35-d940-48e7-a0bf-28263a155e19")
+			(uuid "1109185f-f443-442b-a71c-fb8ed2b75709")
+		)
+		(fp_line
+			(start -0.04 1.58)
+			(end 0.76 1.58)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "b71e52d6-b19d-45cd-bd80-71d3791e15e3")
+		)
+		(fp_line
+			(start -0.04 1.58)
+			(end -0.84 1.58)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "f15fc5f4-a6fb-4816-aed4-26be05cd5d92")
 		)
 		(fp_poly
 			(pts
@@ -44693,24 +44693,14 @@
 			(uuid "2d39e07b-6d29-477c-997a-bee40ab05afc")
 		)
 		(fp_line
-			(start -2.7 -1.75)
-			(end -2.7 1.75)
+			(start 2.7 1.75)
+			(end 2.7 -1.75)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "ff7794ce-6d1e-4a4c-9c5a-fe31589ca0a8")
-		)
-		(fp_line
-			(start -2.7 1.75)
-			(end 2.7 1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "afc7a8e7-1ff3-4920-b02c-d05a92b8eee6")
+			(uuid "450e8bca-7638-4c78-a7c1-26fcea13260b")
 		)
 		(fp_line
 			(start 2.7 -1.75)
@@ -44723,44 +44713,34 @@
 			(uuid "347b4afa-d529-4f71-9934-97f289d6a8e2")
 		)
 		(fp_line
-			(start 2.7 1.75)
-			(end 2.7 -1.75)
+			(start -2.7 1.75)
+			(end 2.7 1.75)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "450e8bca-7638-4c78-a7c1-26fcea13260b")
+			(uuid "afc7a8e7-1ff3-4920-b02c-d05a92b8eee6")
 		)
 		(fp_line
-			(start -0.7 -1.52)
+			(start -2.7 -1.75)
+			(end -2.7 1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "ff7794ce-6d1e-4a4c-9c5a-fe31589ca0a8")
+		)
+		(fp_line
+			(start 0.7 1.52)
 			(end 0.7 -1.52)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "5bdb50ad-09fe-4993-bb2b-4783d3ee6d41")
-		)
-		(fp_line
-			(start -0.7 0.95)
-			(end -0.7 -1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "4ad86903-b42b-4f62-a228-7cc05f925c29")
-		)
-		(fp_line
-			(start -0.7 0.95)
-			(end -0.15 1.52)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "8f330c90-8191-4abd-82f9-c12e7a4efba0")
+			(uuid "8001c6e4-1821-4716-a31d-e42fcee2aa51")
 		)
 		(fp_line
 			(start -0.15 1.52)
@@ -44773,14 +44753,34 @@
 			(uuid "133d6e9c-baea-4a3a-b0ec-0c9d4b01b3fe")
 		)
 		(fp_line
-			(start 0.7 1.52)
+			(start -0.7 0.95)
+			(end -0.15 1.52)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "8f330c90-8191-4abd-82f9-c12e7a4efba0")
+		)
+		(fp_line
+			(start -0.7 0.95)
+			(end -0.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "4ad86903-b42b-4f62-a228-7cc05f925c29")
+		)
+		(fp_line
+			(start -0.7 -1.52)
 			(end 0.7 -1.52)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "8001c6e4-1821-4716-a31d-e42fcee2aa51")
+			(uuid "5bdb50ad-09fe-4993-bb2b-4783d3ee6d41")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -44795,7 +44795,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 0.95)
+			(at -1.5 0.95 180)
 			(size 1.9 0.8)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -44805,7 +44805,7 @@
 			(uuid "175bee65-cc45-4de6-8e5f-d87b871ca8e3")
 		)
 		(pad "2" smd roundrect
-			(at -1.5 -0.95)
+			(at -1.5 -0.95 180)
 			(size 1.9 0.8)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -44815,7 +44815,7 @@
 			(uuid "195b4e1a-33e9-4b87-8c40-d3cccc09c8d5")
 		)
 		(pad "3" smd roundrect
-			(at 1.5 0)
+			(at 1.5 0 180)
 			(size 1.9 0.8)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -47381,7 +47381,7 @@
 	(footprint "Swadge_Parts:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "a65c67ff-9fe1-4b68-b1f2-a68c96868d91")
-		(at 108 69)
+		(at 84.5 82.1)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R35"
@@ -52423,7 +52423,7 @@
 	(footprint "Swadge_Parts:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "c6e1722f-fa3d-4362-be51-32e47ba5205e")
-		(at 104 69)
+		(at 84.2 83.9)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R36"
@@ -55907,7 +55907,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "db74e7d5-9037-4e10-bde7-349a8f5548cb")
-		(at 112.84 76.87 180)
+		(at 96.5 74.7)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "F1"
@@ -55972,7 +55972,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56032,21 +56032,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.4325 0 180)
+			(at -0.4325 0)
 			(size 0.458 0.36)
 			(layers "B.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "2023c4f6-e4b4-4edb-8d92-2f21152016ee")
 		)
 		(pad "" smd roundrect
-			(at 0.4325 0 180)
+			(at 0.4325 0)
 			(size 0.458 0.36)
 			(layers "B.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "6f895dcf-0d2b-4c00-8a48-bcb2ec04f919")
 		)
 		(pad "1" smd roundrect
-			(at -0.4075 0 180)
+			(at -0.4075 0)
 			(size 0.635 0.4)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -56055,7 +56055,7 @@
 			(uuid "b67b88a0-e5f7-4f70-86a6-fdc4d9f9aacd")
 		)
 		(pad "2" smd roundrect
-			(at 0.4075 0 180)
+			(at 0.4075 0)
 			(size 0.635 0.4)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -56982,7 +56982,7 @@
 	(footprint "Swadge_Parts:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "e1a12f17-44be-4220-a59b-ae23765429d1")
-		(at 115 67 90)
+		(at 84.4 69.3125 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R37"
