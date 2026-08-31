@@ -14202,12 +14202,6 @@
 		(uuid "06a5ae34-44f7-42fe-881d-cf737c69c1fe")
 	)
 	(junction
-		(at 462.28 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07f6c7fd-71ac-4a30-b5fd-6d88418e9242")
-	)
-	(junction
 		(at 492.76 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14248,6 +14242,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "161d1ab2-3fff-4c23-a34f-6c4aeab175af")
+	)
+	(junction
+		(at 502.92 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18ab3ddc-d103-4e2e-9615-cc399dc1481d")
 	)
 	(junction
 		(at 302.26 25.4)
@@ -14322,12 +14322,6 @@
 		(uuid "2626e3ac-dce7-4476-b069-fd7b2dab1db5")
 	)
 	(junction
-		(at 462.28 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26a60f74-1c4d-4f49-89ce-7c33e7a0ff93")
-	)
-	(junction
 		(at 114.3 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14350,6 +14344,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28742d42-10d6-4c5b-a173-be2c895f9640")
+	)
+	(junction
+		(at 502.92 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "291efa62-655d-4090-97a8-b53bd9d7b2eb")
 	)
 	(junction
 		(at 139.7 78.74)
@@ -14418,12 +14418,6 @@
 		(uuid "43eb9e4e-ee4f-4db7-b750-77e59f8bd94e")
 	)
 	(junction
-		(at 462.28 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "455884d1-bea7-4eb3-9b0e-f70d76bde0a2")
-	)
-	(junction
 		(at 172.72 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14458,12 +14452,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "547901c9-a03b-4160-995d-646f980fe8ef")
-	)
-	(junction
-		(at 462.28 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b63d5a0-8329-408a-a2f2-29c9eeb7f70f")
 	)
 	(junction
 		(at 279.4 96.52)
@@ -14592,10 +14580,10 @@
 		(uuid "78c54662-7e99-4bf8-b65d-f5d26306eb87")
 	)
 	(junction
-		(at 462.28 175.26)
+		(at 502.92 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "791664a6-6954-4524-82ec-28a292cbc470")
+		(uuid "7ce7fb24-d233-438a-b509-78324e52f34b")
 	)
 	(junction
 		(at 492.76 40.64)
@@ -14790,6 +14778,12 @@
 		(uuid "aad797d1-b75f-45bf-ad57-efc1f8b33e90")
 	)
 	(junction
+		(at 502.92 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abc5cd23-5b4d-4958-b429-1d9e3595b20f")
+	)
+	(junction
 		(at 360.68 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14926,6 +14920,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb1e554a-b955-4b26-8900-160e8fc71392")
+	)
+	(junction
+		(at 513.08 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cddcb325-e68c-4812-8d09-1cc5145638e6")
 	)
 	(junction
 		(at 25.4 58.42)
@@ -15151,16 +15151,6 @@
 	)
 	(wire
 		(pts
-			(xy 462.28 175.26) (xy 530.86 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00607fb6-ed07-4547-9a7c-5880aa67a6c9")
-	)
-	(wire
-		(pts
 			(xy 53.34 45.72) (xy 53.34 48.26)
 		)
 		(stroke
@@ -15178,16 +15168,6 @@
 			(type default)
 		)
 		(uuid "021bdc84-ba50-44a1-8760-10b08dd7fe48")
-	)
-	(wire
-		(pts
-			(xy 462.28 30.48) (xy 515.62 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02775036-b96c-4f9f-b3e4-554301ba7f1e")
 	)
 	(wire
 		(pts
@@ -15211,13 +15191,13 @@
 	)
 	(wire
 		(pts
-			(xy 459.74 175.26) (xy 462.28 175.26)
+			(xy 515.62 114.3) (xy 502.92 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04766dfc-cdce-40a4-88f9-2ed38c165f0e")
+		(uuid "04acf42a-0014-4c30-afeb-f32a602229cf")
 	)
 	(wire
 		(pts
@@ -15781,16 +15761,6 @@
 	)
 	(wire
 		(pts
-			(xy 462.28 104.14) (xy 515.62 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d307f3e-9412-4dbb-ab09-34043daa882a")
-	)
-	(wire
-		(pts
 			(xy 111.76 307.34) (xy 115.57 307.34)
 		)
 		(stroke
@@ -15838,6 +15808,16 @@
 			(type default)
 		)
 		(uuid "1f5800ad-ead6-4a66-8c06-156634a62390")
+	)
+	(wire
+		(pts
+			(xy 502.92 40.64) (xy 515.62 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2094c208-1b17-4d75-9133-1874fa495527")
 	)
 	(wire
 		(pts
@@ -15991,7 +15971,7 @@
 	)
 	(wire
 		(pts
-			(xy 515.62 76.2) (xy 515.62 81.28)
+			(xy 515.62 86.36) (xy 515.62 88.9)
 		)
 		(stroke
 			(width 0)
@@ -16131,16 +16111,6 @@
 	)
 	(wire
 		(pts
-			(xy 462.28 139.7) (xy 515.62 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2baf9b08-5173-4a6b-b700-f037895df80e")
-	)
-	(wire
-		(pts
 			(xy 20.32 182.88) (xy 40.64 182.88)
 		)
 		(stroke
@@ -16251,7 +16221,7 @@
 	)
 	(wire
 		(pts
-			(xy 515.62 114.3) (xy 515.62 119.38)
+			(xy 515.62 124.46) (xy 515.62 127)
 		)
 		(stroke
 			(width 0)
@@ -16261,7 +16231,7 @@
 	)
 	(wire
 		(pts
-			(xy 530.86 185.42) (xy 530.86 190.5)
+			(xy 525.78 195.58) (xy 525.78 198.12)
 		)
 		(stroke
 			(width 0)
@@ -16621,16 +16591,6 @@
 	)
 	(wire
 		(pts
-			(xy 459.74 63.5) (xy 459.74 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f678d43-9bf3-46b3-afd7-9a9c13138589")
-	)
-	(wire
-		(pts
 			(xy 193.04 220.98) (xy 193.04 226.06)
 		)
 		(stroke
@@ -16671,7 +16631,7 @@
 	)
 	(wire
 		(pts
-			(xy 515.62 139.7) (xy 515.62 142.24)
+			(xy 515.62 149.86) (xy 515.62 152.4)
 		)
 		(stroke
 			(width 0)
@@ -16681,7 +16641,7 @@
 	)
 	(wire
 		(pts
-			(xy 530.86 175.26) (xy 530.86 177.8)
+			(xy 525.78 185.42) (xy 525.78 187.96)
 		)
 		(stroke
 			(width 0)
@@ -16731,7 +16691,7 @@
 	)
 	(wire
 		(pts
-			(xy 515.62 30.48) (xy 515.62 33.02)
+			(xy 515.62 40.64) (xy 515.62 43.18)
 		)
 		(stroke
 			(width 0)
@@ -16748,6 +16708,16 @@
 			(type default)
 		)
 		(uuid "4445949a-5535-492b-86cc-8dfc22fbd06f")
+	)
+	(wire
+		(pts
+			(xy 513.08 185.42) (xy 525.78 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44547810-c055-4aca-927f-8cdf6e63885f")
 	)
 	(wire
 		(pts
@@ -17058,16 +17028,6 @@
 			(type default)
 		)
 		(uuid "5112e86b-2d89-4850-924b-bdec0de68e50")
-	)
-	(wire
-		(pts
-			(xy 459.74 66.04) (xy 462.28 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51411296-8376-4cff-8c5b-f6f332900269")
 	)
 	(wire
 		(pts
@@ -17441,16 +17401,6 @@
 	)
 	(wire
 		(pts
-			(xy 459.74 137.16) (xy 459.74 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ef5d208-3e3e-4651-b44a-6677bed6c5e5")
-	)
-	(wire
-		(pts
 			(xy 142.24 116.84) (xy 142.24 119.38)
 		)
 		(stroke
@@ -17791,6 +17741,16 @@
 	)
 	(wire
 		(pts
+			(xy 502.92 76.2) (xy 515.62 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f3cea17-b103-4823-b8d2-cc2647082735")
+	)
+	(wire
+		(pts
 			(xy 236.22 248.92) (xy 236.22 246.38)
 		)
 		(stroke
@@ -17798,16 +17758,6 @@
 			(type default)
 		)
 		(uuid "6fc66c6f-34d0-4139-bd51-8199746da9c8")
-	)
-	(wire
-		(pts
-			(xy 459.74 139.7) (xy 462.28 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fcbfe5c-9fce-4eba-be3d-9de123b26a4b")
 	)
 	(wire
 		(pts
@@ -19131,16 +19081,6 @@
 	)
 	(wire
 		(pts
-			(xy 459.74 30.48) (xy 462.28 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4a8b53c-84d0-4d90-9c6e-d06b376d9f1c")
-	)
-	(wire
-		(pts
 			(xy 168.91 121.92) (xy 182.88 121.92)
 		)
 		(stroke
@@ -19461,16 +19401,6 @@
 	)
 	(wire
 		(pts
-			(xy 462.28 66.04) (xy 515.62 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af9add5d-528b-4b78-bbf7-0bec3a1a9c4d")
-	)
-	(wire
-		(pts
 			(xy 482.6 86.36) (xy 482.6 88.9)
 		)
 		(stroke
@@ -19508,16 +19438,6 @@
 			(type default)
 		)
 		(uuid "b26eb0e6-578f-4a66-8c05-ea7705327bea")
-	)
-	(wire
-		(pts
-			(xy 459.74 104.14) (xy 462.28 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b334f8ce-363e-4ee5-bc2b-bdf664ffb356")
 	)
 	(wire
 		(pts
@@ -19588,16 +19508,6 @@
 			(type default)
 		)
 		(uuid "b7406f2f-5c61-4477-bd3c-5130157b99d3")
-	)
-	(wire
-		(pts
-			(xy 459.74 101.6) (xy 459.74 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b748c8c4-d6b6-4548-91aa-41c140176517")
 	)
 	(wire
 		(pts
@@ -19801,6 +19711,16 @@
 	)
 	(wire
 		(pts
+			(xy 502.92 149.86) (xy 515.62 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c298c782-e428-411f-8036-9ff76d298391")
+	)
+	(wire
+		(pts
 			(xy 482.6 40.64) (xy 492.76 40.64)
 		)
 		(stroke
@@ -19918,16 +19838,6 @@
 			(type default)
 		)
 		(uuid "cbddd5a3-0b68-4970-bea4-e5d78c3f1e8a")
-	)
-	(wire
-		(pts
-			(xy 459.74 27.94) (xy 459.74 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbdfb8d1-30ba-461d-947d-e817c4661fc2")
 	)
 	(wire
 		(pts
@@ -20351,7 +20261,7 @@
 	)
 	(wire
 		(pts
-			(xy 515.62 149.86) (xy 515.62 154.94)
+			(xy 515.62 160.02) (xy 515.62 162.56)
 		)
 		(stroke
 			(width 0)
@@ -20471,7 +20381,7 @@
 	)
 	(wire
 		(pts
-			(xy 515.62 104.14) (xy 515.62 106.68)
+			(xy 515.62 114.3) (xy 515.62 116.84)
 		)
 		(stroke
 			(width 0)
@@ -20541,7 +20451,7 @@
 	)
 	(wire
 		(pts
-			(xy 515.62 66.04) (xy 515.62 68.58)
+			(xy 515.62 76.2) (xy 515.62 78.74)
 		)
 		(stroke
 			(width 0)
@@ -20801,7 +20711,7 @@
 	)
 	(wire
 		(pts
-			(xy 515.62 40.64) (xy 515.62 45.72)
+			(xy 515.62 50.8) (xy 515.62 53.34)
 		)
 		(stroke
 			(width 0)
@@ -20948,16 +20858,6 @@
 			(type default)
 		)
 		(uuid "f39f6e65-19aa-45f7-9ecb-efce273c731f")
-	)
-	(wire
-		(pts
-			(xy 459.74 172.72) (xy 459.74 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3e99491-7d3f-4a05-b31e-88b5c3e99b7e")
 	)
 	(wire
 		(pts
@@ -24735,7 +24635,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 515.62 154.94 0)
+		(at 515.62 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24746,7 +24646,7 @@
 		(fields_autoplaced yes)
 		(uuid "00cc26f5-9f3a-456a-ad27-c3fe7c39f176")
 		(property "Reference" "#PWR0113"
-			(at 515.62 161.29 0)
+			(at 515.62 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24757,7 +24657,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 515.62 159.0731 0)
+			(at 515.62 166.6931 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24767,7 +24667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 515.62 154.94 0)
+			(at 515.62 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24778,7 +24678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 515.62 154.94 0)
+			(at 515.62 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24789,7 +24689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 515.62 154.94 0)
+			(at 515.62 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26029,7 +25929,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:+3.3V")
-		(at 459.74 27.94 0)
+		(at 462.28 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26039,7 +25939,7 @@
 		(dnp no)
 		(uuid "083f211a-f9be-4115-bdd2-7882665dd3e5")
 		(property "Reference" "#PWR098"
-			(at 459.74 31.75 0)
+			(at 462.28 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26050,7 +25950,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 459.74 24.384 0)
+			(at 462.28 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26060,7 +25960,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 459.74 27.94 0)
+			(at 462.28 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26071,7 +25971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 459.74 27.94 0)
+			(at 462.28 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26082,7 +25982,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 459.74 27.94 0)
+			(at 462.28 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27281,7 +27181,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:C")
-		(at 515.62 146.05 0)
+		(at 515.62 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27291,7 +27191,7 @@
 		(dnp no)
 		(uuid "15d43518-e7d4-448c-8dd3-6aa5913abd5c")
 		(property "Reference" "C79"
-			(at 516.255 143.51 0)
+			(at 516.255 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27302,7 +27202,7 @@
 			)
 		)
 		(property "Value" "1μF"
-			(at 516.255 148.59 0)
+			(at 516.255 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27313,7 +27213,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:C_0603_1608Metric"
-			(at 516.5852 149.86 0)
+			(at 516.5852 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27324,7 +27224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 515.62 146.05 0)
+			(at 515.62 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27335,7 +27235,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 515.62 146.05 0)
+			(at 515.62 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27346,7 +27246,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 518.795 140.97 0)
+			(at 518.795 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27357,7 +27257,7 @@
 			)
 		)
 		(property "Cost100" "10"
-			(at 515.62 146.05 0)
+			(at 515.62 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27368,7 +27268,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 515.62 146.05 0)
+			(at 515.62 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27379,7 +27279,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 515.62 146.05 0)
+			(at 515.62 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27390,7 +27290,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0035"
-			(at 515.62 146.05 0)
+			(at 515.62 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27401,7 +27301,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 515.62 146.05 0)
+			(at 515.62 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29430,7 +29330,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:C")
-		(at 515.62 36.83 0)
+		(at 515.62 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29440,7 +29340,7 @@
 		(dnp no)
 		(uuid "1f06c22a-232e-45f9-b365-8585f5dc2a19")
 		(property "Reference" "C76"
-			(at 516.255 34.29 0)
+			(at 516.255 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29451,7 +29351,7 @@
 			)
 		)
 		(property "Value" "1μF"
-			(at 516.255 39.37 0)
+			(at 516.255 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29462,7 +29362,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:C_0603_1608Metric"
-			(at 516.5852 40.64 0)
+			(at 516.5852 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29473,7 +29373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 515.62 36.83 0)
+			(at 515.62 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29484,7 +29384,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 515.62 36.83 0)
+			(at 515.62 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29495,7 +29395,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 518.795 31.75 0)
+			(at 518.795 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29506,7 +29406,7 @@
 			)
 		)
 		(property "Cost100" "10"
-			(at 515.62 36.83 0)
+			(at 515.62 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29517,7 +29417,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 515.62 36.83 0)
+			(at 515.62 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29528,7 +29428,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 515.62 36.83 0)
+			(at 515.62 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29539,7 +29439,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0035"
-			(at 515.62 36.83 0)
+			(at 515.62 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29550,7 +29450,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 515.62 36.83 0)
+			(at 515.62 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29948,7 +29848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Swadge_Parts:BTC007_Button_Silicone"
 			(at 342.9 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -29970,19 +29870,8 @@
 				)
 			)
 		)
-		(property "Description" "Place Holder for a Touchpad"
+		(property "Description" "Touchpad Button"
 			(at 342.9 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Color" ""
-			(at 342.9 162.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30373,7 +30262,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 515.62 45.72 0)
+		(at 515.62 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30384,7 +30273,7 @@
 		(fields_autoplaced yes)
 		(uuid "2beea9f9-a9bd-407a-bb66-4b99434c1be2")
 		(property "Reference" "#PWR0109"
-			(at 515.62 52.07 0)
+			(at 515.62 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30395,7 +30284,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 515.62 49.8531 0)
+			(at 515.62 57.4731 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30405,7 +30294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 515.62 45.72 0)
+			(at 515.62 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30416,7 +30305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 515.62 45.72 0)
+			(at 515.62 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30427,7 +30316,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 515.62 45.72 0)
+			(at 515.62 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30559,7 +30448,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:+3.3V")
-		(at 459.74 101.6 0)
+		(at 462.28 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30569,7 +30458,7 @@
 		(dnp no)
 		(uuid "2d5574d2-4607-430b-a09c-967d0043f8a5")
 		(property "Reference" "#PWR0100"
-			(at 459.74 105.41 0)
+			(at 462.28 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30580,7 +30469,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 459.74 98.044 0)
+			(at 462.28 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30590,7 +30479,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 459.74 101.6 0)
+			(at 462.28 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30601,7 +30490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 459.74 101.6 0)
+			(at 462.28 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30612,7 +30501,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 459.74 101.6 0)
+			(at 462.28 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35433,7 +35322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Swadge_Parts:BTC007_Button_Silicone"
 			(at 342.9 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -35455,19 +35344,8 @@
 				)
 			)
 		)
-		(property "Description" "Place Holder for a Touchpad"
+		(property "Description" "Touchpad Button"
 			(at 342.9 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Color" ""
-			(at 342.9 157.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36538,7 +36416,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 530.86 190.5 0)
+		(at 525.78 198.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36549,7 +36427,7 @@
 		(fields_autoplaced yes)
 		(uuid "645560bd-6cbd-44d2-9d13-338bffc3071b")
 		(property "Reference" "#PWR0115"
-			(at 530.86 196.85 0)
+			(at 525.78 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36560,7 +36438,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 530.86 194.6331 0)
+			(at 525.78 202.2531 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36570,7 +36448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 530.86 190.5 0)
+			(at 525.78 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36581,7 +36459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 530.86 190.5 0)
+			(at 525.78 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36592,7 +36470,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 530.86 190.5 0)
+			(at 525.78 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41169,7 +41047,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:+3.3V")
-		(at 459.74 63.5 0)
+		(at 462.28 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41179,7 +41057,7 @@
 		(dnp no)
 		(uuid "9368b0e6-022b-4580-847f-beaffe21bcbc")
 		(property "Reference" "#PWR099"
-			(at 459.74 67.31 0)
+			(at 462.28 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41190,7 +41068,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 459.74 59.944 0)
+			(at 462.28 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41200,7 +41078,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 459.74 63.5 0)
+			(at 462.28 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41211,7 +41089,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 459.74 63.5 0)
+			(at 462.28 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41222,7 +41100,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 459.74 63.5 0)
+			(at 462.28 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48461,7 +48339,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 515.62 119.38 0)
+		(at 515.62 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -48472,7 +48350,7 @@
 		(fields_autoplaced yes)
 		(uuid "c59cd65a-08f0-402d-9393-679b7a915084")
 		(property "Reference" "#PWR0111"
-			(at 515.62 125.73 0)
+			(at 515.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48483,7 +48361,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 515.62 123.5131 0)
+			(at 515.62 131.1331 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48493,7 +48371,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 515.62 119.38 0)
+			(at 515.62 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48504,7 +48382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 515.62 119.38 0)
+			(at 515.62 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48515,7 +48393,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 515.62 119.38 0)
+			(at 515.62 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48829,7 +48707,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 515.62 81.28 0)
+		(at 515.62 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -48840,7 +48718,7 @@
 		(fields_autoplaced yes)
 		(uuid "c77cbf8d-f1b2-4f65-a5aa-3e09cfc65b2e")
 		(property "Reference" "#PWR0110"
-			(at 515.62 87.63 0)
+			(at 515.62 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48851,7 +48729,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 515.62 85.4131 0)
+			(at 515.62 93.0331 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48861,7 +48739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 515.62 81.28 0)
+			(at 515.62 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48872,7 +48750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 515.62 81.28 0)
+			(at 515.62 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48883,7 +48761,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 515.62 81.28 0)
+			(at 515.62 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52314,7 +52192,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:C")
-		(at 515.62 110.49 0)
+		(at 515.62 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -52324,7 +52202,7 @@
 		(dnp no)
 		(uuid "dfd8fed3-9e4b-4096-a832-a2dd62c63315")
 		(property "Reference" "C78"
-			(at 516.255 107.95 0)
+			(at 516.255 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52335,7 +52213,7 @@
 			)
 		)
 		(property "Value" "1μF"
-			(at 516.255 113.03 0)
+			(at 516.255 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52346,7 +52224,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:C_0603_1608Metric"
-			(at 516.5852 114.3 0)
+			(at 516.5852 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52357,7 +52235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 515.62 110.49 0)
+			(at 515.62 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52368,7 +52246,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 515.62 110.49 0)
+			(at 515.62 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52379,7 +52257,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 518.795 105.41 0)
+			(at 518.795 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52390,7 +52268,7 @@
 			)
 		)
 		(property "Cost100" "10"
-			(at 515.62 110.49 0)
+			(at 515.62 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52401,7 +52279,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 515.62 110.49 0)
+			(at 515.62 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52412,7 +52290,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 515.62 110.49 0)
+			(at 515.62 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52423,7 +52301,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0035"
-			(at 515.62 110.49 0)
+			(at 515.62 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52434,7 +52312,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 515.62 110.49 0)
+			(at 515.62 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52646,7 +52524,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:C")
-		(at 515.62 72.39 0)
+		(at 515.62 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -52656,7 +52534,7 @@
 		(dnp no)
 		(uuid "e0983862-42ff-4d1e-95ca-b89d5048bc04")
 		(property "Reference" "C77"
-			(at 516.255 69.85 0)
+			(at 516.255 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52667,7 +52545,7 @@
 			)
 		)
 		(property "Value" "1μF"
-			(at 516.255 74.93 0)
+			(at 516.255 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52678,7 +52556,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:C_0603_1608Metric"
-			(at 516.5852 76.2 0)
+			(at 516.5852 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52689,7 +52567,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 515.62 72.39 0)
+			(at 515.62 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52700,7 +52578,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 515.62 72.39 0)
+			(at 515.62 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52711,7 +52589,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 518.795 67.31 0)
+			(at 518.795 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52722,7 +52600,7 @@
 			)
 		)
 		(property "Cost100" "10"
-			(at 515.62 72.39 0)
+			(at 515.62 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52733,7 +52611,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 515.62 72.39 0)
+			(at 515.62 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52744,7 +52622,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 515.62 72.39 0)
+			(at 515.62 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52755,7 +52633,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0035"
-			(at 515.62 72.39 0)
+			(at 515.62 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52766,7 +52644,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 515.62 72.39 0)
+			(at 515.62 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53529,7 +53407,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:+3.3V")
-		(at 459.74 137.16 0)
+		(at 462.28 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -53539,7 +53417,7 @@
 		(dnp no)
 		(uuid "e5bdabd0-bb8c-4ac9-8935-1dbc4e1ea539")
 		(property "Reference" "#PWR0112"
-			(at 459.74 140.97 0)
+			(at 462.28 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53550,7 +53428,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 459.74 133.604 0)
+			(at 462.28 136.144 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53560,7 +53438,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 459.74 137.16 0)
+			(at 462.28 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53571,7 +53449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 459.74 137.16 0)
+			(at 462.28 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53582,7 +53460,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 459.74 137.16 0)
+			(at 462.28 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54257,7 +54135,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:+3.3V")
-		(at 459.74 172.72 0)
+		(at 462.28 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -54267,7 +54145,7 @@
 		(dnp no)
 		(uuid "ecf374e2-df25-4321-852e-d8fcebe2e612")
 		(property "Reference" "#PWR0114"
-			(at 459.74 176.53 0)
+			(at 462.28 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54278,7 +54156,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 459.74 169.164 0)
+			(at 462.28 171.704 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54288,7 +54166,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 459.74 172.72 0)
+			(at 462.28 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54299,7 +54177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 459.74 172.72 0)
+			(at 462.28 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54310,7 +54188,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 459.74 172.72 0)
+			(at 462.28 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56416,7 +56294,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:C")
-		(at 530.86 181.61 0)
+		(at 525.78 191.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -56426,7 +56304,7 @@
 		(dnp no)
 		(uuid "fa73eb63-c85a-46df-ab02-1c9d9440bf61")
 		(property "Reference" "C80"
-			(at 531.495 179.07 0)
+			(at 526.415 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56437,7 +56315,7 @@
 			)
 		)
 		(property "Value" "1μF"
-			(at 531.495 184.15 0)
+			(at 526.415 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56448,7 +56326,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:C_0603_1608Metric"
-			(at 531.8252 185.42 0)
+			(at 526.7452 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56459,7 +56337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 530.86 181.61 0)
+			(at 525.78 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56470,7 +56348,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 530.86 181.61 0)
+			(at 525.78 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56481,7 +56359,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 534.035 176.53 0)
+			(at 528.955 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56492,7 +56370,7 @@
 			)
 		)
 		(property "Cost100" "10"
-			(at 530.86 181.61 0)
+			(at 525.78 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56503,7 +56381,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 530.86 181.61 0)
+			(at 525.78 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56514,7 +56392,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 530.86 181.61 0)
+			(at 525.78 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56525,7 +56403,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0035"
-			(at 530.86 181.61 0)
+			(at 525.78 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56536,7 +56414,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 530.86 181.61 0)
+			(at 525.78 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
