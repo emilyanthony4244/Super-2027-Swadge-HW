@@ -2,3 +2,4 @@
 [submodule "Swadge-Parts"]
 	path = Swadge-Parts
 	url = https://github.com/AEFeinstein/Swadge-Parts
+	update = merge
