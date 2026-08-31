@@ -13975,10 +13975,10 @@
 	)
 	(text "Charles requested something\nlarger than 330uH but this is workable"
 		(exclude_from_sim no)
-		(at 108.966 320.294 0)
+		(at 112.014 321.564 0)
 		(effects
 			(font
-				(size 0.762 0.762)
+				(size 1.016 1.016)
 			)
 		)
 		(uuid "8c458a41-8cd4-49cb-a421-e82d17ec8cb8")
@@ -14184,6 +14184,12 @@
 		(uuid "0348797b-d28c-45b4-b263-0f0c180da4fc")
 	)
 	(junction
+		(at 462.28 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0521bb1b-67a9-4efe-b9cc-8cdff56e0c33")
+	)
+	(junction
 		(at 360.68 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14196,10 +14202,10 @@
 		(uuid "06a5ae34-44f7-42fe-881d-cf737c69c1fe")
 	)
 	(junction
-		(at 492.76 30.48)
+		(at 462.28 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "076b5097-2750-4329-85fa-15ac57b2d33f")
+		(uuid "07f6c7fd-71ac-4a30-b5fd-6d88418e9242")
 	)
 	(junction
 		(at 492.76 198.12)
@@ -14394,12 +14400,6 @@
 		(uuid "3952e0c5-0e1a-4865-b9c2-8db4120b1653")
 	)
 	(junction
-		(at 462.28 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a69220b-fb4c-42fa-85a2-fd20f0801155")
-	)
-	(junction
 		(at 45.72 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14592,16 +14592,10 @@
 		(uuid "78c54662-7e99-4bf8-b65d-f5d26306eb87")
 	)
 	(junction
-		(at 462.28 149.86)
+		(at 462.28 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7d866a57-749f-44f5-a57e-2af182a42591")
-	)
-	(junction
-		(at 462.28 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e5c0d2a-02fb-436f-8b51-eb543d3e0328")
+		(uuid "791664a6-6954-4524-82ec-28a292cbc470")
 	)
 	(junction
 		(at 492.76 40.64)
@@ -14802,12 +14796,6 @@
 		(uuid "ae9db024-6d03-4919-8e0b-9f59831250d0")
 	)
 	(junction
-		(at 472.44 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af057a31-7949-4b57-9f2f-8782424337c4")
-	)
-	(junction
 		(at 231.14 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14848,12 +14836,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b53f5a76-9318-474b-b836-d8531cbd4d57")
-	)
-	(junction
-		(at 502.92 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6227a5d-7aeb-4d66-8255-986b60351af5")
 	)
 	(junction
 		(at 124.46 215.9)
@@ -14934,6 +14916,12 @@
 		(uuid "c8eca4f9-17ce-40da-8e8a-1bd33b4f28c0")
 	)
 	(junction
+		(at 462.28 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c99178e3-6731-4a1d-8686-41364ebc395b")
+	)
+	(junction
 		(at 396.24 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15012,12 +15000,6 @@
 		(uuid "e18d5993-d3a6-48eb-afd2-2fb8ac367224")
 	)
 	(junction
-		(at 482.6 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4675bfe-a53a-4b6c-b41d-d69d0f2d2272")
-	)
-	(junction
 		(at 502.92 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15040,12 +15022,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa1250ac-56d8-4e46-a7a5-ac03dba3684d")
-	)
-	(junction
-		(at 462.28 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb8f5224-bdcd-4d54-a50e-bcb2a6adbc48")
 	)
 	(junction
 		(at 162.56 185.42)
@@ -15205,7 +15181,7 @@
 	)
 	(wire
 		(pts
-			(xy 482.6 30.48) (xy 492.76 30.48)
+			(xy 462.28 30.48) (xy 515.62 30.48)
 		)
 		(stroke
 			(width 0)
@@ -15475,7 +15451,7 @@
 	)
 	(wire
 		(pts
-			(xy 462.28 175.26) (xy 462.28 177.8)
+			(xy 462.28 175.26) (xy 462.28 176.53)
 		)
 		(stroke
 			(width 0)
@@ -15895,7 +15871,7 @@
 	)
 	(wire
 		(pts
-			(xy 462.28 139.7) (xy 462.28 142.24)
+			(xy 462.28 139.7) (xy 462.28 140.97)
 		)
 		(stroke
 			(width 0)
@@ -16215,6 +16191,16 @@
 	)
 	(wire
 		(pts
+			(xy 462.28 148.59) (xy 462.28 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e8edbc7-5272-48ba-94fc-b9651e99a6e9")
+	)
+	(wire
+		(pts
 			(xy 142.24 43.18) (xy 142.24 45.72)
 		)
 		(stroke
@@ -16522,16 +16508,6 @@
 			(type default)
 		)
 		(uuid "3a86e488-7c7f-47ae-9ff5-ad2705a14c92")
-	)
-	(wire
-		(pts
-			(xy 472.44 30.48) (xy 472.44 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bb66d2c-b704-4a9d-ba20-6a0f12030f71")
 	)
 	(wire
 		(pts
@@ -17065,16 +17041,6 @@
 	)
 	(wire
 		(pts
-			(xy 492.76 30.48) (xy 492.76 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50e1679b-26d2-40f0-a7f1-61ed3c613a7b")
-	)
-	(wire
-		(pts
 			(xy 38.1 116.84) (xy 33.02 116.84)
 		)
 		(stroke
@@ -17132,16 +17098,6 @@
 			(type default)
 		)
 		(uuid "5233a7c3-078d-4209-a2e4-4e1d3c5e168a")
-	)
-	(wire
-		(pts
-			(xy 472.44 30.48) (xy 482.6 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5283ad39-af49-4855-8838-1f9cfcbb17e2")
 	)
 	(wire
 		(pts
@@ -17685,16 +17641,6 @@
 	)
 	(wire
 		(pts
-			(xy 502.92 33.02) (xy 502.92 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65b5ca7f-2288-4946-8b75-35efef4b62e1")
-	)
-	(wire
-		(pts
 			(xy 160.02 289.56) (xy 172.72 289.56)
 		)
 		(stroke
@@ -18232,16 +18178,6 @@
 			(type default)
 		)
 		(uuid "7bf016ed-799f-4af7-baa0-4f9597c23eec")
-	)
-	(wire
-		(pts
-			(xy 502.92 30.48) (xy 515.62 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d4e674a-564b-47c7-8c9d-054ce84cc5b2")
 	)
 	(wire
 		(pts
@@ -19112,6 +19048,16 @@
 			(type default)
 		)
 		(uuid "9fc653e2-a0ea-4203-a391-b0b8ddd52236")
+	)
+	(wire
+		(pts
+			(xy 462.28 184.15) (xy 462.28 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a002a34a-49f7-4f2a-81fa-b2721a0a0abe")
 	)
 	(wire
 		(pts
@@ -20925,16 +20871,6 @@
 	)
 	(wire
 		(pts
-			(xy 492.76 30.48) (xy 502.92 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f16d553c-dcdd-458f-aee5-2ffdc62519bc")
-	)
-	(wire
-		(pts
 			(xy 274.32 40.64) (xy 276.86 40.64)
 		)
 		(stroke
@@ -21055,16 +20991,6 @@
 	)
 	(wire
 		(pts
-			(xy 482.6 30.48) (xy 482.6 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4f037d9-4430-4b34-b94d-f90b41791ab8")
-	)
-	(wire
-		(pts
 			(xy 231.14 172.72) (xy 238.76 172.72)
 		)
 		(stroke
@@ -21112,16 +21038,6 @@
 			(type default)
 		)
 		(uuid "f6ac8311-9df5-4fbc-8f83-79403de71e12")
-	)
-	(wire
-		(pts
-			(xy 462.28 30.48) (xy 472.44 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7b17238-3b7e-4eb7-935b-5e5c7fb436c8")
 	)
 	(wire
 		(pts
@@ -39989,7 +39905,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:R_US")
-		(at 462.28 146.05 180)
+		(at 462.28 144.78 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39999,7 +39915,7 @@
 		(dnp no)
 		(uuid "86f55972-e165-485c-b205-172783cba369")
 		(property "Reference" "R74"
-			(at 459.74 146.05 90)
+			(at 459.74 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40009,7 +39925,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 464.82 146.05 90)
+			(at 464.82 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40019,7 +39935,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
-			(at 461.264 145.796 90)
+			(at 461.264 144.526 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40030,7 +39946,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 459.74 146.05 90)
+			(at 459.74 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40041,7 +39957,7 @@
 			)
 		)
 		(property "Description" "Resistor US symbol"
-			(at 462.28 146.05 0)
+			(at 462.28 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40052,7 +39968,7 @@
 			)
 		)
 		(property "Cost100" "10"
-			(at 462.28 146.05 0)
+			(at 462.28 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40063,7 +39979,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 457.2 148.59 90)
+			(at 457.2 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40074,7 +39990,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 462.28 146.05 0)
+			(at 462.28 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40085,7 +40001,7 @@
 			)
 		)
 		(property "LCSC" "C313655"
-			(at 462.28 146.05 0)
+			(at 462.28 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40096,7 +40012,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0007"
-			(at 462.28 146.05 0)
+			(at 462.28 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40107,7 +40023,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 462.28 146.05 90)
+			(at 462.28 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45216,7 +45132,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:R_US")
-		(at 462.28 181.61 180)
+		(at 462.28 180.34 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -45226,7 +45142,7 @@
 		(dnp no)
 		(uuid "b2e03054-6b5d-45a5-b347-295807da8433")
 		(property "Reference" "R75"
-			(at 459.74 181.61 90)
+			(at 459.74 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45236,7 +45152,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 464.82 181.61 90)
+			(at 464.82 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45246,7 +45162,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
-			(at 461.264 181.356 90)
+			(at 461.264 180.086 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45257,7 +45173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 459.74 181.61 90)
+			(at 459.74 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45268,7 +45184,7 @@
 			)
 		)
 		(property "Description" "Resistor US symbol"
-			(at 462.28 181.61 0)
+			(at 462.28 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45279,7 +45195,7 @@
 			)
 		)
 		(property "Cost100" "10"
-			(at 462.28 181.61 0)
+			(at 462.28 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45290,7 +45206,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 457.2 184.15 90)
+			(at 457.2 182.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45301,7 +45217,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 462.28 181.61 0)
+			(at 462.28 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45312,7 +45228,7 @@
 			)
 		)
 		(property "LCSC" "C313655"
-			(at 462.28 181.61 0)
+			(at 462.28 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45323,7 +45239,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0007"
-			(at 462.28 181.61 0)
+			(at 462.28 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45334,7 +45250,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 462.28 181.61 90)
+			(at 462.28 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50605,7 +50521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:PinHeader_2x03_P2.54mm_Vertical"
+		(property "Footprint" "Swadge_Parts:PinSocket_2x03_P2.54mm_Vertical"
 			(at 259.08 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -51816,7 +51732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias"
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm"
 			(at 150.368 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -52907,7 +52823,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
 			(at 209.55 173.99 0)
 			(hide yes)
 			(show_name no)
