@@ -13450,7 +13450,7 @@
 	)
 	(rectangle
 		(start 12.7 269.24)
-		(end 87.63 314.96)
+		(end 87.63 322.58)
 		(stroke
 			(width 0)
 			(type default)
@@ -13764,16 +13764,6 @@
 		)
 		(uuid "2c6cadd8-4d75-4f90-8f24-97a33459345c")
 	)
-	(text "add bongo touchpads as btn9 and btn10"
-		(exclude_from_sim no)
-		(at 38.1 200.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2e5799ca-0f07-41f8-9147-88e2e340f4f0")
-	)
 	(text "DOWN"
 		(exclude_from_sim no)
 		(at 406.4 82.55 0)
@@ -13824,6 +13814,17 @@
 			)
 		)
 		(uuid "4c5d0452-dd7b-4222-9ad9-144da512d19e")
+	)
+	(text "Originally the mic circuit was drawn with a -58dB sensitivity mic.\nThese are not available anymore and -56dB was used on Pulse.\n-56dB availability isn't looking great on LCSC though there is currently\nsome stock and Roy hasn't flagged it *yet*.\n\nSignificantly more sensitive mics (~-35dB) are much more common."
+		(exclude_from_sim no)
+		(at 50.292 312.166 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 194 1)
+			)
+		)
+		(uuid "5200665b-36bf-4e6a-a53b-223cb68b6a1c")
 	)
 	(text "Orange"
 		(exclude_from_sim no)
@@ -13878,16 +13879,6 @@
 			(justify left bottom)
 		)
 		(uuid "5f9758b8-5ddf-41b6-bb7a-d4a939016944")
-	)
-	(text "add LEDs from Pulse on remaining GPIO... pink uwu"
-		(exclude_from_sim no)
-		(at 43.18 198.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6519d05d-6c88-42f0-beb2-46f931f644c8")
 	)
 	(text "3-Axis Magnetometer - qmc6309"
 		(exclude_from_sim no)
@@ -13953,6 +13944,17 @@
 		)
 		(uuid "7c12da0b-7a4f-4893-b866-2b2b022109b0")
 	)
+	(text "Checked against BOM and LCSC 8/31/2026 EMA"
+		(exclude_from_sim no)
+		(at 37.592 321.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 194 1)
+			)
+		)
+		(uuid "8143c648-bf93-4787-9653-88dbfa36a5cf")
+	)
 	(text "DOWN"
 		(exclude_from_sim no)
 		(at 24.13 175.514 0)
@@ -13979,6 +13981,7 @@
 		(effects
 			(font
 				(size 1.016 1.016)
+				(color 194 0 194 1)
 			)
 		)
 		(uuid "8c458a41-8cd4-49cb-a421-e82d17ec8cb8")
@@ -14024,6 +14027,17 @@
 			(justify left bottom)
 		)
 		(uuid "af5a0391-1dff-4817-b200-a3ce39f13559")
+	)
+	(text "Checked against BOM and LCSC 8/31/2026 EMA"
+		(exclude_from_sim no)
+		(at 37.592 153.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 194 1)
+			)
+		)
+		(uuid "c4dff302-a70b-43c6-98d9-f3c37754ba61")
 	)
 	(text "TFT LED Driver"
 		(exclude_from_sim no)
@@ -14076,6 +14090,17 @@
 		)
 		(uuid "d7b28e7a-3b8b-467d-9a6f-b591b0ec3813")
 	)
+	(text "Checked against BOM and LCSC 8/31/2026 EMA"
+		(exclude_from_sim no)
+		(at 37.084 265.684 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 194 1)
+			)
+		)
+		(uuid "da105b45-cd26-42d5-9d90-82d056544b15")
+	)
 	(text "Orange"
 		(exclude_from_sim no)
 		(at 454.66 157.48 0)
@@ -14097,6 +14122,17 @@
 		)
 		(uuid "dbd2c370-d2eb-4350-99f8-a893b2c69be6")
 	)
+	(text "Checked against BOM and LCSC 8/31/2026 EMA"
+		(exclude_from_sim no)
+		(at 37.084 204.216 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 194 1)
+			)
+		)
+		(uuid "de8d51a9-8f0f-4636-896a-195dea20e182")
+	)
 	(text "LEFT"
 		(exclude_from_sim no)
 		(at 150.6764 170.434 0)
@@ -14106,6 +14142,17 @@
 			)
 		)
 		(uuid "e08b295a-b9f7-4acc-8010-e85749585a91")
+	)
+	(text "Checked against BOM and LCSC 8/31/2026 EMA"
+		(exclude_from_sim no)
+		(at 116.332 336.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 194 1)
+			)
+		)
+		(uuid "e3a04d2d-36a8-46c5-a45b-d95b2b4adc4a")
 	)
 	(text "TFT Connectors"
 		(exclude_from_sim no)
@@ -14130,7 +14177,7 @@
 	)
 	(text "DO NOT ASSUME THIS CH32 PINOUT IS VALID\nNOTHING HAS BEEN CHECKED\nEVALUATE FAN OUT AS YOU ROUTE"
 		(exclude_from_sim no)
-		(at 60.96 162.56 0)
+		(at 119.634 164.084 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14170,6 +14217,23 @@
 			(justify left bottom)
 		)
 		(uuid "f2620c1f-3259-40eb-888f-5c8242211e1a")
+	)
+	(text "We should look at the FS-1340 too.\nLCSC stock of FS-1540 is really low.\nRequested 2500 FS-1340 on 8/31"
+		(exclude_from_sim no)
+		(at 173.228 332.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 194 1)
+			)
+		)
+		(uuid "f6e6e562-d2ee-4670-9b11-e6d1b11fb0f5")
+	)
+	(junction
+		(at 60.96 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "018b6df1-e2c7-4347-a594-f7ed230f5e9b")
 	)
 	(junction
 		(at 327.66 129.54)
@@ -14274,10 +14338,10 @@
 		(uuid "19ed83d4-f17b-421c-9cbc-bfee49c3ede8")
 	)
 	(junction
-		(at 60.96 218.44)
+		(at 53.34 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1d372c99-84b2-40de-9f1d-6d8856192901")
+		(uuid "1d724e68-8c42-4bbd-9d9f-f2b456df985a")
 	)
 	(junction
 		(at 360.68 93.98)
@@ -14364,6 +14428,12 @@
 		(uuid "2a42afd5-72e8-4ef7-8ea8-c90021935ee6")
 	)
 	(junction
+		(at 45.72 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ca46e6c-c2c7-44de-85a4-7e6413197d40")
+	)
+	(junction
 		(at 462.28 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14400,10 +14470,16 @@
 		(uuid "3952e0c5-0e1a-4865-b9c2-8db4120b1653")
 	)
 	(junction
-		(at 45.72 233.68)
+		(at 172.72 290.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3f5099f9-e526-4cb0-b8fa-5fae95ea5c5d")
+		(uuid "39d7914a-4e24-4320-bf45-3a91934be4de")
+	)
+	(junction
+		(at 55.88 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a66647a-61a5-442b-bf22-97dcbbf2a50d")
 	)
 	(junction
 		(at 322.58 92.71)
@@ -14422,6 +14498,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48b94389-1e87-428e-9ed8-d82c3b055abc")
+	)
+	(junction
+		(at 71.12 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b1a69a4-7f22-4e78-8b53-9d73042b4fcf")
 	)
 	(junction
 		(at 48.26 233.68)
@@ -14616,6 +14698,12 @@
 		(uuid "830a4e9a-45ad-4dcc-935d-1e14f4bf0309")
 	)
 	(junction
+		(at 73.66 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83d9d506-e7c5-449f-adfc-fd5182bb293a")
+	)
+	(junction
 		(at 129.54 297.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14650,12 +14738,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "910e7e68-b916-4255-a17b-372f1915b125")
-	)
-	(junction
-		(at 55.88 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92dddbb7-51ad-415e-9cab-4c0311ee2f22")
 	)
 	(junction
 		(at 144.78 78.74)
@@ -14710,12 +14792,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f41d077-ef84-4cb0-9564-72bc293b5103")
-	)
-	(junction
-		(at 58.42 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ffa6647-af9a-4985-a43e-0ebb7db4d159")
 	)
 	(junction
 		(at 462.28 40.64)
@@ -14826,10 +14902,10 @@
 		(uuid "b4c18db2-788e-46cf-9fac-f3b31e612ec1")
 	)
 	(junction
-		(at 71.12 236.22)
+		(at 58.42 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b53f5a76-9318-474b-b836-d8531cbd4d57")
+		(uuid "b609fdde-c1a2-451f-98b9-204f052cf493")
 	)
 	(junction
 		(at 124.46 215.9)
@@ -14884,12 +14960,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c287e1ed-4297-4f7b-8200-69635f4ae8f8")
-	)
-	(junction
-		(at 73.66 236.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2b05cb4-f450-4b44-94fc-190ef7dba5fd")
 	)
 	(junction
 		(at 325.12 92.71)
@@ -14976,22 +15046,10 @@
 		(uuid "de429b62-a8ed-4561-a3ed-a861e1608464")
 	)
 	(junction
-		(at 172.72 289.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de7c5507-7299-4fb1-88e4-6ed71e48ff6e")
-	)
-	(junction
 		(at 472.44 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df529792-a556-4c75-a0b8-463b514c29de")
-	)
-	(junction
-		(at 53.34 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e09497d7-a22d-43c0-bd4d-8337ba6e5eb9")
 	)
 	(junction
 		(at 275.59 104.14)
@@ -15102,7 +15160,7 @@
 		(uuid "6df2e4bc-9cee-41c7-9a86-d7476b07e22c")
 	)
 	(no_connect
-		(at 48.26 238.76)
+		(at 48.26 237.49)
 		(uuid "80617607-673b-4b4c-87a7-41da85b0be0f")
 	)
 	(no_connect
@@ -15146,7 +15204,7 @@
 		(uuid "dfb4ffd5-1835-473b-a020-c60b8c73ac29")
 	)
 	(no_connect
-		(at 63.5 238.76)
+		(at 63.5 237.49)
 		(uuid "f9ee3ce7-65eb-4d08-942e-7cffaaece7e6")
 	)
 	(wire
@@ -15271,7 +15329,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 236.22) (xy 73.66 238.76)
+			(xy 73.66 236.22) (xy 73.66 237.49)
 		)
 		(stroke
 			(width 0)
@@ -15541,7 +15599,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 231.14) (xy 66.04 238.76)
+			(xy 66.04 231.14) (xy 66.04 237.49)
 		)
 		(stroke
 			(width 0)
@@ -15561,7 +15619,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 289.56) (xy 172.72 292.1)
+			(xy 172.72 289.56) (xy 172.72 290.83)
 		)
 		(stroke
 			(width 0)
@@ -16551,16 +16609,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 293.37) (xy 147.32 293.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e1768d3-de53-422d-86b7-e7429c83dd8a")
-	)
-	(wire
-		(pts
 			(xy 172.72 236.22) (xy 160.02 236.22)
 		)
 		(stroke
@@ -16841,7 +16889,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 231.14) (xy 50.8 238.76)
+			(xy 50.8 231.14) (xy 50.8 237.49)
 		)
 		(stroke
 			(width 0)
@@ -17101,16 +17149,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 293.37) (xy 147.32 284.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5543b5b0-aed3-406a-8346-0674c3f58967")
-	)
-	(wire
-		(pts
 			(xy 462.28 160.02) (xy 462.28 162.56)
 		)
 		(stroke
@@ -17201,6 +17239,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 290.83) (xy 172.72 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5958b88f-7892-459f-9855-1234186c13e9")
+	)
+	(wire
+		(pts
 			(xy 266.7 180.34) (xy 266.7 182.88)
 		)
 		(stroke
@@ -17251,7 +17299,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 236.22) (xy 71.12 238.76)
+			(xy 71.12 236.22) (xy 71.12 237.49)
 		)
 		(stroke
 			(width 0)
@@ -17591,7 +17639,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 289.56) (xy 172.72 289.56)
+			(xy 160.02 290.83) (xy 172.72 290.83)
 		)
 		(stroke
 			(width 0)
@@ -17981,7 +18029,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 218.44) (xy 55.88 238.76)
+			(xy 55.88 218.44) (xy 55.88 237.49)
 		)
 		(stroke
 			(width 0)
@@ -18591,7 +18639,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 215.9) (xy 53.34 238.76)
+			(xy 53.34 215.9) (xy 53.34 237.49)
 		)
 		(stroke
 			(width 0)
@@ -18631,7 +18679,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 293.37) (xy 146.05 295.91)
+			(xy 146.05 284.48) (xy 146.05 295.91)
 		)
 		(stroke
 			(width 0)
@@ -18681,7 +18729,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 215.9) (xy 58.42 238.76)
+			(xy 58.42 215.9) (xy 58.42 237.49)
 		)
 		(stroke
 			(width 0)
@@ -19271,7 +19319,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 233.68) (xy 45.72 238.76)
+			(xy 45.72 233.68) (xy 45.72 237.49)
 		)
 		(stroke
 			(width 0)
@@ -20681,7 +20729,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 289.56) (xy 160.02 320.04)
+			(xy 160.02 290.83) (xy 160.02 320.04)
 		)
 		(stroke
 			(width 0)
@@ -20821,7 +20869,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 238.76) (xy 68.58 236.22)
+			(xy 68.58 237.49) (xy 68.58 236.22)
 		)
 		(stroke
 			(width 0)
@@ -20911,7 +20959,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 233.68) (xy 43.18 238.76)
+			(xy 43.18 233.68) (xy 43.18 237.49)
 		)
 		(stroke
 			(width 0)
@@ -21101,7 +21149,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 218.44) (xy 60.96 238.76)
+			(xy 60.96 218.44) (xy 60.96 237.49)
 		)
 		(stroke
 			(width 0)
@@ -23121,7 +23169,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.016 1.016)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
@@ -25558,7 +25606,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C159801"
+		(property "LCSC" "C77386"
 			(at 231.14 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -27278,7 +27326,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C77386"
 			(at 515.62 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -29427,7 +29475,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C77386"
 			(at 515.62 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -31394,7 +31442,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23186"
+		(property "LCSC" "C2907002"
 			(at 114.3 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -33132,7 +33180,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C77386"
 			(at 25.4 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -33938,7 +33986,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23186"
+		(property "LCSC" "C2907002"
 			(at 193.04 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -34939,7 +34987,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C77386"
 			(at 381 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -35163,7 +35211,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C77386"
 			(at 154.94 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -38153,7 +38201,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C77386"
 			(at 115.57 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -38445,7 +38493,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 27.94 55.88 0)
+			(at 21.59 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41980,7 +42028,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C77386"
 			(at 309.88 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -42715,7 +42763,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:+3.3V")
-		(at 147.32 284.48 0)
+		(at 146.05 284.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -42725,7 +42773,7 @@
 		(dnp no)
 		(uuid "a148835d-e6a7-4695-9b73-cd4bcd0b8b1b")
 		(property "Reference" "#PWR077"
-			(at 147.32 288.29 0)
+			(at 146.05 288.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42736,7 +42784,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 147.32 280.924 0)
+			(at 146.05 280.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42746,7 +42794,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 284.48 0)
+			(at 146.05 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42757,7 +42805,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 284.48 0)
+			(at 146.05 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42768,7 +42816,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 147.32 284.48 0)
+			(at 146.05 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46616,7 +46664,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C77386"
 			(at 416.56 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -47408,7 +47456,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C282519"
 			(at 115.57 311.15 0)
 			(hide yes)
 			(show_name no)
@@ -48289,7 +48337,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23186"
+		(property "LCSC" "C2907002"
 			(at 124.46 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -49328,7 +49376,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C77386"
 			(at 274.32 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -50173,7 +50221,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C77386"
 			(at 165.1 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -50320,7 +50368,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C77386"
 			(at 261.62 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -51165,7 +51213,7 @@
 				)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "LCSC availability doesn't look good for -56dBc sensitivity mics. If this becomes a problem, should reevaluate sensitivity requirement."
 			(at 257.81 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -52289,7 +52337,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C77386"
 			(at 515.62 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -52621,7 +52669,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C77386"
 			(at 515.62 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -53069,7 +53117,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:USB_C_Plug_USB2.0")
-		(at 58.42 254 90)
+		(at 58.42 252.73 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -53079,7 +53127,7 @@
 		(dnp no)
 		(uuid "e313c2a6-f795-4232-bf71-83256125ab59")
 		(property "Reference" "P1"
-			(at 39.37 264.16 0)
+			(at 39.37 262.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53090,7 +53138,7 @@
 			)
 		)
 		(property "Value" "USB_C_Plug_USB2.0"
-			(at 39.37 241.3 0)
+			(at 39.37 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53101,7 +53149,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
-			(at 58.42 271.78 90)
+			(at 58.42 270.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53112,7 +53160,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108131730_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf"
-			(at 58.42 266.7 90)
+			(at 58.42 265.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53123,7 +53171,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only Type-C Plug connector"
-			(at 58.42 254 0)
+			(at 58.42 252.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53134,7 +53182,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 58.42 254 0)
+			(at 58.42 252.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53145,7 +53193,7 @@
 			)
 		)
 		(property "Cost100" "7.19"
-			(at 58.42 276.86 90)
+			(at 58.42 275.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53156,7 +53204,7 @@
 			)
 		)
 		(property "LCSC" "C2765186"
-			(at 58.42 274.32 90)
+			(at 58.42 273.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53167,7 +53215,7 @@
 			)
 		)
 		(property "Notes" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 58.42 269.24 90)
+			(at 58.42 267.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53178,7 +53226,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 58.42 254 0)
+			(at 58.42 252.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53189,7 +53237,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0334"
-			(at 58.42 254 0)
+			(at 58.42 252.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53200,7 +53248,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 58.42 254 0)
+			(at 58.42 252.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53806,7 +53854,29 @@
 				)
 			)
 		)
-		(property "Color" ""
+		(property "Color" "https://www.lcsc.com/datasheet/C2892547.pdf"
+			(at 172.72 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2892547"
+			(at 172.72 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutable" "Y"
 			(at 172.72 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -53931,7 +54001,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C77386"
 			(at 111.76 285.75 0)
 			(hide yes)
 			(show_name no)
@@ -54386,7 +54456,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C77386"
 			(at 345.44 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -56391,7 +56461,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C77386"
 			(at 525.78 191.77 0)
 			(hide yes)
 			(show_name no)
