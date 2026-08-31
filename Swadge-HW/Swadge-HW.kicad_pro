@@ -665,10 +665,6 @@
       },
       {
         "netclass": "Power",
-        "pattern": "TFTATP"
-      },
-      {
-        "netclass": "Power",
         "pattern": "Net-(D10-*)"
       },
       {
@@ -905,7 +901,7 @@
         "uuid": "770c762f-3a30-4864-b7da-de353459cdd6"
       }
     ],
-    "used_designators": "L3,D14-17,D21-45,#PWR13,#PWR17,#PWR29,#PWR42,#PWR59,#PWR63,#PWR69,#PWR86-87,#PWR89-94,#PWR98-102,#PWR104,#PWR107-115,R2,R23,R30,R48-52,R54-56,R72-97,C1,C5,C14-16,C18,C30,C45,C56,C77-80,U11,SW10-15,TP1,FB1",
+    "used_designators": "#PWR13,#PWR17,#PWR29,#PWR42,#PWR59,#PWR63,#PWR69,#PWR86-87,#PWR89-94,#PWR98-102,#PWR104,#PWR107-115,D14-17,D21-45,L3,R2,R23,R30,R48-52,R54-56,R72-97,C1,C5,C14-16,C18,C30,C45,C56,C77-80,U11,SW10-15,TP1,FB1",
     "variants": []
   },
   "sheets": [
