@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
+          "min_clearance": 1.0,
           "min_island_area": 10.0,
           "min_thickness": 0.2,
           "pad_connection": 1,
@@ -528,7 +528,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Swadge_Parts"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -899,7 +901,7 @@
         "uuid": "770c762f-3a30-4864-b7da-de353459cdd6"
       }
     ],
-    "used_designators": "",
+    "used_designators": "L3,D14-17,D21-45,#PWR13,#PWR17,#PWR29,#PWR42,#PWR59,#PWR63,#PWR69,#PWR86-87,#PWR89-94,#PWR98-102,#PWR104,#PWR107-115,R2,R23,R30,R48-52,R54-56,R72-97,C1,C5,C14-16,C18,C30,C45,C56,C77-80,U11,SW10-15,TP1,FB1",
     "variants": []
   },
   "sheets": [
