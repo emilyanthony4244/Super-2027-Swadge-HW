@@ -21207,6 +21207,26 @@
 		)
 		(uuid "060750d5-7856-403f-97c7-312b3cd70a30")
 	)
+	(label "3V3_P1"
+		(at 477.52 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fa76f22-88e1-47cf-95dc-16bacf9b4f7c")
+	)
+	(label "3V3_P2"
+		(at 480.06 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "280b0b6e-ac2b-448d-ab7a-72cd06189232")
+	)
 	(label "VIN"
 		(at 220.98 172.72 0)
 		(effects
@@ -21226,6 +21246,16 @@
 			(justify right bottom)
 		)
 		(uuid "3d6bee58-53ea-4022-a5c9-dea906b7a4d5")
+	)
+	(label "3V3_BL"
+		(at 480.06 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42555fc2-ffab-4b33-9d3f-9ba7596656fc")
 	)
 	(label "SPK_IN_P"
 		(at 121.92 302.26 0)
@@ -21286,6 +21316,16 @@
 			(justify left bottom)
 		)
 		(uuid "78535f92-3f10-460f-a206-04b03e08019d")
+	)
+	(label "3V3_O1"
+		(at 480.06 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b9a632e-65a1-42b8-b9bc-2bc4e1306a81")
 	)
 	(label "SPK_P"
 		(at 165.1 320.04 0)
@@ -21356,6 +21396,16 @@
 			(justify left bottom)
 		)
 		(uuid "ac5d387e-dbb3-4d2f-a5ee-9a52bd406ef4")
+	)
+	(label "3V3_O2"
+		(at 480.06 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccb359a0-32fb-475c-b47e-6198c2396d82")
 	)
 	(label "SPK_IN_N"
 		(at 127 307.34 180)
@@ -21555,7 +21605,7 @@
 			)
 		)
 	)
-	(global_label "WING_L1"
+	(global_label "WING_P1"
 		(shape input)
 		(at 35.56 187.96 180)
 		(fields_autoplaced yes)
@@ -21567,7 +21617,7 @@
 		)
 		(uuid "08a60325-fd7c-4b20-b874-ecc68c479baa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.8662 187.96 0)
+			(at 24.471 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21963,7 +22013,7 @@
 			)
 		)
 	)
-	(global_label "WING_C"
+	(global_label "WING_B"
 		(shape input)
 		(at 139.7 185.42 0)
 		(fields_autoplaced yes)
@@ -21975,7 +22025,7 @@
 		)
 		(uuid "265e8fb4-7033-462c-990c-4310ea35d240")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.4262 185.42 0)
+			(at 149.5795 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22203,7 +22253,7 @@
 			)
 		)
 	)
-	(global_label "WING_L2"
+	(global_label "WING_P2"
 		(shape input)
 		(at 35.56 190.5 180)
 		(fields_autoplaced yes)
@@ -22215,7 +22265,7 @@
 		)
 		(uuid "36799546-6826-4f31-b701-185c411c145d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.8662 190.5 0)
+			(at 24.471 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22875,7 +22925,7 @@
 			)
 		)
 	)
-	(global_label "WING_L1"
+	(global_label "WING_P1"
 		(shape input)
 		(at 459.74 53.34 180)
 		(fields_autoplaced yes)
@@ -22887,7 +22937,7 @@
 		)
 		(uuid "7d170087-cd04-4cd0-9c97-3f6d4c58de9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 448.0462 53.34 0)
+			(at 448.651 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23043,7 +23093,7 @@
 			)
 		)
 	)
-	(global_label "WING_R2"
+	(global_label "WING_O2"
 		(shape input)
 		(at 459.74 162.56 180)
 		(fields_autoplaced yes)
@@ -23055,7 +23105,7 @@
 		)
 		(uuid "8e1351f1-2ff0-45ba-b50a-b85bf0c57166")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 447.8043 162.56 0)
+			(at 448.5905 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23091,7 +23141,7 @@
 			)
 		)
 	)
-	(global_label "WING_R2"
+	(global_label "WING_O2"
 		(shape input)
 		(at 139.7 177.8 0)
 		(fields_autoplaced yes)
@@ -23103,7 +23153,7 @@
 		)
 		(uuid "9068ef4d-a866-427e-9c22-c5d651c3fb4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.6357 177.8 0)
+			(at 150.8495 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23115,7 +23165,7 @@
 			)
 		)
 	)
-	(global_label "WING_L2"
+	(global_label "WING_O1"
 		(shape input)
 		(at 459.74 127 180)
 		(fields_autoplaced yes)
@@ -23127,7 +23177,7 @@
 		)
 		(uuid "90d268a1-0387-4181-b933-d9fcd5723d2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 448.0462 127 0)
+			(at 448.5905 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23139,7 +23189,7 @@
 			)
 		)
 	)
-	(global_label "WING_R1"
+	(global_label "WING_O1"
 		(shape input)
 		(at 35.56 193.04 180)
 		(fields_autoplaced yes)
@@ -23151,7 +23201,7 @@
 		)
 		(uuid "94adfa4d-7f69-4a31-942c-4a1bc9f88474")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.6243 193.04 0)
+			(at 24.4105 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23259,7 +23309,7 @@
 			)
 		)
 	)
-	(global_label "WING_C"
+	(global_label "WING_B"
 		(shape input)
 		(at 459.74 198.12 180)
 		(fields_autoplaced yes)
@@ -23271,7 +23321,7 @@
 		)
 		(uuid "9c1f781c-35cf-4aeb-96d6-e8c385e28406")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 449.0138 198.12 0)
+			(at 449.8605 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24267,7 +24317,7 @@
 			)
 		)
 	)
-	(global_label "WING_R1"
+	(global_label "WING_P2"
 		(shape input)
 		(at 459.74 88.9 180)
 		(fields_autoplaced yes)
@@ -24279,7 +24329,7 @@
 		)
 		(uuid "f43b6650-42f1-465e-ab3c-633374a76f2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 447.8043 88.9 0)
+			(at 448.651 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
