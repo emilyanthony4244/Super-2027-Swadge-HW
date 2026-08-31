@@ -76,9 +76,9 @@
           "width": 0.0
         },
         {
-          "gap": 0.125,
+          "gap": 0.14,
           "via_gap": 0.8,
-          "width": 0.25
+          "width": 0.24
         }
       ],
       "drc_exclusions": [],
@@ -153,8 +153,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
+        "min_clearance": 0.14,
+        "min_connection": 0.14,
         "min_copper_edge_clearance": 0.05,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -223,6 +223,7 @@
         0.18,
         0.2,
         0.21,
+        0.24,
         0.25,
         0.3,
         0.35,
@@ -560,15 +561,15 @@
       },
       {
         "clearance": 0.2,
-        "diff_pair_gap": 0.13,
-        "diff_pair_width": 0.25,
+        "diff_pair_gap": 0.14,
+        "diff_pair_width": 0.24,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Diff_90",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.24,
         "tuning_profile": "Diff_90",
         "via_diameter": 0.5,
         "via_drill": 0.3
@@ -921,10 +922,10 @@
         "layer_entries": [
           {
             "bottom_reference_layer": "B.Cu",
-            "delay": 0,
-            "diff_pair_gap": 125000,
+            "delay": 15000000,
+            "diff_pair_gap": 140000,
             "signal_layer": "F.Cu",
-            "top_reference_layer": "UNDEFINED",
+            "top_reference_layer": "F.Cu",
             "width": 240000
           }
         ],
@@ -932,7 +933,7 @@
         "target_impedance": 90.0,
         "type": 1,
         "via_overrides": [],
-        "via_prop_delay": 6700000
+        "via_prop_delay": 15000000
       }
     ]
   }
