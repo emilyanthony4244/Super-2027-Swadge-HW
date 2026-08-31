@@ -22447,7 +22447,7 @@
 	)
 	(global_label "TOUCH_7"
 		(shape input)
-		(at 388.62 162.56 180)
+		(at 388.62 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22457,7 +22457,7 @@
 		)
 		(uuid "48968ec1-5093-43ef-b079-c5190e6305d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 377.2286 162.56 0)
+			(at 377.2286 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22745,7 +22745,7 @@
 		)
 		(uuid "713bb847-5c90-47ca-a7de-88ef5d7bc3bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 377.8007 167.5606 0)
+			(at 377.8007 167.7194 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22975,7 +22975,7 @@
 	)
 	(global_label "TOUCH_9"
 		(shape input)
-		(at 388.62 170.18 180)
+		(at 388.62 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22985,7 +22985,7 @@
 		)
 		(uuid "82b740d3-a3cd-4e5a-a1d3-bbb8b75e076b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 377.2286 170.18 0)
+			(at 377.2286 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23767,7 +23767,7 @@
 	)
 	(global_label "TOUCH_8"
 		(shape input)
-		(at 388.62 165.1 180)
+		(at 388.62 170.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23777,7 +23777,7 @@
 		)
 		(uuid "ce826f37-456d-4b43-baec-e1cb2ed6f139")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 377.2286 165.1 0)
+			(at 377.2286 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23959,7 +23959,7 @@
 	)
 	(global_label "TOUCH_14"
 		(shape input)
-		(at 388.62 172.72 180)
+		(at 388.62 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23969,7 +23969,7 @@
 		)
 		(uuid "d05dc63c-05dc-485c-976d-36274867f413")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 376.0191 172.72 0)
+			(at 376.0191 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29044,7 +29044,7 @@
 			)
 		)
 		(property "Value" "art_curved_touch_bar_chevron"
-			(at 387.096 159.512 0)
+			(at 387.096 174.752 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
