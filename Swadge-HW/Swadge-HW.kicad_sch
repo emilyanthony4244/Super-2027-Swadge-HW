@@ -26916,7 +26916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:curved-touch-bar-chevrons"
+		(property "Footprint" "Swadge_Parts:fairy_touch_right"
 			(at 401.828 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -41553,7 +41553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:curved-touch-bar-chevrons"
+		(property "Footprint" "Swadge_Parts:fairy_touch_left"
 			(at 401.32 189.2299 0)
 			(hide yes)
 			(show_name no)
