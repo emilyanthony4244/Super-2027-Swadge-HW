@@ -2265,6 +2265,180 @@
 			)
 		)
 	)
+	(footprint "Swadge_Parts:fairy_touch_left"
+		(layer "F.Cu")
+		(uuid "2b526a4d-6170-4a90-be9f-ced32cc6672e")
+		(at 99.98 99.96 -10)
+		(property "Reference" "Ref**"
+			(at 0 0 170)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d73ae151-aa0b-4648-bde9-03dfd57f0b97")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Val**"
+			(at 0 0 170)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5b53f523-c2d1-44e6-99b3-dad232790c2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0737ccd1-c182-4ebc-85fc-8bae3a50a948")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c50b9708-afe6-436a-bac2-25f7977ba49c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "77498f65-3ea0-4dc7-bb6a-32e2648c8556")
+		)
+		(pad "1" smd custom
+			(at -42.66 14.57 350)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Paste")
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 9.113019 -3.355853) (xy 10.851468 1.048991) (xy 5.505526 1.6086) (xy 1.88335 5.550977) (xy 1.553851 4.851065)
+						(xy 1.236466 4.14583) (xy 0.931248 3.435424) (xy 0.638252 2.719998) (xy 0.357532 1.999703) (xy 0.089142 1.274691)
+						(xy -0.166865 0.545112) (xy -0.410434 -0.188882) (xy 3.752646 -3.572007)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "ed588687-9894-4b01-9e4c-55377a208bc0")
+		)
+		(pad "2" smd custom
+			(at -44.37 8.1 350)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Paste")
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 9.570114 -1.993634) (xy 10.677822 2.610477) (xy 5.306055 2.419708) (xy 1.169875 5.818905)
+						(xy 0.941118 5.079906) (xy 0.725099 4.337326) (xy 0.521849 3.59132) (xy 0.3314 2.842046) (xy 0.153787 2.089662)
+						(xy -0.01096 1.334325) (xy -0.162808 0.576191) (xy -0.301724 -0.184582) (xy 4.292157 -2.954607)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "fa70f44f-5c76-4c8a-b153-f4558a3f7c71")
+		)
+		(pad "3" smd custom
+			(at -44.94 1.57 350)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Paste")
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 9.657661 -0.643225) (xy 10.065906 4.082068) (xy 4.801628 3.100734) (xy 0.222063 5.858705)
+						(xy 0.106328 5.092739) (xy 0.003673 4.325103) (xy -0.085893 3.555956) (xy -0.16236 2.78546) (xy -0.225721 2.013775)
+						(xy -0.275966 1.241062) (xy -0.313086 0.46748) (xy -0.337075 -0.306809) (xy 4.60009 -2.373869)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "c3aaf8ee-092d-492b-9ac5-19ae4994d775")
+		)
+		(pad "4" smd custom
+			(at -44.73 -5.15 350)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Paste")
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 9.728784 0.875025) (xy 9.658367 1.464462) (xy 9.597813 2.054926) (xy 9.547128 2.646263) (xy 9.506319 3.23832)
+						(xy 9.475393 3.830941) (xy 9.454357 4.423974) (xy 9.443217 5.017263) (xy 9.441979 5.610655) (xy 4.377688 3.870192)
+						(xy -0.555343 5.928466) (xy -0.557974 5.154302) (xy -0.547425 4.380123) (xy -0.52371 3.606165)
+						(xy -0.48684 2.832666) (xy -0.436829 2.059859) (xy -0.37369 1.287983) (xy -0.297435 0.517272)
+						(xy -0.208078 -0.252037) (xy 4.978168 -1.574953) (xy 4.978168 -1.574954)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "e3640097-c8a2-424c-b586-6639b9d29651")
+		)
+		(pad "5" smd custom
+			(at -43.41 -11.67 350)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Paste")
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 9.446446 2.291462) (xy 9.290688 2.864194) (xy 9.144528 3.439309) (xy 9.007997 4.016691) (xy 8.881123 4.596224)
+						(xy 8.763936 5.177794) (xy 8.656466 5.761282) (xy 8.558743 6.346575) (xy 8.470795 6.933556) (xy 8.471312 6.934557)
+						(xy 3.715012 4.471141) (xy -1.46555 5.788373) (xy -1.354972 5.021645) (xy -1.23141 4.257081) (xy -1.094897 3.494841)
+						(xy -0.945462 2.735088) (xy -0.783136 1.977984) (xy -0.607949 1.223689) (xy -0.419932 0.472366)
+						(xy -0.219114 -0.275822) (xy 5.105108 -0.828244)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "7558504c-48ae-4ca6-ace1-db0c08583b36")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Swadge_Parts:INGHAi_MIC_GMI4013S-2C58DB"
 		(layer "F.Cu")
 		(uuid "36980d4b-12c9-4863-9aac-221c2391091d")
@@ -5090,6 +5264,181 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Swadge_Parts:fairy_touch_right"
+		(layer "F.Cu")
+		(uuid "893049d5-c7e7-4ea4-8277-537eaced33a1")
+		(at 100 99.99 10)
+		(property "Reference" "Ref**"
+			(at 0 0 10)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "59d630a6-1e5e-44b4-b3b6-d9d4d63e2200")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Val**"
+			(at 0 0 10)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ac69a2bf-0e4f-4525-abd3-c68ac975dbef")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 10)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a493208-5193-46e6-8057-73dc0224e553")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 10)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0556af54-1e1b-4578-8e2d-981cd5e28e47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "9dd80d53-36d4-44ab-9812-0e8dde7ae511")
+		)
+		(pad "1" smd custom
+			(at 42.83 14.21 10)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Paste")
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.352062 -0.122657) (xy 0.108493 0.611337) (xy -0.147514 1.340916) (xy -0.415904 2.065928)
+						(xy -0.696624 2.786223) (xy -0.98962 3.501649) (xy -1.294838 4.212055) (xy -1.612223 4.91729)
+						(xy -1.941721 5.617202) (xy -5.563897 1.674825) (xy -10.909839 1.115216) (xy -9.171391 -3.289628)
+						(xy -3.811018 -3.505782)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "bccdfb15-b499-439b-9b80-4784e271a46e")
+		)
+		(pad "2" smd custom
+			(at 44.45 7.77 10)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Paste")
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.333352 -0.148357) (xy 0.194436 0.612416) (xy 0.042588 1.37055) (xy -0.122159 2.125887) (xy -0.299772 2.878271)
+						(xy -0.490221 3.627545) (xy -0.693471 4.373551) (xy -0.909491 5.116131) (xy -1.138248 5.85513)
+						(xy -5.274427 2.455933) (xy -10.646193 2.646702) (xy -9.538485 -1.957409) (xy -4.260528 -2.918382)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "ecd3db0a-e805-448b-95bd-c2a0a3006fb0")
+		)
+		(pad "3" smd custom
+			(at 45.06 1.19 10)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Paste")
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.328702 -0.220584) (xy 0.304714 0.553705) (xy 0.267593 1.327287) (xy 0.217348 2.1) (xy 0.153988 2.871685)
+						(xy 0.077521 3.642181) (xy -0.012045 4.411328) (xy -0.1147 5.178964) (xy -0.230435 5.94493) (xy -4.81 3.186959)
+						(xy -10.074278 4.168293) (xy -9.666034 -0.557) (xy -4.608462 -2.287644)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "f63280ba-622b-4f61-9fd4-935eaa560ce2")
+		)
+		(pad "4" smd custom
+			(at 44.790001 -5.37 10)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Paste")
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -4.92654 -1.648728) (xy 0.259707 -0.325812) (xy 0.349064 0.443497) (xy 0.425319 1.214208)
+						(xy 0.488458 1.986084) (xy 0.538469 2.758891) (xy 0.575338 3.53239) (xy 0.599054 4.306348) (xy 0.609603 5.080527)
+						(xy 0.606972 5.854691) (xy -4.326061 3.796417) (xy -9.39035 5.53688) (xy -9.391587 4.943489) (xy -9.402728 4.3502)
+						(xy -9.423765 3.757167) (xy -9.454691 3.164546) (xy -9.495499 2.572489) (xy -9.546184 1.981152)
+						(xy -9.606738 1.390688) (xy -9.677154 0.801251) (xy -4.92654 -1.648729)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "897c673b-6e54-4054-9302-7446f48197b2")
+		)
+		(pad "5" smd custom
+			(at 43.47 -11.88 10)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Paste")
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.270743 -0.359598) (xy 0.47156 0.388591) (xy 0.659578 1.139913) (xy 0.834765 1.894208) (xy 0.997091 2.651313)
+						(xy 1.146526 3.411066) (xy 1.283039 4.173306) (xy 1.4066 4.93787) (xy 1.517179 5.704598) (xy -3.663384 4.387366)
+						(xy -8.419683 6.850782) (xy -8.419166 6.849781) (xy -8.507114 6.2628) (xy -8.604838 5.677507)
+						(xy -8.712308 5.094019) (xy -8.829495 4.512449) (xy -8.956368 3.932916) (xy -9.0929 3.355534)
+						(xy -9.239059 2.780419) (xy -9.394817 2.207687) (xy -5.05348 -0.912019)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "e4fb4043-7ae0-48d7-91d0-4bea9464fcc4")
 		)
 		(embedded_fonts no)
 	)
@@ -28954,7 +29303,7 @@
 	(footprint "Swadge_Parts:BBC-S-G0-A-18650_COVERED"
 		(layer "B.Cu")
 		(uuid "6ccb618a-c3e0-4722-82aa-1c8fae2e9a92")
-		(at 103 75 180)
+		(at 104.25 73.87 180)
 		(descr "18650 Single Cell SMD Battery Holder, With Cover")
 		(tags "1042P ")
 		(property "Reference" "BT1"
