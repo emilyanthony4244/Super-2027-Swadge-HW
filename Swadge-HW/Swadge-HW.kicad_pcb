@@ -1369,14 +1369,14 @@
 	(footprint "Swadge_Parts:B3FS4002P"
 		(layer "F.Cu")
 		(uuid "21aa00e4-a505-4e71-bb9f-4f790d8b00dc")
-		(at 142.25 60.15 135)
+		(at 127.881627 69.111627 135)
 		(descr "B3FS-4002P")
 		(tags "Switch")
 		(property "Reference" "SW5"
 			(at 1.125 0 135)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2c317c18-36f4-4a12-bc13-4b8960e000cd")
+			(uuid "b3dedcae-02b7-4dcc-bfc3-7ba6baa35fe0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1388,7 +1388,7 @@
 			(at -1.143001 7.366 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0561e03e-77cc-4315-80da-c15c8f0d14ff")
+			(uuid "a2a36df7-721f-41d1-928d-a539eada094e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1400,7 +1400,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0fe8d12d-c9b1-443f-94b9-f3f500a53e5c")
+			(uuid "48a369f8-34f8-428e-8661-39dac848668b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1412,7 +1412,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bae7f39a-3c3a-4bc9-b1be-8dd8ba0d4f5e")
+			(uuid "98457054-1c7f-4f0b-a830-38b2c0adf5af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7981,14 +7981,14 @@
 	(footprint "Swadge_Parts:B3FS4002P"
 		(layer "F.Cu")
 		(uuid "d1ede81e-c38d-40e5-b123-6f33135353ee")
-		(at 128.95 70.65 135)
+		(at 139.87358 61.478047 135)
 		(descr "B3FS-4002P")
 		(tags "Switch")
 		(property "Reference" "SW6"
 			(at 1.125 0 135)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "59cdd764-7d9c-420f-8473-71d56076869d")
+			(uuid "86164297-dede-4c81-b9b2-d573bd412b46")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8000,7 +8000,7 @@
 			(at -1.143001 7.366 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "119f77e5-c843-4746-99c6-e747577a989c")
+			(uuid "4a8c6f23-e4e7-4eb2-95da-0deb12fe8e72")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8012,7 +8012,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0067e6f0-a3f9-43f2-8613-368fd4903967")
+			(uuid "7d60dabd-6901-44c7-8f4d-7fea772c6df9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8024,7 +8024,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c873f18a-cac5-47c1-b3ef-b091ae0e12a1")
+			(uuid "0b8993ae-f599-425c-8f08-f5613097bb5f")
 			(effects
 				(font
 					(size 1.27 1.27)
