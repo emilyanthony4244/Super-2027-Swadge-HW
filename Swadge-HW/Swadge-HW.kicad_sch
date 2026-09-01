@@ -1958,7 +1958,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Swadge_Parts:BH-18650-B"
+		(symbol "Swadge_Parts:BATT_18650_BMGO"
 			(pin_names
 				(offset 0)
 			)
@@ -1989,7 +1989,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Swadge_Parts:BH-18650-Bxxx002"
+			(property "Footprint" "Swadge_Parts:BBC-S-G0-A-18650_COVERED"
 				(at 2.667 4.0175 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2001,7 +2001,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C2988620.pdf"
+			(property "Datasheet" "https://www.antenk.com/cylindrical-cell-holders/63154548.html"
 				(at 2.667 1.5932 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2025,7 +2025,7 @@
 					(justify left)
 				)
 			)
-			(property "Digikey" "36-1042P-ND"
+			(property "Digikey" ""
 				(at 2.667 -3.2554 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2061,7 +2061,7 @@
 					(justify left)
 				)
 			)
-			(property "LCSC" "C2988620"
+			(property "LCSC" ""
 				(at 7.62 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2072,7 +2072,7 @@
 					)
 				)
 			)
-			(property "Cost @ 2.5k" "0.9186"
+			(property "Cost @ 2.5k" "0.5"
 				(at 5.08 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2094,18 +2094,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Swadge_Parts:BCAAPC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BH-18650-B_0_1"
+			(symbol "BATT_18650_BMGO_0_1"
 				(polyline
 					(pts
 						(xy -2.159 1.016) (xy -1.143 1.016)
@@ -2177,7 +2166,7 @@
 					)
 				)
 			)
-			(symbol "BH-18650-B_1_1"
+			(symbol "BATT_18650_BMGO_1_1"
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
@@ -25092,7 +25081,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Swadge_Parts:BH-18650-B")
+		(lib_id "Swadge_Parts:BATT_18650_BMGO")
 		(at 185.42 233.68 270)
 		(unit 1)
 		(body_style 1)
@@ -25124,7 +25113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:BBC-S-G0 -A-18650-130"
+		(property "Footprint" "Swadge_Parts:BBC-S-G0-A-18650_COVERED"
 			(at 189.4375 236.347 0)
 			(hide yes)
 			(show_name no)
@@ -25136,7 +25125,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2988620.pdf"
+		(property "Datasheet" "https://www.antenk.com/cylindrical-cell-holders/63154548.html"
 			(at 187.0132 236.347 0)
 			(hide yes)
 			(show_name no)
@@ -25207,7 +25196,7 @@
 				)
 			)
 		)
-		(property "Cost @ 2.5k" "0.9186"
+		(property "Cost @ 2.5k" "0.5"
 			(at 175.26 238.76 0)
 			(hide yes)
 			(show_name no)
