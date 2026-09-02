@@ -136,7 +136,7 @@
 	(footprint "Swadge_Parts:SK6812_SIDE_2"
 		(layer "F.Cu")
 		(uuid "011353ba-1a89-481a-9ace-f8ba14e334c7")
-		(at 73 126 45)
+		(at 66.038198 133.161802 45)
 		(property "Reference" "D12"
 			(at 2.5 0 45)
 			(unlocked yes)
@@ -949,7 +949,7 @@
 	(footprint "Swadge_Parts:YTS-D003-1A"
 		(layer "F.Cu")
 		(uuid "1f1d429a-ea21-436d-9a70-5e298a35bb6b")
-		(at 135.223538 124.663787 -35)
+		(at 134.977155 125.491214 -35)
 		(property "Reference" "SW9"
 			(at -1.293818 4.079955 325)
 			(unlocked yes)
@@ -4348,7 +4348,7 @@
 	(footprint "Swadge_Parts:SK6812_SIDE_2"
 		(layer "F.Cu")
 		(uuid "8ac6269b-2bd0-4a1d-a9b9-4b93d671f6a5")
-		(at 58 141 45)
+		(at 49.84 151.95 45)
 		(property "Reference" "D13"
 			(at 2.5 0 45)
 			(unlocked yes)
@@ -4645,7 +4645,7 @@
 	(footprint "Swadge_Parts:SK6812_SIDE_2"
 		(layer "F.Cu")
 		(uuid "8bb1d590-7978-4fb7-a587-93734828e82b")
-		(at 127 126 -45)
+		(at 130.553414 135.843414 -45)
 		(property "Reference" "D3"
 			(at 2.5 0 315)
 			(unlocked yes)
@@ -5536,7 +5536,7 @@
 	(footprint "Swadge_Parts:YTS-D003-1A"
 		(layer "F.Cu")
 		(uuid "a6f3b499-d68f-46c2-88e6-34423174ec8b")
-		(at 140.406783 114.706866 -20)
+		(at 139.498317 116.973771 -20)
 		(property "Reference" "SW4"
 			(at 1.836885 -3.979428 160)
 			(unlocked yes)
@@ -7029,7 +7029,7 @@
 	(footprint "Swadge_Parts:SK6812_SIDE_2"
 		(layer "F.Cu")
 		(uuid "c310a064-ca6b-4f1b-9ed7-e0a24a03b433")
-		(at 142 141 -45)
+		(at 146.896307 152.786307 -45)
 		(property "Reference" "D4"
 			(at 2.5 0 315)
 			(unlocked yes)
@@ -8505,9 +8505,9 @@
 	(footprint "Swadge_Parts:SK6812_SIDE_2"
 		(layer "F.Cu")
 		(uuid "e18ff0b7-3ef9-4aea-96d8-172382b63ef6")
-		(at 49 144 -45)
+		(at 32.075 150.16 -90)
 		(property "Reference" "D14"
-			(at 2.5 0 315)
+			(at 2.5 0 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e2369826-bc51-45e2-84ae-220a3be06e8c")
@@ -8520,7 +8520,7 @@
 			)
 		)
 		(property "Value" "SK6812-SIDE-A"
-			(at 0 -1.6 315)
+			(at 0 -1.6 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "51eecaed-8485-42c1-b818-ce334b12e4fb")
@@ -8532,7 +8532,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108251530_OPSCO-Optoelectronics-SK6812SIDE-A-RVS_C2890037.pdf"
-			(at 0 0 135)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "38dc8bc1-80ba-42be-a25b-b00c762bd558")
@@ -8544,7 +8544,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 135)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "67100886-554b-4e31-b3c2-175eb8f211b6")
@@ -8556,7 +8556,7 @@
 			)
 		)
 		(property "Digikey" "1528-4691-ND"
-			(at 0 0 315)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8569,7 +8569,7 @@
 			)
 		)
 		(property "Cost100" ""
-			(at 0 0 315)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8582,7 +8582,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 0 0 315)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8595,7 +8595,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 0 0 315)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8608,7 +8608,7 @@
 			)
 		)
 		(property "LCSC" "C2890037"
-			(at 0 0 315)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8621,7 +8621,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0352"
-			(at 0 0 315)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8634,7 +8634,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 0 0 315)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8680,16 +8680,6 @@
 			(uuid "e8c6d857-3590-4601-a0b6-7ede213f2aae")
 		)
 		(fp_line
-			(start -2.4 -0.7)
-			(end 2.4 -0.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "41e59dd4-6825-40a1-b2bf-e7602d4b1895")
-		)
-		(fp_line
 			(start 1.8 1.2)
 			(end -2.4 1.2)
 			(stroke
@@ -8710,6 +8700,16 @@
 			(uuid "57113737-0621-409b-89b0-7851c268bb01")
 		)
 		(fp_line
+			(start -2.4 -0.7)
+			(end 2.4 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "41e59dd4-6825-40a1-b2bf-e7602d4b1895")
+		)
+		(fp_line
 			(start 2.4 -0.7)
 			(end 2.4 0.6)
 			(stroke
@@ -8720,7 +8720,7 @@
 			(uuid "cca38183-f3fa-4a5b-9bf6-92beb5e05d2b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 315)
+			(at 2.5 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "59551c82-2956-49b2-9be8-bab6452e1350")
@@ -8733,7 +8733,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -1.8 -0.075 315)
+			(at -1.8 -0.075 270)
 			(size 1 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/D12A")
@@ -8742,7 +8742,7 @@
 			(uuid "9eb35897-17da-43a6-a886-22e87fb22dfd")
 		)
 		(pad "1" smd rect
-			(at -1.575 0 315)
+			(at -1.575 0 270)
 			(size 0.55 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/D12A")
@@ -8751,7 +8751,7 @@
 			(uuid "8d36550a-7641-419d-8b43-753a57c52cec")
 		)
 		(pad "2" smd rect
-			(at -0.45 0 315)
+			(at -0.45 0 270)
 			(size 0.7 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "3V3")
@@ -8760,7 +8760,7 @@
 			(uuid "51d6acc6-bacb-4aa0-9b73-b3985092c100")
 		)
 		(pad "3" smd rect
-			(at 0.574999 0 315)
+			(at 0.574999 0 270)
 			(size 0.45 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(D14-OUT-Pad3)")
@@ -8769,7 +8769,7 @@
 			(uuid "68127292-c299-4b8a-9164-178d934188e5")
 		)
 		(pad "4" smd rect
-			(at 1.575 0 315)
+			(at 1.575 0 270)
 			(size 0.55 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
@@ -8778,7 +8778,7 @@
 			(uuid "7f6ea161-b3b4-4aa3-af46-e1659bc36ba1")
 		)
 		(pad "4" smd rect
-			(at 1.8 -0.075 315)
+			(at 1.8 -0.075 270)
 			(size 1 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
@@ -9209,7 +9209,7 @@
 	(footprint "Swadge_Parts:SK6812_SIDE_2"
 		(layer "F.Cu")
 		(uuid "e8d8901e-c5f5-4ecf-8b28-410a67e8a18b")
-		(at 151 144 45)
+		(at 159.8 152.82 45)
 		(property "Reference" "D5"
 			(at 2.5 0 45)
 			(unlocked yes)
