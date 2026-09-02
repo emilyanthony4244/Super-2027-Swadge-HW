@@ -52,9 +52,9 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 1.5,
+          "corner_radius": 0.5,
           "corner_smoothing": 2,
-          "fill_mode": 1,
+          "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
@@ -66,7 +66,7 @@
           "pad_connection": 1,
           "remove_islands": 1,
           "thermal_relief_gap": 0.25,
-          "thermal_relief_spoke_width": 0.2
+          "thermal_relief_spoke_width": 0.35
         }
       },
       "diff_pair_dimensions": [
@@ -902,7 +902,7 @@
         "uuid": "770c762f-3a30-4864-b7da-de353459cdd6"
       }
     ],
-    "used_designators": "SW10-15,U11,TP1,FB1,D13-17,D21-45,#PWR13,#PWR17,#PWR29,#PWR42,#PWR59,#PWR63,#PWR69,#PWR86-87,#PWR89-94,#PWR98-102,#PWR104,#PWR107-115,C1,C5,C14-16,C18,C30,C45,C56,C76-80,R2,R23,R30,R39-40,R48-52,R54-56,R72-97,L3",
+    "used_designators": "L3,D13-17,D21-45,#PWR13,#PWR17,#PWR29,#PWR42,#PWR59,#PWR63,#PWR69,#PWR86-87,#PWR89-94,#PWR98-102,#PWR104,#PWR107-115,R2,R23,R30,R39-40,R48-52,R54-56,R72-97,C1,C5,C14-16,C18,C30,C45,C56,C76-80,FB1,TP1,U11,SW10-15",
     "variants": []
   },
   "sheets": [

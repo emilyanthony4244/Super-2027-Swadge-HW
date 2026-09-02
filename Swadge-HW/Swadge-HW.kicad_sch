@@ -20342,7 +20342,7 @@
 	)
 	(global_label "TOUCH_5"
 		(shape input)
-		(at 388.62 190.5 180)
+		(at 388.62 187.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20352,7 +20352,7 @@
 		)
 		(uuid "2017c1da-a86b-4527-810d-b52cc0ebf508")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 377.8007 190.4206 0)
+			(at 377.8007 187.8806 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20390,7 +20390,7 @@
 	)
 	(global_label "TOUCH_1"
 		(shape input)
-		(at 388.62 185.42 180)
+		(at 388.62 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20400,7 +20400,7 @@
 		)
 		(uuid "20c8fbb0-4b30-4065-931d-d6a45af6fbce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 377.8007 185.3406 0)
+			(at 377.8007 162.4806 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20894,7 +20894,7 @@
 	)
 	(global_label "TOUCH_7"
 		(shape input)
-		(at 388.62 172.72 180)
+		(at 388.62 182.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20904,7 +20904,7 @@
 		)
 		(uuid "48968ec1-5093-43ef-b079-c5190e6305d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 377.2286 172.72 0)
+			(at 377.2286 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21182,7 +21182,7 @@
 	)
 	(global_label "TOUCH_3"
 		(shape input)
-		(at 388.62 167.64 180)
+		(at 388.62 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21192,7 +21192,7 @@
 		)
 		(uuid "713bb847-5c90-47ca-a7de-88ef5d7bc3bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 377.8007 167.7194 0)
+			(at 377.8007 172.7994 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21254,7 +21254,7 @@
 	)
 	(global_label "TOUCH_6"
 		(shape input)
-		(at 388.62 193.04 180)
+		(at 388.62 185.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21264,7 +21264,7 @@
 		)
 		(uuid "797d7b28-dbcf-45f1-ac9c-59f5b982653e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 377.308 193.04 0)
+			(at 377.308 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21398,7 +21398,7 @@
 	)
 	(global_label "TOUCH_9"
 		(shape input)
-		(at 388.62 165.1 180)
+		(at 388.62 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21408,7 +21408,7 @@
 		)
 		(uuid "82b740d3-a3cd-4e5a-a1d3-bbb8b75e076b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 377.2286 165.1 0)
+			(at 377.2286 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22094,7 +22094,7 @@
 	)
 	(global_label "TOUCH_8"
 		(shape input)
-		(at 388.62 170.18 180)
+		(at 388.62 193.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22104,7 +22104,7 @@
 		)
 		(uuid "ce826f37-456d-4b43-baec-e1cb2ed6f139")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 377.2286 170.18 0)
+			(at 377.2286 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22286,7 +22286,7 @@
 	)
 	(global_label "TOUCH_14"
 		(shape input)
-		(at 388.62 162.56 180)
+		(at 388.62 170.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22296,7 +22296,7 @@
 		)
 		(uuid "d05dc63c-05dc-485c-976d-36274867f413")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 376.0191 162.56 0)
+			(at 376.0191 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22334,7 +22334,7 @@
 	)
 	(global_label "TOUCH_4"
 		(shape input)
-		(at 388.62 187.96 180)
+		(at 388.62 190.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22344,7 +22344,7 @@
 		)
 		(uuid "d595448c-4496-4b96-ad9d-eb401ce55089")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 377.8007 187.8806 0)
+			(at 377.8007 190.4206 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22502,7 +22502,7 @@
 	)
 	(global_label "TOUCH_2"
 		(shape input)
-		(at 388.62 182.88 180)
+		(at 388.62 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22512,7 +22512,7 @@
 		)
 		(uuid "ec1a90f2-5e3d-4351-ba2b-33a3f0a55eb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 377.8007 182.8006 0)
+			(at 377.8007 165.0206 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
