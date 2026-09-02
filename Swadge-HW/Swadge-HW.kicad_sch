@@ -19915,6 +19915,16 @@
 		)
 		(uuid "9eb96121-dbb2-495d-99ca-2c7bf94326b4")
 	)
+	(label "SPK_FILT"
+		(at 127 307.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1c9c5a9-bdaa-4056-a799-0d496d4d762e")
+	)
 	(label "D12A"
 		(at 426.72 40.64 270)
 		(effects
