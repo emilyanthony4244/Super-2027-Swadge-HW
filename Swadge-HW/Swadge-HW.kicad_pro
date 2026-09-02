@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 4.0,
-          "width": 4.0
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -52,21 +52,21 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.5,
-          "corner_smoothing": 2,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
-          "min_thickness": 0.2,
+          "min_thickness": 0.25,
           "pad_connection": 1,
-          "remove_islands": 1,
-          "thermal_relief_gap": 0.25,
-          "thermal_relief_spoke_width": 0.35
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -76,9 +76,14 @@
           "width": 0.0
         },
         {
-          "gap": 0.14,
-          "via_gap": 0.8,
-          "width": 0.24
+          "gap": 0.16,
+          "via_gap": 0.25,
+          "width": 0.16
+        },
+        {
+          "gap": 0.16,
+          "via_gap": 0.25,
+          "width": 0.25
         }
       ],
       "drc_exclusions": [],
@@ -153,8 +158,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.14,
-        "min_connection": 0.14,
+        "min_clearance": 0.16,
+        "min_connection": 0.1,
         "min_copper_edge_clearance": 0.05,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -166,9 +171,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.16,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.4,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -219,15 +224,11 @@
       "track_widths": [
         0.0,
         0.16,
-        0.17,
-        0.18,
         0.2,
-        0.21,
-        0.24,
         0.25,
-        0.3,
-        0.35,
-        0.4
+        0.4,
+        1.0,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -265,15 +266,11 @@
           "drill": 0.3
         },
         {
-          "diameter": 0.8,
-          "drill": 0.4
-        },
-        {
           "diameter": 1.0,
           "drill": 0.5
         }
       ],
-      "zones_allow_external_fillets": false,
+      "zones_allow_external_fillets": true,
       "zones_use_no_outline": true
     },
     "ipc2581": {
@@ -529,9 +526,7 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "Swadge_Parts"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -560,19 +555,66 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
-        "diff_pair_gap": 0.14,
-        "diff_pair_width": 0.24,
+        "clearance": 0.16,
+        "diff_pair_gap": 0.16,
+        "diff_pair_width": 0.25,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Diff_90",
+        "name": "90R_DP",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.24,
-        "tuning_profile": "Diff_90",
+        "track_width": 0.25,
+        "tuning_profile": "Diff",
         "via_diameter": 0.5,
         "via_drill": 0.3
+      },
+      {
+        "bus_width": 12,
+        "clearance": 1.5,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "BattN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 1.0,
+        "via_drill": 0.5,
+        "wire_width": 6
+      },
+      {
+        "clearance": 0.5,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "BattP",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 1.0,
+        "via_drill": 0.5
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.16,
+        "diff_pair_gap": 0.16,
+        "diff_pair_width": 0.25,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Comm_TP",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "Diff",
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
         "bus_width": 12,
@@ -584,7 +626,7 @@
         "microvia_drill": 0.1,
         "name": "Micro",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.18,
         "tuning_profile": "",
@@ -594,7 +636,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.18,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -602,7 +644,7 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "tuning_profile": "",
@@ -612,8 +654,6 @@
       },
       {
         "clearance": 0.25,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Touch",
@@ -633,56 +673,24 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Power",
-        "pattern": "*3V3"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "*5V*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "SNODE"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "*BATT*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "Net-(U3-*)"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "*VDD*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "TFT_LEDA"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "LCD28"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "Net-(D10-*)"
-      },
-      {
-        "netclass": "Diff_90",
-        "pattern": "USB*"
+        "netclass": "Comm_TP",
+        "pattern": "*I2C*"
       },
       {
         "netclass": "Touch",
-        "pattern": "TOUCH*"
+        "pattern": "*TOUCH*"
       },
       {
-        "netclass": "Power",
-        "pattern": "GND"
+        "netclass": "90R_DP",
+        "pattern": "*USB_D*"
       },
       {
-        "netclass": "Default",
-        "pattern": "*3V3_*"
+        "netclass": "BattP",
+        "pattern": "Batt+"
+      },
+      {
+        "netclass": "BattN",
+        "pattern": "Batt-"
       }
     ]
   },
@@ -691,7 +699,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../art/",
+      "plot": "~",
       "pos_files": "Manufacturing Information/",
       "specctra_dsn": "",
       "step": "../../Swadge-HW.step",
@@ -701,7 +709,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 53,
+    "annotate_start_num": 900,
     "annotation": {
       "method": 0,
       "sort_order": 0
@@ -755,13 +763,13 @@
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -776,7 +784,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "LCSC",
           "name": "LCSC",
           "show": true
@@ -785,7 +793,7 @@
           "group_by": false,
           "label": "Notes",
           "name": "Notes",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -803,13 +811,13 @@
           "group_by": false,
           "label": "Cost @ 2.5k",
           "name": "Cost @ 2.5k",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Cost@2500",
           "name": "Cost@2500",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -819,20 +827,8 @@
         },
         {
           "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "LCSC Datasheet",
           "name": "LCSC Datasheet",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Color",
-          "name": "Color",
           "show": false
         }
       ],
@@ -840,10 +836,102 @@
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Value"
+      "sort_asc": false,
+      "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "COMM": [
+        "USB_D+",
+        "USB_D-",
+        "I2C_SCL",
+        "I2C_SDA",
+        "TX",
+        "RX",
+        "FSPI_CLK",
+        "FSPI_Q",
+        "FSPI_D",
+        "FSPI_CS0",
+        "FSPI_CS1",
+        "FSPI_WP",
+        "FSPI_HD"
+      ],
+      "COMM_BUS": [
+        "USB_D+",
+        "USB_D-",
+        "I2C_SCL",
+        "I2C_SDA",
+        "TX",
+        "RX",
+        "FSPI_CLK",
+        "FSPI_Q",
+        "FSPI_D",
+        "FSPI_CS0",
+        "FSPI_CS1",
+        "FSPI_WP",
+        "FSPI_HD"
+      ],
+      "I2C": [
+        "I2C_SCL",
+        "I2C_SDA"
+      ],
+      "INTERUPTS": [
+        "RTC_INT",
+        "BMS_INT",
+        "BMS_PGOOD",
+        "BMS_STAT",
+        "IMU_INT1",
+        "IMU_INT2",
+        "CH32_TMR1",
+        "CH32_TMR2",
+        "CH32_INT"
+      ],
+      "PERF_BUS": [
+        "TFT_RESET",
+        "TFT_ATP",
+        "TFT_RS",
+        "SPK_SHDN",
+        "I2S_SDIN",
+        "I2S_LRCK",
+        "I2S_SDOUT",
+        "I2S_BCLK",
+        "I2S_MCLK",
+        "LED",
+        "SWIO",
+        "VMON"
+      ],
+      "PERIPHERAL": [
+        "TFT_RESET",
+        "TFT_ATP",
+        "TFT_RS",
+        "SPK_SHDN",
+        "I2S_SDIN",
+        "I2S_LRCK",
+        "I2S_SDOUT",
+        "I2S_BCLK",
+        "I2S_MCLK",
+        "LED",
+        "SWIO",
+        "VMON",
+        "I2S_RESET",
+        "SAO_A",
+        "SAO_B",
+        "MIC",
+        "SPK"
+      ],
+      "SAO": [
+        "SAO_B",
+        "SAO_VIB",
+        "SAO_A"
+      ],
+      "UART": [
+        "TX",
+        "RX"
+      ],
+      "USB": [
+        "USB_D+",
+        "USB_D-"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -902,7 +990,7 @@
         "uuid": "770c762f-3a30-4864-b7da-de353459cdd6"
       }
     ],
-    "used_designators": "L3,D13-17,D21-45,#PWR13,#PWR17,#PWR29,#PWR42,#PWR59,#PWR63,#PWR69,#PWR86-87,#PWR89-94,#PWR98-102,#PWR104,#PWR107-115,R2,R17,R23,R30,R39-40,R48-52,R54-56,R72-97,C1,C5,C14-16,C18,C30,C45,C56-57,C76-80,FB1,TP1,U11,SW10-15",
+    "used_designators": "#PWR1-8,#PWR10-13,#PWR49,#PWR51-53,#PWR56-57,#PWR63,#PWR67-68,#PWR70,#PWR73-75,#PWR98,#PWR102-103,#PWR110-111,#PWR114-115,Y1,BT1,MK1,TH1,C1-8,C10-13,C16-17,C19,C21-39,C901-909,J3-7,R1-8,R10-18,R20-40,R93-112,R901-910,D1,D6,D10-19,D901,U1-7,U10-15,U901-902,Q1-2,SW9-17,RV1,P2,L1-5",
     "variants": []
   },
   "sheets": [
@@ -919,21 +1007,12 @@
     "tuning_profiles_impedance_geometric": [
       {
         "enable_time_domain_tuning": true,
-        "layer_entries": [
-          {
-            "bottom_reference_layer": "B.Cu",
-            "delay": 15000000,
-            "diff_pair_gap": 140000,
-            "signal_layer": "F.Cu",
-            "top_reference_layer": "F.Cu",
-            "width": 240000
-          }
-        ],
-        "profile_name": "Diff_90",
-        "target_impedance": 90.0,
+        "layer_entries": [],
+        "profile_name": "Diff",
+        "target_impedance": 0.0,
         "type": 1,
         "via_overrides": [],
-        "via_prop_delay": 15000000
+        "via_prop_delay": 0
       }
     ]
   }

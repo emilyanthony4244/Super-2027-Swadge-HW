@@ -27009,7 +27009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:fairy_touch_right"
+		(property "Footprint" "Swadge_Parts:fairy_strip_r"
 			(at 401.828 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -41791,7 +41791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:fairy_touch_left"
+		(property "Footprint" "Swadge_Parts:fairy_strip_l"
 			(at 401.32 189.2299 0)
 			(hide yes)
 			(show_name no)
