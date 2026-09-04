@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.2,
-          "height": 2.6,
-          "width": 2.6
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -86,68 +86,7 @@
           "width": 0.25
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|140079371|104889247|5ec93b15-462d-4648-8baf-88d7db3eb369|e175cc83-858a-4b59-ab15-d066dfeaeeaa",
-          ""
-        ],
-        [
-          "clearance|156446447|148046447|ced5b04f-a198-4798-9fa5-7eb6aac6d03f|e14e56ff-45e6-4000-bbff-273c54eb87a2",
-          ""
-        ],
-        [
-          "clearance|156700337|152286864|0ff2ee55-5356-41b2-bf7a-9adaf41c4ef4|7616fb66-b382-48ef-bbff-d45bd7c1582c",
-          ""
-        ],
-        [
-          "clearance|156800000|144412500|0ff2ee55-5356-41b2-bf7a-9adaf41c4ef4|c141e2cc-a5e9-4da2-9c95-ed9e3106fa8e",
-          ""
-        ],
-        [
-          "clearance|64257357|80379541|13f0b96c-fc39-4baa-bb0c-743912461b04|3016fae7-347f-4f2a-9e32-3cef29597ccc",
-          ""
-        ],
-        [
-          "hole_clearance|68397900|81871000|52735e53-c0bb-4172-99ea-8d36420d9b2d|3e23dc93-1b5a-42ac-9c0a-51cdb02afeec",
-          "oh well"
-        ],
-        [
-          "hole_clearance|69557285|81703137|87d798d8-dcb4-46cf-a46e-6b60c02feadd|3e23dc93-1b5a-42ac-9c0a-51cdb02afeec",
-          ""
-        ],
-        [
-          "shorting_items|152800000|148400000|0ff2ee55-5356-41b2-bf7a-9adaf41c4ef4|1221a368-6367-4765-a6ba-2836431c225b",
-          ""
-        ],
-        [
-          "shorting_items|152801251|148300000|0ff2ee55-5356-41b2-bf7a-9adaf41c4ef4|58269976-a22e-4a20-981d-a62b29a08cd2",
-          ""
-        ],
-        [
-          "shorting_items|156446447|148753553|3938afb4-3e9d-4b65-83c4-080a048e6957|ced5b04f-a198-4798-9fa5-7eb6aac6d03f",
-          ""
-        ],
-        [
-          "shorting_items|157153553|148046447|464d642f-c54b-44d6-b76d-fa039751e45c|ced5b04f-a198-4798-9fa5-7eb6aac6d03f",
-          ""
-        ],
-        [
-          "shorting_items|157153553|148753553|5f3c65c2-8042-454d-b336-02815f6bc6ea|ced5b04f-a198-4798-9fa5-7eb6aac6d03f",
-          ""
-        ],
-        [
-          "shorting_items|160798749|148300000|0ff2ee55-5356-41b2-bf7a-9adaf41c4ef4|a14cac5b-b50b-4dac-b919-512b8bb31057",
-          ""
-        ],
-        [
-          "shorting_items|68918097|73644260|35d6316a-80bd-4ef3-b09b-27eea4aef111|52735e53-c0bb-4172-99ea-8d36420d9b2d",
-          ""
-        ],
-        [
-          "shorting_items|74830168|67974834|70dad026-49e4-4d54-9f69-ef4fb8f8e501|87d798d8-dcb4-46cf-a46e-6b60c02feadd",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -616,8 +555,8 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.16,
-        "diff_pair_gap": 0.16,
+        "clearance": 0.18,
+        "diff_pair_gap": 0.18,
         "diff_pair_width": 0.25,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,

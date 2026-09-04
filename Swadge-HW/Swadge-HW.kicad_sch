@@ -40631,7 +40631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:Fairy"
+		(property "Footprint" "Swadge_Parts:2027_Fairy"
 			(at 242.57 104.14 0)
 			(hide yes)
 			(show_name no)
