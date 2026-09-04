@@ -19807,7 +19807,7 @@
 		)
 		(uuid "53cd5fa9-c46e-4acd-8119-813516b1b283")
 	)
-	(label "D11A"
+	(label "D13A"
 		(at 408.94 40.64 270)
 		(effects
 			(font
@@ -19947,7 +19947,7 @@
 		)
 		(uuid "a1c9c5a9-bdaa-4056-a799-0d496d4d762e")
 	)
-	(label "D12A"
+	(label "D14A"
 		(at 426.72 40.64 270)
 		(effects
 			(font
