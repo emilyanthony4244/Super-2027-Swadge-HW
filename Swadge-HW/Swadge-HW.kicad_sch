@@ -11322,6 +11322,185 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Swadge_Parts:TriTouch"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "ART"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Swadge_Parts:TriTouch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Basic 2027 Trihard three pad touch zone"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TriTouch_1_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 0) (xy 1.27 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy -0.635 1.27) (xy 0 0) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "A"
+					(at -1.905 -0.635 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "M"
+					(at 0 3.175 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "G"
+					(at 1.905 -0.635 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Swadge_Parts:USB_C_Plug_USB2.0"
 			(pin_names
 				(offset 1.016)
@@ -13233,7 +13412,7 @@
 		(uuid "2fb19ca1-8918-43dc-8431-651cf9fa8e6e")
 	)
 	(rectangle
-		(start 294.64 152.4)
+		(start 289.56 152.4)
 		(end 369.57 186.69)
 		(stroke
 			(width 0)
@@ -13561,7 +13740,7 @@
 	)
 	(text "\"B\""
 		(exclude_from_sim no)
-		(at 150.1624 190.754 0)
+		(at 150.1624 178.054 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13658,7 +13837,7 @@
 	)
 	(text "Placeholders"
 		(exclude_from_sim no)
-		(at 320.04 167.64 0)
+		(at 314.96 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13668,7 +13847,7 @@
 	)
 	(text "RIGHT"
 		(exclude_from_sim no)
-		(at 24.13 172.72 0)
+		(at 24.13 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13722,7 +13901,7 @@
 	)
 	(text "DOWN"
 		(exclude_from_sim no)
-		(at 24.13 175.514 0)
+		(at 24.13 190.754 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13762,9 +13941,19 @@
 		)
 		(uuid "8d598f7d-e4a0-4ba6-b1d3-f7babceb0e8f")
 	)
+	(text "Updated to map to valid CH32 GPIO MUX Functions 9/4/2026"
+		(exclude_from_sim no)
+		(at 45.72 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "998d8c28-4d24-488a-abc1-25d122c8e923")
+	)
 	(text "START"
 		(exclude_from_sim no)
-		(at 151.3114 175.768 0)
+		(at 151.3114 185.928 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13880,7 +14069,7 @@
 	)
 	(text "LEFT"
 		(exclude_from_sim no)
-		(at 150.6764 170.434 0)
+		(at 24.5836 185.166 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13923,7 +14112,7 @@
 	)
 	(text "\"A\""
 		(exclude_from_sim no)
-		(at 150.0717 188.214 0)
+		(at 150.0717 175.514 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14616,7 +14805,7 @@
 		(uuid "ff1b4cc2-d21a-4e6d-b428-282a56185981")
 	)
 	(no_connect
-		(at 332.74 175.26)
+		(at 327.66 175.26)
 		(uuid "0349f4df-932d-466a-8cb9-16d5eefa7255")
 	)
 	(no_connect
@@ -14632,7 +14821,7 @@
 		(uuid "2be3fb26-b580-493d-a26a-a3e9dbd4478b")
 	)
 	(no_connect
-		(at 332.74 180.34)
+		(at 327.66 180.34)
 		(uuid "319aa3f6-3d4c-4cbe-8b33-932a3ed44de3")
 	)
 	(no_connect
@@ -14680,15 +14869,11 @@
 		(uuid "8fa9efb9-4757-4d27-afb7-d5a3c9e3c63a")
 	)
 	(no_connect
-		(at 139.7 177.8)
-		(uuid "a704e862-f3a6-44fd-bdf1-8160eed3427f")
-	)
-	(no_connect
-		(at 332.74 182.88)
+		(at 327.66 182.88)
 		(uuid "a7848528-d567-49c2-9b64-669828d1b363")
 	)
 	(no_connect
-		(at 332.74 170.18)
+		(at 327.66 170.18)
 		(uuid "a7a6601e-3314-4120-85e6-b3efabd02417")
 	)
 	(no_connect
@@ -14696,15 +14881,11 @@
 		(uuid "baeb8ad0-78fb-4293-8c8c-a9c494892696")
 	)
 	(no_connect
-		(at 139.7 185.42)
-		(uuid "c1bfa0f1-309a-45e8-8dd1-4d8774ec4ed2")
-	)
-	(no_connect
 		(at 224.79 326.39)
 		(uuid "d67b22be-e7a0-416d-8f5b-4dda4b8a3ef0")
 	)
 	(no_connect
-		(at 332.74 177.8)
+		(at 327.66 177.8)
 		(uuid "d6e385bd-9311-47e9-a007-c198bbaf1492")
 	)
 	(no_connect
@@ -14712,16 +14893,12 @@
 		(uuid "de2a9af3-8c8a-4a04-ba5e-65a3957aedee")
 	)
 	(no_connect
-		(at 332.74 172.72)
+		(at 327.66 172.72)
 		(uuid "df44786f-9dda-4a75-acef-2dfaca4c59c3")
 	)
 	(no_connect
 		(at 425.45 219.71)
 		(uuid "dfb4ffd5-1835-473b-a020-c60b8c73ac29")
-	)
-	(no_connect
-		(at 35.56 190.5)
-		(uuid "e821a71f-9a96-488b-9270-653aff443650")
 	)
 	(no_connect
 		(at 63.5 237.49)
@@ -16119,6 +16296,16 @@
 	)
 	(wire
 		(pts
+			(xy 342.9 177.8) (xy 345.44 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4967bf4b-48e5-4967-99e7-b988492b31b9")
+	)
+	(wire
+		(pts
 			(xy 271.78 182.88) (xy 281.94 182.88)
 		)
 		(stroke
@@ -17009,7 +17196,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 157.48) (xy 342.9 157.48)
+			(xy 353.06 172.72) (xy 355.6 172.72)
 		)
 		(stroke
 			(width 0)
@@ -17196,6 +17383,16 @@
 			(type default)
 		)
 		(uuid "7bed04de-42f6-4c7f-b847-3d1be7cbe5a4")
+	)
+	(wire
+		(pts
+			(xy 353.06 175.26) (xy 355.6 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ca7062a-4086-4427-a627-c97abfc87f1d")
 	)
 	(wire
 		(pts
@@ -17719,7 +17916,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 157.48) (xy 332.74 157.48)
+			(xy 342.9 172.72) (xy 345.44 172.72)
 		)
 		(stroke
 			(width 0)
@@ -18509,13 +18706,33 @@
 	)
 	(polyline
 		(pts
-			(xy 294.64 157.48) (xy 309.88 157.48)
+			(xy 289.56 157.48) (xy 309.88 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c1da8583-2da3-4850-af4e-beba12562bb4")
+	)
+	(wire
+		(pts
+			(xy 342.9 175.26) (xy 345.44 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2bcc3e2-f18d-4ea2-af46-a13ad357cf13")
+	)
+	(wire
+		(pts
+			(xy 353.06 177.8) (xy 355.6 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4589c4d-f576-4672-ba56-4e1c9806396a")
 	)
 	(wire
 		(pts
@@ -18749,7 +18966,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 162.56) (xy 332.74 162.56)
+			(xy 330.2 157.48) (xy 332.74 157.48)
 		)
 		(stroke
 			(width 0)
@@ -18869,7 +19086,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 162.56) (xy 342.9 162.56)
+			(xy 340.36 157.48) (xy 342.9 157.48)
 		)
 		(stroke
 			(width 0)
@@ -20217,17 +20434,17 @@
 	)
 	(global_label "STANDBY"
 		(shape input)
-		(at 35.56 187.96 180)
+		(at 139.7 187.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "0861c825-19eb-4af5-b6a5-3ed64af33236")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.35 187.96 0)
+			(at 150.91 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20235,7 +20452,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -20265,7 +20482,7 @@
 	)
 	(global_label "TOUCH_21"
 		(shape input)
-		(at 330.2 162.56 180)
+		(at 330.2 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20275,7 +20492,7 @@
 		)
 		(uuid "0fb60612-2ab2-4310-b8f8-e2b1446c2da8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.5991 162.56 0)
+			(at 317.5991 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20300,6 +20517,30 @@
 		(uuid "128e74ec-616e-4154-9522-5a88f33f7acb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 27.5553 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "TOUCH_G"
+		(shape input)
+		(at 342.9 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1458acab-0087-4f99-a467-d6ca167e9e22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 331.4481 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20817,17 +21058,17 @@
 	)
 	(global_label "TOUCH_21"
 		(shape input)
-		(at 35.56 180.34 180)
+		(at 139.7 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "3308fdad-3acc-4034-ba15-7e489aa8164f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.9591 180.34 0)
+			(at 152.3009 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20835,7 +21076,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -20865,7 +21106,7 @@
 	)
 	(global_label "BTN_6"
 		(shape input)
-		(at 139.7 175.26 0)
+		(at 139.7 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20875,7 +21116,7 @@
 		)
 		(uuid "394ab9e9-100b-40c6-b066-a6ebb29aef2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.8583 175.1806 0)
+			(at 147.8583 185.3406 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21225,7 +21466,7 @@
 	)
 	(global_label "BTN_4"
 		(shape input)
-		(at 35.56 175.26 180)
+		(at 35.56 190.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21235,7 +21476,7 @@
 		)
 		(uuid "633d5854-7f05-4a85-848d-fd4c46316255")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.8296 175.26 0)
+			(at 26.8296 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21380,6 +21621,30 @@
 		(uuid "797d7b28-dbcf-45f1-ac9c-59f5b982653e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 377.308 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "TOUCH_A"
+		(shape input)
+		(at 342.9 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7aad3ddb-0d66-430b-8f41-d528acccd34b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 331.6295 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21537,7 +21802,7 @@
 	)
 	(global_label "BTN_7"
 		(shape input)
-		(at 139.7 187.96 0)
+		(at 139.7 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21547,7 +21812,7 @@
 		)
 		(uuid "847d6e24-279a-41c0-b702-b2fdd20b97e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.4304 187.96 0)
+			(at 148.4304 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21583,9 +21848,9 @@
 			)
 		)
 	)
-	(global_label "TOUCH_22"
+	(global_label "TOUCH_M"
 		(shape input)
-		(at 139.7 172.72 0)
+		(at 139.7 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21595,7 +21860,7 @@
 		)
 		(uuid "8c7a0535-e776-4dab-ad40-a50d185906e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.3009 172.72 0)
+			(at 151.3333 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21657,17 +21922,17 @@
 	)
 	(global_label "CHARGE"
 		(shape input)
-		(at 35.56 185.42 180)
+		(at 139.7 190.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "94bd4f01-3b09-403c-9a51-d84f5e1a6ef8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.2696 185.42 0)
+			(at 150.0633 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21675,7 +21940,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -21801,7 +22066,7 @@
 	)
 	(global_label "BTN_5"
 		(shape input)
-		(at 35.56 172.72 180)
+		(at 35.56 180.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21811,7 +22076,7 @@
 		)
 		(uuid "a1e5b19a-82c2-4b82-9c1b-8b0460afaf55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.8296 172.72 0)
+			(at 26.8296 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21964,6 +22229,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "TOUCH_G"
+		(shape input)
+		(at 35.56 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b06241ef-901b-4fcf-9b9b-b9539ffa658a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.1081 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -22329,7 +22618,7 @@
 	)
 	(global_label "BTN_8"
 		(shape input)
-		(at 139.7 190.5 0)
+		(at 139.7 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22339,7 +22628,7 @@
 		)
 		(uuid "cf515d2d-fe74-4047-84fa-706d0f1675b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.4304 190.5 0)
+			(at 148.4304 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22348,6 +22637,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "TOUCH_A"
+		(shape input)
+		(at 35.56 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf5ea42b-c85c-4970-b645-b24d3ae9baeb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.2895 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -22567,9 +22880,9 @@
 			)
 		)
 	)
-	(global_label "TOUCH_22"
+	(global_label "TOUCH_M"
 		(shape input)
-		(at 330.2 157.48 180)
+		(at 342.9 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22579,7 +22892,7 @@
 		)
 		(uuid "e8174447-5963-42ac-b57a-5fb895c17e2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.5991 157.48 0)
+			(at 331.2667 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22665,17 +22978,17 @@
 	)
 	(global_label "BTN_2"
 		(shape input)
-		(at 139.7 170.18 0)
+		(at 35.56 185.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ef72a7ce-ea07-4de9-83c1-684508ca6d1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.8583 170.1006 0)
+			(at 26.8296 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22683,7 +22996,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -23228,7 +23541,8 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:R_US")
-		(at 336.55 180.34 90)
+		(at 323.85 180.34 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23238,7 +23552,7 @@
 		(dnp yes)
 		(uuid "014edec8-bd96-492e-a2f3-4eb64dda3396")
 		(property "Reference" "R67"
-			(at 366.014 180.34 90)
+			(at 294.386 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23248,7 +23562,7 @@
 			)
 		)
 		(property "Value" "510Ω"
-			(at 360.68 177.546 90)
+			(at 299.72 177.546 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23258,7 +23572,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
-			(at 336.804 179.324 90)
+			(at 323.596 179.324 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23269,7 +23583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 177.8 90)
+			(at 323.85 177.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23280,7 +23594,7 @@
 			)
 		)
 		(property "Description" "Resistor US symbol"
-			(at 336.55 180.34 0)
+			(at 323.85 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23291,7 +23605,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 334.01 175.26 90)
+			(at 326.39 175.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23302,7 +23616,7 @@
 			)
 		)
 		(property "Cost100" "10"
-			(at 336.55 180.34 0)
+			(at 323.85 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23313,7 +23627,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 336.55 180.34 0)
+			(at 323.85 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23324,7 +23638,7 @@
 			)
 		)
 		(property "LCSC" "C2907048"
-			(at 336.55 180.34 0)
+			(at 323.85 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23335,7 +23649,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0007"
-			(at 336.55 180.34 0)
+			(at 323.85 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23346,7 +23660,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 336.55 180.34 90)
+			(at 323.85 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26732,7 +27046,8 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:R_US")
-		(at 336.55 177.8 90)
+		(at 323.85 177.8 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26742,7 +27057,7 @@
 		(dnp yes)
 		(uuid "1c31a40f-0dc5-4f1d-b1db-a052ed059b89")
 		(property "Reference" "R66"
-			(at 366.014 177.8 90)
+			(at 294.386 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26752,7 +27067,7 @@
 			)
 		)
 		(property "Value" "510Ω"
-			(at 360.68 180.086 90)
+			(at 299.72 180.086 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26762,7 +27077,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
-			(at 336.804 176.784 90)
+			(at 323.596 176.784 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26773,7 +27088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 175.26 90)
+			(at 323.85 175.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26784,7 +27099,7 @@
 			)
 		)
 		(property "Description" "Resistor US symbol"
-			(at 336.55 177.8 0)
+			(at 323.85 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26795,7 +27110,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 334.01 172.72 90)
+			(at 326.39 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26806,7 +27121,7 @@
 			)
 		)
 		(property "Cost100" "10"
-			(at 336.55 177.8 0)
+			(at 323.85 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26817,7 +27132,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 336.55 177.8 0)
+			(at 323.85 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26828,7 +27143,7 @@
 			)
 		)
 		(property "LCSC" "C2907048"
-			(at 336.55 177.8 0)
+			(at 323.85 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26839,7 +27154,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0007"
-			(at 336.55 177.8 0)
+			(at 323.85 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26850,7 +27165,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 336.55 177.8 90)
+			(at 323.85 177.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27426,6 +27741,234 @@
 		)
 	)
 	(symbol
+		(lib_id "Swadge_Parts:R_US")
+		(at 349.25 175.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f1d978e-2a89-44d2-bc0d-d043f8b0878c")
+		(property "Reference" "R49"
+			(at 378.714 175.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "510Ω"
+			(at 373.38 175.006 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
+			(at 349.504 174.244 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 172.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor US symbol"
+			(at 349.25 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 346.71 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost100" "10"
+			(at 349.25 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+			)
+		)
+		(property "Substitutable" "Y"
+			(at 349.25 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+			)
+		)
+		(property "LCSC" "C2907048"
+			(at 349.25 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost @ 2.5k" "0.0007"
+			(at 349.25 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Color" ""
+			(at 349.25 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51ef8f41-96de-4ce0-b9a1-4a56de97e2c0")
+		)
+		(pin "2"
+			(uuid "7e87982a-b24f-4016-ace7-81780cdd4221")
+		)
+		(instances
+			(project "Swadge-HW"
+				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:TriTouch")
+		(at 360.68 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f7be482-5a7e-4d03-a237-c6271a0b7212")
+		(property "Reference" "ART4"
+			(at 358.14 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 360.68 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Swadge_Parts:TriTouch"
+			(at 360.68 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Basic 2027 Trihard three pad touch zone"
+			(at 360.68 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "2b001f9b-88c9-4581-b517-52907903a50d")
+		)
+		(pin "1"
+			(uuid "6893cb65-6b60-46ae-bc45-8646110edb86")
+		)
+		(pin "2"
+			(uuid "efbad6a0-701a-4133-859c-12c0ed934962")
+		)
+		(instances
+			(project "Swadge-HW"
+				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
+					(reference "ART4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Swadge_Parts:GND")
 		(at 184.15 311.15 0)
 		(unit 1)
@@ -27658,7 +28201,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Alt")
-		(at 342.9 162.56 270)
+		(at 342.9 157.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27669,7 +28212,7 @@
 		(fields_autoplaced yes)
 		(uuid "24101e66-af96-408a-ae54-9ceea709a002")
 		(property "Reference" "SW10"
-			(at 347.599 161.3478 90)
+			(at 347.599 156.2678 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27680,7 +28223,7 @@
 			)
 		)
 		(property "Value" "Touch Button"
-			(at 347.599 163.7721 90)
+			(at 347.599 158.6921 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27691,7 +28234,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:Touch_BTN_8mm"
-			(at 342.9 167.64 0)
+			(at 342.9 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27702,7 +28245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.9 167.64 0)
+			(at 342.9 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27713,7 +28256,7 @@
 			)
 		)
 		(property "Description" "Touchpad Button"
-			(at 342.9 162.56 0)
+			(at 342.9 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28480,7 +29023,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:R_US")
-		(at 336.55 157.48 90)
+		(at 349.25 172.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28490,7 +29033,7 @@
 		(dnp no)
 		(uuid "3307c8cf-d15e-4dce-8dbb-13beecdce3dd")
 		(property "Reference" "R18"
-			(at 366.014 157.48 90)
+			(at 378.714 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28500,7 +29043,7 @@
 			)
 		)
 		(property "Value" "510Ω"
-			(at 360.68 157.226 90)
+			(at 373.38 172.466 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28510,7 +29053,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
-			(at 336.804 156.464 90)
+			(at 349.504 171.704 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28521,7 +29064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 154.94 90)
+			(at 349.25 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28532,7 +29075,7 @@
 			)
 		)
 		(property "Description" "Resistor US symbol"
-			(at 336.55 157.48 0)
+			(at 349.25 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28543,7 +29086,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 334.01 152.4 90)
+			(at 346.71 167.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28554,7 +29097,7 @@
 			)
 		)
 		(property "Cost100" "10"
-			(at 336.55 157.48 0)
+			(at 349.25 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28565,7 +29108,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 336.55 157.48 0)
+			(at 349.25 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28576,7 +29119,7 @@
 			)
 		)
 		(property "LCSC" "C2907048"
-			(at 336.55 157.48 0)
+			(at 349.25 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28587,7 +29130,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0007"
-			(at 336.55 157.48 0)
+			(at 349.25 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28598,7 +29141,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 336.55 157.48 90)
+			(at 349.25 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33022,85 +33565,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Alt")
-		(at 342.9 157.48 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5cdba038-c4c0-4ffb-b830-d1cab3b8bbd2")
-		(property "Reference" "SW11"
-			(at 347.599 156.2678 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Touch Button"
-			(at 347.599 158.6921 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Swadge_Parts:Touch_BTN_8mm"
-			(at 342.9 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Touchpad Button"
-			(at 342.9 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e380966c-31a2-4647-b66d-0d798a6398ee")
-		)
-		(instances
-			(project "Swadge-HW"
-				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
-					(reference "SW11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Swadge_Parts:C")
 		(at 271.78 189.23 0)
 		(mirror y)
@@ -34455,7 +34919,8 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:R_US")
-		(at 336.55 170.18 90)
+		(at 323.85 170.18 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34465,7 +34930,7 @@
 		(dnp yes)
 		(uuid "66fbfc6a-1524-4418-909f-cef4e266b22a")
 		(property "Reference" "R63"
-			(at 366.014 170.18 90)
+			(at 294.386 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34475,7 +34940,7 @@
 			)
 		)
 		(property "Value" "510Ω"
-			(at 360.68 169.926 90)
+			(at 299.72 169.926 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34485,7 +34950,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
-			(at 336.804 169.164 90)
+			(at 323.596 169.164 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34496,7 +34961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 167.64 90)
+			(at 323.85 167.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34507,7 +34972,7 @@
 			)
 		)
 		(property "Description" "Resistor US symbol"
-			(at 336.55 170.18 0)
+			(at 323.85 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34518,7 +34983,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 334.01 165.1 90)
+			(at 326.39 165.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34529,7 +34994,7 @@
 			)
 		)
 		(property "Cost100" "10"
-			(at 336.55 170.18 0)
+			(at 323.85 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34540,7 +35005,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 336.55 170.18 0)
+			(at 323.85 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34551,7 +35016,7 @@
 			)
 		)
 		(property "LCSC" "C2907048"
-			(at 336.55 170.18 0)
+			(at 323.85 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34562,7 +35027,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0007"
-			(at 336.55 170.18 0)
+			(at 323.85 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34573,7 +35038,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 336.55 170.18 90)
+			(at 323.85 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35928,7 +36393,8 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:R_US")
-		(at 336.55 175.26 90)
+		(at 323.85 175.26 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35938,7 +36404,7 @@
 		(dnp yes)
 		(uuid "73e87f03-237d-4fe9-b8b8-f9f55f6f16b4")
 		(property "Reference" "R65"
-			(at 366.014 175.26 90)
+			(at 294.386 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35948,7 +36414,7 @@
 			)
 		)
 		(property "Value" "510Ω"
-			(at 360.68 175.26 90)
+			(at 299.72 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35958,7 +36424,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
-			(at 336.804 174.244 90)
+			(at 323.596 174.244 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35969,7 +36435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 172.72 90)
+			(at 323.85 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35980,7 +36446,7 @@
 			)
 		)
 		(property "Description" "Resistor US symbol"
-			(at 336.55 175.26 0)
+			(at 323.85 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35991,7 +36457,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 334.01 170.18 90)
+			(at 326.39 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36002,7 +36468,7 @@
 			)
 		)
 		(property "Cost100" "10"
-			(at 336.55 175.26 0)
+			(at 323.85 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36013,7 +36479,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 336.55 175.26 0)
+			(at 323.85 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36024,7 +36490,7 @@
 			)
 		)
 		(property "LCSC" "C2907048"
-			(at 336.55 175.26 0)
+			(at 323.85 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36035,7 +36501,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0007"
-			(at 336.55 175.26 0)
+			(at 323.85 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36046,7 +36512,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 336.55 175.26 90)
+			(at 323.85 175.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39842,7 +40308,8 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:R_US")
-		(at 336.55 172.72 90)
+		(at 323.85 172.72 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39852,7 +40319,7 @@
 		(dnp yes)
 		(uuid "9c3b887e-4682-4c57-8104-7eeac4d12822")
 		(property "Reference" "R64"
-			(at 366.014 172.72 90)
+			(at 294.386 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39862,7 +40329,7 @@
 			)
 		)
 		(property "Value" "510Ω"
-			(at 360.68 172.72 90)
+			(at 299.72 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39872,7 +40339,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
-			(at 336.804 171.704 90)
+			(at 323.596 171.704 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39883,7 +40350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 170.18 90)
+			(at 323.85 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39894,7 +40361,7 @@
 			)
 		)
 		(property "Description" "Resistor US symbol"
-			(at 336.55 172.72 0)
+			(at 323.85 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39905,7 +40372,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 334.01 167.64 90)
+			(at 326.39 167.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39916,7 +40383,7 @@
 			)
 		)
 		(property "Cost100" "10"
-			(at 336.55 172.72 0)
+			(at 323.85 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39927,7 +40394,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 336.55 172.72 0)
+			(at 323.85 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39938,7 +40405,7 @@
 			)
 		)
 		(property "LCSC" "C2907048"
-			(at 336.55 172.72 0)
+			(at 323.85 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39949,7 +40416,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0007"
-			(at 336.55 172.72 0)
+			(at 323.85 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39960,7 +40427,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 336.55 172.72 90)
+			(at 323.85 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42171,7 +42638,8 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:R_US")
-		(at 336.55 182.88 90)
+		(at 323.85 182.88 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -42181,7 +42649,7 @@
 		(dnp yes)
 		(uuid "ada9e36f-b0d9-46fc-81af-0d00a8b1f93d")
 		(property "Reference" "R68"
-			(at 366.014 182.88 90)
+			(at 294.386 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42191,7 +42659,7 @@
 			)
 		)
 		(property "Value" "510Ω"
-			(at 360.68 182.626 90)
+			(at 299.72 182.626 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42201,7 +42669,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
-			(at 336.804 181.864 90)
+			(at 323.596 181.864 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42212,7 +42680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 180.34 90)
+			(at 323.85 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42223,7 +42691,7 @@
 			)
 		)
 		(property "Description" "Resistor US symbol"
-			(at 336.55 182.88 0)
+			(at 323.85 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42234,7 +42702,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 334.01 177.8 90)
+			(at 326.39 177.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42245,7 +42713,7 @@
 			)
 		)
 		(property "Cost100" "10"
-			(at 336.55 182.88 0)
+			(at 323.85 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42256,7 +42724,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 336.55 182.88 0)
+			(at 323.85 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42267,7 +42735,7 @@
 			)
 		)
 		(property "LCSC" "C2907048"
-			(at 336.55 182.88 0)
+			(at 323.85 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42278,7 +42746,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0007"
-			(at 336.55 182.88 0)
+			(at 323.85 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42289,7 +42757,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 336.55 182.88 90)
+			(at 323.85 182.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42468,7 +42936,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:R_US")
-		(at 336.55 162.56 90)
+		(at 336.55 157.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -42478,7 +42946,7 @@
 		(dnp no)
 		(uuid "af56bb0c-a3fc-467f-b4c2-b12efa443376")
 		(property "Reference" "R19"
-			(at 366.014 162.56 90)
+			(at 366.014 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42488,7 +42956,7 @@
 			)
 		)
 		(property "Value" "510Ω"
-			(at 360.68 162.306 90)
+			(at 360.68 157.226 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42498,7 +42966,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
-			(at 336.804 161.544 90)
+			(at 336.804 156.464 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42509,7 +42977,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 160.02 90)
+			(at 336.55 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42520,7 +42988,7 @@
 			)
 		)
 		(property "Description" "Resistor US symbol"
-			(at 336.55 162.56 0)
+			(at 336.55 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42531,7 +42999,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 334.01 157.48 90)
+			(at 334.01 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42542,7 +43010,7 @@
 			)
 		)
 		(property "Cost100" "10"
-			(at 336.55 162.56 0)
+			(at 336.55 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42553,7 +43021,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 336.55 162.56 0)
+			(at 336.55 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42564,7 +43032,7 @@
 			)
 		)
 		(property "LCSC" "C2907048"
-			(at 336.55 162.56 0)
+			(at 336.55 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42575,7 +43043,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0007"
-			(at 336.55 162.56 0)
+			(at 336.55 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42586,7 +43054,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 336.55 162.56 90)
+			(at 336.55 157.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48628,7 +49096,8 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:Touch-Circle-6")
-		(at 340.36 175.26 0)
+		(at 320.04 175.26 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -48638,7 +49107,7 @@
 		(dnp yes)
 		(uuid "d7868730-1a2c-4690-80a4-53c7715e722e")
 		(property "Reference" "ART3"
-			(at 344.17 167.64 0)
+			(at 316.23 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48648,7 +49117,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 340.36 175.26 0)
+			(at 320.04 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48658,7 +49127,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:Touchpad_6_80"
-			(at 340.36 165.1 0)
+			(at 320.04 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48669,7 +49138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 340.36 175.26 0)
+			(at 320.04 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48680,7 +49149,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 340.36 175.26 0)
+			(at 320.04 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48691,7 +49160,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" ""
-			(at 340.36 175.26 0)
+			(at 320.04 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48702,7 +49171,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 340.36 175.26 0)
+			(at 320.04 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52784,6 +53253,151 @@
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:R_US")
+		(at 349.25 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe2371ed-83bd-47c0-b77c-9d371704a719")
+		(property "Reference" "R50"
+			(at 378.714 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "510Ω"
+			(at 373.38 177.546 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
+			(at 349.504 176.784 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor US symbol"
+			(at 349.25 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 346.71 172.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost100" "10"
+			(at 349.25 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+			)
+		)
+		(property "Substitutable" "Y"
+			(at 349.25 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+			)
+		)
+		(property "LCSC" "C2907048"
+			(at 349.25 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost @ 2.5k" "0.0007"
+			(at 349.25 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Color" ""
+			(at 349.25 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3a018c2-a552-451d-8285-c47f0df42981")
+		)
+		(pin "2"
+			(uuid "f4f602ae-0b69-485c-a88b-98b5fd9aace2")
+		)
+		(instances
+			(project "Swadge-HW"
+				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
+					(reference "R50")
 					(unit 1)
 				)
 			)

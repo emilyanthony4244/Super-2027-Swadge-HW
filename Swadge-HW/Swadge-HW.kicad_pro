@@ -537,7 +537,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.18,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.25,
@@ -600,8 +600,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.16,
-        "diff_pair_gap": 0.16,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.21,
         "diff_pair_width": 0.25,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -653,7 +653,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.25,
+        "clearance": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Touch",
@@ -709,7 +709,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 900,
+    "annotate_start_num": 18,
     "annotation": {
       "method": 0,
       "sort_order": 0
@@ -990,7 +990,7 @@
         "uuid": "770c762f-3a30-4864-b7da-de353459cdd6"
       }
     ],
-    "used_designators": "",
+    "used_designators": "ART901,R49-50",
     "variants": []
   },
   "sheets": [
