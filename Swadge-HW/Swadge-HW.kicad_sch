@@ -46181,7 +46181,7 @@
 				)
 			)
 		)
-		(property "Value" "FS-1540"
+		(property "Value" "FS-1340"
 			(at 227.33 314.452 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46191,7 +46191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:BUZ-SMD_5P-L15.0-W15.0-P13.7-BL"
+		(property "Footprint" "Swadge_Parts:BUZ-SMD_5P-L13.0-W13.0-P10.9-BL"
 			(at 224.79 334.01 0)
 			(hide yes)
 			(show_name no)
@@ -46202,7 +46202,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C482341.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C482342.pdf"
 			(at 225.044 312.166 0)
 			(hide yes)
 			(show_name no)
@@ -46224,7 +46224,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C482341"
+		(property "LCSC" "C482342"
 			(at 224.79 336.55 0)
 			(hide yes)
 			(show_name no)
