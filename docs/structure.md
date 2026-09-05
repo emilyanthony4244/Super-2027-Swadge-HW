@@ -3,8 +3,8 @@ The hardware layout is composed of the following subsections:
 [Power Regulation and Distribution Network](/docs/PDN.md)  
 [Coprocessor](/docs/Coprocessor.md)  
 [User Inputs](/docs/userIO.md)  
-Graphical Display.  
-Audio Input/Output.  
+[Graphical Display](/docs/display.md)    
+[Audio Input/Output](/docs/audio.md)    
 [Peripherals](/docs/peripheral.md)  
 
 The Swadge provides the following external interfaces:
