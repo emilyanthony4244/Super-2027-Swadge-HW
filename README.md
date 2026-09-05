@@ -22,6 +22,10 @@ Coming eventually!
 
 This directory has the SVGs used to generate the KiCad files. The SVGs are drawn in [Inkscape](https://inkscape.org/).
 
+### `docs`
+
+This directory has documentation on the hardware. [Start Here](/docs/structure.md)  
+
 ### `Swadge-Parts`
 
 This directory is a git submodule which has all the parts, footprints, and 3D models used in the KiCad project.
