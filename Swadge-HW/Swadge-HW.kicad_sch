@@ -14120,16 +14120,6 @@
 		)
 		(uuid "e5fc78a6-e613-4139-aa3b-094fb53f8b9b")
 	)
-	(text "DO NOT ASSUME THIS CH32 PINOUT IS VALID\nNOTHING HAS BEEN CHECKED\nEVALUATE FAN OUT AS YOU ROUTE"
-		(exclude_from_sim no)
-		(at 119.634 162.814 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ec638006-5239-4473-88d7-360aa24ab0fa")
-	)
 	(text "POWER SOURCE"
 		(exclude_from_sim no)
 		(at 98.425 250.19 0)
