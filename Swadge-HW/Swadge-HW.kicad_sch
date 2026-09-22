@@ -11140,6 +11140,222 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Swadge_Parts:SW_TS2306"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at -3.556 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS2306"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2976675.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, Tactile, SPST 240gf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2976675"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Cost @ 2.5k" "0.0477"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Pushbutton Tactile Switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_TS2306_1_1"
+				(rectangle
+					(start -5.08 2.54)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.905 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Swadge_Parts:Touch-Circle-6"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -14415,6 +14631,12 @@
 		(uuid "58221a61-5d8d-4824-836f-4308949753b9")
 	)
 	(junction
+		(at 25.4 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5adf31e0-a175-4ffd-acce-f22ba1d5f8e5")
+	)
+	(junction
 		(at 309.88 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14431,6 +14653,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61edc660-54ef-4e14-88d4-1899c2ffdcef")
+	)
+	(junction
+		(at 25.4 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "624588b3-64b8-46ce-aaf9-23aff9d6ef71")
 	)
 	(junction
 		(at 181.61 99.06)
@@ -14742,7 +14970,7 @@
 		(at 25.4 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ce3eacf9-191c-43d3-b2e8-3e0a1ed8ac35")
+		(uuid "d37d9dc9-33e1-4358-8e6b-478e13b33e95")
 	)
 	(junction
 		(at 308.61 133.35)
@@ -15323,6 +15551,26 @@
 			(type default)
 		)
 		(uuid "1a89b17a-1c7c-4995-9eb9-149bbbddea77")
+	)
+	(wire
+		(pts
+			(xy 25.4 58.42) (xy 25.4 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ac7803d-5c6f-451c-8f35-7e0422542893")
+	)
+	(wire
+		(pts
+			(xy 17.78 73.66) (xy 25.4 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b58a86e-78d5-4722-bca6-e0a7bba69151")
 	)
 	(wire
 		(pts
@@ -16274,16 +16522,6 @@
 		)
 		(uuid "48bfc2b8-46c3-40a9-8256-c72777fbe245")
 	)
-	(wire
-		(pts
-			(xy 25.4 60.96) (xy 25.4 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48c7c393-8b07-4cb4-824a-c12cfe36e89d")
-	)
 	(polyline
 		(pts
 			(xy 151.13 52.07) (xy 151.13 46.99)
@@ -16356,7 +16594,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 58.42) (xy 25.4 58.42)
+			(xy 22.86 53.34) (xy 25.4 53.34)
 		)
 		(stroke
 			(width 0)
@@ -17026,6 +17264,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 58.42) (xy 25.4 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c6e3b8f-d479-49c3-847f-aa9eed750aeb")
+	)
+	(wire
+		(pts
 			(xy 198.12 283.21) (xy 198.12 285.75)
 		)
 		(stroke
@@ -17036,7 +17284,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 43.18) (xy 25.4 48.26)
+			(xy 25.4 38.1) (xy 25.4 43.18)
 		)
 		(stroke
 			(width 0)
@@ -17253,6 +17501,16 @@
 			(type default)
 		)
 		(uuid "76aaf962-d608-49c4-8021-75d07f18adaf")
+	)
+	(wire
+		(pts
+			(xy 25.4 53.34) (xy 25.4 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76ffb890-d6af-4208-9edd-01a3a8797d2b")
 	)
 	(wire
 		(pts
@@ -18076,7 +18334,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 55.88) (xy 25.4 58.42)
+			(xy 25.4 50.8) (xy 25.4 53.34)
 		)
 		(stroke
 			(width 0)
@@ -22858,7 +23116,7 @@
 	)
 	(global_label "EN"
 		(shape input)
-		(at 22.86 58.42 180)
+		(at 22.86 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22868,7 +23126,7 @@
 		)
 		(uuid "e6a77d55-2578-4c12-90bd-eb4e97025609")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.3953 58.42 0)
+			(at 17.3953 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36615,7 +36873,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:R_US")
-		(at 25.4 52.07 0)
+		(at 25.4 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36625,7 +36883,7 @@
 		(dnp no)
 		(uuid "744a90d4-399c-4d93-9ce6-b4b7d4d66358")
 		(property "Reference" "R11"
-			(at 27.94 48.26 0)
+			(at 27.94 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36635,7 +36893,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 21.59 48.26 0)
+			(at 21.59 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36645,7 +36903,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
-			(at 26.416 52.324 90)
+			(at 26.416 47.244 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36656,7 +36914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 52.07 90)
+			(at 27.94 46.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36667,7 +36925,7 @@
 			)
 		)
 		(property "Description" "Resistor US symbol"
-			(at 25.4 52.07 0)
+			(at 25.4 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36678,7 +36936,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 30.48 49.53 90)
+			(at 30.48 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36689,7 +36947,7 @@
 			)
 		)
 		(property "Cost100" "10"
-			(at 25.4 52.07 0)
+			(at 25.4 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36700,7 +36958,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 25.4 52.07 0)
+			(at 25.4 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36711,7 +36969,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 25.4 52.07 0)
+			(at 25.4 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36722,7 +36980,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0007"
-			(at 25.4 52.07 0)
+			(at 25.4 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36733,7 +36991,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 25.4 52.07 0)
+			(at 25.4 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39355,7 +39613,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:+3.3V")
-		(at 25.4 43.18 0)
+		(at 25.4 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39365,7 +39623,7 @@
 		(dnp no)
 		(uuid "93dd0a02-f5f9-4000-80af-8f934af22e43")
 		(property "Reference" "#PWR028"
-			(at 25.4 46.99 0)
+			(at 25.4 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39376,7 +39634,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 25.4 39.624 0)
+			(at 25.4 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39386,7 +39644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 43.18 0)
+			(at 25.4 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39397,7 +39655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 43.18 0)
+			(at 25.4 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39408,7 +39666,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 25.4 43.18 0)
+			(at 25.4 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40678,6 +40936,110 @@
 			(project "Swadge-HW"
 				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
 					(reference "N1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:SW_TS2306")
+		(at 17.78 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a02901af-31cb-4b47-87b0-e7c13fcae9c1")
+		(property "Reference" "SW19"
+			(at 15.24 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS2306"
+			(at 15.24 81.1643 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Swadge_Parts:SW_TS2306A"
+			(at 17.78 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2976675.pdf"
+			(at 17.78 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, Tactile, SPST 240gf"
+			(at 17.78 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2976675"
+			(at 17.78 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost @ 2.5k" "0.0477"
+			(at 17.78 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "89209fe8-8742-41c8-a19e-d4826d910fd7")
+		)
+		(pin "1"
+			(uuid "8f44d75c-ffeb-4b31-84d1-70b15f0a704a")
+		)
+		(instances
+			(project "Swadge-HW"
+				(path "/770c762f-3a30-4864-b7da-de353459cdd6"
+					(reference "SW19")
 					(unit 1)
 				)
 			)
