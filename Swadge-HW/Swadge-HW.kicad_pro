@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 3.2,
+          "height": 5.75,
+          "width": 5.75
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -660,7 +660,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.16,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.5,
         "via_drill": 0.3
