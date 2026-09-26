@@ -1010,7 +1010,7 @@
         "layer_entries": [
           {
             "bottom_reference_layer": "B.Cu",
-            "delay": 0,
+            "delay": 7000000,
             "diff_pair_gap": 180000,
             "signal_layer": "F.Cu",
             "top_reference_layer": "UNDEFINED",
@@ -1021,7 +1021,7 @@
         "target_impedance": 90.0,
         "type": 1,
         "via_overrides": [],
-        "via_prop_delay": 0
+        "via_prop_delay": 7000000
       }
     ]
   }
