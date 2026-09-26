@@ -10857,16 +10857,18 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Swadge_Parts:SW_SPDT_1825232-1"
+		(symbol "Swadge_Parts:SW_SK12D07VG6"
 			(pin_names
 				(offset 0)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(jumper_pin_groups
+				("4" "5")
+			)
 			(property "Reference" "SW"
 				(at 0 6.35 0)
 				(show_name no)
@@ -10877,18 +10879,8 @@
 					)
 				)
 			)
-			(property "Value" "SW_SPDT_1825232-1"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Swadge_Parts:1825232-1"
-				(at 0 16.51 0)
+			(property "Value" "SW_SPDT"
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -10898,8 +10890,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_SHOU-HAN-SK12D07VG4_C393937.pdf"
-				(at 0 13.97 0)
+			(property "Footprint" "Swadge_Parts:SK12D07VG6"
+				(at 0 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -10909,8 +10901,8 @@
 					)
 				)
 			)
-			(property "Description" "Slide Switch SPDT Through Hole, Right Angle"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C7272161.pdf"
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -10920,19 +10912,19 @@
 					)
 				)
 			)
-			(property "Digikey" "A107673-ND"
+			(property "Description" "Slide Switch SPDT Through Hole, Right Angle, 6mm Lever Arm"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Digikey" ""
 				(at 0 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Cost100" "45"
-				(at 0 19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -10953,7 +10945,7 @@
 					)
 				)
 			)
-			(property "Notes" "Use SPDT slide switch. Similar to 1825232-1"
+			(property "Notes" ""
 				(at 0 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10964,7 +10956,29 @@
 					)
 				)
 			)
-			(property "LCSC" "C393937"
+			(property "LCSC" "C7272161 "
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Cost@2500" "0.0125"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "ki_keywords" "SPDT Right Angle"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10975,18 +10989,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Swadge_Parts:SW_SPDT_PCM12"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_SPDT_1825232-1_0_0"
+			(symbol "SW_SK12D07VG6_0_0"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -11010,7 +11013,7 @@
 					)
 				)
 			)
-			(symbol "SW_SPDT_1825232-1_0_1"
+			(symbol "SW_SK12D07VG6_0_1"
 				(rectangle
 					(start -3.81 -7.62)
 					(end 3.81 -6.35)
@@ -11046,7 +11049,7 @@
 					)
 				)
 			)
-			(symbol "SW_SPDT_1825232-1_1_1"
+			(symbol "SW_SK12D07VG6_1_1"
 				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
@@ -11102,7 +11105,7 @@
 					)
 				)
 				(pin input line
-					(at -1.27 -10.16 90)
+					(at -2.54 -10.16 90)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -11120,7 +11123,7 @@
 					)
 				)
 				(pin input line
-					(at 1.27 -10.16 90)
+					(at 2.54 -10.16 90)
 					(length 2.54)
 					(name "E"
 						(effects
@@ -14993,16 +14996,16 @@
 		(uuid "dc9ce58f-4f86-4fee-9753-04bca377ddf0")
 	)
 	(junction
-		(at 306.07 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e18d5993-d3a6-48eb-afd2-2fb8ac367224")
-	)
-	(junction
 		(at 193.04 288.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0b248ce-03f9-4600-b908-560f4405e4c8")
+	)
+	(junction
+		(at 307.34 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2b88e87-3d9c-40d2-a7e5-4375ce084f03")
 	)
 	(junction
 		(at 200.66 96.52)
@@ -15245,16 +15248,6 @@
 			(type default)
 		)
 		(uuid "0accf196-ce84-4458-a23a-b1b5e8077ba7")
-	)
-	(wire
-		(pts
-			(xy 309.88 190.5) (xy 306.07 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b33e8e5-3fde-4f30-8f95-d0bfc090f74a")
 	)
 	(wire
 		(pts
@@ -15818,16 +15811,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 190.5) (xy 306.07 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28854c9c-748b-4783-a1e9-d31a7816535f")
-	)
-	(wire
-		(pts
 			(xy 17.78 218.44) (xy 17.78 220.98)
 		)
 		(stroke
@@ -16045,16 +16028,6 @@
 			(type default)
 		)
 		(uuid "32d04da6-b53d-41eb-b5ac-0a91297c56bc")
-	)
-	(wire
-		(pts
-			(xy 303.53 190.5) (xy 306.07 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "335ad821-914c-4ca1-9f96-d84134aa7a61")
 	)
 	(wire
 		(pts
@@ -17248,6 +17221,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 190.5) (xy 307.34 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf91387-defd-4f64-811f-62f250ef789d")
+	)
+	(wire
+		(pts
 			(xy 273.05 25.4) (xy 275.59 25.4)
 		)
 		(stroke
@@ -17825,6 +17808,16 @@
 			(type default)
 		)
 		(uuid "86d10690-73ac-4878-9b30-774f250f5dcc")
+	)
+	(wire
+		(pts
+			(xy 307.34 190.5) (xy 309.88 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886520a2-5e4d-4628-82fe-72b32e1c6d40")
 	)
 	(wire
 		(pts
@@ -32082,7 +32075,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Swadge_Parts:SW_SPDT_1825232-1")
+		(lib_id "Swadge_Parts:SW_SK12D07VG6")
 		(at 304.8 180.34 0)
 		(unit 1)
 		(body_style 1)
@@ -32112,8 +32105,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:1825232-1"
-			(at 304.8 163.83 0)
+		(property "Footprint" "Swadge_Parts:SK12D07VG6"
+			(at 304.8 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32123,8 +32116,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_SHOU-HAN-SK12D07VG4_C393937.pdf"
-			(at 304.8 166.37 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7272161.pdf"
+			(at 304.8 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32134,8 +32127,8 @@
 				)
 			)
 		)
-		(property "Description" "Slide Switch SPDT Through Hole, Right Angle"
-			(at 304.8 180.34 0)
+		(property "Description" "Slide Switch SPDT Through Hole, Right Angle, 6mm Lever Arm"
+			(at 304.8 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32189,8 +32182,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C393937"
-			(at 304.8 180.34 0)
+		(property "LCSC" "C7272161 "
+			(at 304.8 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32219,6 +32212,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost@2500" "0.0125"
+			(at 304.8 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 			)
 		)
