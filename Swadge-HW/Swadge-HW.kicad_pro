@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 3.3,
-          "width": 2.41
+          "height": 1.27,
+          "width": 1.27
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -114,10 +114,6 @@
         [
           "footprint_type_mismatch|99500000|100000000|2174af7b-c2ba-427f-a21d-209f935c1bd7|00000000-0000-0000-0000-000000000000",
           ""
-        ],
-        [
-          "hole_clearance|131470036|80002056|ae3c2ceb-3535-4b1e-8107-9a624c879064|d032c369-b687-4430-96e8-163d8320fa33",
-          "don't care"
         ],
         [
           "malformed_courtyard|114869031|83464844|169a27a4-8260-4fef-8775-2b527e8b530f|00000000-0000-0000-0000-000000000000",
@@ -204,10 +200,6 @@
           ""
         ],
         [
-          "shorting_items|139806351|104882368|5ec93b15-462d-4648-8baf-88d7db3eb369|e175cc83-858a-4b59-ab15-d066dfeaeeaa",
-          ""
-        ],
-        [
           "shorting_items|62079138|113135178|005148ea-8b2f-44af-864f-1fc4e68e76dd|13f0b96c-fc39-4baa-bb0c-743912461b04",
           ""
         ],
@@ -216,15 +208,7 @@
           ""
         ],
         [
-          "shorting_items|70337269|127187380|277f2e7b-d7db-4746-b328-797ed90ede45|3016fae7-347f-4f2a-9e32-3cef29597ccc",
-          ""
-        ],
-        [
-          "unconnected_items|126288444|64181386|F.Cu|4|54323073-1d51-430b-a90c-f9f9a2ec508d|37380c78-3e41-4fb8-8cb4-1f43103a7d6c",
-          ""
-        ],
-        [
-          "unconnected_items|132742640|72500000|F.Cu|4|8591ea2d-1547-454a-98b5-8e09d6d25515|60a6eb63-acb7-4e4f-bfbe-2323392ca548",
+          "unconnected_items|132742640|72500000|F.Cu|4|c03381bc-2b57-46c5-bdfd-7111ea03078b|60a6eb63-acb7-4e4f-bfbe-2323392ca548",
           ""
         ]
       ],
