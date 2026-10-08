@@ -24,8 +24,8 @@ Button Polling, Debounce, Voltage Measurement and its filering, should all be ac
 | 13 | BTN_5 "Right" | GPIO PC6 |
 | 14 | Unused | --- |
 | 15 | CH32_COMMS | SWIO |
-| 16 | BTN_8 "B" | --- |
-| 17 | BTN_7 "A" | --- |
+| 16 | BTN_8 "A" | --- |
+| 17 | BTN_7 "B" | --- |
 | 18 | Unused | --- |
 | 19 | Unused | --- |
 | 20 | Unused | --- |
@@ -53,7 +53,7 @@ Technical Demo for CH32 Touch Discrete Button Inputs - "M, A, G" Trihard, and "F
 | 14 | BTN_6 "Menu" | GPIO PC7 |
 | 15 | CH32_COMMS | SWIO |
 | 16 | BTN_3 "PAUSE" | GPIO PD2 |
-| 17 | BTN_8 "B" | GPIO PD3 |
-| 18 | BTN_7 "A" | GPIO PD4 |
+| 17 | BTN_8 "A" | GPIO PD3 |
+| 18 | BTN_7 "B" | GPIO PD4 |
 | 19 | TOUCH F | ADC A5 |
 | 20 | TOUCH M | ADC A7 |
