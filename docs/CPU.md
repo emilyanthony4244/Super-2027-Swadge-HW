@@ -30,8 +30,8 @@ The following IO is fixed by hardware constraints and cannot be reassigned
 | 5 | GPIO5 | TOUCH5 | ADC1_CH4 | --- |
 | 6 | GPIO6 | TOUCH6 | ADC1_CH5 | --- |
 | 7 | GPIO7 | TOUCH7 | ADC1_CH6 | --- |
-| 8 | GPIO15 | SAO_A | XTAL_32K_P, ADC2_CH4 | --- |
-| 9 | GPIO16 | SAO_B | XTAL_32K_N, ADC2_CH5 | --- |
+| 8 | GPIO15 | SAO_B | XTAL_32K_P, ADC2_CH4 | --- |
+| 9 | GPIO16 | SAO_A | XTAL_32K_N, ADC2_CH5 | --- |
 | 10 | GPIO17 | MIC via ADC2_CH6 | ADC2_CH6 | --- |
 | 11 | GPIO18 | TFT_RESET | ADC2_CH7 | --- |
 | 12 | GPIO8 | TOUCH8 | ADC1_CH7| --- |
@@ -68,7 +68,7 @@ The following IO is fixed by hardware constraints and cannot be reassigned
 # Basic Operation
 
 ## BOOT
-When the ESP32 Module first receives power, it enters its Chip Reset State. The Chip Reset State can also be induced by using a physical tool to short EN (PIN 3) to ground. The recommended way of doing this is by shorting C13 with a screwdriver if removal of the battery is not desired.
+When the ESP32 Module first receives power, it enters its Chip Reset State. The Chip Reset State can also be induced by pressing the Reset Pushbutton, or by using a physical tool to short EN (PIN 3) to ground. The recommended way of doing this is by shorting C13 with a screwdriver if removal of the battery is not desired.
 
 In the Reset State the status of the four strapping pins combined with the e-fuses determine the boot configuration.
 
@@ -103,20 +103,27 @@ The SWD is a base analog timer that must be reset every second by the ULP coproc
 ### Digital Watchdog
 RWDT, MWDT0, and MWDT1 are 32 bit counters which have four programable trigger points. Each trigger point can select from the following actions: Disabled, Interrupt, CPU Reset (Of a single processor), and Core reset. RWDT additionally has access to the action of [System Reset](#boot). By default, stage 0 for RWDT is set to system reset during the initial boot process, to allow for automatic recovery.
 
-# Ultra Low Power Coprocessor
-
-# RISC Processor Cores
+# Low Power RISC Processor Cores
+The ESP32-S3 has two Ultra Low Power coprocessors on its die. One is a finite state machine and the other is a RISC subsystem. These ULP's can access the "Slow" RTC SRAM and remain partially active even in deep sleep.
 
 # PERIPHERALS
 
+See [Peripherals](/docs/peripheral.md) for more information 
+
 ## UART
+The ESP32 makes UART debugging available on Pins 36 and 37 via test pads adjacent to the module.
 
 ## I2C
+The ESP32 communicates to the IMU and SAO via I2C.
 
 ## SPI
+The ESP32 communicates to the screen by FSPI using the SPI2 peripheral.
 
-## LED PWM
+## LED
+The ESP32 controls the addressable LEDs via one continuous shift register output.
 
 ## Touch Sensing
+Touch sensing is accomplished as part of the ADC peripheral.
 
 ## ADC
+The Microphone is measured using the analog to digital converter directly.
