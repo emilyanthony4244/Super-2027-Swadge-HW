@@ -49024,7 +49024,7 @@
 		)
 		(pin "18"
 			(uuid "123be3c3-ddbd-46a8-a81a-69748fbb5633")
-			(alternate "FSPICS0")
+			(alternate "ADC1_CH9")
 		)
 		(pin "2"
 			(uuid "572c6158-e412-4be0-b858-5a36d48906d3")
@@ -49076,7 +49076,6 @@
 		)
 		(pin "10"
 			(uuid "793a130e-92ed-4ede-bc87-e3ac13f44f55")
-			(alternate "ADC2_CH6")
 		)
 		(pin "22"
 			(uuid "615132f3-b6e5-4366-b67e-3dec0285ccdd")
