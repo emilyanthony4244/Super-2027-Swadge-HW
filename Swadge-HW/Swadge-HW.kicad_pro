@@ -88,26 +88,6 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|109513617|80186481|43fa9f73-a459-4d4b-a9f5-d99eebc1aa71|86a9cdc7-c202-43bb-880d-8996859c1e2d",
-          ""
-        ],
-        [
-          "courtyards_overlap|121190016|97445000|86a9cdc7-c202-43bb-880d-8996859c1e2d|bfe282bc-beb4-4df1-bc18-95d27636236e",
-          ""
-        ],
-        [
-          "courtyards_overlap|78580000|97445000|86a9cdc7-c202-43bb-880d-8996859c1e2d|fa5c6441-53a1-404e-9924-d5428bf605da",
-          ""
-        ],
-        [
-          "courtyards_overlap|90655095|80133448|85e571ed-da4c-47cb-96f3-baa052dfb620|86a9cdc7-c202-43bb-880d-8996859c1e2d",
-          ""
-        ],
-        [
-          "courtyards_overlap|91406279|114936912|0bebd814-dc99-4483-a1ce-bb6dc7ffad94|86a9cdc7-c202-43bb-880d-8996859c1e2d",
-          ""
-        ],
-        [
           "footprint_type_mismatch|100500000|100000000|af2e52a4-778c-4319-8654-8d8b9c354d58|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -116,43 +96,7 @@
           ""
         ],
         [
-          "malformed_courtyard|114869031|83464844|169a27a4-8260-4fef-8775-2b527e8b530f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|118714733|109689453|169a27a4-8260-4fef-8775-2b527e8b530f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "malformed_courtyard|119468809|133990941|032092ff-4154-4ff1-a475-425afc1683fe|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|121190016|103068700|86a9cdc7-c202-43bb-880d-8996859c1e2d|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|164089698|137231284|86a9cdc7-c202-43bb-880d-8996859c1e2d|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|81285050|109689453|169a27a4-8260-4fef-8775-2b527e8b530f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|81285050|87310547|169a27a4-8260-4fef-8775-2b527e8b530f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|85128800|113535157|169a27a4-8260-4fef-8775-2b527e8b530f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|85128800|83464844|169a27a4-8260-4fef-8775-2b527e8b530f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|89690665|67903935|86a9cdc7-c202-43bb-880d-8996859c1e2d|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -315,6 +259,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -326,6 +271,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -337,6 +283,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -636,6 +583,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -794,8 +742,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "Comm_TP",
@@ -954,6 +902,18 @@
           "group_by": false,
           "label": "LCSC Datasheet",
           "name": "LCSC Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Color",
+          "name": "Color",
           "show": false
         }
       ],
@@ -1115,7 +1075,7 @@
         "uuid": "770c762f-3a30-4864-b7da-de353459cdd6"
       }
     ],
-    "used_designators": "ART901,R49-50,SW19",
+    "used_designators": "#PWR113-120,ART901,C58-60,MK2-3,R49-50,R57-60,Rinternal1,SW19",
     "variants": []
   },
   "sheets": [
