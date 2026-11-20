@@ -14020,7 +14020,7 @@
 		)
 		(uuid "57920f62-8eef-437e-8cae-8bac932e1b84")
 	)
-	(text "V.1.1.0 Proposed Changes:\n\nMIC moved from GPIO17 ADC2_CH6 to GPIO10 ADC1_CH9\nTFT_CS moved from GPIO10 to GPIO17\n\nLayout only:\nFootprint changed for RGB LEDs\nBump headphone jack towards edge\n\nWants, not needs:\nR37 from 1k to 5.1k\nR38 from 1k to 5.1k\nR35 from 10k to 100k\nR36 from 20k to 200k\nR39 from 10k to 100k\nR40 from 20k to 200k\nR44 from 10k to 100k\nR45 from 20k to 200k\n\n"
+	(text "V.1.1.0 Proposed Changes:\n\nMIC moved from GPIO17 ADC2_CH6 to GPIO10 ADC1_CH9\nTFT_CS moved from GPIO10 to GPIO17\n\nR52 from 12k to 5.1k\n\nLayout only:\nFootprint changed for RGB LEDs\nBump headphone jack towards edge\n\nWants, not needs:\nR37 from 1k to 5.1k\nR38 from 1k to 5.1k\nR35 from 10k to 100k\nR36 from 20k to 200k\nR39 from 10k to 100k\nR40 from 20k to 200k\nR44 from 10k to 100k\nR45 from 20k to 200k\n\n"
 		(exclude_from_sim no)
 		(at 268.478 276.86 0)
 		(effects
