@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.27,
-          "width": 1.27
+          "height": 0.6,
+          "width": 1.65
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -88,23 +88,15 @@
       ],
       "drc_exclusions": [
         [
-          "footprint_type_mismatch|100500000|100000000|af2e52a4-778c-4319-8654-8d8b9c354d58|00000000-0000-0000-0000-000000000000",
+          "clearance|139806351|104882368|5ec93b15-462d-4648-8baf-88d7db3eb369|e175cc83-858a-4b59-ab15-d066dfeaeeaa",
           ""
         ],
         [
-          "footprint_type_mismatch|99500000|100000000|2174af7b-c2ba-427f-a21d-209f935c1bd7|00000000-0000-0000-0000-000000000000",
+          "clearance|70337269|127187380|277f2e7b-d7db-4746-b328-797ed90ede45|3016fae7-347f-4f2a-9e32-3cef29597ccc",
           ""
         ],
         [
-          "malformed_courtyard|119468809|133990941|032092ff-4154-4ff1-a475-425afc1683fe|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "missing_courtyard|100500000|100000000|af2e52a4-778c-4319-8654-8d8b9c354d58|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "missing_courtyard|99500000|100000000|2174af7b-c2ba-427f-a21d-209f935c1bd7|00000000-0000-0000-0000-000000000000",
+          "hole_clearance|131470036|80002056|ae3c2ceb-3535-4b1e-8107-9a624c879064|d032c369-b687-4430-96e8-163d8320fa33",
           ""
         ],
         [
@@ -141,6 +133,18 @@
         ],
         [
           "pth_inside_courtyard|76300000|51270000|c8c4ad70-f63a-4416-be30-741fb29a4436|86a9cdc7-c202-43bb-880d-8996859c1e2d",
+          ""
+        ],
+        [
+          "shorting_items|62079138|113135178|005148ea-8b2f-44af-864f-1fc4e68e76dd|13f0b96c-fc39-4baa-bb0c-743912461b04",
+          ""
+        ],
+        [
+          "shorting_items|65499502|120577464|35d6316a-80bd-4ef3-b09b-27eea4aef111|9819730c-ef33-4c1c-b935-5bc54635365d",
+          ""
+        ],
+        [
+          "unconnected_items|126288444|64181386|F.Cu|4|54323073-1d51-430b-a90c-f9f9a2ec508d|7bdf4801-4f86-484e-849d-ed8f331e2294",
           ""
         ],
         [
