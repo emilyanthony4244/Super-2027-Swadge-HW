@@ -14200,7 +14200,7 @@
 		)
 		(uuid "57920f62-8eef-437e-8cae-8bac932e1b84")
 	)
-	(text "V.1.1.0 Proposed Changes:\n\nMIC moved from GPIO17 ADC2_CH6 to GPIO10 ADC1_CH9\nTFT_CS moved from GPIO10 to GPIO17\nMove D20 to speaker circuit\nAdd C58\nMove R56 to node between SPK and L3\n\n\nLayout only:\nFootprint changed for RGB LEDs\nBump headphone jack towards edge\nmove audio out from behind touch pad\n\nBOM:\nC57 from 0.39uF to 0.1uF\nR37 from 1k to 5.1k\nR38 from 1k to 5.1k\nR35 from 10k to 100k\nR36 from 20k to 200k\nR39 from 10k to 100k\nR40 from 20k to 200k\nR44 from 10k to 100k\nR45 from 20k to 200k\nR52 from 12k to 5.1k\nR55 from 20k to 5.1k\nR56 from 20k to 1k\nDNP STBY LED D26 and R38\n\n"
+	(text "V.1.1.0 Proposed Changes:\n\nMIC moved from GPIO17 ADC2_CH6 to GPIO10 ADC1_CH9\nTFT_CS moved from GPIO10 to GPIO17\nMove D20 to speaker circuit\nAdd C58\nMove R56 to node between SPK and L3\n\n\nLayout only:\nFootprint changed for RGB LEDs\nBump headphone jack towards edge\nmove audio out from behind touch pad\n\nBOM:\nC57 from 0.39uF to 0.1uF\nR37 from 1k to 5.1k\nR38 from 1k to 5.1k\nR35 from 10k to 100k\nR36 from 20k to 200k\nR39 from 10k to 100k\nR40 from 20k to 200k\nR44 from 10k to 100k\nR45 from 20k to 200k\nR52 from 12k to 5.1k\nR55 from 20k to 5.1k\nR56 from 20k to 1k\nDNP STBY LED D26 and R38 and C58\n\n"
 		(exclude_from_sim no)
 		(at 267.716 285.75 0)
 		(effects
