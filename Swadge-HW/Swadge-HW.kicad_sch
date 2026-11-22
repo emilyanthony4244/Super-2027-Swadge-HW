@@ -14200,7 +14200,7 @@
 		)
 		(uuid "57920f62-8eef-437e-8cae-8bac932e1b84")
 	)
-	(text "V.1.1.0 Proposed Changes:\n\nMIC moved from GPIO17 ADC2_CH6 to GPIO10 ADC1_CH9\nTFT_CS moved from GPIO10 to GPIO17\nMove D20 to speaker circuit\nAdd C58\nMove R56 to node between SPK and L3\n\n\nLayout only:\nFootprint changed for RGB LEDs\nBump headphone jack towards edge\nmove audio out from behind touch pad\n\nBOM:\nR37 from 1k to 5.1k\nR38 from 1k to 5.1k\nR35 from 10k to 100k\nR36 from 20k to 200k\nR39 from 10k to 100k\nR40 from 20k to 200k\nR44 from 10k to 100k\nR45 from 20k to 200k\nR52 from 12k to 5.1k\nR55 from 20k to 5.1k\nR56 from 20k to 1k\nDNP STBY LED D26 and R38\n\n"
+	(text "V.1.1.0 Proposed Changes:\n\nMIC moved from GPIO17 ADC2_CH6 to GPIO10 ADC1_CH9\nTFT_CS moved from GPIO10 to GPIO17\nMove D20 to speaker circuit\nAdd C58\nMove R56 to node between SPK and L3\n\n\nLayout only:\nFootprint changed for RGB LEDs\nBump headphone jack towards edge\nmove audio out from behind touch pad\n\nBOM:\nC57 from 0.39uF to 0.1uF\nR37 from 1k to 5.1k\nR38 from 1k to 5.1k\nR35 from 10k to 100k\nR36 from 20k to 200k\nR39 from 10k to 100k\nR40 from 20k to 200k\nR44 from 10k to 100k\nR45 from 20k to 200k\nR52 from 12k to 5.1k\nR55 from 20k to 5.1k\nR56 from 20k to 1k\nDNP STBY LED D26 and R38\n\n"
 		(exclude_from_sim no)
 		(at 267.716 285.75 0)
 		(effects
@@ -14742,6 +14742,12 @@
 		(uuid "2ca46e6c-c2c7-44de-85a4-7e6413197d40")
 	)
 	(junction
+		(at 127 346.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "303e6cb1-cbeb-45ad-b242-321d6b574398")
+	)
+	(junction
 		(at 132.08 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14800,12 +14806,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c3f28cc-2d85-4834-a5b4-42dadfc60c3c")
-	)
-	(junction
-		(at 127 346.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58221a61-5d8d-4824-836f-4308949753b9")
 	)
 	(junction
 		(at 25.4 73.66)
@@ -18545,6 +18545,16 @@
 		)
 		(uuid "9d9936a6-bb6f-4eb7-8e78-5f7d1f48f14d")
 	)
+	(wire
+		(pts
+			(xy 127 347.98) (xy 127 346.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eff69e8-faf2-4504-9953-f9d5fcfb3529")
+	)
 	(polyline
 		(pts
 			(xy 133.35 129.54) (xy 151.13 129.54)
@@ -18967,7 +18977,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 356.87) (xy 127 354.33)
+			(xy 127 356.87) (xy 127 355.6)
 		)
 		(stroke
 			(width 0)
@@ -29472,10 +29482,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "320aea87-6f95-489e-84d1-219f5ae482cd")
 		(property "Reference" "C58"
 			(at 139.7 350.52 0)
@@ -46105,7 +46115,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:C")
-		(at 127 350.52 180)
+		(at 127 351.79 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -46115,7 +46125,7 @@
 		(dnp no)
 		(uuid "bc30f2c9-5e99-4843-a291-c25602e49b47")
 		(property "Reference" "C56"
-			(at 134.62 350.52 0)
+			(at 134.62 351.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46126,7 +46136,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 134.62 352.806 0)
+			(at 134.62 354.076 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46137,7 +46147,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:C_0603_1608Metric"
-			(at 126.0348 346.71 0)
+			(at 126.0348 347.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46148,7 +46158,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 350.52 0)
+			(at 127 351.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46159,7 +46169,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 127 350.52 0)
+			(at 127 351.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46170,7 +46180,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 123.825 355.6 0)
+			(at 123.825 356.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46181,7 +46191,7 @@
 			)
 		)
 		(property "Cost100" "10"
-			(at 127 350.52 0)
+			(at 127 351.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46192,7 +46202,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 127 350.52 0)
+			(at 127 351.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46203,7 +46213,7 @@
 			)
 		)
 		(property "LCSC" "C282519"
-			(at 127 350.52 0)
+			(at 127 351.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46214,7 +46224,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0035"
-			(at 127 350.52 0)
+			(at 127 351.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46225,7 +46235,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 127 350.52 0)
+			(at 127 351.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54277,8 +54287,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.39uF"
-			(at 156.972 352.806 90)
+		(property "Value" "0.1μF"
+			(at 155.956 352.806 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54354,7 +54364,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C376833"
+		(property "LCSC" "C282519"
 			(at 151.13 346.71 0)
 			(hide yes)
 			(show_name no)
