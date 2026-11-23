@@ -14200,7 +14200,7 @@
 		)
 		(uuid "57920f62-8eef-437e-8cae-8bac932e1b84")
 	)
-	(text "V.1.1.0 Proposed Changes:\n\nMIC moved from GPIO17 ADC2_CH6 to GPIO10 ADC1_CH9\nTFT_CS moved from GPIO10 to GPIO17\nMove D20 to speaker circuit\nAdd C58\nMove R56 to node between SPK and L3\n\n\nLayout only:\nFootprint changed for RGB LEDs\nBump headphone jack towards edge\nmove audio out from behind touch pad\n\nBOM:\nC57 from 0.39uF to 0.1uF\nR37 from 1k to 5.1k\nR38 from 1k to 5.1k\nR35 from 10k to 100k\nR36 from 20k to 200k\nR39 from 10k to 100k\nR40 from 20k to 200k\nR44 from 10k to 100k\nR45 from 20k to 200k\nR52 from 12k to 5.1k\nR55 from 20k to 5.1k\nR56 from 20k to 1k\nDNP STBY LED D26 and R38 and C58\n\n"
+	(text "V.1.1.0 Changes:\n\nMIC moved from GPIO17 ADC2_CH6 to GPIO10 ADC1_CH9\nTFT_CS moved from GPIO10 to GPIO17\nMove D20 to speaker circuit\nAdd C58\nMove R56 to node between SPK and L3\n\n\nLayout only:\nFootprint changed for RGB LEDs\nBump headphone jack towards edge\nmove audio out from behind touch pad\n\nBOM:\nC57 from 0.39uF to 0.1uF\nR37 from 1k to 5.1k\nR38 from 1k to 5.1k\nR35 from 10k to 100k\nR36 from 20k to 200k\nR39 from 10k to 100k\nR40 from 20k to 200k\nR44 from 10k to 100k\nR45 from 20k to 200k\nR52 from 12k to 5.1k\nR55 from 20k to 5.1k\nR56 from 20k to 1k\nDNP STBY LED D26 and R38 and C58\n\n"
 		(exclude_from_sim no)
 		(at 267.716 285.75 0)
 		(effects
@@ -20446,7 +20446,7 @@
 		(uuid "1c40399d-caf4-4e55-8a4e-6dbaa299a477")
 	)
 	(label "BATT_SNS"
-		(at 193.04 275.59 0)
+		(at 193.04 279.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25895,6 +25895,17 @@
 				)
 			)
 		)
+		(property "Substitutable" "N"
+			(at 180.34 356.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8f6348b6-cd1e-4577-9677-35b928ef4199")
 		)
@@ -26764,7 +26775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:SK6812_SIDE_2"
+		(property "Footprint" "Swadge_Parts:4020PAD"
 			(at 60.96 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -28886,7 +28897,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1kΩ"
 			(at 109.728 344.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28896,7 +28907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
 			(at 109.474 345.694 90)
 			(hide yes)
 			(show_name no)
@@ -28929,7 +28940,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C22548"
+		(property "LCSC" "C2907002"
+			(at 109.22 346.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutable" "Y"
 			(at 109.22 346.71 90)
 			(hide yes)
 			(show_name no)
@@ -30165,7 +30187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:SK6812_SIDE_2"
+		(property "Footprint" "Swadge_Parts:4020PAD"
 			(at 203.2 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -31055,7 +31077,7 @@
 				)
 			)
 		)
-		(property "Substitutable" "Yes"
+		(property "Substitutable" "Y"
 			(at 287.02 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -31331,7 +31353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:SK6812_SIDE_2"
+		(property "Footprint" "Swadge_Parts:4020PAD"
 			(at 220.98 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -31494,7 +31516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:SK6812_SIDE_2"
+		(property "Footprint" "Swadge_Parts:4020PAD"
 			(at 256.54 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -32023,6 +32045,17 @@
 			)
 		)
 		(property "LCSC" "C965799"
+			(at 124.46 265.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutable" "Y"
 			(at 124.46 265.43 90)
 			(hide yes)
 			(show_name no)
@@ -32628,7 +32661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:SK6812_SIDE_2"
+		(property "Footprint" "Swadge_Parts:4020PAD"
 			(at 132.08 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -34470,7 +34503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:SK6812_SIDE_2"
+		(property "Footprint" "Swadge_Parts:4020PAD"
 			(at 238.76 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -34709,7 +34742,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:SK6812_SIDE_2"
+		(property "Footprint" "Swadge_Parts:4020PAD"
 			(at 25.4 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -35600,6 +35633,17 @@
 			)
 		)
 		(property "Color" ""
+			(at 182.88 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutable" "N"
 			(at 182.88 342.9 0)
 			(hide yes)
 			(show_name no)
@@ -38111,7 +38155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:SK6812_SIDE_2"
+		(property "Footprint" "Swadge_Parts:4020PAD"
 			(at 149.86 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -39681,7 +39725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:SK6812_SIDE_2"
+		(property "Footprint" "Swadge_Parts:4020PAD"
 			(at 78.74 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -41532,6 +41576,17 @@
 				)
 			)
 		)
+		(property "Substitutable" "N"
+			(at 17.78 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "89209fe8-8742-41c8-a19e-d4826d910fd7")
 		)
@@ -42331,6 +42386,17 @@
 				)
 			)
 		)
+		(property "Substitutable" "N"
+			(at 223.52 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "306bd1da-659b-4701-81bf-f79c048d4d38")
 		)
@@ -42387,7 +42453,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:SK6812_SIDE_2"
+		(property "Footprint" "Swadge_Parts:4020PAD"
 			(at 167.64 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -44491,7 +44557,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:SK6812_SIDE_2"
+		(property "Footprint" "Swadge_Parts:4020PAD"
 			(at 43.18 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -45905,7 +45971,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:SK6812_SIDE_2"
+		(property "Footprint" "Swadge_Parts:4020PAD"
 			(at 96.52 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -46591,7 +46657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:SK6812_SIDE_2"
+		(property "Footprint" "Swadge_Parts:4020PAD"
 			(at 114.3 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -47110,6 +47176,17 @@
 			)
 		)
 		(property "Color" ""
+			(at 229.87 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutable" "N"
 			(at 229.87 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -48729,7 +48806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:SK6812_SIDE_2"
+		(property "Footprint" "Swadge_Parts:4020PAD"
 			(at 185.42 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -49415,6 +49492,17 @@
 			)
 		)
 		(property "Color" ""
+			(at 71.12 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutable" "N"
 			(at 71.12 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -50235,6 +50323,17 @@
 				)
 			)
 		)
+		(property "Substitutable" "N"
+			(at 149.86 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "f867f547-169d-498a-87c1-7489ae082342")
 		)
@@ -50602,6 +50701,17 @@
 				)
 			)
 		)
+		(property "Substitutable" "N"
+			(at 215.9 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "ce98223c-1423-4af8-b041-516102f8d508")
 		)
@@ -50926,6 +51036,17 @@
 			)
 		)
 		(property "LCSC" "C69679"
+			(at 251.46 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutable" "N"
 			(at 251.46 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -51839,6 +51960,17 @@
 			)
 		)
 		(property "LCSC" "C965799"
+			(at 113.03 351.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutable" "Y"
 			(at 113.03 351.79 90)
 			(hide yes)
 			(show_name no)
@@ -53577,7 +53709,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2907011"
+		(property "LCSC" "C23186"
 			(at 163.83 346.71 0)
 			(hide yes)
 			(show_name no)
@@ -53812,6 +53944,17 @@
 				)
 			)
 		)
+		(property "Substitutable" "N"
+			(at 304.8 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9a033f81-b445-4813-b1df-f46b27e9db92")
 		)
@@ -53961,6 +54104,17 @@
 			)
 		)
 		(property "Color" ""
+			(at 87.63 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutable" "N"
 			(at 87.63 180.34 0)
 			(hide yes)
 			(show_name no)
